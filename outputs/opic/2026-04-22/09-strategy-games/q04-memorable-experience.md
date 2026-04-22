@@ -1,5 +1,10 @@
 # Strategy Games - Memorable Experience
 
+## 문제
+
+- 한국어: 전략 게임에서 기억에 남는 경험을 이야기해 주세요.
+- English: Tell me about a memorable experience in a strategy game.
+
 ## 암기 포인트 및 흐름
 
 - 언제/어디서 → 어려운 상황 → 반전 → 느낌 → 교훈 순서

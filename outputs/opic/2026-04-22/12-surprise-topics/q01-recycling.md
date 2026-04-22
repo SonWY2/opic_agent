@@ -1,5 +1,10 @@
 # Surprise Topics - Recycling
 
+## 문제
+
+- 한국어: 집에서 재활용을 어떻게 하는지 이야기해 주세요.
+- English: Tell me how you handle recycling at home.
+
 ## 암기 포인트 및 흐름
 
 - 무엇을 분리하는지 → 어디서 하는지 → 작은 습관 → 이유 → 마무리 순서

@@ -1,5 +1,10 @@
 # Work / IT Software - Company and Role
 
+## 문제
+
+- 한국어: 다니는 회사와 맡고 있는 업무에 대해 이야기해 주세요.
+- English: Tell me about your company and your role.
+
 ## 암기 포인트 및 흐름
 
 - 회사 위치 → 역할 → 핵심 업무 → 작은 사례 → 의미 순서

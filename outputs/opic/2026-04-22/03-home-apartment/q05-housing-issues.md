@@ -1,5 +1,10 @@
 # Home / Apartment - Housing Issues
 
+## 문제
+
+- 한국어: 주거 비용이나 집 관련 문제에 대해 이야기해 주세요.
+- English: Tell me about housing issues in your area.
+
 ## 암기 포인트 및 흐름
 
 - 관심 이슈 → 비용 부담 → 실제 느낌 → 비교 → 결론 순서

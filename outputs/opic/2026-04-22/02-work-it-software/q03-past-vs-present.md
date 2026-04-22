@@ -1,5 +1,10 @@
 # Work / IT Software - Past vs Present
 
+## 문제
+
+- 한국어: 예전과 비교해서 업무 방식이 어떻게 달라졌는지 말해 주세요.
+- English: Tell me how your work has changed over time.
+
 ## 암기 포인트 및 흐름
 
 - 예전에는 수동, 지금은 자동화와 검토 도구

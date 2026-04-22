@@ -1,5 +1,10 @@
 # Movies / Performances / Concerts - Viewing Routine
 
+## 문제
+
+- 한국어: 영화나 공연을 보러 갈 때 보통 어떻게 하는지 말해 주세요.
+- English: Tell me how you usually watch movies or go to performances.
+
 ## 암기 포인트 및 흐름
 
 - 언제/어디서 → 누구와 → 무엇을 준비하는지 → 작은 습관 → 결론 순서

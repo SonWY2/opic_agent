@@ -1,5 +1,10 @@
 # Park / Walking / Jogging - Memorable Experience
 
+## 문제
+
+- 한국어: 공원에서 걸을 때 기억에 남는 경험을 이야기해 주세요.
+- English: Tell me about a memorable experience while walking or jogging.
+
 ## 암기 포인트 및 흐름
 
 - 언제/어디서 → 날씨/상황 → 작은 사건 → 느낌 → 배운 점 순서

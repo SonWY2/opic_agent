@@ -1,5 +1,10 @@
 # Surprise Topics - Internet and Devices
 
+## 문제
+
+- 한국어: 평소 인터넷과 전자기기를 어떻게 쓰는지 말해 주세요.
+- English: Tell me how you use the internet and devices in daily life.
+
 ## 암기 포인트 및 흐름
 
 - 주로 쓰는 기기 → 언제 쓰는지 → 편리한 점 → 불편한 점 → 결론 순서

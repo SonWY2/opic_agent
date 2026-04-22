@@ -1,5 +1,10 @@
 # Home / Apartment - Home Problem Solving
 
+## 문제
+
+- 한국어: 집에서 겪은 문제와 해결 방법에 대해 이야기해 주세요.
+- English: Tell me about a problem you had at home and how you solved it.
+
 ## 암기 포인트 및 흐름
 
 - 문제 발견 → 소리/증상 확인 → 임시 조치 → 수리 요청 → 교훈 순서

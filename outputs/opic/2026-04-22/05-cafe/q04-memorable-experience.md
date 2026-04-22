@@ -1,5 +1,10 @@
 # Cafe - Memorable Experience
 
+## 문제
+
+- 한국어: 카페에서 있었던 기억에 남는 경험을 이야기해 주세요.
+- English: Tell me about a memorable experience at a cafe.
+
 ## 암기 포인트 및 흐름
 
 - 언제/어디서 → 작은 사건 → 분위기 변화 → 배운 점 → 마무리 순서

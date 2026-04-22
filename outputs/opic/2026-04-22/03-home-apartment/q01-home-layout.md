@@ -1,5 +1,10 @@
 # Home / Apartment - Home Layout
 
+## 문제
+
+- 한국어: 집이나 아파트 구조에 대해 설명해 주세요.
+- English: Describe your home or apartment.
+
 ## 암기 포인트 및 흐름
 
 - 전체 구조 → 방 구성 → 자주 쓰는 공간 → 작은 장점 → 마무리 순서

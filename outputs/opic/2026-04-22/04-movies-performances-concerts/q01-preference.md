@@ -1,5 +1,10 @@
 # Movies / Performances / Concerts - Preference
 
+## 문제
+
+- 한국어: 영화, 공연, 콘서트 중 어떤 것을 더 좋아하는지 말해 주세요.
+- English: Tell me about your preference for movies, performances, or concerts.
+
 ## 암기 포인트 및 흐름
 
 - 선호 대상 → 이유 → 구체 상황 → 대비 → 결론 순서

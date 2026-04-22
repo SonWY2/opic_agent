@@ -1,5 +1,10 @@
 # Roleplay - Ask Questions
 
+## 문제
+
+- 한국어: 예약할 때 직원에게 질문하는 상황을 이야기해 주세요.
+- English: You are making a reservation. Ask the staff some questions.
+
 ## 암기 포인트 및 흐름
 
 - 인사 → 시간 확인 → 인원 확인 → 자리/주차 확인 → 재확인 순서

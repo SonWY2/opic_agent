@@ -1,5 +1,10 @@
 # Strategy Games - Game Description
 
+## 문제
+
+- 한국어: 즐겨 하는 전략 게임에 대해 설명해 주세요.
+- English: Tell me about the strategy games you play.
+
 ## 암기 포인트 및 흐름
 
 - 어떤 게임인지 → 핵심 재미 → 플레이 방식 → 작은 예시 → 마무리 순서

@@ -1,5 +1,10 @@
 # Surprise Topics - Weather and Seasons
 
+## 문제
+
+- 한국어: 좋아하는 날씨와 계절에 대해 이야기해 주세요.
+- English: Tell me about your favorite weather and seasons.
+
 ## 암기 포인트 및 흐름
 
 - 좋아하는 계절 → 이유 → 날씨에 따른 변화 → 작은 장면 → 마무리 순서

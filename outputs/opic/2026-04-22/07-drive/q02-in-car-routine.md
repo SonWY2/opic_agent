@@ -1,5 +1,10 @@
 # Drive - In-Car Routine
 
+## 문제
+
+- 한국어: 차 안에서 보통 어떤 루틴이 있는지 말해 주세요.
+- English: Tell me about your routine when you are in the car.
+
 ## 암기 포인트 및 흐름
 
 - 시동 전 → 음악/네비 → 물/간식 → 가족 대화 → 마무리 순서

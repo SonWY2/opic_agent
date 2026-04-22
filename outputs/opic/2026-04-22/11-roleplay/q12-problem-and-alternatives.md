@@ -1,5 +1,10 @@
 # Roleplay - Problem and Alternatives
 
+## 문제
+
+- 한국어: 예약 시간이 맞지 않을 때 상황을 설명하고 다른 선택지를 물어보세요.
+- English: Explain the problem with your reservation time and ask for alternatives.
+
 ## 암기 포인트 및 흐름
 
 - 문제 설명 → 사과/상황 → 대안 시간 → 추가 요청 → 재확인 순서

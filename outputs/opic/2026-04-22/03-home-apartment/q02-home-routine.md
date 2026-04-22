@@ -1,5 +1,10 @@
 # Home / Apartment - Home Routine
 
+## 문제
+
+- 한국어: 집에서 보내는 평소 루틴에 대해 이야기해 주세요.
+- English: Describe your home routine.
+
 ## 암기 포인트 및 흐름
 
 - 퇴근 후 → 저녁 준비 → 가족 시간 → 짧은 정리 → 휴식 순서

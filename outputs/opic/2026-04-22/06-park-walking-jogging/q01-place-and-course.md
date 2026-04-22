@@ -1,5 +1,10 @@
 # Park / Walking / Jogging - Place and Course
 
+## 문제
+
+- 한국어: 자주 가는 공원과 산책 코스를 설명해 주세요.
+- English: Describe the park or walking course you usually use.
+
 ## 암기 포인트 및 흐름
 
 - 공원 위치 → 걷는 코스 → 거리/시간 → 장점 → 마무리 순서

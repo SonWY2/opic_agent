@@ -1,5 +1,10 @@
 # Movies / Performances / Concerts - Industry Trends
 
+## 문제
+
+- 한국어: 영화, 공연, 콘서트와 관련된 최근 흐름에 대해 이야기해 주세요.
+- English: Tell me about any trends in movies, performances, or concerts.
+
 ## 암기 포인트 및 흐름
 
 - 스트리밍 확산 → 짧아진 선택 → 현장 경험의 가치 → 결론 순서

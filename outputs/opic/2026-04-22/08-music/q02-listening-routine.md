@@ -1,5 +1,10 @@
 # Music - Listening Routine
 
+## 문제
+
+- 한국어: 음악을 들을 때 보통 어떤 루틴이 있는지 말해 주세요.
+- English: Tell me about your music listening routine.
+
 ## 암기 포인트 및 흐름
 
 - 언제 듣는지 → 어디서 듣는지 → 어떤 곡인지 → 작은 습관 → 마무리 순서

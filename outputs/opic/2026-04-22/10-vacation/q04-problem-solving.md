@@ -1,5 +1,10 @@
 # Vacation - Problem Solving
 
+## 문제
+
+- 한국어: 휴가 중에 겪은 문제와 해결 방법에 대해 이야기해 주세요.
+- English: Tell me about a problem you had during a vacation and how you solved it.
+
 ## 암기 포인트 및 흐름
 
 - 문제 상황 → 빠른 확인 → 대안 → 결과 → 교훈 순서

@@ -1,5 +1,10 @@
 # Surprise Topics - Holidays
 
+## 문제
+
+- 한국어: 명절을 보통 어떻게 보내는지 말해 주세요.
+- English: Tell me how you usually spend holidays.
+
 ## 암기 포인트 및 흐름
 
 - 좋아하는 명절 → 하는 일 → 가족 장면 → 대비 → 결론 순서

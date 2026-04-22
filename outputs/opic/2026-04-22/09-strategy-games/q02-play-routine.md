@@ -1,5 +1,10 @@
 # Strategy Games - Play Routine
 
+## 문제
+
+- 한국어: 전략 게임을 할 때 보통 어떤 루틴이 있는지 말해 주세요.
+- English: Tell me about your strategy game play routine.
+
 ## 암기 포인트 및 흐름
 
 - 언제 하는지 → 어디서 하는지 → 시작 방식 → 작은 습관 → 마무리 순서

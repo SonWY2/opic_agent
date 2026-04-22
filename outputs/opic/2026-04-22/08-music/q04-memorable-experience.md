@@ -1,5 +1,10 @@
 # Music - Memorable Experience
 
+## 문제
+
+- 한국어: 음악과 관련된 기억에 남는 경험을 이야기해 주세요.
+- English: Tell me about a memorable experience involving music.
+
 ## 암기 포인트 및 흐름
 
 - 언제/어디서 → 어떤 노래 → 작은 감정 변화 → 이유 → 마무리 순서

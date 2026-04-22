@@ -1,5 +1,10 @@
 # Work / IT Software - Problem Solving
 
+## 문제
+
+- 한국어: 최근 업무에서 겪은 문제와 해결 방법에 대해 이야기해 주세요.
+- English: Tell me about a recent problem at work and how you solved it.
+
 ## 암기 포인트 및 흐름
 
 - 문제 발견 → 바로 보이지 않음 → 로그 확인 → 팀원 도움 → 교훈 순서

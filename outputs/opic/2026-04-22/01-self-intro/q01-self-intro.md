@@ -1,5 +1,10 @@
 # Self-Introduction - Self Introduction
 
+## 문제
+
+- 한국어: 자기소개를 해 주세요. 당신에 대해 간단히 이야기해 주세요.
+- English: Let's start the interview now. Tell me about yourself.
+
 ## 암기 포인트 및 흐름
 
 - 이름 → 직업 → 거주 → 최근 습관 → 주말 흐름으로 간다

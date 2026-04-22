@@ -1,5 +1,10 @@
 # Park / Walking / Jogging - Health Trends
 
+## 문제
+
+- 한국어: 걷기나 가벼운 운동과 관련된 최근 건강 흐름에 대해 이야기해 주세요.
+- English: Tell me about current health trends related to walking or exercise.
+
 ## 암기 포인트 및 흐름
 
 - 건강 관심사 → 걷기와 가벼운 운동 → 최근 흐름 → 현실적인 장점 → 결론

@@ -1,5 +1,10 @@
 # Surprise Topics - Public Places
 
+## 문제
+
+- 한국어: 공공장소를 어떻게 이용하는지 이야기해 주세요.
+- English: Tell me how you use public places.
+
 ## 암기 포인트 및 흐름
 
 - 자주 가는 장소 → 이용 방식 → 예절 → 작은 이유 → 마무리 순서

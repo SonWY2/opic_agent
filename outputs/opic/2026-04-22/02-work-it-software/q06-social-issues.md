@@ -1,5 +1,10 @@
 # Work / IT Software - Social Issues
 
+## 문제
+
+- 한국어: 관심 있는 사회 문제 한 가지에 대해 이야기해 주세요.
+- English: Tell me about a social issue you are interested in.
+
 ## 암기 포인트 및 흐름
 
 - 관심 이슈 → 회사 현장 예시 → 부담과 편의 → 지원 필요성 순서

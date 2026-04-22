@@ -1,5 +1,10 @@
 # Cafe - Place Description
 
+## 문제
+
+- 한국어: 자주 가는 카페를 설명해 주세요.
+- English: Describe your favorite cafe.
+
 ## 암기 포인트 및 흐름
 
 - 위치 → 분위기 → 좌석/메뉴 → 장점 → 결론 순서

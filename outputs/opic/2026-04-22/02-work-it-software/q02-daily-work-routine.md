@@ -1,5 +1,10 @@
 # Work / IT Software - Daily Work Routine
 
+## 문제
+
+- 한국어: 평소 하루 업무 루틴에 대해 이야기해 주세요.
+- English: Tell me about your daily work routine.
+
 ## 암기 포인트 및 흐름
 
 - 아침 시작 → 짧은 미팅 → 개발/테스트 → 오후 조율 → 퇴근 후 정리 순서

@@ -1,5 +1,10 @@
 # Park / Walking / Jogging - Preparation and Routine
 
+## 문제
+
+- 한국어: 공원 산책이나 조깅을 할 때 보통 어떤 준비와 루틴이 있는지 말해 주세요.
+- English: Tell me about your park walking or jogging routine.
+
 ## 암기 포인트 및 흐름
 
 - 준비물 → 시간대 → 걷는 방식 → 작은 습관 → 결론 순서

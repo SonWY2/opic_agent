@@ -1,5 +1,10 @@
 # Movies / Performances / Concerts - Memorable Experience
 
+## 문제
+
+- 한국어: 기억에 남는 영화나 공연 경험에 대해 이야기해 주세요.
+- English: Tell me about a memorable movie or performance experience.
+
 ## 암기 포인트 및 흐름
 
 - 언제/어디서 → 누구와 → 인상적인 장면 → 작은 사건 → 느낌 순서

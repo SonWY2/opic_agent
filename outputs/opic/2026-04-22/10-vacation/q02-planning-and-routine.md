@@ -1,5 +1,10 @@
 # Vacation - Planning and Routine
 
+## 문제
+
+- 한국어: 여행을 준비할 때 보통 어떻게 계획하는지 말해 주세요.
+- English: Tell me about your vacation planning routine.
+
 ## 암기 포인트 및 흐름
 
 - 계획 시점 → 준비물 → 이동/숙소 → 작은 습관 → 마무리 순서

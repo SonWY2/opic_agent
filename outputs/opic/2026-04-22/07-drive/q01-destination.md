@@ -1,5 +1,10 @@
 # Drive - Destination
 
+## 문제
+
+- 한국어: 자주 가는 드라이브 목적지에 대해 이야기해 주세요.
+- English: Tell me about a place you like to drive to.
+
 ## 암기 포인트 및 흐름
 
 - 목적지 → 가는 이유 → 거리/시간 → 작은 장면 → 마무리 순서
