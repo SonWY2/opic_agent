@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 집이나 아파트 구조에 대해 설명해 주세요.
-- English: Describe your home or apartment.
+- 한국어: 집 구조를 설명해 주세요.
+- English: Describe your home layout.
 
 ## 암기 포인트 및 흐름
 

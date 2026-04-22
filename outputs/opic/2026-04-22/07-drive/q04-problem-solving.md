@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 운전하다가 겪은 문제와 해결 방법에 대해 이야기해 주세요.
-- English: Tell me about a problem you had while driving and how you solved it.
+- 한국어: 운전 중 겪은 문제와 해결 방법을 말해 주세요.
+- English: Tell me about a driving problem you solved.
 
 ## 암기 포인트 및 흐름
 

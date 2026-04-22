@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 전략 게임에서 기억에 남는 경험을 이야기해 주세요.
-- English: Tell me about a memorable experience in a strategy game.
+- 한국어: 전략 게임에서 기억에 남는 경험을 말해 주세요.
+- English: Tell me about a memorable strategy game experience.
 
 ## 암기 포인트 및 흐름
 

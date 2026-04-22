@@ -2,7 +2,7 @@
 
 ## 문제
 
-- 한국어: 자주 가는 드라이브 목적지에 대해 이야기해 주세요.
+- 한국어: 자주 가는 드라이브 목적지를 말해 주세요.
 - English: Tell me about a place you like to drive to.
 
 ## 암기 포인트 및 흐름

@@ -3,7 +3,7 @@
 ## 문제
 
 - 한국어: 평소 인터넷과 전자기기를 어떻게 쓰는지 말해 주세요.
-- English: Tell me how you use the internet and devices in daily life.
+- English: Tell me how you use the internet and devices.
 
 ## 암기 포인트 및 흐름
 

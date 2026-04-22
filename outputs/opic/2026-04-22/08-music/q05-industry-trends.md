@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 음악 업계의 최근 흐름에 대해 이야기해 주세요.
-- English: Tell me about trends in the music industry.
+- 한국어: 음악 업계의 최근 흐름을 말해 주세요.
+- English: Tell me about current trends in the music industry.
 
 ## 암기 포인트 및 흐름
 

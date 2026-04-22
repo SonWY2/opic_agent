@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 집에서 재활용을 어떻게 하는지 이야기해 주세요.
-- English: Tell me how you handle recycling at home.
+- 한국어: 집에서 재활용을 어떻게 하는지 말해 주세요.
+- English: Tell me how you recycle at home.
 
 ## 암기 포인트 및 흐름
 

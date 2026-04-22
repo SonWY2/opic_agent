@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 예약할 때 직원에게 질문하는 상황을 이야기해 주세요.
-- English: You are making a reservation. Ask the staff some questions.
+- 한국어: 예약할 때 직원에게 몇 가지 질문을 해 주세요.
+- English: You are making a reservation. Ask the staff a few questions.
 
 ## 암기 포인트 및 흐름
 

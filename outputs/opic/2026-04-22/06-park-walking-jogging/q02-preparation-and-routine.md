@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 공원 산책이나 조깅을 할 때 보통 어떤 준비와 루틴이 있는지 말해 주세요.
-- English: Tell me about your park walking or jogging routine.
+- 한국어: 공원 산책이나 조깅 루틴을 말해 주세요.
+- English: Tell me about your walking or jogging routine.
 
 ## 암기 포인트 및 흐름
 

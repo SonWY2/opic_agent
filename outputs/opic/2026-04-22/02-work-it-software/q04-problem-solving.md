@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 최근 업무에서 겪은 문제와 해결 방법에 대해 이야기해 주세요.
-- English: Tell me about a recent problem at work and how you solved it.
+- 한국어: 최근 업무 문제와 해결 방법을 말해 주세요.
+- English: Tell me about a problem you solved at work.
 
 ## 암기 포인트 및 흐름
 

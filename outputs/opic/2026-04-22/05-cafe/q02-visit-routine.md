@@ -3,7 +3,7 @@
 ## 문제
 
 - 한국어: 카페에 갈 때 보통 어떻게 하는지 말해 주세요.
-- English: Tell me about your cafe visit routine.
+- English: Tell me about your cafe routine.
 
 ## 암기 포인트 및 흐름
 

@@ -3,7 +3,7 @@
 ## 문제
 
 - 한국어: 예전과 비교해서 산책이나 조깅 습관이 어떻게 달라졌는지 말해 주세요.
-- English: Tell me how your walking or jogging routine has changed over time.
+- English: Tell me how your walking or jogging habits have changed over time.
 
 ## 암기 포인트 및 흐름
 

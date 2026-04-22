@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 휴가 중에 겪은 문제와 해결 방법에 대해 이야기해 주세요.
-- English: Tell me about a problem you had during a vacation and how you solved it.
+- 한국어: 휴가 중 겪은 문제와 해결 방법을 말해 주세요.
+- English: Tell me about a problem you had during a vacation.
 
 ## 암기 포인트 및 흐름
 

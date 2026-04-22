@@ -2,7 +2,7 @@
 
 ## 문제
 
-- 한국어: 좋아하는 여행지에 대해 이야기해 주세요.
+- 한국어: 좋아하는 여행지를 말해 주세요.
 - English: Tell me about your preferred vacation place.
 
 ## 암기 포인트 및 흐름

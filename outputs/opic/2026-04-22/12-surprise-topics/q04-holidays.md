@@ -3,7 +3,7 @@
 ## 문제
 
 - 한국어: 명절을 보통 어떻게 보내는지 말해 주세요.
-- English: Tell me how you usually spend holidays.
+- English: Tell me how you spend holidays.
 
 ## 암기 포인트 및 흐름
 

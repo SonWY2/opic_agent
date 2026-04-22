@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 즐겨 하는 전략 게임에 대해 설명해 주세요.
-- English: Tell me about the strategy games you play.
+- 한국어: 즐겨 하는 전략 게임을 설명해 주세요.
+- English: Describe the strategy games you play.
 
 ## 암기 포인트 및 흐름
 

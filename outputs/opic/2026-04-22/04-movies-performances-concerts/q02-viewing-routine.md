@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 영화나 공연을 보러 갈 때 보통 어떻게 하는지 말해 주세요.
-- English: Tell me how you usually watch movies or go to performances.
+- 한국어: 영화나 공연을 볼 때 보통 어떻게 하는지 말해 주세요.
+- English: Tell me about your viewing routine.
 
 ## 암기 포인트 및 흐름
 

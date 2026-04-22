@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 걷기나 가벼운 운동과 관련된 최근 건강 흐름에 대해 이야기해 주세요.
-- English: Tell me about current health trends related to walking or exercise.
+- 한국어: 걷기나 가벼운 운동과 관련된 최근 건강 흐름을 말해 주세요.
+- English: Tell me about current health trends related to walking or light exercise.
 
 ## 암기 포인트 및 흐름
 

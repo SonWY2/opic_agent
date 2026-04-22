@@ -2,7 +2,7 @@
 
 ## 문제
 
-- 한국어: 음악을 들을 때 보통 어떤 루틴이 있는지 말해 주세요.
+- 한국어: 음악을 들을 때 보통 어떻게 하는지 말해 주세요.
 - English: Tell me about your music listening routine.
 
 ## 암기 포인트 및 흐름

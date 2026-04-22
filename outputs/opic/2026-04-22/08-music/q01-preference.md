@@ -2,7 +2,7 @@
 
 ## 문제
 
-- 한국어: 좋아하는 음악 취향에 대해 이야기해 주세요.
+- 한국어: 좋아하는 음악 취향을 말해 주세요.
 - English: Tell me about your music preferences.
 
 ## 암기 포인트 및 흐름

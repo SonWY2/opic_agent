@@ -3,7 +3,7 @@
 ## 문제
 
 - 한국어: 자주 가는 공원과 산책 코스를 설명해 주세요.
-- English: Describe the park or walking course you usually use.
+- English: Describe the park or route you usually walk.
 
 ## 암기 포인트 및 흐름
 

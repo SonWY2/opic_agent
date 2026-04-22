@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 주거 비용이나 집 관련 문제에 대해 이야기해 주세요.
-- English: Tell me about housing issues in your area.
+- 한국어: 주거 문제를 말해 주세요.
+- English: Tell me about housing issues.
 
 ## 암기 포인트 및 흐름
 

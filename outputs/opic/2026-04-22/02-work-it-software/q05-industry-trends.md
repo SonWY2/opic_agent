@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: IT 업계의 최근 흐름이나 변화에 대해 이야기해 주세요.
-- English: Tell me about any trends in the IT industry.
+- 한국어: IT 업계의 최근 흐름을 말해 주세요.
+- English: Tell me about current trends in the IT industry.
 
 ## 암기 포인트 및 흐름
 

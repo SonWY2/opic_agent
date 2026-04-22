@@ -3,7 +3,7 @@
 ## 문제
 
 - 한국어: 예약 시간이 맞지 않을 때 상황을 설명하고 다른 선택지를 물어보세요.
-- English: Explain the problem with your reservation time and ask for alternatives.
+- English: Your reservation time does not work. Ask for alternatives.
 
 ## 암기 포인트 및 흐름
 

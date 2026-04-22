@@ -2,7 +2,7 @@
 
 ## 문제
 
-- 한국어: 예전과 비교해서 카페를 이용하는 방식이 어떻게 달라졌는지 말해 주세요.
+- 한국어: 예전과 비교해서 카페 이용 방식이 어떻게 달라졌는지 말해 주세요.
 - English: Tell me how your cafe habits have changed over time.
 
 ## 암기 포인트 및 흐름

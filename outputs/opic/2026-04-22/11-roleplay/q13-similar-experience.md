@@ -3,7 +3,7 @@
 ## 문제
 
 - 한국어: 비슷한 경험이 있는지 말하고 그때 어떻게 했는지 이야기해 주세요.
-- English: Talk about a similar experience and what you did then.
+- English: Tell me about a similar experience and what you did.
 
 ## 암기 포인트 및 흐름
 

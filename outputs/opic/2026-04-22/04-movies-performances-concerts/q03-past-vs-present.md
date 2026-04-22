@@ -3,7 +3,7 @@
 ## 문제
 
 - 한국어: 예전과 비교해서 영화나 공연을 보는 방식이 어떻게 달라졌는지 말해 주세요.
-- English: Tell me how your movie or performance habits have changed over time.
+- English: Tell me how your movie-watching habits have changed.
 
 ## 암기 포인트 및 흐름
 

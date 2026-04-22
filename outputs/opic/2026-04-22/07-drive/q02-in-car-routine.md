@@ -3,7 +3,7 @@
 ## 문제
 
 - 한국어: 차 안에서 보통 어떤 루틴이 있는지 말해 주세요.
-- English: Tell me about your routine when you are in the car.
+- English: Tell me about your in-car routine.
 
 ## 암기 포인트 및 흐름
 

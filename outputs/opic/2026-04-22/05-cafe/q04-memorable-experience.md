@@ -2,7 +2,7 @@
 
 ## 문제
 
-- 한국어: 카페에서 있었던 기억에 남는 경험을 이야기해 주세요.
+- 한국어: 카페에서 기억에 남는 경험을 말해 주세요.
 - English: Tell me about a memorable experience at a cafe.
 
 ## 암기 포인트 및 흐름

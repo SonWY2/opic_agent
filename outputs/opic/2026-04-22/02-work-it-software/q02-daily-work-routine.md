@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 평소 하루 업무 루틴에 대해 이야기해 주세요.
-- English: Tell me about your daily work routine.
+- 한국어: 평소 업무 루틴을 말해 주세요.
+- English: Describe your daily work routine.
 
 ## 암기 포인트 및 흐름
 

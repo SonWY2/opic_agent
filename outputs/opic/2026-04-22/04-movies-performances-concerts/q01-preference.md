@@ -2,8 +2,8 @@
 
 ## 문제
 
-- 한국어: 영화, 공연, 콘서트 중 어떤 것을 더 좋아하는지 말해 주세요.
-- English: Tell me about your preference for movies, performances, or concerts.
+- 한국어: 영화와 공연 중 무엇을 더 좋아하는지 말해 주세요.
+- English: Tell me which you prefer, movies or live performances.
 
 ## 암기 포인트 및 흐름
 
