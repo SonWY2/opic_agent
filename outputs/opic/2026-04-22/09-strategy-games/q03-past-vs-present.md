@@ -14,33 +14,23 @@
 ## 한국어 전문
 
 예전에는 전략 게임을 할 때 그냥 빠르게 공격하는 데만 집중했습니다.
-
 지금은 초반 5분 동안 자원을 먼저 보고, 한 번 더 생각한 뒤 움직입니다.
-
 예전에는 이기면 바로 끝났다고 생각했지만, 지금은 중간 실수를 줄이는 게 더 중요하다고 느낍니다.
-
 지난달에는 너무 서두르다가 첫 방어를 놓쳤는데, 그 뒤로는 시작 전에 메모를 짧게 하게 됐습니다.
-
 예전보다 게임이 더 차분해졌지만, 그만큼 결과도 더 안정적입니다.
-
 물론 예전처럼 무작정 빨리 하는 재미도 있지만, 지금은 계획을 세우는 재미가 더 큽니다.
-
+예전에는 손이 먼저 움직였다면, 지금은 생각을 먼저 하는 편입니다.
 그래서 저는 지금 방식이 더 제 성격에 맞는다고 생각합니다.
 
 ## 영어 전문
 
 In the past, when I played strategy games, I only focused on attacking quickly.
-
 Now I look at my resources during the first 5 minutes and think a little before I move.
-
 Before, I thought winning quickly was everything, but now I feel that reducing mistakes is more important.
-
 Last month, I rushed too much and missed my first defense, so after that I started writing a short note before each game.
-
 My games are calmer than before, but the results are more stable too.
-
 Of course, the old fast style was fun in its own way, but now I enjoy planning more.
-
+Before, I moved first and thought later, but now I think first and move later.
 So I think my current style fits my personality better.
 
 ## 키 문장 및 단어
@@ -50,6 +40,8 @@ So I think my current style fits my personality better.
 - I look at my resources first now.
 - Reducing mistakes is more important now.
 - Planning fits my personality better.
+- I think first and move later now.
+- My games are calmer but more stable now.
 
 ### Key Words
 
@@ -77,6 +69,12 @@ So I think my current style fits my personality better.
 - My current style fits my personality better.
 - This slower style suits me more.
 - I feel more comfortable with my current way.
+
+### 지금은 생각을 먼저 합니다.
+
+- I think first and move later now.
+- I try to plan before I act.
+- I do better when I slow down first.
 
 ## Follow-up Hooks
 

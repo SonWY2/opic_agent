@@ -19,6 +19,8 @@
 지난해에는 체크인 시간이 늦어질까 봐 중간에 잠깐 쉬었다 갔는데, 그 덕분에 도착 후에도 덜 피곤했습니다.
 예전보다 준비할 것은 늘었지만, 그만큼 불편한 일이 줄어들었습니다.
 그래서 지금은 무조건 많이 보는 여행보다, 편하게 쉬면서 기억에 남는 여행이 더 좋습니다.
+예전에는 즉흥성이 더 중요했다면, 지금은 편안함이 더 중요해졌습니다.
+그래서 지금 방식이 제 가족에게도 더 잘 맞습니다.
 
 ## 영어 전문
 
@@ -27,6 +29,7 @@ Now I often travel with my child, so I check the hotel and travel time more care
 Before, I liked trips where I could see many things quickly, but now resting slowly matters more.
 Last year, I took a short break on the way because I was worried about check-in time, and that helped me feel less tired after arrival.
 I have more things to prepare now than before, but there are fewer uncomfortable moments.
+Before, spontaneity mattered more, but now comfort matters more.
 So now I like trips that are comfortable and memorable rather than just busy.
 
 ## 키 문장 및 단어
@@ -36,6 +39,8 @@ So now I like trips that are comfortable and memorable rather than just busy.
 - I used to travel without many plans.
 - Resting slowly matters more now.
 - Comfortable trips feel better now.
+- Comfort matters more now.
+- My current way fits my family better.
 
 ### Key Words
 
@@ -65,6 +70,12 @@ So now I like trips that are comfortable and memorable rather than just busy.
 - When I travel with my child, a simpler plan works better.
 - Family trips are better when the schedule stays light.
 - I keep things simple when I go with my daughter.
+
+### 지금은 편안함이 더 중요합니다.
+
+- Comfort matters more now.
+- I care more about comfort than spontaneity now.
+- A calm trip fits my current life better.
 
 ### 지금은 편한 여행이 더 좋습니다.
 

@@ -19,6 +19,7 @@
 다행히 직원이 친절하게 도와줘서, 오후 6시에서 7시 30분으로 바꿀 수 있었습니다.
 조금 번거로웠지만, 미리 연락하니까 서로 편했습니다.
 그 이후로는 예약할 때도 혹시 모를 상황을 생각해서 조금 더 일찍 확인합니다.
+미리 말하면 상대도 조정할 시간이 생겨서 더 자연스럽게 해결됩니다.
 그래서 저는 문제가 생기면 숨기기보다 빨리 말하는 편이 더 낫다고 느낍니다.
 
 ## 영어 전문
@@ -29,6 +30,7 @@ At that time, I called first, explained the situation, and asked if we could mov
 Luckily, the staff was kind, and we were able to change it from 6 p.m. to 7:30 p.m.
 It was a little inconvenient, but calling early made things easier for both sides.
 Since then, I try to confirm reservations a little earlier in case something changes.
+When I speak up early, the other side has time to adjust, so the problem usually gets easier.
 So I feel it is better to speak up early when a problem comes up.
 
 ## 키 문장 및 단어
@@ -38,6 +40,8 @@ So I feel it is better to speak up early when a problem comes up.
 - I have a similar experience.
 - We had to change the reservation time.
 - It is better to speak up early.
+- Early contact makes adjustment easier.
+- I try to confirm reservations earlier now.
 
 ### Key Words
 
@@ -77,6 +81,12 @@ So I feel it is better to speak up early when a problem comes up.
 - It is better to speak up early.
 - It helps to call before the problem gets bigger.
 - Early communication makes things easier.
+
+### 미리 말하면 상대도 조정할 시간이 생깁니다.
+
+- Early contact makes adjustment easier.
+- When I speak up early, the other side has time to adjust.
+- Early communication gives both sides more room.
 
 ## Follow-up Hooks
 

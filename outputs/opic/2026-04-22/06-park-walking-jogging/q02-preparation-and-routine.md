@@ -20,7 +20,8 @@
 지난주에는 평소보다 조금 늦게 출발했지만, 짧게라도 걸으니 기분이 한결 나아졌습니다.
 가끔은 스트레칭도 5분 정도 같이 합니다.
 저는 준비를 복잡하게 하지 않지만, 기본만 챙겨도 꾸준히 하기가 쉬워집니다.
-그래서 제 루틴은 간단하지만 오래 유지하기 좋습니다.
+비가 오면 밖에서 오래 걷지 않고, 집 안에서 가볍게 스트레칭만 하는 날도 있습니다.
+그래서 제 루틴은 단순하지만, 날씨가 달라도 계속 이어가기 좋습니다.
 
 ## 영어 전문
 
@@ -31,6 +32,7 @@ While I walk, I do not try to move too fast; I keep a pace that makes breathing 
 Last week, I left a little later than usual, but even a short walk still made me feel better.
 Sometimes I also stretch for about 5 minutes.
 I do not make the routine complicated, but even basic preparation makes it easier to keep going.
+If it rains, I do light stretching at home instead of forcing myself to go out.
 So my routine is simple, but it is easy to keep for a long time.
 
 ## 키 문장 및 단어
@@ -40,6 +42,8 @@ So my routine is simple, but it is easy to keep for a long time.
 - I bring sneakers and a light jacket.
 - I walk at an easy pace.
 - Simple preparation makes the routine easier.
+- I switch to indoor exercise when it rains.
+- I keep the habit going even when the weather changes.
 
 ### Key Words
 
@@ -56,11 +60,11 @@ So my routine is simple, but it is easy to keep for a long time.
 - I usually take comfortable shoes and a light coat.
 - I pack simple clothes for walking.
 
-### 걷기 전에 스트레칭을 조금 합니다.
+### 저녁 식사 후에 30분쯤 지나서 나갑니다.
 
-- I do a little stretching before walking.
-- I warm up briefly before I start.
-- A small stretch helps me get ready.
+- I usually go out about 30 minutes after dinner.
+- I head out roughly half an hour after I eat.
+- I wait a little after dinner before walking.
 
 ### 저는 편한 속도로 걷습니다.
 
@@ -74,11 +78,29 @@ So my routine is simple, but it is easy to keep for a long time.
 - On rainy days, I do something simple inside.
 - I switch to indoor movement when the weather is bad.
 
+### 걷기 전에 스트레칭을 조금 합니다.
+
+- I do a little stretching before I go out.
+- I warm up briefly before I start.
+- A small stretch helps me get ready.
+
 ### 준비를 단순하게 하면 꾸준히 하기 쉽습니다.
 
 - Simple preparation makes the routine easier.
 - It is easier to stay consistent when the routine is simple.
 - Basic preparation helps me keep the habit.
+
+### 날씨가 안 좋으면 실내 운동으로 바꿉니다.
+
+- I switch to indoor exercise when it rains.
+- On rainy days, I keep moving indoors.
+- I do simple indoor exercise when I cannot go out.
+
+### 날씨가 달라도 습관은 계속 이어갑니다.
+
+- I keep the habit going even when the weather changes.
+- I try to stay consistent no matter the weather.
+- I do something light so I can keep the habit going.
 
 ## Follow-up Hooks
 

@@ -21,6 +21,7 @@
 물론 아이와 같이 있으면 조금 더 신경이 쓰이지만, 그만큼 예절도 함께 알려 주고 싶습니다.
 사람들이 편하게 쓰는 곳이니만큼, 서로 배려하는 태도가 제일 중요하다고 생각합니다.
 그래서 저는 공공장소에서는 눈에 띄기보다, 자연스럽게 지키는 쪽을 선호합니다.
+공공장소를 잘 쓰려면 특별한 것보다 기본적인 예절이 더 중요하다고 느낍니다.
 
 ## 영어 전문
 
@@ -31,6 +32,7 @@ Last week, I sat by the window at the library and read documents for about an ho
 In public places, even small noise can affect other people, so I always try to stay quiet.
 Of course, when I am with my child, I pay even more attention, because I also want to teach good manners.
 Since these are shared spaces, being considerate matters the most.
+I think basic manners are more important than doing anything special.
 So in public places, I prefer to follow the rules naturally rather than draw attention.
 
 ## 키 문장 및 단어
@@ -40,6 +42,8 @@ So in public places, I prefer to follow the rules naturally rather than draw att
 - I often go to the library and the park.
 - Being considerate matters the most.
 - I try to stay quiet in public places.
+- Basic manners are more important than anything special.
+- I prefer to follow the rules naturally.
 
 ### Key Words
 
@@ -73,6 +77,12 @@ So in public places, I prefer to follow the rules naturally rather than draw att
 - Small manners make everyone more comfortable.
 - Little acts of consideration help a lot.
 - Good manners make shared spaces easier to use.
+
+### 기본적인 예절이 가장 중요합니다.
+
+- Basic manners are more important than anything special.
+- I think simple rules matter most in shared places.
+- Following basic manners keeps the space comfortable.
 
 ### 저는 공공장소에서 조용히 행동합니다.
 

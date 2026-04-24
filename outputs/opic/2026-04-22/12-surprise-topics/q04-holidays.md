@@ -19,6 +19,7 @@
 지난 설에는 차가 조금 막혀서 평소보다 30분 더 걸렸지만, 도착하고 나니 다 같이 웃을 수 있어서 괜찮았습니다.
 물론 이동이 피곤할 때도 있지만, 가족을 직접 만나는 시간은 그만한 가치가 있습니다.
 저는 아주 화려한 계획보다, 편하게 모여서 이야기하는 시간이 더 좋습니다.
+명절에는 많이 움직이기보다, 같이 앉아서 이야기하는 시간이 더 기억에 남습니다.
 그래서 명절은 바쁘지만 따뜻한 느낌이 남는다고 생각합니다.
 
 ## 영어 전문
@@ -29,6 +30,7 @@ We eat holiday food, and my child sometimes plays a little with cousins.
 Last Lunar New Year, traffic made the trip about 30 minutes longer than usual, but once we arrived, everyone could laugh together, so it was fine.
 Travel can be tiring sometimes, but meeting family in person is worth it.
 I like simple time together and talking more than having a fancy plan.
+On holidays, sitting together and talking stays in my memory more than doing a lot of activities.
 So holidays feel busy, but they leave a warm feeling.
 
 ## 키 문장 및 단어
@@ -38,6 +40,8 @@ So holidays feel busy, but they leave a warm feeling.
 - I like holidays best with my family.
 - Traffic can make the trip longer.
 - Holidays leave a warm feeling.
+- Talking together is the part I remember most.
+- Simple time together matters most.
 
 ### Key Words
 
@@ -77,6 +81,12 @@ So holidays feel busy, but they leave a warm feeling.
 - Holidays leave a warm feeling.
 - Holidays feel busy but warm.
 - I remember holidays as a warm time.
+
+### 같이 앉아서 이야기하는 시간이 가장 기억에 남습니다.
+
+- Talking together is the part I remember most.
+- Simple time together matters most.
+- I remember the quiet family time more than anything else.
 
 ## Follow-up Hooks
 

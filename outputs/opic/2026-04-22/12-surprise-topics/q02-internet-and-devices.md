@@ -20,6 +20,7 @@
 편한 점이 많지만, 기기가 너무 많으면 충전도 신경 써야 해서 번거롭습니다.
 그래도 지금 생활에서는 인터넷과 기기가 없으면 일을 하기도, 생활을 하기도 어렵습니다.
 그래서 저는 이 두 가지가 아주 당연한 도구처럼 느껴집니다.
+편리한 만큼 자주 쓰게 되지만, 가끔은 너무 의존하지 않도록 조심합니다.
 
 ## 영어 전문
 
@@ -29,6 +30,7 @@ At home, I mostly use Wi-Fi, and when data is weak outside, it feels a little fr
 Last week, the internet got slow in an underground parking lot, and I almost could not open the map, so I went upstairs and fixed it.
 There are many convenient parts, but if I have too many devices, charging them all becomes annoying.
 Still, in my daily life, it is hard to work or live properly without the internet and devices.
+I use them all the time, but I also try not to depend on them too much.
 So these tools feel like very natural parts of life to me.
 
 ## 키 문장 및 단어
@@ -38,6 +40,8 @@ So these tools feel like very natural parts of life to me.
 - I use my smartphone and laptop the most.
 - Weak internet feels frustrating outside.
 - The internet is essential in daily life.
+- I try not to depend on them too much.
+- These tools feel natural to me.
 
 ### Key Words
 
@@ -77,6 +81,12 @@ So these tools feel like very natural parts of life to me.
 - The internet is essential in daily life.
 - Devices are necessary for everyday life.
 - I cannot really live without them now.
+
+### 편리하지만 너무 의존하지 않으려고 합니다.
+
+- I try not to depend on them too much.
+- I use them a lot, but I still try to stay balanced.
+- They are useful, but I do not want to rely on them completely.
 
 ## Follow-up Hooks
 

@@ -20,6 +20,7 @@
 짧아 보여도 계속하면 효과가 있고, 몸도 덜 지칩니다.
 물론 운동을 아예 안 하는 것보다는 낫지만, 너무 무리하면 오래 못 갑니다.
 그래서 저는 요즘 건강 트렌드가 거창한 계획보다, 현실적으로 계속할 수 있는 습관에 가깝다고 봅니다.
+저처럼 바쁜 사람에게는 짧아도 자주 움직이는 방식이 더 잘 맞는 것 같습니다.
 
 ## 영어 전문
 
@@ -30,6 +31,7 @@ Last week, I walked for about 25 minutes, and I slept a little better than usual
 It may look short, but if you keep it up, it still works and does not tire your body too much.
 Of course, doing something is better than doing nothing, but if you push too hard, it is hard to keep going.
 So I think the current health trend is more about habits you can actually maintain.
+For busy people like me, short but regular movement feels more realistic.
 
 ## 키 문장 및 단어
 
@@ -38,6 +40,9 @@ So I think the current health trend is more about habits you can actually mainta
 - Consistency is the key idea in health these days.
 - Walking a little every day is useful.
 - Habits you can maintain matter most.
+- Short routines are more realistic for busy people.
+- Moving a little every day helps me sleep better.
+- Short but regular movement feels more realistic.
 
 ### Key Words
 
@@ -60,23 +65,29 @@ So I think the current health trend is more about habits you can actually mainta
 - Moving a bit every day helps a lot.
 - Small daily exercise is a good habit.
 
-### 매일 조금씩 움직이는 것이 좋습니다.
-
-- Walking a little every day is useful.
-- Moving a bit every day helps a lot.
-- Small daily exercise is a good habit.
-
 ### 계속할 수 있는 습관이 중요합니다.
 
 - Habits you can maintain matter most.
 - What you can keep doing is the most important.
 - A realistic routine is the best kind.
 
-### 계속할 수 있는 습관이 중요합니다.
+### 바쁜 사람에게는 짧은 운동이 더 현실적입니다.
 
-- Habits you can maintain matter most.
-- What you can keep doing is the most important.
-- A realistic routine is the best kind.
+- Short routines are more realistic for busy people.
+- A short habit is easier to keep when you are busy.
+- For busy people, a small routine works better.
+
+### 조금씩 움직이면 잠도 더 잘 옵니다.
+
+- Moving a little every day helps me sleep better.
+- A short walk can help me sleep more soundly.
+- Small exercise often improves my sleep.
+
+### 짧지만 규칙적인 운동이 더 현실적입니다.
+
+- Short but regular movement feels more realistic.
+- A small routine is easier to maintain.
+- Regular light exercise fits busy days better.
 
 ## Follow-up Hooks
 

@@ -19,7 +19,8 @@
 지난달에는 중간에 휴게소에 잠깐 들러서 따뜻한 커피를 마셨는데, 그 쉬는 시간이 꽤 좋았습니다.
 빠르게 멀리 가는 것보다, 가까운 곳을 천천히 다녀오는 편이 저한테 맞습니다.
 교통이 조금 막혀도 크게 스트레스를 받지 않는 거리라서 더 편합니다.
-그래서 저는 드라이브를 여행이라기보다, 짧게 숨을 고르는 시간으로 생각합니다.
+저희 집에서는 아이가 오래 차에 타는 것을 좋아하지 않아서, 너무 먼 곳보다 이런 근교가 더 현실적입니다.
+그래서 저는 드라이브를 여행이라기보다, 가족과 함께 잠깐 숨을 고르는 시간으로 생각합니다.
 
 ## 영어 전문
 
@@ -29,7 +30,8 @@ The trip is not too long, so it is easy to go with my child.
 Last month, we stopped at a rest area for a warm coffee, and that short break felt really nice.
 I prefer going somewhere close and taking my time instead of driving far away quickly.
 Even if traffic gets a little heavy, the distance is short enough that it does not stress me out too much.
-So I think of driving more as a short reset than a big trip.
+My child does not like being in the car for too long, so a nearby destination is more realistic for us.
+So I think of driving more as a short reset with my family than a big trip.
 
 ## 키 문장 및 단어
 
@@ -38,6 +40,8 @@ So I think of driving more as a short reset than a big trip.
 - I usually drive to a nearby area.
 - The trip is easy to take with my family.
 - I think of driving as a short reset.
+- A nearby destination is more realistic for us.
+- It feels like a short reset with my family.
 
 ### Key Words
 
@@ -77,6 +81,12 @@ So I think of driving more as a short reset than a big trip.
 - I think of driving as a short reset.
 - It feels like a brief break for me.
 - A short drive helps me clear my head.
+
+### 가까운 목적지가 우리 가족에게 더 현실적입니다.
+
+- A nearby destination is more realistic for us.
+- A close place fits our family better.
+- A short drive works better for my family.
 
 ## Follow-up Hooks
 

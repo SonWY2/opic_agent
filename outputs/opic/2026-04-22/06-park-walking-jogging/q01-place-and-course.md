@@ -19,7 +19,8 @@
 저는 보통 저녁 7시쯤 가서 천천히 한 바퀴 걷습니다.
 지난주에는 바람이 조금 불었지만, 오히려 더 시원해서 걷기 좋았습니다.
 길이 복잡하지 않고, 사람도 너무 많지 않아서 마음이 편합니다.
-그래서 저는 운동을 겸한 가벼운 산책 장소로 이 공원을 가장 자주 찾습니다.
+운동을 아주 많이 하지는 못해도, 이런 짧은 코스는 꾸준히 하기에 부담이 적습니다.
+그래서 저는 이 공원을 가볍게 몸을 움직이고 생각도 정리하는 장소로 가장 자주 찾습니다.
 
 ## 영어 전문
 
@@ -29,7 +30,8 @@ There are also a few benches near the entrance, so it is easy to take a short br
 I usually go around 7 p.m. and walk slowly once around the path.
 Last week, the wind was a little strong, but it actually felt cooler and better for walking.
 The path is not complicated, and there are not too many people, so I feel calm there.
-So I go there often as a light walking place that also gives me some exercise.
+I do not need a long workout every day, but this short route is easy to keep up with.
+So I go there often as a light walking place that also helps me clear my head.
 
 ## 키 문장 및 단어
 
@@ -38,6 +40,8 @@ So I go there often as a light walking place that also gives me some exercise.
 - The park is near my home.
 - One lap takes about 20 minutes.
 - I feel calm there.
+- It is easy to keep up with.
+- It helps me clear my head.
 
 ### Key Words
 
@@ -71,6 +75,18 @@ So I go there often as a light walking place that also gives me some exercise.
 - I feel calm there.
 - That place helps me relax.
 - The park makes me feel peaceful.
+
+### 짧은 코스라서 꾸준히 하기 쉽습니다.
+
+- It is easy to keep up with.
+- The short route makes it easy to stay consistent.
+- A short path is easier for me to keep doing.
+
+### 저는 산책하면서 머리도 정리합니다.
+
+- It helps me clear my head.
+- Walking there helps me think more clearly.
+- I use the walk to reset my mind.
 
 ## Follow-up Hooks
 

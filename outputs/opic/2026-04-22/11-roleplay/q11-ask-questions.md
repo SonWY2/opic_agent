@@ -19,6 +19,7 @@
 그리고 가능하면 창가 쪽처럼 조금 조용한 자리가 있으면 좋겠습니다.
 아이가 있어서 너무 시끄럽지 않으면 더 좋겠습니다.
 지난번에는 예약만 하고 세부를 못 물어봐서 조금 불편했는데, 이번에는 미리 확인하고 싶습니다.
+예약 시간을 다시 한번 확인할 수 있으면 더 안심이 됩니다.
 마지막으로, 도착 전에 한 번 더 확인할 방법이 있는지도 알고 싶습니다.
 답변해 주시면 감사합니다.
 
@@ -30,6 +31,7 @@ I would also like to check whether parking is available.
 And if possible, we would prefer a quiet window seat.
 We are coming with a child, so a less noisy table would be helpful.
 Last time, I only made the reservation and did not ask about the details, so it was a little inconvenient.
+I would like to check the time once more so I can feel more comfortable.
 I would like to confirm everything before we arrive.
 Thank you for your help.
 
@@ -40,6 +42,8 @@ Thank you for your help.
 - Is a table available around 7 p.m.?
 - Is parking available?
 - We would prefer a quiet window seat.
+- I would like to check the time once more.
+- I would like to confirm everything before we arrive.
 
 ### Key Words
 
@@ -73,6 +77,12 @@ Thank you for your help.
 - I would like to confirm everything before we arrive.
 - It would help to double-check before we go there.
 - I want to make sure the details are clear before we come.
+
+### 예약 시간을 다시 한번 확인하면 더 안심됩니다.
+
+- I would like to check the time once more.
+- It makes me feel better to confirm the time again.
+- I want to be sure about the time before we go.
 
 ### 조금 조용한 자리가 있으면 좋겠습니다.
 

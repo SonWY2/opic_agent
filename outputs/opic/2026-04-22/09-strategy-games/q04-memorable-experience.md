@@ -14,33 +14,23 @@
 ## 한국어 전문
 
 작년 겨울에 밤 11시쯤 전략 게임을 하다가 기억에 남는 승리를 한 적이 있습니다.
-
 그 판은 초반에 계속 밀려서 거의 질 것 같았습니다.
-
 그런데 저는 바로 포기하지 않고, 방어를 한 번 더 세우고 자원을 모아서 천천히 다시 따라갔습니다.
-
 마지막 5분쯤에 상대가 방심한 틈을 놓치지 않고 역전했을 때 정말 기분이 좋았습니다.
-
 물론 한 판에 오래 걸려서 조금 피곤했지만, 끝까지 버틴 보람이 있었습니다.
-
 그 경험 이후로는 불리해도 너무 빨리 끝낸다고 생각하지 않게 됐습니다.
-
+그때부터는 시작이 안 좋아도 마지막까지 보면 결과가 달라질 수 있다고 느꼈습니다.
 그래서 저는 전략 게임의 재미가 바로 이런 반전 순간에 있다고 느낍니다.
 
 ## 영어 전문
 
 Last winter, around 11 p.m., I had a memorable win in a strategy game.
-
 In that game, I kept falling behind early and almost thought I would lose.
-
 But I did not give up right away; I rebuilt my defense, gathered resources, and slowly caught up.
-
 About 5 minutes before the end, I saw a gap when my opponent relaxed a little, and I turned the game around.
-
 It was a little tiring because the match took a long time, but it was worth it to keep going.
-
 After that, I stopped thinking that a bad start means the game is already over.
-
+Since then, I have believed that the last part of the game can change everything.
 So for me, the fun of strategy games is in those comeback moments.
 
 ## 키 문장 및 단어
@@ -50,6 +40,8 @@ So for me, the fun of strategy games is in those comeback moments.
 - I had a memorable win in a strategy game.
 - I rebuilt my defense and caught up slowly.
 - The fun is in comeback moments.
+- A bad start does not mean the game is over.
+- The last part can change everything.
 
 ### Key Words
 
@@ -83,6 +75,12 @@ So for me, the fun of strategy games is in those comeback moments.
 - The fun is in comeback moments.
 - Turning the game around is the best part.
 - I like the moment when things flip at the end.
+
+### 마지막까지 보면 결과가 달라질 수 있습니다.
+
+- A bad start does not mean the game is over.
+- The last part can change everything.
+- Waiting until the end can make a big difference.
 
 ## Follow-up Hooks
 

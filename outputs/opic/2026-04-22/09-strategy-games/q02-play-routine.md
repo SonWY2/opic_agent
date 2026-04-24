@@ -14,34 +14,24 @@
 ## 한국어 전문
 
 저는 보통 주말 저녁이나 아이가 먼저 잠든 뒤에 전략 게임을 합니다.
-
 한 번 시작하면 20분 정도만 하고, 너무 늦게까지는 하지 않습니다.
-
 처음에는 지난 판 결과를 보고, 다음 선택을 짧게 정리한 뒤 시작합니다.
-
 지난 토요일에는 2판을 연속으로 했는데, 두 번째 판은 초반에 자원을 아껴서 훨씬 수월했습니다.
-
 너무 오래 하면 머리가 피곤해서, 저는 보통 한두 판만 하고 멈춥니다.
-
 가끔은 음료를 옆에 두고 조용한 방에서 하면 더 집중이 잘 됩니다.
-
-저는 게임을 길게 몰아서 하기보다, 짧게 즐기고 멈추는 편이 오래 가기 좋다고 생각합니다.
+짧게 하고 멈추는 편이 오히려 다음에도 계속하기 좋습니다.
+그래서 제 루틴은 길지 않지만 꾸준히 유지하기 쉽습니다.
 
 ## 영어 전문
 
 I usually play strategy games on weekend evenings or after my child goes to sleep.
-
 Once I start, I only play for about 20 minutes, and I do not stay up too late.
-
 At the beginning, I look at the result from the last game and quickly think through my next choice.
-
 Last Saturday, I played two rounds in a row, and the second round went much better because I saved resources early.
-
 If I play for too long, my head gets tired, so I usually stop after one or two games.
-
 Sometimes I focus better if I keep a drink nearby and stay in a quiet room.
-
-I think short sessions are better than long ones if I want to keep playing for a long time.
+Stopping early actually makes it easier for me to keep the habit.
+So my routine is short, but it is easy to repeat.
 
 ## 키 문장 및 단어
 
@@ -50,6 +40,8 @@ I think short sessions are better than long ones if I want to keep playing for a
 - I usually play on weekend evenings.
 - I only play for about 20 minutes.
 - Short sessions are better for me.
+- Stopping early helps me keep the habit.
+- My routine is short but easy to repeat.
 
 ### Key Words
 
@@ -83,6 +75,12 @@ I think short sessions are better than long ones if I want to keep playing for a
 - Short sessions are better for me.
 - It is easier to keep the habit when sessions are short.
 - Playing a little at a time works best for me.
+
+### 짧게 멈추는 편이 습관을 유지하기 쉽습니다.
+
+- Stopping early helps me keep the habit.
+- A short session makes it easier to continue next time.
+- Ending before I get too tired works better for me.
 
 ## Follow-up Hooks
 

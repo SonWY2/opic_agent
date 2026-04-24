@@ -19,6 +19,7 @@
 지난주에는 택배 상자가 두 개 있어서, 접어서 묶어 두니 생각보다 금방 정리됐습니다.
 물론 조금 번거로울 때도 있지만, 한 번에 해 두면 집이 훨씬 깔끔합니다.
 저는 그냥 버리는 것보다, 작은 정리 습관이 있는 편이 더 좋다고 생각합니다.
+처음에는 귀찮아 보여도, 익숙해지면 생각보다 오래 걸리지 않습니다.
 그래서 재활용은 귀찮아도 꼭 해야 하는 생활 습관입니다.
 
 ## 영어 전문
@@ -29,6 +30,7 @@ I usually sort everything right after dinner and keep it for a while on one side
 Last week, I had two delivery boxes, and after folding and tying them, the cleanup was done much faster than I expected.
 It can be a little annoying sometimes, but doing it all at once makes the house feel much cleaner.
 I think it is better to have small organizing habits than to throw everything away carelessly.
+At first, it looks troublesome, but once it becomes a habit, it does not take too long.
 So even though recycling is a bit troublesome, I think it is an important habit.
 
 ## 키 문장 및 단어
@@ -38,6 +40,8 @@ So even though recycling is a bit troublesome, I think it is an important habit.
 - I am careful about recycling at home.
 - I separate paper, bottles, and cans.
 - Recycling is an important habit.
+- Small habits make the house feel cleaner.
+- It becomes easier once it is a habit.
 
 ### Key Words
 
@@ -77,6 +81,18 @@ So even though recycling is a bit troublesome, I think it is an important habit.
 - Recycling is an important habit.
 - It is an important part of daily life.
 - Recycle habits help keep things tidy.
+
+### 작은 습관이 집을 더 깔끔하게 만듭니다.
+
+- Small habits make the house feel cleaner.
+- A little organizing goes a long way.
+- Small routines help keep the house tidy.
+
+### 익숙해지면 생각보다 오래 걸리지 않습니다.
+
+- It becomes easier once it is a habit.
+- After a while, it does not take long.
+- Once I get used to it, it feels natural.
 
 ## Follow-up Hooks
 

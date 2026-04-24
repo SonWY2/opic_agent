@@ -20,6 +20,7 @@
 저는 날씨가 좋으면 기분도 조금 더 가벼워진다고 느낍니다.
 반대로 비가 많이 오면 계획을 바꾸게 되지만, 집에서 쉬는 날로 생각하면 나쁘지 않습니다.
 그래서 저는 계절이 바뀔 때마다 생활 리듬도 함께 바뀌는 것 같다고 생각합니다.
+날씨가 너무 극단적이지 않을 때 가장 편하게 움직일 수 있습니다.
 
 ## 영어 전문
 
@@ -29,6 +30,7 @@ Summer is too hot, and winter is a little hard when I stay outside for too long.
 Last week, the morning was chilly, but the sun was nice in the afternoon, so it was good to go out for a short walk at lunch.
 I feel that good weather makes my mood lighter too.
 On the other hand, when it rains a lot, I change my plan, but I do not mind if I think of it as a rest day at home.
+I feel most comfortable when the weather is not too extreme.
 So I feel my daily rhythm changes with the seasons.
 
 ## 키 문장 및 단어
@@ -38,6 +40,8 @@ So I feel my daily rhythm changes with the seasons.
 - I like spring and fall the most.
 - Good weather makes my mood lighter.
 - My daily rhythm changes with the seasons.
+- Mild weather feels the most comfortable.
+- Rainy days can become rest days at home.
 
 ### Key Words
 
@@ -77,6 +81,12 @@ So I feel my daily rhythm changes with the seasons.
 - My daily rhythm changes with the seasons.
 - The seasons change my routine a little.
 - My life rhythm shifts when the weather changes.
+
+### 날씨가 너무 극단적이지 않을 때 가장 편합니다.
+
+- Mild weather feels the most comfortable.
+- I feel best when the weather is not extreme.
+- Moderate weather fits my daily life best.
 
 ## Follow-up Hooks
 

@@ -20,6 +20,7 @@
 덕분에 그날은 평소보다 조금 더 천천히 걸으면서 주변을 잘 보게 됐습니다.
 사실 운동 자체보다도, 그런 조용한 배려가 더 오래 기억에 남았습니다.
 그래서 저는 공원이 단순한 운동 장소를 넘어, 사람을 편하게 만드는 공간이라고 생각합니다.
+그 이후로도 비가 온 다음에는 길 상태를 조금 더 보면서 걷게 됐습니다.
 
 ## 영어 전문
 
@@ -30,6 +31,7 @@ It seemed like a small thing at first, but that kindness left a strong impressio
 Because of that, I walked a little more slowly that day and paid more attention to the area around me.
 It was not the exercise itself, but that quiet kindness that stayed in my mind longer.
 So I think a park is more than just a place to move your body; it also makes people feel comfortable.
+After that, I started paying more attention to the path when it rains.
 
 ## 키 문장 및 단어
 
@@ -38,6 +40,8 @@ So I think a park is more than just a place to move your body; it also makes peo
 - I walked at the park after rain.
 - A woman showed me a side path.
 - Small kindness can leave a strong impression.
+- I paid more attention to the path after that.
+- The park makes people feel comfortable.
 
 ### Key Words
 
@@ -71,6 +75,18 @@ So I think a park is more than just a place to move your body; it also makes peo
 - Small kindness can leave a strong impression.
 - A little kindness stays in my mind.
 - Small help can become a big memory.
+
+### 그 이후로 비 온 뒤에는 더 조심해서 걷습니다.
+
+- After that, I started paying more attention to the path when it rains.
+- Now I walk more carefully after rain.
+- I became more careful on wet paths after that.
+
+### 공원은 사람을 편하게 만드는 공간입니다.
+
+- The park makes people feel comfortable.
+- A park is a place that helps people relax.
+- Parks can make everyday life feel calmer.
 
 ## Follow-up Hooks
 

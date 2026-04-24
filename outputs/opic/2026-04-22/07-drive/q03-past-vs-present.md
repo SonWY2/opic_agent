@@ -19,7 +19,8 @@
 지난주에는 출발 10분 전에 주유를 먼저 해 둬서, 길에서 마음이 훨씬 편했습니다.
 예전보다 운전이 쉬워졌지만, 여전히 주변을 잘 살피는 습관은 필요합니다.
 특히 아이와 함께 탈 때는 더 천천히 움직이게 됩니다.
-그래서 지금은 운전이 예전보다 덜 부담스럽고, 짧은 외출도 더 여유 있게 느껴집니다.
+예전에는 운전이 긴장되는 일이었지만, 지금은 미리 준비하면 훨씬 여유 있게 느껴집니다.
+그래서 지금은 운전이 예전보다 덜 부담스럽고, 짧은 외출도 더 편하게 느껴집니다.
 
 ## 영어 전문
 
@@ -29,6 +30,7 @@ Before, I mostly cared about getting there fast, but these days I also think abo
 Last week, I filled up the car 10 minutes before leaving, and that made the trip feel much more relaxed.
 Driving is easier now than before, but I still need to watch the road carefully.
 Especially when my child is in the car, I naturally drive more slowly.
+In the past, driving felt tense, but now I feel much more relaxed when I prepare ahead.
 So driving feels less stressful now, and even short outings feel more comfortable.
 
 ## 키 문장 및 단어
@@ -38,6 +40,8 @@ So driving feels less stressful now, and even short outings feel more comfortabl
 - I used to get nervous while driving.
 - I use navigation well now.
 - Driving feels less stressful now.
+- I feel more relaxed when I prepare ahead.
+- Short outings feel more comfortable now.
 
 ### Key Words
 
@@ -71,6 +75,12 @@ So driving feels less stressful now, and even short outings feel more comfortabl
 - Driving feels less stressful now.
 - I feel much more relaxed when I drive now.
 - Driving is easier and calmer these days.
+
+### 미리 준비하면 훨씬 여유가 생깁니다.
+
+- I feel more relaxed when I prepare ahead.
+- Planning before leaving makes driving easier.
+- I feel calmer when I check things early.
 
 ## Follow-up Hooks
 

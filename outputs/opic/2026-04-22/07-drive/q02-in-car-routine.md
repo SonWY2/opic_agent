@@ -20,7 +20,7 @@
 조금 번거로웠지만, 미리 확인해 두니 길에서 불편한 일은 없었습니다.
 운전 중에는 너무 큰 소리로 이야기하지 않고, 길이 막히면 짧게만 말합니다.
 저는 차 안이 시끄럽기보다는, 천천히 집중할 수 있는 공간이 좋습니다.
-그래서 제 차 안 루틴은 단순하지만 안전하게 가는 데 도움이 됩니다.
+그래서 제 차 안 루틴은 단순하지만, 출발 전에 마음을 정리하고 안전하게 가는 데 도움이 됩니다.
 
 ## 영어 전문
 
@@ -31,7 +31,7 @@ Last week, right before leaving, I could not find my charging cable for about 5 
 It was a little annoying, but checking early meant I had no trouble on the road.
 While driving, I do not talk too loudly, and if traffic is slow, I keep the conversation short.
 I prefer a car space that is calm rather than noisy.
-So my in-car routine is simple, but it helps me drive safely.
+So my in-car routine is simple, but it helps me stay calm before departure and drive safely.
 
 ## 키 문장 및 단어
 
@@ -40,6 +40,8 @@ So my in-car routine is simple, but it helps me drive safely.
 - I turn on the navigation first.
 - I keep water and quiet music in the car.
 - I prefer a calm car space.
+- I stay calm before departure.
+- It helps me drive safely.
 
 ### Key Words
 
@@ -73,6 +75,12 @@ So my in-car routine is simple, but it helps me drive safely.
 - I prefer a calm car space.
 - I like it when the car stays quiet.
 - A quiet car feels more comfortable to me.
+
+### 출발 전에 미리 확인하면 더 편합니다.
+
+- Checking early makes the trip smoother.
+- If I check things before leaving, the drive feels easier.
+- Early checking saves trouble on the road.
 
 ## Follow-up Hooks
 

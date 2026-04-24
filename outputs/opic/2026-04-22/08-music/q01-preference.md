@@ -14,33 +14,23 @@
 ## 한국어 전문
 
 저는 시끄러운 음악보다 잔잔한 음악을 더 좋아합니다.
-
 주로 팝이나 인디 느낌의 노래를 듣고, 가사도 너무 복잡하지 않은 것을 선호합니다.
-
 출퇴근할 때나 저녁 산책할 때 들으면 기분이 편해집니다.
-
 지난주에는 비 오는 날 차 안에서 같은 플레이리스트를 20분 정도 들었는데, 분위기가 잘 맞아서 좋았습니다.
-
 물론 신나는 노래도 가끔 듣지만, 너무 강하면 오래 듣기 어렵습니다.
-
 저는 음악을 배경처럼 두고, 하루를 조금 부드럽게 만드는 편이 좋습니다.
-
+반대로 집중이 필요할 때는 너무 강한 노래보다 잔잔한 음악이 더 잘 맞습니다.
 그래서 제 취향은 화려하기보다 편안한 쪽에 가깝습니다.
 
 ## 영어 전문
 
 I like calm music more than loud music.
-
 I usually listen to pop or indie songs, and I prefer lyrics that are not too complicated.
-
 When I listen on my commute or during an evening walk, I feel more relaxed.
-
 Last week, I listened to the same playlist in the car for about 20 minutes on a rainy day, and the mood matched well.
-
 Of course, I sometimes listen to energetic songs, but if the music is too strong, I cannot listen for very long.
-
 I like music as something in the background that softens my day a little.
-
+When I need to focus, calm music also works better than loud songs.
 So my taste is more comfortable than flashy.
 
 ## 키 문장 및 단어
@@ -50,6 +40,8 @@ So my taste is more comfortable than flashy.
 - I like calm music more than loud music.
 - Music helps me relax during my commute.
 - My taste is more comfortable than flashy.
+- Calm music works better when I need to focus.
+- Music softens my day a little.
 
 ### Key Words
 
@@ -77,6 +69,12 @@ So my taste is more comfortable than flashy.
 - Music softens my day a little.
 - Songs help me feel less tense.
 - Music makes daily life feel calmer.
+
+### 집중이 필요할 때는 잔잔한 음악이 더 잘 맞습니다.
+
+- Calm music works better when I need to focus.
+- Softer songs fit my mood when I need concentration.
+- Quiet music helps me stay focused.
 
 ### 너무 시끄러운 음악은 오래 듣기 어렵습니다.
 

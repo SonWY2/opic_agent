@@ -20,6 +20,7 @@
 주차가 가능하면 좋겠고, 아이와 함께 갈 예정이라 너무 늦은 시간은 피하고 싶습니다.
 지난번에도 비슷하게 시간을 조정한 적이 있어서, 이번에도 미리 확인하고 싶습니다.
 가능한 선택을 알려 주시면 바로 정리하겠습니다.
+문제가 되지 않는다면, 가장 가까운 가능한 시간으로 맞추고 싶습니다.
 
 ## 영어 전문
 
@@ -30,6 +31,7 @@ If those times are not possible, we are also okay with moving to another day.
 Parking would be helpful, and since we are coming with a child, we would rather avoid a very late time.
 I have changed a similar reservation before, so I would like to check early this time too.
 Please let me know which options are available, and I will arrange it right away.
+If possible, I would like to choose the closest available time.
 
 ## 키 문장 및 단어
 
@@ -38,6 +40,8 @@ Please let me know which options are available, and I will arrange it right away
 - We may arrive later than planned.
 - Could we change it to another time?
 - We are okay with another day too.
+- I would like the closest available time.
+- Please let me know which options are available.
 
 ### Key Words
 
@@ -77,6 +81,12 @@ Please let me know which options are available, and I will arrange it right away
 - We are okay with another day too.
 - Another day would also work for us.
 - We can move it to a different day if needed.
+
+### 가장 가까운 가능한 시간으로 맞추고 싶습니다.
+
+- I would like the closest available time.
+- If possible, I would like the nearest time slot.
+- I prefer the closest option that works.
 
 ## Follow-up Hooks
 

@@ -14,33 +14,23 @@
 ## 한국어 전문
 
 예전에는 음악을 그냥 라디오처럼 듣는 경우가 많았습니다.
-
 지금은 출근, 산책, 집안일처럼 상황에 맞게 골라 듣는 편입니다.
-
 예전에는 한 번 듣고 끝나는 노래가 많았지만, 요즘은 플레이리스트를 저장해 두고 다시 듣습니다.
-
 지난달에는 산책하면서 같은 노래를 여러 번 들었는데, 이상하게도 반복해서 들을수록 더 편했습니다.
-
 예전에는 가사보다 멜로디만 들을 때가 많았지만, 지금은 분위기와 속도도 같이 봅니다.
-
 물론 새로운 노래를 찾는 재미도 있지만, 자주 듣는 곡이 주는 안정감이 더 큽니다.
-
+예전에는 그냥 듣는 느낌이었다면, 지금은 음악을 상황에 맞게 쓰는 느낌이 더 강합니다.
 그래서 저는 음악을 단순한 취미보다, 생활에 붙어 있는 도구처럼 느낍니다.
 
 ## 영어 전문
 
 In the past, I often listened to music just like the radio, without much thought.
-
 Now I choose songs based on the situation, like commuting, walking, or doing chores.
-
 Before, I had many songs that I listened to only once, but now I save playlists and listen again.
-
 Last month, I listened to the same song many times during a walk, and strangely enough, it felt more comfortable each time.
-
 In the past, I paid more attention to the melody than the lyrics, but now I also look at the mood and pace.
-
 Of course, finding new songs is still fun, but familiar songs give me more stability.
-
+Before, music was something I just listened to, but now it is something I use depending on my day.
 So I see music less as a hobby only and more as a tool that fits into daily life.
 
 ## 키 문장 및 단어
@@ -50,6 +40,8 @@ So I see music less as a hobby only and more as a tool that fits into daily life
 - I choose songs based on the situation now.
 - I save playlists and listen again.
 - Familiar songs give me more stability.
+- Music is something I use depending on my day.
+- I look at the mood and pace too.
 
 ### Key Words
 
@@ -77,6 +69,12 @@ So I see music less as a hobby only and more as a tool that fits into daily life
 - Familiar songs give me more stability.
 - Songs I know well feel more comforting.
 - Old favorites make me feel calmer.
+
+### 지금은 음악을 상황에 맞게 씁니다.
+
+- Music is something I use depending on my day.
+- I choose music differently depending on what I am doing.
+- I use music as part of my daily routine.
 
 ### 예전보다 플레이리스트를 더 자주 만듭니다.
 

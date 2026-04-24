@@ -20,6 +20,7 @@
 차 안에 아이도 있어서, 무리해서 빨리 가는 것보다 안전하게 가는 게 더 중요했습니다.
 결국 15분 정도만 더 걸렸고, 크게 지치지 않고 도착할 수 있었습니다.
 그 일 이후로는 예상보다 길이 막혀도 당황하지 않고, 대안을 먼저 찾게 됐습니다.
+이런 상황에서는 빨리 가는 것보다 차분하게 바꾸는 게 결국 더 낫다고 느꼈습니다.
 그래서 저는 운전할 때 속도보다 판단이 더 중요하다고 생각합니다.
 
 ## 영어 전문
@@ -31,6 +32,7 @@ At first, it felt like I was going out of the way, but that road was actually qu
 My child was in the car too, so being safe mattered more than rushing.
 In the end, it only took about 15 minutes longer, and we arrived without getting too tired.
 After that, when traffic gets bad, I do not panic first; I look for another option.
+In situations like that, changing plans calmly is usually better than rushing.
 So I think judgment is more important than speed when I drive.
 
 ## 키 문장 및 단어
@@ -40,6 +42,8 @@ So I think judgment is more important than speed when I drive.
 - I quickly checked another route.
 - Safety mattered more than rushing.
 - Judgment is more important than speed.
+- I look for another option first.
+- Changing plans calmly is usually better.
 
 ### Key Words
 
@@ -62,23 +66,35 @@ So I think judgment is more important than speed when I drive.
 - Being safe was more important than arriving fast.
 - I chose safety over speed.
 
-### 안전이 빨리 가는 것보다 더 중요했습니다.
-
-- Safety mattered more than rushing.
-- Being safe was more important than arriving fast.
-- I chose safety over speed.
-
 ### 길이 막히면 잠깐 쉬었다 가는 편입니다.
 
 - If traffic is bad, I take a short break and continue later.
 - When the road is blocked, I slow down and wait a bit.
 - I sometimes stop for a moment if the traffic gets too heavy.
 
+### 그다음부터는 출발 시간을 더 넉넉하게 잡습니다.
+
+- After that, I give myself more time before leaving.
+- I leave a little earlier when traffic might be bad.
+- I plan extra time after a traffic problem like that.
+
 ### 운전할 때는 판단이 더 중요합니다.
 
 - Judgment is more important than speed.
 - Making the right choice matters most while driving.
 - Good judgment is key when traffic gets bad.
+
+### 길이 막히면 먼저 다른 방법을 찾습니다.
+
+- I look for another option first.
+- I try a different route before I panic.
+- Finding another way first helps me stay calm.
+
+### 차분하게 바꾸는 것이 더 낫습니다.
+
+- Changing plans calmly is usually better.
+- A calm change of plan often works better.
+- It is better to adjust calmly than rush.
 
 ## Follow-up Hooks
 

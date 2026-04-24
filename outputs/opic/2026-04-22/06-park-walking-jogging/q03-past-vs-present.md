@@ -19,6 +19,7 @@
 지난달에는 비가 와서 이틀 정도 쉬었는데, 다시 걸으니 몸이 금방 적응했습니다.
 예전에는 운동을 하면 피곤하다고만 느꼈지만, 지금은 오히려 머리가 맑아집니다.
 물론 매일 나가는 게 조금 번거로울 때도 있지만, 끝나고 나면 훨씬 개운합니다.
+예전에는 운동을 해야 한다는 생각이 강했지만, 지금은 짧게라도 계속하는 게 더 중요하다고 느낍니다.
 그래서 지금의 루틴이 예전보다 몸에도 마음에도 더 좋다고 생각합니다.
 
 ## 영어 전문
@@ -29,6 +30,7 @@ In the past, I just walked quickly, but these days I also pay a little more atte
 Last month, I took two days off because of rain, but when I started again, my body adjusted quickly.
 Before, exercise only made me feel tired, but now it actually clears my head.
 Of course, going out every day can be a little annoying sometimes, but I feel much better after I finish.
+In the past, I thought exercise had to be harder to count, but now I value something I can keep doing.
 So I think my current routine is better for both my body and my mind than it used to be.
 
 ## 키 문장 및 단어
@@ -38,6 +40,8 @@ So I think my current routine is better for both my body and my mind than it use
 - I walk almost every evening now.
 - I pay more attention to my breathing now.
 - Exercise clears my head now.
+- I value something I can keep doing.
+- My current routine is better for my body and mind.
 
 ### Key Words
 
@@ -65,6 +69,18 @@ So I think my current routine is better for both my body and my mind than it use
 - Exercise clears my head now.
 - Walking helps me think more clearly.
 - A short walk makes me feel refreshed.
+
+### 짧게라도 계속하는 게 더 중요합니다.
+
+- I value something I can keep doing.
+- Keeping the habit matters more now.
+- A routine I can maintain is more important to me.
+
+### 지금의 루틴이 예전보다 더 좋습니다.
+
+- My current routine is better for my body and mind.
+- This routine fits me better than before.
+- I feel better with my current habit.
 
 ## Follow-up Hooks
 
