@@ -14,29 +14,34 @@
 ## 한국어 전문
 
 제가 자주 가는 카페는 집 근처에 있는 작은 동네 카페입니다.
-걸어서 7분 정도 걸리고, 아침이나 주말 오후에 들르기 좋습니다.
-안에는 테이블이 많지 않아서 아주 북적이지 않고, 창가 자리가 특히 편합니다.
-저는 보통 아메리카노 한 잔을 시키고 20~30분 정도 앉아 있습니다.
-지난 토요일에는 사람이 조금 많았지만, 창가 쪽에 앉으니 조용해서 글을 정리하기 좋았습니다.
-카페가 아주 크지는 않지만, 대신 분위기가 안정적이라서 오래 있지 않아도 만족스럽습니다.
-그래서 저는 화려한 곳보다 이런 소박한 카페를 더 자주 찾습니다.
+걸어서 7분 정도 걸려서, 주말 오전이나 퇴근 후에 가기 편합니다.
+저는 보통 혼자 가서 아메리카노 한 잔을 시키고 창가 자리에 앉습니다.
+안에는 테이블이 많지 않아서 아주 북적이지 않고, 조용한 편이라 잠깐 쉬기 좋습니다.
+지난주에도 메모를 정리하다가 20분쯤 앉아 있었는데, 생각보다 집중이 잘 됐습니다.
+카페가 아주 크지는 않지만, 대신 분위기가 안정적이고 부담이 없어서 오래 있지 않아도 만족스럽습니다.
+저는 화려한 곳도 가끔 괜찮다고 생각하지만, 자주 가는 곳은 이렇게 차분한 카페가 더 맞습니다.
+조용한 장소가 필요할 때는 이런 카페가 저한테 가장 잘 맞습니다.
 
 ## 영어 전문
 
 The cafe I go to often is a small neighborhood cafe near my home.
-It takes about 7 minutes to walk there, so it is easy to visit in the morning or on a weekend afternoon.
-Inside, there are not many tables, so it never feels too crowded, and the window seat is especially comfortable.
-I usually order one Americano and stay for about 20 to 30 minutes.
-Last Saturday, it was a little busy, but I sat by the window and it was quiet enough to organize my thoughts.
+It takes about 7 minutes to walk there, so it is easy to visit on a weekend morning or after work.
+I usually go alone, order one Americano, and sit by the window.
+There are not many tables inside, so it does not feel too crowded, and the quiet atmosphere is good for a short break.
+Last week, I sat there for about 20 minutes and organized my notes, and I focused better than I expected.
 The cafe is not very big, but the calm atmosphere makes it satisfying even when I do not stay long.
-So I usually prefer a simple place like this over a flashy cafe.
+I think flashy cafes are fine sometimes, but for a regular visit, a calm place like this suits me better.
+That is why I keep going back there.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
 - The cafe is near my home.
+- I usually go there alone on weekend mornings.
 - The window seat is comfortable.
+- It is quiet, so it is good for a short break.
+- I can focus better there than I expected.
 - I like calm cafes better than flashy ones.
 
 ### Key Words
@@ -60,6 +65,18 @@ So I usually prefer a simple place like this over a flashy cafe.
 - The calm atmosphere makes it easy to rest.
 - I can relax there without feeling rushed.
 
+### 20분 정도 앉아 있으면 생각이 정리됩니다.
+
+- After about 20 minutes, my thoughts feel more organized.
+- A short stay there helps me clear my head.
+- Even 20 minutes there can make me feel more settled.
+
+### 저는 주말 오전이나 퇴근 후에 혼자 갑니다.
+
+- I usually go there alone on weekend mornings.
+- I often stop by after work or on weekend mornings.
+- I usually visit by myself when I want a break.
+
 ### 창가 자리가 편합니다.
 
 - The window seat is comfortable.
@@ -71,6 +88,12 @@ So I usually prefer a simple place like this over a flashy cafe.
 - I usually stay with one Americano.
 - I like to sit for a while with a simple coffee.
 - One cup is enough for a short, quiet visit.
+
+### 저는 화려한 곳보다 차분한 카페를 더 자주 찾습니다.
+
+- I usually go back to calm cafes more often.
+- A quiet cafe suits my regular visits better.
+- I prefer a calm place for everyday coffee.
 
 ### 화려한 곳보다 조용한 카페를 더 좋아합니다.
 

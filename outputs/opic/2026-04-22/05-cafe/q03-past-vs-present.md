@@ -18,6 +18,7 @@
 예전에는 주로 친구를 만나기 위해 갔지만, 요즘은 혼자 가는 비율도 많아졌습니다.
 지난주에도 혼자 25분 정도 앉아서 문서 초안을 읽었는데, 조용해서 집중이 잘 됐습니다.
 물론 예전처럼 사람과 오래 이야기하는 재미도 좋지만, 지금은 짧고 조용한 방문이 더 편합니다.
+예전에는 마시는 데만 집중했다면, 지금은 짧게라도 머리를 정리하는 시간이 더 중요해졌습니다.
 그래서 카페는 단순히 마시는 곳에서, 잠깐 정리하는 공간으로 바뀐 느낌입니다.
 저는 이런 변화가 제 생활 리듬에는 더 잘 맞는다고 생각합니다.
 
@@ -28,6 +29,7 @@ Now I spend a little time sitting down to organize my notes or clear my thoughts
 In the past, I mostly went to meet friends, but these days I also go alone more often.
 Last week, I sat alone for about 25 minutes and read a draft document, and the quiet atmosphere helped me focus well.
 Of course, long conversations with people were fun before, but now shorter and quieter visits feel more comfortable.
+In the past, I mainly cared about drinking coffee, but now I care more about having a short moment to reset my mind.
 So for me, a cafe has changed from just a place to drink coffee into a place to reset.
 I think that change fits my daily rhythm better.
 
@@ -37,6 +39,8 @@ I think that change fits my daily rhythm better.
 
 - I used to go to a cafe just to drink coffee.
 - Now I use cafes to clear my thoughts.
+- I often go alone these days.
+- Short, quiet visits feel more comfortable now.
 - Quiet visits feel more comfortable now.
 
 ### Key Words
@@ -60,6 +64,12 @@ I think that change fits my daily rhythm better.
 - I sit there to organize my notes now.
 - Cafes help me reset my mind these days.
 
+### 요즘은 혼자 가는 경우도 많습니다.
+
+- I often go alone these days.
+- I also go by myself more often now.
+- Going alone has become more natural for me.
+
 ### 짧고 조용한 방문이 더 편합니다.
 
 - Quiet, short visits feel more comfortable now.
@@ -71,6 +81,12 @@ I think that change fits my daily rhythm better.
 - I see cafes more as a place to rest now.
 - These days, a cafe feels more like a quiet break.
 - My view of cafes has shifted from coffee to rest.
+
+### 지금은 짧게 머리를 정리하는 시간이 더 중요합니다.
+
+- Now I care more about having a short moment to reset my mind.
+- A short break for my mind matters more now.
+- These days, I value a quick mental reset more than before.
 
 ## Follow-up Hooks
 

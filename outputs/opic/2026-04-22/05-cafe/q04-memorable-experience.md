@@ -19,7 +19,9 @@
 처음에는 살짝 불편했지만, 직원이 바로 마른 수건을 가져와서 금방 정리됐습니다.
 그 작은 대응 덕분에 분위기가 다시 편해졌고, 저는 오히려 그 카페가 더 친절하게 느껴졌습니다.
 그날은 커피 맛보다도, 조용히 문제를 해결하는 모습이 더 기억에 남았습니다.
-그래서 저는 좋은 카페는 맛뿐 아니라 응대도 중요하다고 생각합니다.
+결국 저는 원래보다 조금 더 오래 머물렀고, 그 이후로도 그 카페를 자주 가게 됐습니다.
+작은 문제였지만, 직원이 차분하게 대응하니까 분위기가 금방 좋아졌습니다.
+그래서 저는 좋은 카페는 맛뿐 아니라 응대와 분위기도 중요하다고 생각합니다.
 
 ## 영어 전문
 
@@ -29,7 +31,9 @@ I was sitting by the window, and the person next to me opened an umbrella, so a 
 At first, it felt slightly uncomfortable, but the staff brought a dry towel right away and solved it quickly.
 Because of that small response, the atmosphere became comfortable again, and I felt the cafe was very kind.
 That day, I remembered the way they handled the situation more than the taste of the coffee.
-So I think a good cafe is not only about the drink, but also about the service.
+I ended up staying a little longer than planned, and after that I started going there more often.
+It was a small problem, but the staff stayed calm and handled it well.
+So I think a good cafe is not only about the drink, but also about the service and atmosphere.
 
 ## 키 문장 및 단어
 
@@ -37,7 +41,9 @@ So I think a good cafe is not only about the drink, but also about the service.
 
 - The cafe got a little busier because it rained.
 - The staff solved the problem right away.
-- Good service matters as much as coffee.
+- I stayed a little longer than planned.
+- The staff stayed calm and handled it well.
+- Good service and atmosphere matter a lot.
 
 ### Key Words
 
@@ -60,6 +66,18 @@ So I think a good cafe is not only about the drink, but also about the service.
 - I ended up spending more time there than planned.
 - I did not mean to stay long, but I did.
 
+### 그 이후로 그 카페를 더 자주 가게 됐습니다.
+
+- I started going there more often after that.
+- After that, I went to that cafe more often.
+- That experience made me visit the cafe more often.
+
+### 작은 문제였지만 직원이 차분하게 대응했습니다.
+
+- It was a small problem, but the staff stayed calm and handled it well.
+- The staff dealt with the situation calmly.
+- A calm response made the situation better.
+
 ### 직원이 바로 문제를 해결해 줬습니다.
 
 - The staff solved the problem right away.
@@ -71,6 +89,12 @@ So I think a good cafe is not only about the drink, but also about the service.
 - Good service matters as much as coffee.
 - Service is just as important as the drink.
 - A cafe feels better when the service is kind.
+
+### 좋은 카페는 서비스와 분위기도 중요합니다.
+
+- Good service and atmosphere matter a lot.
+- A good cafe needs both service and a nice atmosphere.
+- The drink is important, but the atmosphere matters too.
 
 ## Follow-up Hooks
 
