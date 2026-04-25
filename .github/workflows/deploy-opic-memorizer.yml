@@ -36,6 +36,9 @@ jobs:
           cache: npm
           cache-dependency-path: apps/opic-memorizer/package-lock.json
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
       - name: Install dependencies
         run: npm ci
 
@@ -54,7 +57,7 @@ jobs:
           VITE_BASE_PATH: /opic_agent/
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: apps/opic-memorizer/dist
 
@@ -67,4 +70,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
