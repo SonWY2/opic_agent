@@ -41,6 +41,7 @@ describe('OPIc Memorizer app', () => {
     const user = userEvent.setup();
     render(<App />);
 
+    await user.click(screen.getByRole('button', { name: /^Topic$/ }));
     await user.selectOptions(screen.getByLabelText('Mobile topic selector'), '04-movies-performances-concerts');
 
     const rail = screen.getByLabelText('Mobile question rail');

@@ -37,6 +37,7 @@ export default function App() {
   const [selectedTopicId, setSelectedTopicId] = useState(initialTopic.id);
   const [selectedQuestionId, setSelectedQuestionId] = useState(initialQuestion.id);
   const [mode, setMode] = useState('flow');
+  const [isMobileControlsOpen, setIsMobileControlsOpen] = useState(false);
 
   const topic = findTopic(selectedTopicId) ?? dataset.topics[0];
   const question = findQuestion(selectedQuestionId) ?? topic.questions[0];
@@ -64,6 +65,7 @@ export default function App() {
   function selectQuestion(nextQuestion) {
     setSelectedQuestionId(nextQuestion.id);
     setMode('flow');
+    setIsMobileControlsOpen(false);
   }
 
   function handleRate(sentenceId, rating) {
@@ -140,66 +142,77 @@ export default function App() {
       </section>
 
       <section className="study-stage" aria-label="Study area">
-        <div className="mobile-toolbar" aria-label="Mobile study controls">
-          <div className="mobile-brand-row">
-            <div className="brand-block mobile-brand-block">
-              <div className="brand-mark">OM</div>
-              <div>
-                <p>{dataset.datasetDate} pack</p>
-                <h1>OPIc Memorizer</h1>
+        <div
+          className={isMobileControlsOpen ? 'mobile-toolbar open' : 'mobile-toolbar'}
+          aria-label="Mobile study controls"
+        >
+          <div className="mobile-toolbar-summary">
+            <div className="mobile-current">
+              <span>{topic.title}</span>
+              <strong>{question.title}</strong>
+            </div>
+
+            <button
+              type="button"
+              className="mobile-controls-toggle"
+              onClick={() => setIsMobileControlsOpen((value) => !value)}
+              aria-expanded={isMobileControlsOpen}
+              aria-controls="mobile-topic-panel"
+            >
+              {isMobileControlsOpen ? '접기' : 'Topic'}
+              <ChevronDown size={16} aria-hidden="true" />
+            </button>
+          </div>
+
+          {isMobileControlsOpen && (
+            <div className="mobile-topic-panel" id="mobile-topic-panel">
+              <div className="mobile-meta-row">
+                <span>Q {questionIndex + 1}/{topic.questions.length}</span>
+                <span>{selectedStats.viewed ? 'Viewed' : 'New'}</span>
+                <span>{selectedStats.completion}% done</span>
+                <span>{selectedStats.mastered} mastered</span>
+              </div>
+
+              <label className="topic-select">
+                <span>Topic</span>
+                <div className="select-shell">
+                  <select
+                    aria-label="Mobile topic selector"
+                    value={topic.id}
+                    onChange={(event) => selectTopicById(event.target.value)}
+                  >
+                    {dataset.topics.map((nextTopic) => (
+                      <option key={nextTopic.id} value={nextTopic.id}>
+                        {nextTopic.title}
+                      </option>
+                    ))}
+                  </select>
+                  <ChevronDown size={16} aria-hidden="true" />
+                </div>
+              </label>
+
+              <div className="mobile-question-strip" aria-label="Mobile question rail">
+                {topic.questions.map((nextQuestion) => {
+                  const stats = getQuestionStats(nextQuestion, progress);
+
+                  return (
+                    <button
+                      key={nextQuestion.id}
+                      type="button"
+                      className={nextQuestion.id === question.id ? 'question-chip active' : 'question-chip'}
+                      onClick={() => selectQuestion(nextQuestion)}
+                      aria-pressed={nextQuestion.id === question.id}
+                    >
+                      <span>{nextQuestion.title}</span>
+                      <small>
+                        {stats.completion}% · {stats.mastered}/{stats.total || '-'}
+                      </small>
+                    </button>
+                  );
+                })}
               </div>
             </div>
-
-            <div className="mobile-score">
-              <span>Q {questionIndex + 1}/{topic.questions.length}</span>
-              <strong>{selectedStats.mastered} mastered</strong>
-            </div>
-          </div>
-
-          <div className="mobile-meta-row">
-            <span>{selectedStats.viewed ? 'Viewed' : 'New'}</span>
-            <span>{selectedStats.hard} hard</span>
-            <span>{selectedStats.completion}% done</span>
-          </div>
-
-          <label className="topic-select">
-            <span>Topic</span>
-            <div className="select-shell">
-              <select
-                aria-label="Mobile topic selector"
-                value={topic.id}
-                onChange={(event) => selectTopicById(event.target.value)}
-              >
-                {dataset.topics.map((nextTopic) => (
-                  <option key={nextTopic.id} value={nextTopic.id}>
-                    {nextTopic.title}
-                  </option>
-                ))}
-              </select>
-              <ChevronDown size={16} aria-hidden="true" />
-            </div>
-          </label>
-
-          <div className="mobile-question-strip" aria-label="Mobile question rail">
-            {topic.questions.map((nextQuestion) => {
-              const stats = getQuestionStats(nextQuestion, progress);
-
-              return (
-                <button
-                  key={nextQuestion.id}
-                  type="button"
-                  className={nextQuestion.id === question.id ? 'question-chip active' : 'question-chip'}
-                  onClick={() => selectQuestion(nextQuestion)}
-                  aria-pressed={nextQuestion.id === question.id}
-                >
-                  <span>{nextQuestion.title}</span>
-                  <small>
-                    {stats.completion}% · {stats.mastered}/{stats.total || '-'}
-                  </small>
-                </button>
-              );
-            })}
-          </div>
+          )}
         </div>
 
         <header className="study-header">
