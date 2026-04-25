@@ -71,6 +71,13 @@ You may add extra helpful sections, for example:
 - One main idea per sentence whenever possible.
 - Keep answers flexible enough for follow-up questions.
 
+## Answer script rules
+- Treat these rules as mandatory for all OPIc answer scripts.
+- Re-write each answer with a clear flow such as `준비 -> 진행 -> 사건 -> 정리`.
+- Keep the overall length similar, but do not mix sentences in a way that breaks the flow.
+- For IH target materials, aim for `8-10` sentences and keep sentence structure at an appropriate level of difficulty.
+- Reuse expressions wherever possible when the same topic appears across multiple questions so memorization stays easy.
+
 ## Review rules
 Before finishing, check:
 - Did every requested topic become its own folder?
