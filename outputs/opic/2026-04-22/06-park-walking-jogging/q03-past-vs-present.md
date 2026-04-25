@@ -7,48 +7,53 @@
 
 ## 암기 포인트 및 흐름
 
-- 예전에는 덜 규칙적, 지금은 습관화
-- 걷는 시간과 이유를 비교한다
-- 몸과 마음이 같이 좋아졌다는 결론으로 닫는다
+- 예전의 불규칙함 → 지금의 루틴 → 가까운 공원 → 몸과 마음 변화 → 결론 순서
+- 집에서 가까운 스카이 파크를 자주 간다는 점을 넣는다
+- 짧아도 계속하는 습관이 더 좋다는 느낌으로 닫는다
 
 ## 한국어 전문
 
-예전에는 운동을 꾸준히 하지 못해서, 기분이 날 때만 공원에 나갔습니다.
-지금은 거의 매일 저녁에 20분 정도 걷는 습관이 생겼습니다.
-예전에는 그냥 빨리 걷는 정도였지만, 요즘은 호흡과 자세도 조금 더 신경 씁니다.
-지난달에는 비가 와서 이틀 정도 쉬었는데, 다시 걸으니 몸이 금방 적응했습니다.
-예전에는 운동을 하면 피곤하다고만 느꼈지만, 지금은 오히려 머리가 맑아집니다.
-물론 매일 나가는 게 조금 번거로울 때도 있지만, 끝나고 나면 훨씬 개운합니다.
-예전에는 운동을 해야 한다는 생각이 강했지만, 지금은 짧게라도 계속하는 게 더 중요하다고 느낍니다.
-그래서 지금의 루틴이 예전보다 몸에도 마음에도 더 좋다고 생각합니다.
+예전에는 운동을 꾸준히 하지 못해서 공원에 가는 날이 들쭉날쭉했습니다.
+퇴근 후에는 피곤해서 그냥 집에서 쉬는 경우가 많았습니다.
+하지만 지금은 거의 매일 저녁에 스카이 파크로 갑니다.
+예전에는 그냥 빨리 걷기만 했지만, 요즘은 호흡과 자세도 조금 더 신경 씁니다.
+잘 정비된 트랙을 천천히 돌면 마음이 편해집니다.
+비가 오지만 않으면 짧게라도 나가려고 합니다.
+공원이 집에서 가깝다 보니 습관으로 만들기가 훨씬 쉬웠습니다.
+예전보다 몸도 가벼워졌고, 머리도 더 맑아진 느낌입니다.
+그래서 지금의 루틴이 예전보다 훨씬 현실적이고 꾸준히 하기 좋다고 생각합니다.
 
 ## 영어 전문
 
-In the past, I was not very consistent with exercise, so I only went to the park when I felt like it.
-Now I have a habit of walking for about 20 minutes almost every evening.
-In the past, I just walked quickly, but these days I also pay a little more attention to my breathing and posture.
-Last month, I took two days off because of rain, but when I started again, my body adjusted quickly.
-Before, exercise only made me feel tired, but now it actually clears my head.
-Of course, going out every day can be a little annoying sometimes, but I feel much better after I finish.
-In the past, I thought exercise had to be harder to count, but now I value something I can keep doing.
-So I think my current routine is better for both my body and my mind than it used to be.
+In the past, I was not very consistent with exercise, so my trips to the park were irregular.
+After work, I was often too tired and just rested at home.
+But now I go to Sky Park almost every evening.
+Before, I only walked quickly, but these days I pay more attention to my breathing and posture.
+Walking slowly around the well-paved track makes me feel calm.
+As long as it is not raining, I try to go out even for a short walk.
+Since the park is close to my home, it was much easier to turn it into a habit.
+I feel lighter physically, and my mind feels clearer too.
+So I think my current routine is much more realistic and easier to keep.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
-- I walk almost every evening now.
-- I pay more attention to my breathing now.
-- Exercise clears my head now.
-- I value something I can keep doing.
-- My current routine is better for my body and mind.
+- I go to Sky Park almost every evening now.
+- I pay more attention to my breathing and posture now.
+- Walking slowly around the track makes me feel calm.
+- It was easier to turn it into a habit because it is close to home.
+- My current routine is more realistic and easier to keep.
 
 ### Key Words
 
 - consistent : 꾸준한
+- irregular : 들쭉날쭉한
 - posture : 자세
 - breathing : 호흡
-- adjust : 적응하다
+- realistic : 현실적인
+- habit : 습관
+- calm : 차분한
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
@@ -60,31 +65,31 @@ So I think my current routine is better for both my body and my mind than it use
 
 ### 지금은 거의 매일 걷습니다.
 
-- I walk almost every evening now.
+- I go to Sky Park almost every evening now.
 - I now have a near-daily walking habit.
 - These days, I go out for a walk regularly.
 
-### 운동을 하면 머리가 맑아집니다.
+### 공원이 집에서 가까워서 습관으로 만들기 쉬웠습니다.
 
-- Exercise clears my head now.
-- Walking helps me think more clearly.
-- A short walk makes me feel refreshed.
+- It was easier to turn it into a habit because it is close to home.
+- The park is so close that I can keep the habit easily.
+- A nearby park made the routine much easier to build.
 
-### 짧게라도 계속하는 게 더 중요합니다.
+### 잘 정비된 트랙을 천천히 돌면 마음이 편합니다.
 
-- I value something I can keep doing.
-- Keeping the habit matters more now.
-- A routine I can maintain is more important to me.
+- Walking slowly around the track makes me feel calm.
+- The track walk helps me relax.
+- A slow lap around the track clears my mind.
 
-### 지금의 루틴이 예전보다 더 좋습니다.
+### 지금의 루틴이 예전보다 훨씬 현실적입니다.
 
-- My current routine is better for my body and mind.
-- This routine fits me better than before.
+- My current routine is much more realistic and easier to keep.
+- This routine fits my life better than before.
 - I feel better with my current habit.
 
 ## Follow-up Hooks
 
-- What changed your routine?
-- Do you exercise indoors too?
+- What made you start the routine?
+- Do you go to the park after work?
 - What do you do on rainy days?
-- How long do you walk now?
+- Do you walk alone or with your family?

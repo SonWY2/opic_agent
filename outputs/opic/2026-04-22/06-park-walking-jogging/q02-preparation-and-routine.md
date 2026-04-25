@@ -7,50 +7,55 @@
 
 ## 암기 포인트 및 흐름
 
-- 준비물 → 시간대 → 걷는 방식 → 작은 습관 → 결론 순서
-- 편한 운동복과 짧은 준비를 말한다
-- 가볍지만 꾸준하다는 느낌으로 닫는다
+- 준비물 → 집과의 거리 → 출발 시간 → 걷는 방식 → 마무리 순서
+- 운동화, 가벼운 외투, 스트레칭 같은 기본 루틴을 말한다
+- 공원이 가까워서 꾸준히 하기 쉽다는 느낌으로 닫는다
 
 ## 한국어 전문
 
 저는 공원에 갈 때 운동화와 가벼운 외투를 챙깁니다.
-날씨가 조금 쌀쌀하면 물도 작은 병 하나 가져갑니다.
-보통 저녁 식사 후 30분쯤 지나서 나가고, 20분에서 30분 정도 걷습니다.
-걷는 동안에는 일부러 빨리 가지 않고, 호흡이 편한 속도로 갑니다.
-지난주에는 평소보다 조금 늦게 출발했지만, 짧게라도 걸으니 기분이 한결 나아졌습니다.
-가끔은 스트레칭도 5분 정도 같이 합니다.
-저는 준비를 복잡하게 하지 않지만, 기본만 챙겨도 꾸준히 하기가 쉬워집니다.
-비가 오면 밖에서 오래 걷지 않고, 집 안에서 가볍게 스트레칭만 하는 날도 있습니다.
-그래서 제 루틴은 단순하지만, 날씨가 달라도 계속 이어가기 좋습니다.
+스카이 파크가 집에서 가까워서 준비는 아주 간단합니다.
+저는 보통 저녁 식사 후에 나가서 20분에서 30분 정도 걷습니다.
+공원에 도착하면 먼저 잠깐 스트레칭을 합니다.
+그다음 잘 정비된 러닝 트랙을 따라 천천히 한 바퀴 걷습니다.
+너무 빨리 걷지 않고 숨이 편한 속도를 유지합니다.
+날씨가 좋은 날에는 꽃이나 나무를 보면서 걷습니다.
+비가 오면 밖에 나가지 않고 집에서 가볍게 스트레칭만 합니다.
+이렇게 하면 루틴이 단순해서 꾸준히 하기 쉽습니다.
 
 ## 영어 전문
 
 When I go to the park, I bring sneakers and a light jacket.
-If the weather is a little chilly, I also take a small bottle of water.
-I usually go out about 30 minutes after dinner and walk for 20 to 30 minutes.
-While I walk, I do not try to move too fast; I keep a pace that makes breathing easy.
-Last week, I left a little later than usual, but even a short walk still made me feel better.
-Sometimes I also stretch for about 5 minutes.
-I do not make the routine complicated, but even basic preparation makes it easier to keep going.
-If it rains, I do light stretching at home instead of forcing myself to go out.
-So my routine is simple, but it is easy to keep for a long time.
+Sky Park is close to my home, so I keep the preparation very simple.
+I usually go out after dinner and walk for 20 to 30 minutes.
+When I get there, I do a little stretching first.
+Then I walk slowly around the well-paved running track.
+I do not try to walk too fast; I keep a pace that feels comfortable.
+On nice days, I enjoy the flowers and trees while I walk.
+If it rains, I stay home and just do light stretching instead.
+That way, my routine stays simple and is easy to keep.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
 - I bring sneakers and a light jacket.
-- I walk at an easy pace.
-- Simple preparation makes the routine easier.
-- I switch to indoor exercise when it rains.
-- I keep the habit going even when the weather changes.
+- Sky Park is close to my home.
+- I do a little stretching first.
+- I walk around the well-paved running track.
+- My routine stays simple and is easy to keep.
 
 ### Key Words
 
 - sneakers : 운동화
+- light jacket : 가벼운 외투
+- stretching : 스트레칭
+- running track : 러닝 트랙
 - stretch : 스트레칭하다
 - pace : 속도
 - routine : 루틴
+- simple : 단순한
+- consistent : 꾸준한
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
@@ -60,51 +65,45 @@ So my routine is simple, but it is easy to keep for a long time.
 - I usually take comfortable shoes and a light coat.
 - I pack simple clothes for walking.
 
-### 저녁 식사 후에 30분쯤 지나서 나갑니다.
+### 스카이 파크가 집에서 가깝습니다.
 
-- I usually go out about 30 minutes after dinner.
-- I head out roughly half an hour after I eat.
-- I wait a little after dinner before walking.
+- Sky Park is close to my home.
+- It is within walking distance from my home.
+- The park is very close, so it is easy to go there.
 
-### 저는 편한 속도로 걷습니다.
+### 공원에 도착하면 먼저 스트레칭을 합니다.
 
+- I do a little stretching first.
+- I warm up before I start walking.
+- I stretch for a few minutes before I go.
+
+### 잘 정비된 러닝 트랙을 따라 걷습니다.
+
+- I walk around the well-paved running track.
+- I use the track for my daily walk.
+- The running track is good for a light workout.
+
+### 너무 빨리 걷지 않습니다.
+
+- I keep a pace that feels comfortable.
+- I do not try to walk too fast.
 - I walk at an easy pace.
-- I keep my pace slow and comfortable.
-- I do not rush when I walk.
 
-### 비가 오면 실내에서 가볍게 움직입니다.
+### 비가 오면 집에서 가볍게 스트레칭만 합니다.
 
-- If it rains, I move around lightly indoors.
-- On rainy days, I do something simple inside.
-- I switch to indoor movement when the weather is bad.
+- If it rains, I stay home and just do light stretching.
+- I switch to indoor stretching on rainy days.
+- I do something simple inside when the weather is bad.
 
-### 걷기 전에 스트레칭을 조금 합니다.
+### 루틴이 단순해서 꾸준히 하기 쉽습니다.
 
-- I do a little stretching before I go out.
-- I warm up briefly before I start.
-- A small stretch helps me get ready.
-
-### 준비를 단순하게 하면 꾸준히 하기 쉽습니다.
-
-- Simple preparation makes the routine easier.
-- It is easier to stay consistent when the routine is simple.
-- Basic preparation helps me keep the habit.
-
-### 날씨가 안 좋으면 실내 운동으로 바꿉니다.
-
-- I switch to indoor exercise when it rains.
-- On rainy days, I keep moving indoors.
-- I do simple indoor exercise when I cannot go out.
-
-### 날씨가 달라도 습관은 계속 이어갑니다.
-
-- I keep the habit going even when the weather changes.
-- I try to stay consistent no matter the weather.
-- I do something light so I can keep the habit going.
+- My routine stays simple and is easy to keep.
+- It is easy to stay consistent with a simple routine.
+- A simple routine helps me keep the habit.
 
 ## Follow-up Hooks
 
-- Do you stretch before walking?
-- What do you bring with you?
-- How long do you usually walk?
-- Do you walk fast or slowly?
+- Do you usually go there after dinner?
+- Do you stretch before you walk?
+- Is the park close to your home?
+- What do you do on rainy days?
