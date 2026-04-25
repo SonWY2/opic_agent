@@ -1,7 +1,6 @@
 {
   "datasetDate": "2026-04-22",
   "sourcePath": "outputs/opic/2026-04-22",
-  "generatedAt": "2026-04-25T03:55:27.216451+00:00",
   "topics": [
     {
       "id": "01-self-intro",
@@ -201,7 +200,7 @@
     },
     {
       "id": "02-work-it-software",
-      "title": "Work IT Software",
+      "title": "Work It Software",
       "questions": [
         {
           "id": "02-work-it-software/q01-company-and-role",

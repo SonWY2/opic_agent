@@ -60,7 +60,6 @@ export function buildStudyDataFromDirectory(sourceRoot = defaultSourceRoot) {
   return {
     datasetDate: path.basename(sourceRoot),
     sourcePath: path.relative(path.resolve(appRoot, '../..'), sourceRoot),
-    generatedAt: new Date().toISOString(),
     topics,
     stats: {
       topicCount: topics.length,
@@ -240,4 +239,3 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     `Generated ${data.stats.questionCount} questions across ${data.stats.topicCount} topics at ${path.relative(process.cwd(), defaultOutputPath)}`
   );
 }
-

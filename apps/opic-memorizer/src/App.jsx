@@ -1,7 +1,8 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   BookOpen,
   Check,
+  ChevronDown,
   Eye,
   EyeOff,
   Layers3,
@@ -39,6 +40,7 @@ export default function App() {
 
   const topic = findTopic(selectedTopicId) ?? dataset.topics[0];
   const question = findQuestion(selectedQuestionId) ?? topic.questions[0];
+  const questionIndex = Math.max(0, topic.questions.findIndex((item) => item.id === question.id));
 
   useEffect(() => {
     updateProgress((current) =>
@@ -51,7 +53,9 @@ export default function App() {
 
   const selectedStats = getQuestionStats(question, progress);
 
-  function selectTopic(nextTopic) {
+  function selectTopicById(nextTopicId) {
+    const nextTopic = findTopic(nextTopicId);
+    if (!nextTopic) return;
     setSelectedTopicId(nextTopic.id);
     setSelectedQuestionId(nextTopic.questions[0].id);
     setMode('flow');
@@ -73,26 +77,30 @@ export default function App() {
   return (
     <main className="app-shell">
       <aside className="topic-rail" aria-label="Topic navigation">
-        <div className="brand-block">
-          <div className="brand-mark">OM</div>
-          <div>
-            <h1>OPIc Memorizer</h1>
-            <p>{dataset.datasetDate} pack</p>
+        <div className="rail-hero">
+          <div className="brand-block">
+            <div className="brand-mark">OM</div>
+            <div>
+              <p>{dataset.datasetDate} pack</p>
+              <h1>OPIc Memorizer</h1>
+            </div>
           </div>
-        </div>
 
-        <div className="pack-stats" aria-label="Pack statistics">
-          <span>{dataset.stats.topicCount} topics</span>
-          <span>{dataset.stats.questionCount} questions</span>
-          <span>{dataset.stats.alignmentIssueCount} review</span>
+          <div className="pack-stats" aria-label="Pack statistics">
+            <span>{dataset.stats.topicCount} topics</span>
+            <span>{dataset.stats.questionCount} questions</span>
+            <span>{dataset.stats.alignmentIssueCount} review</span>
+          </div>
         </div>
 
         <nav className="topic-list">
           {dataset.topics.map((nextTopic) => (
             <button
               key={nextTopic.id}
+              type="button"
               className={nextTopic.id === topic.id ? 'topic-button active' : 'topic-button'}
-              onClick={() => selectTopic(nextTopic)}
+              onClick={() => selectTopicById(nextTopic.id)}
+              aria-pressed={nextTopic.id === topic.id}
             >
               <span>{nextTopic.title}</span>
               <strong>{nextTopic.questions.length}</strong>
@@ -113,8 +121,10 @@ export default function App() {
             return (
               <button
                 key={nextQuestion.id}
+                type="button"
                 className={nextQuestion.id === question.id ? 'question-button active' : 'question-button'}
                 onClick={() => selectQuestion(nextQuestion)}
+                aria-pressed={nextQuestion.id === question.id}
               >
                 <span className="question-title">{nextQuestion.title}</span>
                 <span className="question-meta">
@@ -130,9 +140,71 @@ export default function App() {
       </section>
 
       <section className="study-stage" aria-label="Study area">
+        <div className="mobile-toolbar" aria-label="Mobile study controls">
+          <div className="mobile-brand-row">
+            <div className="brand-block mobile-brand-block">
+              <div className="brand-mark">OM</div>
+              <div>
+                <p>{dataset.datasetDate} pack</p>
+                <h1>OPIc Memorizer</h1>
+              </div>
+            </div>
+
+            <div className="mobile-score">
+              <span>Q {questionIndex + 1}/{topic.questions.length}</span>
+              <strong>{selectedStats.mastered} mastered</strong>
+            </div>
+          </div>
+
+          <div className="mobile-meta-row">
+            <span>{selectedStats.viewed ? 'Viewed' : 'New'}</span>
+            <span>{selectedStats.hard} hard</span>
+            <span>{selectedStats.completion}% done</span>
+          </div>
+
+          <label className="topic-select">
+            <span>Topic</span>
+            <div className="select-shell">
+              <select
+                aria-label="Mobile topic selector"
+                value={topic.id}
+                onChange={(event) => selectTopicById(event.target.value)}
+              >
+                {dataset.topics.map((nextTopic) => (
+                  <option key={nextTopic.id} value={nextTopic.id}>
+                    {nextTopic.title}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown size={16} aria-hidden="true" />
+            </div>
+          </label>
+
+          <div className="mobile-question-strip" aria-label="Mobile question rail">
+            {topic.questions.map((nextQuestion) => {
+              const stats = getQuestionStats(nextQuestion, progress);
+
+              return (
+                <button
+                  key={nextQuestion.id}
+                  type="button"
+                  className={nextQuestion.id === question.id ? 'question-chip active' : 'question-chip'}
+                  onClick={() => selectQuestion(nextQuestion)}
+                  aria-pressed={nextQuestion.id === question.id}
+                >
+                  <span>{nextQuestion.title}</span>
+                  <small>
+                    {stats.completion}% · {stats.mastered}/{stats.total || '-'}
+                  </small>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
         <header className="study-header">
           <div>
-            <p className="eyebrow">{topic.title}</p>
+            <p className="eyebrow">Now studying</p>
             <h2>{question.title}</h2>
             <p className="prompt">{question.promptKo}</p>
             <p className="prompt muted">{question.promptEn}</p>
@@ -163,6 +235,7 @@ export default function App() {
         </div>
 
         <StudyMode
+          key={`${mode}:${question.id}`}
           mode={mode}
           question={question}
           progress={progress}
@@ -195,7 +268,10 @@ function FlowMode({ question }) {
   return (
     <section className="mode-panel flow-grid">
       <div className="flow-points">
-        <h3>암기 포인트 및 흐름</h3>
+        <div className="section-header">
+          <span>Memory flow</span>
+          <h3>암기 포인트 및 흐름</h3>
+        </div>
         <ol>
           {question.flowPoints.map((point) => (
             <li key={point}>{point}</li>
@@ -205,7 +281,10 @@ function FlowMode({ question }) {
 
       <div className="script-stack">
         <div className="section-title-row">
-          <h3>한국어 흐름 암기</h3>
+          <div className="section-header">
+            <span>Sentence map</span>
+            <h3>한국어 흐름 암기</h3>
+          </div>
           {question.hasAlignmentIssue && <span className="review-badge">line review needed</span>}
         </div>
         {question.scriptPairs.map((pair) => (
@@ -213,6 +292,7 @@ function FlowMode({ question }) {
             key={pair.id}
             className={pair.status === 'aligned' ? 'script-line' : 'script-line needs-review'}
             onClick={() => setSelectedPair(pair)}
+            type="button"
           >
             <span>{pair.index}</span>
             <strong>{pair.ko || pair.en}</strong>
@@ -231,13 +311,21 @@ function FlowMode({ question }) {
 }
 
 function DrillMode({ question, progress, onRate }) {
-  const pairs = getAlignedPairs(question);
+  const orderedPairs = getAlignedPairs(question);
+  const [orderMode, setOrderMode] = useState('ordered');
+  const [shuffleNonce, setShuffleNonce] = useState(0);
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
+  const pairs =
+    orderMode === 'random'
+      ? stableShuffle(orderedPairs, shuffleNonce * 2 - 1)
+      : orderedPairs;
   const pair = pairs[index] ?? null;
   const ratings = progress.ratedSentences[question.id] ?? {};
 
   useEffect(() => {
+    setOrderMode('ordered');
+    setShuffleNonce(0);
     setIndex(0);
     setRevealed(false);
   }, [question.id]);
@@ -257,11 +345,48 @@ function DrillMode({ question, progress, onRate }) {
     setIndex((current) => (current + 1) % pairs.length);
   }
 
+  function setOrderedSequence() {
+    setOrderMode('ordered');
+    setIndex(0);
+    setRevealed(false);
+  }
+
+  function setRandomSequence() {
+    setOrderMode('random');
+    setShuffleNonce((current) => current + 1);
+    setIndex(0);
+    setRevealed(false);
+  }
+
   return (
     <section className="mode-panel drill-panel">
       <div className="card-counter">
         <span>Sentence {index + 1} / {pairs.length}</span>
         <span>{ratings[pair.id]?.rating ?? 'unrated'}</span>
+      </div>
+
+      <div className="drill-option-row">
+        <span>순서</span>
+        <div className="drill-order-toggle" role="group" aria-label="Drill order mode">
+          <button
+            type="button"
+            className={orderMode === 'ordered' ? 'active' : ''}
+            onClick={setOrderedSequence}
+            aria-pressed={orderMode === 'ordered'}
+          >
+            <RotateCcw size={16} aria-hidden="true" />
+            기본 순서
+          </button>
+          <button
+            type="button"
+            className={orderMode === 'random' ? 'active' : ''}
+            onClick={setRandomSequence}
+            aria-pressed={orderMode === 'random'}
+          >
+            <Shuffle size={16} aria-hidden="true" />
+            랜덤 순서
+          </button>
+        </div>
       </div>
 
       <div className="recall-card">
@@ -273,7 +398,7 @@ function DrillMode({ question, progress, onRate }) {
             <p>{pair.en}</p>
           </div>
         ) : (
-          <button className="primary-action" onClick={() => setRevealed(true)}>
+          <button className="primary-action" onClick={() => setRevealed(true)} type="button">
             <Eye size={18} aria-hidden="true" />
             Reveal English
           </button>
@@ -309,7 +434,7 @@ function VariantsMode({ question, onRate }) {
     <section className="mode-panel variant-panel">
       <div className="card-counter">
         <span>Variant card {index + 1} / {groups.length}</span>
-        <button onClick={() => setRevealed((value) => !value)}>
+        <button onClick={() => setRevealed((value) => !value)} type="button">
           {revealed ? 'Hide variants' : 'Show variants'}
         </button>
       </div>
@@ -331,12 +456,15 @@ function VariantsMode({ question, onRate }) {
       )}
 
       <div className="rating-row">
-        <button onClick={() => onRate(group.id, 'hard')}>Hard</button>
-        <button className="success" onClick={() => onRate(group.id, 'mastered')}>Mastered</button>
-        <button onClick={() => {
-          setRevealed(false);
-          setIndex((current) => (current + 1) % groups.length);
-        }}>
+        <button onClick={() => onRate(group.id, 'hard')} type="button">Hard</button>
+        <button className="success" onClick={() => onRate(group.id, 'mastered')} type="button">Mastered</button>
+        <button
+          onClick={() => {
+            setRevealed(false);
+            setIndex((current) => (current + 1) % groups.length);
+          }}
+          type="button"
+        >
           Next
         </button>
       </div>
@@ -387,10 +515,13 @@ function OrderQuizMode({ question, onQuizAttempt }) {
     <section className="mode-panel order-panel">
       <div className="order-columns">
         <div>
-          <h3>Shuffled Korean lines</h3>
+          <div className="section-header">
+            <span>Rebuild flow</span>
+            <h3>Shuffled Korean lines</h3>
+          </div>
           <div className="sortable-list">
             {pool.map((pair) => (
-              <button key={pair.id} className="order-chip" onClick={() => choose(pair)}>
+              <button key={pair.id} className="order-chip" onClick={() => choose(pair)} type="button">
                 {pair.ko}
               </button>
             ))}
@@ -398,7 +529,10 @@ function OrderQuizMode({ question, onQuizAttempt }) {
         </div>
 
         <div>
-          <h3>Your answer flow</h3>
+          <div className="section-header">
+            <span>Rebuild flow</span>
+            <h3>Your answer flow</h3>
+          </div>
           <div className="sortable-list answer-list">
             {answer.map((pair, index) => (
               <div key={pair.id} className="answer-chip">
@@ -411,11 +545,11 @@ function OrderQuizMode({ question, onQuizAttempt }) {
       </div>
 
       <div className="quiz-actions">
-        <button onClick={reset}>
+        <button onClick={reset} type="button">
           <RotateCcw size={17} aria-hidden="true" />
           Reset
         </button>
-        <button className="success" onClick={checkOrder}>
+        <button className="success" onClick={checkOrder} type="button">
           <Check size={17} aria-hidden="true" />
           Check Order
         </button>
@@ -456,7 +590,7 @@ function BlankRecallMode({ question }) {
       {pairs.map((pair) => {
         const revealed = revealedIds.has(pair.id);
         return (
-          <button key={pair.id} className="blank-line" onClick={() => toggle(pair.id)}>
+          <button key={pair.id} className="blank-line" onClick={() => toggle(pair.id)} type="button">
             <span>{pair.index}</span>
             <strong>{revealed ? pair.en : blankEnglishSentence(pair.en)}</strong>
             <small>{pair.ko}</small>
@@ -484,7 +618,7 @@ function ShadowingMode({ question }) {
     <section className="mode-panel shadow-panel">
       <div className="card-counter">
         <span>Shadowing {index + 1} / {pairs.length}</span>
-        <button onClick={() => setShowKorean((value) => !value)}>
+        <button onClick={() => setShowKorean((value) => !value)} type="button">
           {showKorean ? 'Hide Korean' : 'Show Korean'}
         </button>
       </div>
@@ -495,8 +629,8 @@ function ShadowingMode({ question }) {
       </div>
 
       <div className="rating-row">
-        <button onClick={() => setIndex((current) => Math.max(0, current - 1))}>Previous</button>
-        <button className="success" onClick={() => setIndex((current) => (current + 1) % pairs.length)}>Next</button>
+        <button onClick={() => setIndex((current) => Math.max(0, current - 1))} type="button">Previous</button>
+        <button className="success" onClick={() => setIndex((current) => (current + 1) % pairs.length)} type="button">Next</button>
       </div>
     </section>
   );
