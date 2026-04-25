@@ -7,90 +7,112 @@
 
 ## 암기 포인트 및 흐름
 
-- 목적지 → 가는 이유 → 거리/시간 → 작은 장면 → 마무리 순서
-- 근교와 휴식 분위기를 함께 말한다
-- 짧은 드라이브가 기분 전환이 된다고 닫는다
+- 출발 준비 -> 짧은 거리 -> 차 안 분위기 -> 도착 후 산책 -> 카페 한 번 -> 귀가 -> 짧은 기분 전환
+- 각 문장은 다음 장면으로 넘어가게 만들어서 순서가 무너지면 흐름이 바로 어색해지도록 한다
+- 핵심 표현은 `출발하기 전에`, `그래서`, `도착하면`, `그다음에는`, `돌아오는 길에는`, `그래서 저는`
+
+### 이야기 흐름도
+
+```text
+[주말 아침]
+  -> [출발 전에 물과 간식 준비]
+  -> [집에서 20분 거리의 바닷가 공원]
+  -> [창문을 조금 열고 음악을 들으며 이동]
+  -> [도착해서 바닷바람을 쐬며 산책]
+  -> [근처 카페에서 따뜻한 음료]
+  -> [돌아오는 길에 차 안이 조용해짐]
+```
 
 ## 한국어 전문
 
-제가 주로 가는 드라이브 목적지는 집에서 30분 정도 떨어진 근교입니다.
-주말 오후에 가족과 잠깐 나가서 바다 근처나 한적한 카페를 들르는 편입니다.
-길이 너무 길지 않아서 아이와 함께 가기에도 부담이 적습니다.
-지난달에는 중간에 휴게소에 잠깐 들러서 따뜻한 커피를 마셨는데, 그 쉬는 시간이 꽤 좋았습니다.
-빠르게 멀리 가는 것보다, 가까운 곳을 천천히 다녀오는 편이 저한테 맞습니다.
-교통이 조금 막혀도 크게 스트레스를 받지 않는 거리라서 더 편합니다.
-저희 집에서는 아이가 오래 차에 타는 것을 좋아하지 않아서, 너무 먼 곳보다 이런 근교가 더 현실적입니다.
-그래서 저는 드라이브를 여행이라기보다, 가족과 함께 잠깐 숨을 고르는 시간으로 생각합니다.
+저는 주말 아침이면 가족과 함께 집에서 20분 정도 떨어진 바닷가 공원으로 드라이브를 갑니다.
+
+출발하기 전에 물과 간식을 챙기고, 아이가 좋아하는 음악도 미리 틀어 둡니다.
+
+그곳은 길이 길지 않아서 차가 조금 막혀도 크게 부담이 없습니다.
+
+그래서 가는 동안에는 창문을 조금 열고 잔잔한 음악을 들으면서 천천히 갑니다.
+
+도착하면 바닷바람을 쐬면서 산책로를 잠깐 걷습니다.
+
+그다음에는 근처 카페에 들러 따뜻한 음료를 마시고 잠시 쉽니다.
+
+돌아오는 길에는 아이가 차 안에서 잠드는 경우가 많아서 분위기가 조용해집니다.
+
+그래서 저는 이 드라이브를 큰 여행이라기보다, 가족이 함께하는 작은 기분 전환으로 생각합니다.
 
 ## 영어 전문
 
-The place I usually drive to is a nearby area about 30 minutes from home.
-On weekend afternoons, I go out with my family and often stop by a beach area or a quiet cafe.
-The trip is not too long, so it is easy to go with my child.
-Last month, we stopped at a rest area for a warm coffee, and that short break felt really nice.
-I prefer going somewhere close and taking my time instead of driving far away quickly.
-Even if traffic gets a little heavy, the distance is short enough that it does not stress me out too much.
-My child does not like being in the car for too long, so a nearby destination is more realistic for us.
-So I think of driving more as a short reset with my family than a big trip.
+On weekend mornings, I usually drive with my family to a small park by the beach about 20 minutes from home.
+
+Before leaving, I pack water and snacks, and I also play music that my child likes.
+
+That place is close enough that even if traffic slows us down, it does not feel too tiring.
+
+So while driving, I keep the window a little open and listen to soft music at a calm pace.
+
+When we arrive, we walk for a while along the shore and enjoy the sea breeze.
+
+Then we stop by a nearby cafe and have a warm drink before heading back.
+
+On the way home, my child often falls asleep, so the car becomes quiet.
+
+So I think of that drive as a small family reset rather than a big trip.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
-- I usually drive to a nearby area.
-- The trip is easy to take with my family.
-- I think of driving as a short reset.
-- A nearby destination is more realistic for us.
-- It feels like a short reset with my family.
+- I drive to a small park by the beach with my family.
+- I pack water and snacks before leaving.
+- I listen to soft music at a calm pace.
+- We walk along the shore and stop at a cafe.
+- I think of it as a small family reset.
 
 ### Key Words
 
-- nearby : 근처의
-- rest area : 휴게소
-- stress : 스트레스
-- reset : 다시 정리하다
+- park by the beach : 바닷가 공원
+- calm pace : 차분한 속도
+- shore : 바닷가
+- snack : 간식
+- reset : 기분 전환
+- quiet : 조용한
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
-### 저는 집에서 가까운 곳으로 드라이브를 갑니다.
+### 저는 주말 아침이면 가족과 함께 바닷가 공원으로 드라이브를 갑니다.
 
-- I usually drive to a nearby area.
-- I often go on short drives close to home.
-- I prefer a destination that is not too far away.
+- On weekend mornings, I usually drive with my family to a small park by the beach.
+- I often take a weekend drive to a park by the beach with my family.
+- I like going to a nearby park by the beach with my family on weekends.
 
-### 주말에는 가족과 함께 근교를 가끔 갑니다.
+### 출발하기 전에 물과 간식을 챙깁니다.
 
-- On weekends, I sometimes go to a nearby area with my family.
-- I occasionally take a short trip nearby with my family.
-- A close destination works well for our weekend plans.
+- I pack water and snacks before leaving.
+- Before I go, I make sure to bring water and snacks.
+- I always prepare water and snacks before the drive.
 
-### 가족과 함께 가기에도 부담이 적습니다.
+### 그곳은 길이 길지 않아서 크게 피곤하지 않습니다.
 
-- The trip is easy to take with my family.
-- It is not too hard to go there with my child.
-- The short distance makes it family-friendly.
+- The drive is not too long, so it does not feel tiring.
+- It is a short drive, so I do not get too tired.
+- Because the route is short, it feels easy.
 
-### 중간에 쉬기 좋은 곳이 있으면 더 좋습니다.
+### 도착하면 바닷바람을 쐬면서 산책합니다.
 
-- It is even better if there is a good place to rest on the way.
-- A nice stop along the route makes the trip easier.
-- I like it when there is a place to take a short break.
+- When we arrive, we walk along the shore.
+- We take a short walk and enjoy the sea breeze.
+- I like walking by the water when we get there.
 
-### 드라이브는 짧은 휴식 같은 느낌입니다.
+### 그래서 그 드라이브는 작은 기분 전환처럼 느껴집니다.
 
-- I think of driving as a short reset.
-- It feels like a brief break for me.
-- A short drive helps me clear my head.
-
-### 가까운 목적지가 우리 가족에게 더 현실적입니다.
-
-- A nearby destination is more realistic for us.
-- A close place fits our family better.
-- A short drive works better for my family.
+- So that drive feels like a small reset.
+- For me, it feels like a little break.
+- I think of it as a short family refresh.
 
 ## Follow-up Hooks
 
-- Where do you usually go?
-- Do you prefer long or short drives?
-- Who do you drive with?
-- Do you stop anywhere on the way?
+- What do you usually bring before driving?
+- Do you prefer a park by the beach or a cafe?
+- Do you like short drives or long drives?
+- What do you do after you arrive?

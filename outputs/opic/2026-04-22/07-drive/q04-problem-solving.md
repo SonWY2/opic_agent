@@ -7,43 +7,72 @@
 
 ## 암기 포인트 및 흐름
 
-- 문제 상황 → 짧은 판단 → 대안 경로 → 안전 우선 → 결과 순서
-- 길이 막혔을 때의 대응을 말한다
-- 서두르지 않고 안전하게 해결했다는 결론으로 닫는다
+- 출발 중 문제 발견 -> 상황 확인 -> 네비로 대안 찾기 -> 안전하게 방향 변경 -> 도착 -> 배운 점
+- 한 번의 사건이 순서대로 진행되도록 만들어서 중간 문장을 섞기 어렵게 한다
+- 핵심 표현은 `얼마 전`, `처음에는`, `그래서`, `그다음에는`, `결국`, `그 일 이후로`
+
+### 이야기 흐름도
+
+```text
+[드라이브 출발]
+  -> [사고로 길이 막힘]
+  -> [차를 천천히 세우고 상황 확인]
+  -> [네비에서 우회 경로 확인]
+  -> [국도로 방향 변경]
+  -> [조금 늦게 도착]
+  -> [다음부터는 침착하게 대응]
+```
 
 ## 한국어 전문
 
-얼마 전에는 드라이브를 가다가 갑자기 길이 많이 막힌 적이 있었습니다.
-원래는 30분 정도 걸리는 길이었는데, 사고 때문에 1시간이 넘을 것 같았습니다.
-그래서 저는 바로 네비게이션에서 다른 길을 찾고, 가까운 국도로 돌아갔습니다.
-처음에는 조금 돌아가는 느낌이었지만, 오히려 그 길이 더 한산해서 마음이 편했습니다.
-차 안에 아이도 있어서, 무리해서 빨리 가는 것보다 안전하게 가는 게 더 중요했습니다.
-결국 15분 정도만 더 걸렸고, 크게 지치지 않고 도착할 수 있었습니다.
-그 일 이후로는 예상보다 길이 막혀도 당황하지 않고, 대안을 먼저 찾게 됐습니다.
-이런 상황에서는 빨리 가는 것보다 차분하게 바꾸는 게 결국 더 낫다고 느꼈습니다.
-그래서 저는 운전할 때 속도보다 판단이 더 중요하다고 생각합니다.
+얼마 전 주말에 가족과 드라이브를 가는 길에 예상하지 못한 문제가 생긴 적이 있었습니다.
+
+원래는 30분 정도 걸리는 길이었는데, 앞쪽에서 사고가 나서 차가 거의 움직이지 않았습니다.
+
+처음에는 그냥 기다릴까 했지만, 네비게이션 도착 시간이 갑자기 많이 늘어나는 걸 보고 바로 상황을 다시 확인했습니다.
+
+그래서 저는 차선을 급하게 바꾸지 않고, 천천히 이동하면서 네비게이션에서 다른 경로를 찾았습니다.
+
+그다음에는 가까운 국도로 빠져서 원래 가려던 방향으로 다시 들어갔습니다.
+
+조금 돌아가는 길이었지만 차가 훨씬 덜 막혀서 오히려 운전하기는 더 편했습니다.
+
+결국 예상보다 15분 정도만 늦게 도착했고, 아이도 크게 지치지 않아서 다행이었습니다.
+
+그 일 이후로는 길이 막히면 무조건 버티기보다, 먼저 상황을 보고 차분하게 다른 방법을 찾는 편입니다.
+
+그래서 저는 운전할 때 빨리 가는 것보다 침착하게 판단하는 게 더 중요하다고 생각합니다.
 
 ## 영어 전문
 
-Not long ago, I had a drive where the road suddenly became very congested.
-The original route was supposed to take about 30 minutes, but because of an accident, it looked like it would take more than an hour.
-So I quickly checked another route on the navigation and took a nearby national road instead.
-At first, it felt like I was going out of the way, but that road was actually quieter, so I felt more comfortable.
-My child was in the car too, so being safe mattered more than rushing.
-In the end, it only took about 15 minutes longer, and we arrived without getting too tired.
-After that, when traffic gets bad, I do not panic first; I look for another option.
-In situations like that, changing plans calmly is usually better than rushing.
-So I think judgment is more important than speed when I drive.
+Not long ago, I had an unexpected problem while driving with my family on the weekend.
+
+The trip was supposed to take about 30 minutes, but there had been an accident ahead, and the traffic almost stopped.
+
+At first, I thought about just waiting, but when I saw the arrival time suddenly getting much longer on the navigation, I checked the situation again.
+
+So instead of changing lanes in a hurry, I moved slowly and looked for another route on the navigation.
+
+Then I took a nearby national road and joined the original direction again a little later.
+
+It was a slightly longer route, but traffic was much lighter there, so driving actually felt easier.
+
+In the end, we arrived only about 15 minutes late, and my child was not too tired.
+
+After that experience, when traffic gets bad, I try to understand the situation first and calmly look for another option.
+
+So I think calm judgment is more important than speed when I drive.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
+- I checked the situation again.
 - I quickly checked another route.
-- Safety mattered more than rushing.
-- Judgment is more important than speed.
+- I took a nearby national road instead.
+- We arrived only about 15 minutes late.
 - I look for another option first.
-- Changing plans calmly is usually better.
+- Calm judgment is more important than speed.
 
 ### Key Words
 
@@ -51,6 +80,7 @@ So I think judgment is more important than speed when I drive.
 - accident : 사고
 - national road : 국도
 - option : 대안
+- situation : 상황
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
@@ -60,23 +90,23 @@ So I think judgment is more important than speed when I drive.
 - I looked for a different road right away.
 - I found an alternative path quickly.
 
-### 안전이 빨리 가는 것보다 더 중요했습니다.
+### 상황을 다시 확인한 뒤에 방향을 바꿨습니다.
 
-- Safety mattered more than rushing.
-- Being safe was more important than arriving fast.
-- I chose safety over speed.
+- I checked the situation again before changing direction.
+- I looked at the situation once more and then changed routes.
+- I changed routes after confirming what was happening.
 
-### 길이 막히면 잠깐 쉬었다 가는 편입니다.
+### 그다음에는 국도로 빠져서 갔습니다.
 
-- If traffic is bad, I take a short break and continue later.
-- When the road is blocked, I slow down and wait a bit.
-- I sometimes stop for a moment if the traffic gets too heavy.
+- Then I took a nearby national road.
+- After that, I moved onto a national road.
+- I used a nearby national road as another route.
 
-### 그다음부터는 출발 시간을 더 넉넉하게 잡습니다.
+### 결국 많이 늦지 않고 도착했습니다.
 
-- After that, I give myself more time before leaving.
-- I leave a little earlier when traffic might be bad.
-- I plan extra time after a traffic problem like that.
+- In the end, we were not very late.
+- We arrived only a little later than planned.
+- It did not delay us as much as I expected.
 
 ### 운전할 때는 판단이 더 중요합니다.
 
