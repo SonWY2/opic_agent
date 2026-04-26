@@ -27,14 +27,16 @@ describe('OPIc Memorizer app', () => {
     expect(window.localStorage.getItem('opic-memorizer:progress:2026-04-22')).toContain('mastered');
   });
 
-  it('keeps order quiz unavailable for scripts that need line review', () => {
+  it('enables order quiz for aligned scripts', () => {
     render(<App />);
 
     fireEvent.click(screen.getByRole('button', { name: /Movies/ }));
     fireEvent.click(within(screen.getByLabelText('Question list')).getByRole('button', { name: /Past vs Present/ }));
     fireEvent.click(screen.getByRole('button', { name: /Order Quiz/ }));
 
-    expect(screen.getByText(/line alignment needs review/i)).toBeInTheDocument();
+    expect(screen.getByText(/Shuffled Korean lines/i)).toBeInTheDocument();
+    expect(screen.getByText(/Your answer flow/i)).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Check Order/ })).toBeInTheDocument();
   });
 
   it('switches topic and question from the mobile controls', async () => {
