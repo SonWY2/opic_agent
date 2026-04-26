@@ -12,7 +12,7 @@ describe('study data parser', () => {
 
     expect(data.datasetDate).toBe('2026-04-22');
     expect(data.stats.topicCount).toBe(12);
-    expect(data.stats.questionCount).toBe(51);
+    expect(data.stats.questionCount).toBe(57);
     expect(data.stats.missingRequiredSections).toEqual([]);
     expect(data.topics[0].questions[0]).toMatchObject({
       id: '01-self-intro/q01-self-intro',
@@ -61,4 +61,3 @@ describe('study data parser', () => {
     expect(firstQuestion.keySentenceGroups[0].variants).toHaveLength(3);
   });
 });
-

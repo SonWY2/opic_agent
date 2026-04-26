@@ -279,6 +279,10 @@
 
 준비 항목: 돌발 주제
 
+- `00-magic-script-for-any-surprise-topic.md`
+  - 어떤 돌발 질문에도 응답하기 위한 범용 스크립트입니다.
+  - A universal response format for unexpected topics.
+
 - `q01-recycling.md`
   - 집에서 재활용을 어떻게 하는지 말해 주세요.
   - Tell me how you recycle at home.
@@ -299,6 +303,26 @@
   - 공공장소를 어떻게 이용하는지 말해 주세요.
   - Tell me how you use public places.
 
+- `q06-public-transportation.md`
+  - 대중교통을 어떻게 이용하는지 말해 주세요.
+  - Tell me how you use public transportation.
+
+- `q07-health-and-hospital.md`
+  - 건강 관리나 병원 방문 경험에 대해 말해 주세요.
+  - Talk about health care or a hospital visit experience.
+
+- `q08-delivery-and-online-service.md`
+  - 온라인 주문이나 배송 서비스 이용 경험에 대해 말해 주세요.
+  - Talk about your experience with online orders or delivery services.
+
+- `q09-neighborhood-noise.md`
+  - 동네나 아파트에서 겪을 수 있는 소음 문제에 대해 말해 주세요.
+  - Talk about noise problems in your neighborhood or apartment.
+
+- `q10-energy-saving.md`
+  - 에너지 절약이나 전기 사용 습관에 대해 말해 주세요.
+  - Talk about energy saving or your electricity use habits.
+
 ## 4. 개수 요약
 
 - 실제 서베이 체크 항목: 12개
@@ -317,7 +341,9 @@
 - 추가 대비 폴더: 2개
   - `11-roleplay`
   - `12-surprise-topics`
-- 전체 질문 파일: 51개
+- 일반 질문 파일: 56개
+- 범용 돌발 템플릿: 1개
+- 전체 학습 markdown 파일: 57개
 
 ## 5. 메모
 

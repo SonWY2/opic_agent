@@ -20,7 +20,7 @@
 - 09-shopping/ : 온라인 쇼핑 선호, 루틴, 변화, 기억에 남는 경험
 - 10-vacation/ : 국내 여행과 집에서 보내는 휴가
 - 11-roleplay/ : 예약, 문의, 문제 해결 롤플레이
-- 12-surprise-topics/ : 재활용, 인터넷, 날씨, 명절, 공공장소
+- 12-surprise-topics/ : 재활용, 인터넷, 날씨, 명절, 공공장소, 대중교통, 건강, 배송, 소음, 에너지 절약
 
 ## 파일 목록
 
@@ -70,11 +70,17 @@
 - 11-roleplay/q11-ask-questions.md
 - 11-roleplay/q12-problem-and-alternatives.md
 - 11-roleplay/q13-similar-experience.md
+- 12-surprise-topics/00-magic-script-for-any-surprise-topic.md
 - 12-surprise-topics/q01-recycling.md
 - 12-surprise-topics/q02-internet-and-devices.md
 - 12-surprise-topics/q03-weather-and-seasons.md
 - 12-surprise-topics/q04-holidays.md
 - 12-surprise-topics/q05-public-places.md
+- 12-surprise-topics/q06-public-transportation.md
+- 12-surprise-topics/q07-health-and-hospital.md
+- 12-surprise-topics/q08-delivery-and-online-service.md
+- 12-surprise-topics/q09-neighborhood-noise.md
+- 12-surprise-topics/q10-energy-saving.md
 
 ## 공부 순서
 

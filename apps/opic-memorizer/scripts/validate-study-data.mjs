@@ -8,7 +8,7 @@ const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
 const failures = [];
 
-if (data.stats.questionCount !== 51) failures.push(`Expected 51 questions, got ${data.stats.questionCount}`);
+if (data.stats.questionCount !== 57) failures.push(`Expected 57 questions, got ${data.stats.questionCount}`);
 if (data.stats.topicCount !== 12) failures.push(`Expected 12 topics, got ${data.stats.topicCount}`);
 if (data.stats.alignmentIssueCount !== 2) {
   failures.push(`Expected 2 alignment issues, got ${data.stats.alignmentIssueCount}`);
@@ -29,4 +29,3 @@ if (failures.length > 0) {
 }
 
 console.log(`Validated ${questions.length} questions from ${data.datasetDate}.`);
-

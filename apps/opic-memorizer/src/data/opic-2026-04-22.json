@@ -200,7 +200,7 @@
     },
     {
       "id": "02-work-it-software",
-      "title": "Work It Software",
+      "title": "Work IT Software",
       "questions": [
         {
           "id": "02-work-it-software/q01-company-and-role",
@@ -4549,173 +4549,179 @@
           "promptKo": "자주 가는 드라이브 목적지를 말해 주세요.",
           "promptEn": "Tell me about a place you like to drive to.",
           "flowPoints": [
-            "목적지 → 가는 이유 → 거리/시간 → 작은 장면 → 마무리 순서",
-            "근교와 휴식 분위기를 함께 말한다",
-            "짧은 드라이브가 기분 전환이 된다고 닫는다"
+            "출발 준비 -> 짧은 거리 -> 차 안 분위기 -> 도착 후 산책 -> 카페 한 번 -> 귀가 -> 짧은 기분 전환",
+            "각 문장은 다음 장면으로 넘어가게 만들어서 순서가 무너지면 흐름이 바로 어색해지도록 한다",
+            "핵심 표현은 `출발하기 전에`, `그래서`, `도착하면`, `그다음에는`, `돌아오는 길에는`, `그래서 저는`",
+            "### 이야기 흐름도",
+            "```text",
+            "[주말 아침]",
+            "-> [출발 전에 물과 간식 준비]",
+            "-> [집에서 20분 거리의 바닷가 공원]",
+            "-> [창문을 조금 열고 음악을 들으며 이동]",
+            "-> [도착해서 바닷바람을 쐬며 산책]",
+            "-> [근처 카페에서 따뜻한 음료]",
+            "-> [돌아오는 길에 차 안이 조용해짐]",
+            "```"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "제가 주로 가는 드라이브 목적지는 집에서 30분 정도 떨어진 근교입니다.",
-              "en": "The place I usually drive to is a nearby area about 30 minutes from home.",
+              "ko": "저는 주말 아침이면 가족과 함께 집에서 20분 정도 떨어진 바닷가 공원으로 드라이브를 갑니다.",
+              "en": "On weekend mornings, I usually drive with my family to a small park by the beach about 20 minutes from home.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "주말 오후에 가족과 잠깐 나가서 바다 근처나 한적한 카페를 들르는 편입니다.",
-              "en": "On weekend afternoons, I go out with my family and often stop by a beach area or a quiet cafe.",
+              "ko": "출발하기 전에 물과 간식을 챙기고, 아이가 좋아하는 음악도 미리 틀어 둡니다.",
+              "en": "Before leaving, I pack water and snacks, and I also play music that my child likes.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "길이 너무 길지 않아서 아이와 함께 가기에도 부담이 적습니다.",
-              "en": "The trip is not too long, so it is easy to go with my child.",
+              "ko": "그곳은 길이 길지 않아서 차가 조금 막혀도 크게 부담이 없습니다.",
+              "en": "That place is close enough that even if traffic slows us down, it does not feel too tiring.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난달에는 중간에 휴게소에 잠깐 들러서 따뜻한 커피를 마셨는데, 그 쉬는 시간이 꽤 좋았습니다.",
-              "en": "Last month, we stopped at a rest area for a warm coffee, and that short break felt really nice.",
+              "ko": "그래서 가는 동안에는 창문을 조금 열고 잔잔한 음악을 들으면서 천천히 갑니다.",
+              "en": "So while driving, I keep the window a little open and listen to soft music at a calm pace.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "빠르게 멀리 가는 것보다, 가까운 곳을 천천히 다녀오는 편이 저한테 맞습니다.",
-              "en": "I prefer going somewhere close and taking my time instead of driving far away quickly.",
+              "ko": "도착하면 바닷바람을 쐬면서 산책로를 잠깐 걷습니다.",
+              "en": "When we arrive, we walk for a while along the shore and enjoy the sea breeze.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "교통이 조금 막혀도 크게 스트레스를 받지 않는 거리라서 더 편합니다.",
-              "en": "Even if traffic gets a little heavy, the distance is short enough that it does not stress me out too much.",
+              "ko": "그다음에는 근처 카페에 들러 따뜻한 음료를 마시고 잠시 쉽니다.",
+              "en": "Then we stop by a nearby cafe and have a warm drink before heading back.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "저희 집에서는 아이가 오래 차에 타는 것을 좋아하지 않아서, 너무 먼 곳보다 이런 근교가 더 현실적입니다.",
-              "en": "My child does not like being in the car for too long, so a nearby destination is more realistic for us.",
+              "ko": "돌아오는 길에는 아이가 차 안에서 잠드는 경우가 많아서 분위기가 조용해집니다.",
+              "en": "On the way home, my child often falls asleep, so the car becomes quiet.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 저는 드라이브를 여행이라기보다, 가족과 함께 잠깐 숨을 고르는 시간으로 생각합니다.",
-              "en": "So I think of driving more as a short reset with my family than a big trip.",
+              "ko": "그래서 저는 이 드라이브를 큰 여행이라기보다, 가족이 함께하는 작은 기분 전환으로 생각합니다.",
+              "en": "So I think of that drive as a small family reset rather than a big trip.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "I usually drive to a nearby area.",
-            "The trip is easy to take with my family.",
-            "I think of driving as a short reset.",
-            "A nearby destination is more realistic for us.",
-            "It feels like a short reset with my family."
+            "I drive to a small park by the beach with my family.",
+            "I pack water and snacks before leaving.",
+            "I listen to soft music at a calm pace.",
+            "We walk along the shore and stop at a cafe.",
+            "I think of it as a small family reset."
           ],
           "keyWords": [
             {
-              "term": "nearby",
-              "meaning": "근처의"
+              "term": "park by the beach",
+              "meaning": "바닷가 공원"
             },
             {
-              "term": "rest area",
-              "meaning": "휴게소"
+              "term": "calm pace",
+              "meaning": "차분한 속도"
             },
             {
-              "term": "stress",
-              "meaning": "스트레스"
+              "term": "shore",
+              "meaning": "바닷가"
+            },
+            {
+              "term": "snack",
+              "meaning": "간식"
             },
             {
               "term": "reset",
-              "meaning": "다시 정리하다"
+              "meaning": "기분 전환"
+            },
+            {
+              "term": "quiet",
+              "meaning": "조용한"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "저는 집에서 가까운 곳으로 드라이브를 갑니다.",
+              "ko": "저는 주말 아침이면 가족과 함께 바닷가 공원으로 드라이브를 갑니다.",
               "koAlternatives": [
-                "저는 집에서 가까운 곳으로 드라이브를 갑니다."
+                "저는 주말 아침이면 가족과 함께 바닷가 공원으로 드라이브를 갑니다."
               ],
               "variants": [
-                "I usually drive to a nearby area.",
-                "I often go on short drives close to home.",
-                "I prefer a destination that is not too far away."
+                "On weekend mornings, I usually drive with my family to a small park by the beach.",
+                "I often take a weekend drive to a park by the beach with my family.",
+                "I like going to a nearby park by the beach with my family on weekends."
               ]
             },
             {
               "id": "k2",
-              "ko": "주말에는 가족과 함께 근교를 가끔 갑니다.",
+              "ko": "출발하기 전에 물과 간식을 챙깁니다.",
               "koAlternatives": [
-                "주말에는 가족과 함께 근교를 가끔 갑니다."
+                "출발하기 전에 물과 간식을 챙깁니다."
               ],
               "variants": [
-                "On weekends, I sometimes go to a nearby area with my family.",
-                "I occasionally take a short trip nearby with my family.",
-                "A close destination works well for our weekend plans."
+                "I pack water and snacks before leaving.",
+                "Before I go, I make sure to bring water and snacks.",
+                "I always prepare water and snacks before the drive."
               ]
             },
             {
               "id": "k3",
-              "ko": "가족과 함께 가기에도 부담이 적습니다.",
+              "ko": "그곳은 길이 길지 않아서 크게 피곤하지 않습니다.",
               "koAlternatives": [
-                "가족과 함께 가기에도 부담이 적습니다."
+                "그곳은 길이 길지 않아서 크게 피곤하지 않습니다."
               ],
               "variants": [
-                "The trip is easy to take with my family.",
-                "It is not too hard to go there with my child.",
-                "The short distance makes it family-friendly."
+                "The drive is not too long, so it does not feel tiring.",
+                "It is a short drive, so I do not get too tired.",
+                "Because the route is short, it feels easy."
               ]
             },
             {
               "id": "k4",
-              "ko": "중간에 쉬기 좋은 곳이 있으면 더 좋습니다.",
+              "ko": "도착하면 바닷바람을 쐬면서 산책합니다.",
               "koAlternatives": [
-                "중간에 쉬기 좋은 곳이 있으면 더 좋습니다."
+                "도착하면 바닷바람을 쐬면서 산책합니다."
               ],
               "variants": [
-                "It is even better if there is a good place to rest on the way.",
-                "A nice stop along the route makes the trip easier.",
-                "I like it when there is a place to take a short break."
+                "When we arrive, we walk along the shore.",
+                "We take a short walk and enjoy the sea breeze.",
+                "I like walking by the water when we get there."
               ]
             },
             {
               "id": "k5",
-              "ko": "드라이브는 짧은 휴식 같은 느낌입니다.",
+              "ko": "그래서 그 드라이브는 작은 기분 전환처럼 느껴집니다.",
               "koAlternatives": [
-                "드라이브는 짧은 휴식 같은 느낌입니다."
+                "그래서 그 드라이브는 작은 기분 전환처럼 느껴집니다."
               ],
               "variants": [
-                "I think of driving as a short reset.",
-                "It feels like a brief break for me.",
-                "A short drive helps me clear my head."
-              ]
-            },
-            {
-              "id": "k6",
-              "ko": "가까운 목적지가 우리 가족에게 더 현실적입니다.",
-              "koAlternatives": [
-                "가까운 목적지가 우리 가족에게 더 현실적입니다."
-              ],
-              "variants": [
-                "A nearby destination is more realistic for us.",
-                "A close place fits our family better.",
-                "A short drive works better for my family."
+                "So that drive feels like a small reset.",
+                "For me, it feels like a little break.",
+                "I think of it as a short family refresh."
               ]
             }
           ],
           "hooks": [
-            "Where do you usually go?",
-            "Do you prefer long or short drives?",
-            "Who do you drive with?",
-            "Do you stop anywhere on the way?"
+            "What do you usually bring before driving?",
+            "Do you prefer a park by the beach or a cafe?",
+            "Do you like short drives or long drives?",
+            "What do you do after you arrive?"
           ]
         },
         {
@@ -4727,75 +4733,85 @@
           "promptKo": "차 안에서 보통 어떤 루틴이 있는지 말해 주세요.",
           "promptEn": "Tell me about your in-car routine.",
           "flowPoints": [
-            "시동 전 → 음악/네비 → 물/간식 → 가족 대화 → 마무리 순서",
-            "운전이 편해지는 작은 준비를 말한다",
-            "조용하지만 안전하게 간다는 느낌으로 닫는다"
+            "차에 타기 -> 자리 정리 -> 네비 설정 -> 문과 짐 확인 -> 음악 시작 -> 조용히 이동 -> 도착 직전 정리",
+            "준비 동작이 하나씩 이어지도록 해서 순서가 흔들리면 바로 어색해지게 만든다",
+            "핵심 표현은 `차에 타면`, `그다음에는`, `그 후에는`, `출발하기 전에`, `운전이 시작되면`, `그래서`",
+            "### 이야기 흐름도",
+            "```text",
+            "[차에 탑승]",
+            "-> [가방과 물 정리]",
+            "-> [목적지 입력]",
+            "-> [아이 자리와 문 확인]",
+            "-> [잔잔한 음악 시작]",
+            "-> [조용히 운전]",
+            "-> [도착 전에 필요한 것 확인]",
+            "```"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "차를 타면 저는 먼저 목적지를 확인하고 네비게이션을 켭니다.",
-              "en": "When I get in the car, I first check the destination and turn on the navigation.",
+              "ko": "차에 타면 저는 먼저 가방을 옆자리에 두고 물 한 병을 손이 닿는 곳에 놓습니다.",
+              "en": "When I get in the car, I first put my bag on the seat and place a bottle of water where I can reach it easily.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "그다음에는 잔잔한 음악을 틀고, 물 한 병을 옆에 둡니다.",
-              "en": "Then I play quiet music and keep a bottle of water next to me.",
+              "ko": "그다음에는 바로 목적지를 확인하고 네비게이션을 켭니다.",
+              "en": "Then I check the destination and turn on the navigation right away.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "아이와 함께 탈 때는 뒤쪽 문이 잘 잠겼는지도 한 번 더 봅니다.",
-              "en": "When my child is with us, I also check once more that the back door is locked properly.",
+              "ko": "그 후에는 아이가 함께 있으면 뒷자리 안전벨트와 문이 잘 닫혔는지 한 번 더 봅니다.",
+              "en": "If my child is with me, I also make sure the seat belt and the back door are secure.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난주에는 출발 직전에 휴대폰 충전선이 안 보여서 5분 정도 찾았는데, 결국 다른 가방에 넣어 둔 것을 찾았습니다.",
-              "en": "Last week, right before leaving, I could not find my charging cable for about 5 minutes, but I finally found it in another bag.",
+              "ko": "출발하기 전에 휴대폰 충전선이나 지갑 같은 작은 물건도 빠졌는지 짧게 확인합니다.",
+              "en": "Before leaving, I quickly check small things like my charging cable and wallet.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "조금 번거로웠지만, 미리 확인해 두니 길에서 불편한 일은 없었습니다.",
-              "en": "It was a little annoying, but checking early meant I had no trouble on the road.",
+              "ko": "지난주에는 충전선이 안 보여서 잠깐 찾았는데, 미리 확인해서 길에서 더 불편한 일은 없었습니다.",
+              "en": "Last week, I could not find my charging cable for a moment, but because I checked early, I had no trouble on the road.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "운전 중에는 너무 큰 소리로 이야기하지 않고, 길이 막히면 짧게만 말합니다.",
-              "en": "While driving, I do not talk too loudly, and if traffic is slow, I keep the conversation short.",
+              "ko": "운전이 시작되면 잔잔한 음악을 틀고, 차 안에서는 너무 큰 소리로 말하지 않는 편입니다.",
+              "en": "Once the drive starts, I play soft music and try not to talk too loudly in the car.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "저는 차 안이 시끄럽기보다는, 천천히 집중할 수 있는 공간이 좋습니다.",
-              "en": "I prefer a car space that is calm rather than noisy.",
+              "ko": "길이 막히더라도 차 안 분위기를 조용하게 유지하면 훨씬 덜 피곤합니다.",
+              "en": "Even when traffic is slow, keeping the car quiet makes the trip feel less tiring.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 제 차 안 루틴은 단순하지만, 출발 전에 마음을 정리하고 안전하게 가는 데 도움이 됩니다.",
-              "en": "So my in-car routine is simple, but it helps me stay calm before departure and drive safely.",
+              "ko": "그래서 제 차 안 루틴은 복잡하지 않지만, 출발부터 도착까지 안정감을 주는 편입니다.",
+              "en": "So my in-car routine is simple, but it helps me feel organized and drive more calmly.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "I turn on the navigation first.",
-            "I keep water and quiet music in the car.",
-            "I prefer a calm car space.",
-            "I stay calm before departure.",
-            "It helps me drive safely."
+            "I place water where I can reach it easily.",
+            "I turn on the navigation right away.",
+            "I check the seat belt and the back door.",
+            "I play soft music once the drive starts.",
+            "My routine helps me drive more calmly."
           ],
           "keyWords": [
             {
@@ -4807,12 +4823,12 @@
               "meaning": "충전선"
             },
             {
-              "term": "locked",
-              "meaning": "잠긴"
+              "term": "secure",
+              "meaning": "안전하게 고정된"
             },
             {
-              "term": "calm",
-              "meaning": "차분한"
+              "term": "organized",
+              "meaning": "정리된"
             }
           ],
           "keySentenceGroups": [
@@ -4830,26 +4846,26 @@
             },
             {
               "id": "k2",
-              "ko": "차 안에는 물과 잔잔한 음악이 있습니다.",
+              "ko": "차에 타면 물을 가까운 곳에 둡니다.",
               "koAlternatives": [
-                "차 안에는 물과 잔잔한 음악이 있습니다."
+                "차에 타면 물을 가까운 곳에 둡니다."
               ],
               "variants": [
-                "I keep water and quiet music in the car.",
-                "I usually bring water and play soft music.",
-                "A calm playlist and water help me drive better."
+                "I place water where I can reach it easily.",
+                "I keep a bottle of water next to me.",
+                "I put water nearby before I start driving."
               ]
             },
             {
               "id": "k3",
-              "ko": "장거리보다 짧은 이동이 더 편합니다.",
+              "ko": "출발 전에 작은 물건도 미리 확인합니다.",
               "koAlternatives": [
-                "장거리보다 짧은 이동이 더 편합니다."
+                "출발 전에 작은 물건도 미리 확인합니다."
               ],
               "variants": [
-                "Short drives are more comfortable for me than long ones.",
-                "I feel better on a short trip than on a long trip.",
-                "I prefer driving when the trip is not too long."
+                "I check small things before leaving.",
+                "I make sure I have everything before I start.",
+                "A quick check before driving helps a lot."
               ]
             },
             {
@@ -4866,14 +4882,14 @@
             },
             {
               "id": "k5",
-              "ko": "출발 전에 미리 확인하면 더 편합니다.",
+              "ko": "그래서 이 루틴이 운전을 더 편하게 해 줍니다.",
               "koAlternatives": [
-                "출발 전에 미리 확인하면 더 편합니다."
+                "그래서 이 루틴이 운전을 더 편하게 해 줍니다."
               ],
               "variants": [
-                "Checking early makes the trip smoother.",
-                "If I check things before leaving, the drive feels easier.",
-                "Early checking saves trouble on the road."
+                "This routine makes driving easier for me.",
+                "My routine helps me feel more comfortable while driving.",
+                "Doing these steps makes the trip smoother."
               ]
             }
           ],
@@ -4893,75 +4909,85 @@
           "promptKo": "예전과 비교해서 운전 습관이 어떻게 달라졌는지 말해 주세요.",
           "promptEn": "Tell me how your driving has changed over time.",
           "flowPoints": [
-            "예전에는 덜 익숙함, 지금은 더 안정적",
-            "내비게이션과 주차 습관 변화",
-            "스트레스가 줄고 여유가 생겼다는 결론"
+            "예전 운전 시작 -> 길 헷갈림 -> 서두르던 습관 -> 지금의 준비 방식 -> 지금의 운전 태도 -> 결론",
+            "과거와 현재가 번갈아 흩어지지 않게, `예전` 블록 뒤에 `지금` 블록이 오도록 정리한다",
+            "핵심 표현은 `예전에는`, `그래서`, `반면에 지금은`, `출발하기 전에`, `그 결과`, `이제는`",
+            "### 이야기 흐름도",
+            "```text",
+            "[예전의 운전]",
+            "-> [길을 자주 헷갈림]",
+            "-> [빨리 도착하려고 서두름]",
+            "-> [준비의 필요성 느낌]",
+            "-> [지금은 경로와 주유 먼저 확인]",
+            "-> [더 천천히 안정적으로 운전]",
+            "-> [운전이 덜 부담스러워짐]",
+            "```"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "예전에는 운전할 때 길을 자주 헷갈려서 긴장하는 편이었습니다.",
-              "en": "In the past, I got nervous easily while driving because I often got confused about the route.",
+              "ko": "예전에는 운전만 시작하면 길을 자주 헷갈려서 금방 긴장하는 편이었습니다.",
+              "en": "In the past, I got nervous easily because I often got confused about the route once I started driving.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "지금은 네비게이션을 잘 쓰고, 미리 경로를 보는 습관이 생겨서 훨씬 편합니다.",
-              "en": "Now I use navigation well and check the route in advance, so it feels much easier.",
+              "ko": "특히 익숙하지 않은 길에서는 빨리 도착해야 한다는 생각이 먼저 들어서 더 서두르곤 했습니다.",
+              "en": "On unfamiliar roads, I used to focus too much on arriving quickly, so I tended to rush.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "예전에는 차를 몰고 나가면 빨리 도착하는 것만 생각했지만, 요즘은 중간 휴식도 같이 봅니다.",
-              "en": "Before, I mostly cared about getting there fast, but these days I also think about taking breaks on the way.",
+              "ko": "그래서 작은 변수만 생겨도 마음이 급해지고, 운전이 꽤 피곤하게 느껴졌습니다.",
+              "en": "Because of that, even a small change on the road made me feel tense, and driving felt tiring.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난주에는 출발 10분 전에 주유를 먼저 해 둬서, 길에서 마음이 훨씬 편했습니다.",
-              "en": "Last week, I filled up the car 10 minutes before leaving, and that made the trip feel much more relaxed.",
+              "ko": "반면에 지금은 출발하기 전에 경로를 먼저 보고 네비게이션도 미리 켜 두는 습관이 생겼습니다.",
+              "en": "Now, by contrast, I check the route in advance and turn on the navigation before leaving.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "예전보다 운전이 쉬워졌지만, 여전히 주변을 잘 살피는 습관은 필요합니다.",
-              "en": "Driving is easier now than before, but I still need to watch the road carefully.",
+              "ko": "주유가 필요할 것 같으면 미리 넣고, 주차할 곳도 간단히 확인하고 나가는 편입니다.",
+              "en": "If I think I need gas, I fill up first, and I also look up parking before I go.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "특히 아이와 함께 탈 때는 더 천천히 움직이게 됩니다.",
-              "en": "Especially when my child is in the car, I naturally drive more slowly.",
+              "ko": "그 결과 운전 중에 갑자기 당황하는 일이 줄었고, 길이 조금 막혀도 예전보다 훨씬 차분합니다.",
+              "en": "As a result, I do not panic as much while driving, and even slow traffic feels more manageable now.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "예전에는 운전이 긴장되는 일이었지만, 지금은 미리 준비하면 훨씬 여유 있게 느껴집니다.",
-              "en": "In the past, driving felt tense, but now I feel much more relaxed when I prepare ahead.",
+              "ko": "특히 아이와 함께 탈 때는 속도를 내기보다 더 천천히 안정적으로 움직이게 됩니다.",
+              "en": "Especially when my child is in the car, I naturally drive more slowly and steadily.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 지금은 운전이 예전보다 덜 부담스럽고, 짧은 외출도 더 편하게 느껴집니다.",
-              "en": "So driving feels less stressful now, and even short outings feel more comfortable.",
+              "ko": "이제는 운전이 예전처럼 긴장되는 일이 아니라, 준비만 하면 충분히 관리할 수 있는 일이라고 느낍니다.",
+              "en": "Now driving does not feel as stressful as before, because I know I can handle it if I prepare well.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
             "I used to get nervous while driving.",
-            "I use navigation well now.",
-            "Driving feels less stressful now.",
-            "I feel more relaxed when I prepare ahead.",
-            "Short outings feel more comfortable now."
+            "I used to rush on unfamiliar roads.",
+            "Now I check the route in advance.",
+            "I prepare gas and parking before leaving.",
+            "Driving feels more manageable now."
           ],
           "keyWords": [
             {
@@ -4973,12 +4999,12 @@
               "meaning": "네비게이션"
             },
             {
-              "term": "relaxed",
-              "meaning": "여유로운"
+              "term": "rush",
+              "meaning": "서두르다"
             },
             {
-              "term": "stressful",
-              "meaning": "부담되는"
+              "term": "manageable",
+              "meaning": "감당 가능한"
             }
           ],
           "keySentenceGroups": [
@@ -4996,18 +5022,30 @@
             },
             {
               "id": "k2",
-              "ko": "지금은 네비게이션을 잘 씁니다.",
+              "ko": "예전에는 익숙하지 않은 길에서 더 서둘렀습니다.",
               "koAlternatives": [
-                "지금은 네비게이션을 잘 씁니다."
+                "예전에는 익숙하지 않은 길에서 더 서둘렀습니다."
               ],
               "variants": [
-                "I use navigation well now.",
-                "I rely on navigation more now.",
-                "I am much more comfortable with route apps now."
+                "I used to rush more on unfamiliar roads.",
+                "New roads made me hurry more than necessary.",
+                "I was more likely to rush when the road was unfamiliar."
               ]
             },
             {
               "id": "k3",
+              "ko": "지금은 출발 전에 경로를 먼저 확인합니다.",
+              "koAlternatives": [
+                "지금은 출발 전에 경로를 먼저 확인합니다."
+              ],
+              "variants": [
+                "Now I check the route before leaving.",
+                "I look at the route in advance now.",
+                "These days I make sure to review the route first."
+              ]
+            },
+            {
+              "id": "k4",
               "ko": "익숙한 길이 아니어도 덜 불안합니다.",
               "koAlternatives": [
                 "익숙한 길이 아니어도 덜 불안합니다."
@@ -5019,27 +5057,27 @@
               ]
             },
             {
-              "id": "k4",
-              "ko": "지금은 운전이 덜 부담스럽습니다.",
+              "id": "k5",
+              "ko": "출발 전에 주유와 주차도 확인합니다.",
               "koAlternatives": [
-                "지금은 운전이 덜 부담스럽습니다."
+                "출발 전에 주유와 주차도 확인합니다."
               ],
               "variants": [
-                "Driving feels less stressful now.",
-                "I feel much more relaxed when I drive now.",
-                "Driving is easier and calmer these days."
+                "I check gas and parking before leaving.",
+                "I prepare gas and parking in advance now.",
+                "I make sure those things are ready before I drive."
               ]
             },
             {
-              "id": "k5",
-              "ko": "미리 준비하면 훨씬 여유가 생깁니다.",
+              "id": "k6",
+              "ko": "이제는 운전이 예전보다 덜 부담스럽습니다.",
               "koAlternatives": [
-                "미리 준비하면 훨씬 여유가 생깁니다."
+                "이제는 운전이 예전보다 덜 부담스럽습니다."
               ],
               "variants": [
-                "I feel more relaxed when I prepare ahead.",
-                "Planning before leaving makes driving easier.",
-                "I feel calmer when I check things early."
+                "Driving feels less stressful now.",
+                "Driving is much more manageable for me now.",
+                "I feel calmer about driving these days."
               ]
             }
           ],
@@ -5059,82 +5097,93 @@
           "promptKo": "운전 중 겪은 문제와 해결 방법을 말해 주세요.",
           "promptEn": "Tell me about a driving problem you solved.",
           "flowPoints": [
-            "문제 상황 → 짧은 판단 → 대안 경로 → 안전 우선 → 결과 순서",
-            "길이 막혔을 때의 대응을 말한다",
-            "서두르지 않고 안전하게 해결했다는 결론으로 닫는다"
+            "출발 중 문제 발견 -> 상황 확인 -> 네비로 대안 찾기 -> 안전하게 방향 변경 -> 도착 -> 배운 점",
+            "한 번의 사건이 순서대로 진행되도록 만들어서 중간 문장을 섞기 어렵게 한다",
+            "핵심 표현은 `얼마 전`, `처음에는`, `그래서`, `그다음에는`, `결국`, `그 일 이후로`",
+            "### 이야기 흐름도",
+            "```text",
+            "[드라이브 출발]",
+            "-> [사고로 길이 막힘]",
+            "-> [차를 천천히 세우고 상황 확인]",
+            "-> [네비에서 우회 경로 확인]",
+            "-> [국도로 방향 변경]",
+            "-> [조금 늦게 도착]",
+            "-> [다음부터는 침착하게 대응]",
+            "```"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "얼마 전에는 드라이브를 가다가 갑자기 길이 많이 막힌 적이 있었습니다.",
-              "en": "Not long ago, I had a drive where the road suddenly became very congested.",
+              "ko": "얼마 전 주말에 가족과 드라이브를 가는 길에 예상하지 못한 문제가 생긴 적이 있었습니다.",
+              "en": "Not long ago, I had an unexpected problem while driving with my family on the weekend.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "원래는 30분 정도 걸리는 길이었는데, 사고 때문에 1시간이 넘을 것 같았습니다.",
-              "en": "The original route was supposed to take about 30 minutes, but because of an accident, it looked like it would take more than an hour.",
+              "ko": "원래는 30분 정도 걸리는 길이었는데, 앞쪽에서 사고가 나서 차가 거의 움직이지 않았습니다.",
+              "en": "The trip was supposed to take about 30 minutes, but there had been an accident ahead, and the traffic almost stopped.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "그래서 저는 바로 네비게이션에서 다른 길을 찾고, 가까운 국도로 돌아갔습니다.",
-              "en": "So I quickly checked another route on the navigation and took a nearby national road instead.",
+              "ko": "처음에는 그냥 기다릴까 했지만, 네비게이션 도착 시간이 갑자기 많이 늘어나는 걸 보고 바로 상황을 다시 확인했습니다.",
+              "en": "At first, I thought about just waiting, but when I saw the arrival time suddenly getting much longer on the navigation, I checked the situation again.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "처음에는 조금 돌아가는 느낌이었지만, 오히려 그 길이 더 한산해서 마음이 편했습니다.",
-              "en": "At first, it felt like I was going out of the way, but that road was actually quieter, so I felt more comfortable.",
+              "ko": "그래서 저는 차선을 급하게 바꾸지 않고, 천천히 이동하면서 네비게이션에서 다른 경로를 찾았습니다.",
+              "en": "So instead of changing lanes in a hurry, I moved slowly and looked for another route on the navigation.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "차 안에 아이도 있어서, 무리해서 빨리 가는 것보다 안전하게 가는 게 더 중요했습니다.",
-              "en": "My child was in the car too, so being safe mattered more than rushing.",
+              "ko": "그다음에는 가까운 국도로 빠져서 원래 가려던 방향으로 다시 들어갔습니다.",
+              "en": "Then I took a nearby national road and joined the original direction again a little later.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "결국 15분 정도만 더 걸렸고, 크게 지치지 않고 도착할 수 있었습니다.",
-              "en": "In the end, it only took about 15 minutes longer, and we arrived without getting too tired.",
+              "ko": "조금 돌아가는 길이었지만 차가 훨씬 덜 막혀서 오히려 운전하기는 더 편했습니다.",
+              "en": "It was a slightly longer route, but traffic was much lighter there, so driving actually felt easier.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "그 일 이후로는 예상보다 길이 막혀도 당황하지 않고, 대안을 먼저 찾게 됐습니다.",
-              "en": "After that, when traffic gets bad, I do not panic first; I look for another option.",
+              "ko": "결국 예상보다 15분 정도만 늦게 도착했고, 아이도 크게 지치지 않아서 다행이었습니다.",
+              "en": "In the end, we arrived only about 15 minutes late, and my child was not too tired.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "이런 상황에서는 빨리 가는 것보다 차분하게 바꾸는 게 결국 더 낫다고 느꼈습니다.",
-              "en": "In situations like that, changing plans calmly is usually better than rushing.",
+              "ko": "그 일 이후로는 길이 막히면 무조건 버티기보다, 먼저 상황을 보고 차분하게 다른 방법을 찾는 편입니다.",
+              "en": "After that experience, when traffic gets bad, I try to understand the situation first and calmly look for another option.",
               "status": "aligned"
             },
             {
               "id": "s9",
               "index": 9,
-              "ko": "그래서 저는 운전할 때 속도보다 판단이 더 중요하다고 생각합니다.",
-              "en": "So I think judgment is more important than speed when I drive.",
+              "ko": "그래서 저는 운전할 때 빨리 가는 것보다 침착하게 판단하는 게 더 중요하다고 생각합니다.",
+              "en": "So I think calm judgment is more important than speed when I drive.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
+            "I checked the situation again.",
             "I quickly checked another route.",
-            "Safety mattered more than rushing.",
-            "Judgment is more important than speed.",
+            "I took a nearby national road instead.",
+            "We arrived only about 15 minutes late.",
             "I look for another option first.",
-            "Changing plans calmly is usually better."
+            "Calm judgment is more important than speed."
           ],
           "keyWords": [
             {
@@ -5152,6 +5201,10 @@
             {
               "term": "option",
               "meaning": "대안"
+            },
+            {
+              "term": "situation",
+              "meaning": "상황"
             }
           ],
           "keySentenceGroups": [
@@ -5169,38 +5222,38 @@
             },
             {
               "id": "k2",
-              "ko": "안전이 빨리 가는 것보다 더 중요했습니다.",
+              "ko": "상황을 다시 확인한 뒤에 방향을 바꿨습니다.",
               "koAlternatives": [
-                "안전이 빨리 가는 것보다 더 중요했습니다."
+                "상황을 다시 확인한 뒤에 방향을 바꿨습니다."
               ],
               "variants": [
-                "Safety mattered more than rushing.",
-                "Being safe was more important than arriving fast.",
-                "I chose safety over speed."
+                "I checked the situation again before changing direction.",
+                "I looked at the situation once more and then changed routes.",
+                "I changed routes after confirming what was happening."
               ]
             },
             {
               "id": "k3",
-              "ko": "길이 막히면 잠깐 쉬었다 가는 편입니다.",
+              "ko": "그다음에는 국도로 빠져서 갔습니다.",
               "koAlternatives": [
-                "길이 막히면 잠깐 쉬었다 가는 편입니다."
+                "그다음에는 국도로 빠져서 갔습니다."
               ],
               "variants": [
-                "If traffic is bad, I take a short break and continue later.",
-                "When the road is blocked, I slow down and wait a bit.",
-                "I sometimes stop for a moment if the traffic gets too heavy."
+                "Then I took a nearby national road.",
+                "After that, I moved onto a national road.",
+                "I used a nearby national road as another route."
               ]
             },
             {
               "id": "k4",
-              "ko": "그다음부터는 출발 시간을 더 넉넉하게 잡습니다.",
+              "ko": "결국 많이 늦지 않고 도착했습니다.",
               "koAlternatives": [
-                "그다음부터는 출발 시간을 더 넉넉하게 잡습니다."
+                "결국 많이 늦지 않고 도착했습니다."
               ],
               "variants": [
-                "After that, I give myself more time before leaving.",
-                "I leave a little earlier when traffic might be bad.",
-                "I plan extra time after a traffic problem like that."
+                "In the end, we were not very late.",
+                "We arrived only a little later than planned.",
+                "It did not delay us as much as I expected."
               ]
             },
             {
@@ -6079,647 +6132,623 @@
       ]
     },
     {
-      "id": "09-strategy-games",
-      "title": "Strategy Games",
+      "id": "09-shopping",
+      "title": "Shopping",
       "questions": [
         {
-          "id": "09-strategy-games/q01-game-description",
-          "topicId": "09-strategy-games",
-          "slug": "q01-game-description",
+          "id": "09-shopping/q01-shopping-preference",
+          "topicId": "09-shopping",
+          "slug": "q01-shopping-preference",
           "order": 1,
-          "title": "Game Description",
-          "promptKo": "즐겨 하는 전략 게임을 설명해 주세요.",
-          "promptEn": "Describe the strategy games you play.",
+          "title": "Preference",
+          "promptKo": "쇼핑할 때 어떤 것을 주로 사고, 어떤 쇼핑 방식을 선호하는지 말해 주세요.",
+          "promptEn": "Talk about what you usually buy and what kind of shopping you prefer.",
           "flowPoints": [
-            "어떤 게임인지 → 핵심 재미 → 플레이 방식 → 작은 예시 → 마무리 순서",
-            "전략과 차분함을 강조한다",
-            "짧게 해도 생각하는 재미가 있다는 결론으로 닫는다"
+            "쇼핑 방식 -> 주로 사는 물건 -> 이유 -> 작은 예시 -> 정리",
+            "온라인 쇼핑을 중심으로 말한다.",
+            "IT 직장인, 가족, 아파트 생활과 연결한다."
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "제가 하는 전략 게임은 한 판에 계획을 세우고 천천히 진행하는 타입입니다.",
-              "en": "The strategy games I play are the kind where you make a plan and move slowly in each round.",
+              "ko": "저는 보통 온라인 쇼핑을 더 선호합니다.",
+              "en": "I usually prefer online shopping.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "보통 휴대폰이나 작은 화면에서 하고, 한 번에 20분에서 30분 정도만 합니다.",
-              "en": "I usually play on my phone or a small screen, and each session lasts about 20 to 30 minutes.",
+              "ko": "평일에는 회사 일이 바쁘고 퇴근 후에는 가족과 시간을 보내야 해서, 매장에 자주 가기는 어렵습니다.",
+              "en": "On weekdays, I am busy with work, and after work I need to spend time with my family, so it is hard to visit stores often.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "빠른 손놀림보다 자원 관리나 순서 선택이 더 중요해서, 머리를 조금 써야 합니다.",
-              "en": "Quick reflexes are less important than resource management and choosing the right order, so I need to think a little.",
+              "ko": "주로 사는 물건은 노트북 액세서리, 생활용품, 아이에게 필요한 작은 물건들입니다.",
+              "en": "I usually buy laptop accessories, household items, and small things for my child.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난주에는 초반 선택을 잘못해서 조금 불리했지만, 중간에 방어를 바꾸고 결국 뒤집었습니다.",
-              "en": "Last week, I made a bad early choice and fell behind, but I changed my defense later and turned it around.",
+              "ko": "온라인에서는 가격과 후기를 한 번에 비교할 수 있어서 편합니다.",
+              "en": "Online shopping is convenient because I can compare prices and reviews at the same time.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "그럴 때는 정말 짜릿하지만, 너무 오래 하면 오히려 피곤해집니다.",
-              "en": "Moments like that feel exciting, but if I play too long, I also get tired.",
+              "ko": "지난달에는 재택근무용 마우스와 케이블 정리함을 샀는데, 책상이 훨씬 깔끔해졌습니다.",
+              "en": "Last month, I bought a mouse for remote work and a cable organizer, and my desk became much cleaner.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "짧게 해도 결과가 남는 느낌이 좋아서 가끔씩 계속 하게 됩니다.",
-              "en": "I like that even a short session still feels meaningful.",
+              "ko": "물론 옷이나 신발처럼 사이즈가 중요한 물건은 직접 보고 사는 편입니다.",
+              "en": "Of course, for clothes or shoes, I prefer to see them in person because the size matters.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "저는 속도가 빠른 게임보다, 생각하면서 조금씩 바꾸는 게임이 더 잘 맞습니다.",
-              "en": "I prefer games that make me think instead of games that only move fast.",
+              "ko": "하지만 반복해서 사는 물건은 온라인 쇼핑이 훨씬 빠르고 안정적입니다.",
+              "en": "But for things I buy regularly, online shopping is much faster and more stable.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 전략 게임은 제 성격에 맞는 차분한 취미라고 생각합니다.",
-              "en": "So strategy games feel like a calm hobby that matches my personality.",
+              "ko": "그래서 저에게 쇼핑은 큰 취미라기보다 생활을 편하게 만드는 실용적인 습관입니다.",
+              "en": "So for me, shopping is not a big hobby, but a practical habit that makes daily life easier.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "Strategy games need planning.",
-            "Resource management is important.",
-            "Even a short session feels meaningful.",
-            "I prefer games that make me think.",
-            "Strategy games match my personality."
+            "I usually prefer online shopping.",
+            "I can compare prices and reviews.",
+            "I usually buy laptop accessories and household items.",
+            "For clothes, I prefer to see them in person.",
+            "Shopping makes daily life easier."
           ],
           "keyWords": [
             {
-              "term": "strategy",
-              "meaning": "전략"
+              "term": "online shopping",
+              "meaning": "온라인 쇼핑"
             },
             {
-              "term": "resource",
-              "meaning": "자원"
+              "term": "compare",
+              "meaning": "비교하다"
             },
             {
-              "term": "defense",
-              "meaning": "방어"
+              "term": "review",
+              "meaning": "후기"
             },
             {
-              "term": "session",
-              "meaning": "한 판, 한 번의 플레이"
+              "term": "household items",
+              "meaning": "생활용품"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "전략 게임은 계획이 중요합니다.",
+              "ko": "저는 온라인 쇼핑을 더 선호합니다.",
               "koAlternatives": [
-                "전략 게임은 계획이 중요합니다."
+                "저는 온라인 쇼핑을 더 선호합니다."
               ],
               "variants": [
-                "Strategy games need planning.",
-                "Planning matters a lot in strategy games.",
-                "You have to think ahead in strategy games."
+                "I usually prefer online shopping.",
+                "I like shopping online more.",
+                "Online shopping works better for me."
               ]
             },
             {
               "id": "k2",
-              "ko": "자원 관리가 중요합니다.",
+              "ko": "가격과 후기를 비교할 수 있어서 편합니다.",
               "koAlternatives": [
-                "자원 관리가 중요합니다."
+                "가격과 후기를 비교할 수 있어서 편합니다."
               ],
               "variants": [
-                "Resource management is important.",
-                "Managing resources well makes the difference.",
-                "Good resource use helps you win."
+                "It is convenient because I can compare prices and reviews.",
+                "I like that I can check prices and reviews together.",
+                "Comparing reviews online helps me choose better."
               ]
             },
             {
               "id": "k3",
-              "ko": "짧게 해도 재미가 있습니다.",
+              "ko": "생활용품과 노트북 액세서리를 주로 삽니다.",
               "koAlternatives": [
-                "짧게 해도 재미가 있습니다."
+                "생활용품과 노트북 액세서리를 주로 삽니다."
               ],
               "variants": [
-                "Even a short session feels meaningful.",
-                "A short game can still be satisfying.",
-                "I enjoy it even when I only play for a little while."
+                "I usually buy household items and laptop accessories.",
+                "I often shop for daily items and computer accessories.",
+                "Most of my shopping is for practical items."
               ]
             },
             {
               "id": "k4",
-              "ko": "전략 게임은 제 성격에 잘 맞습니다.",
+              "ko": "직접 보고 사는 것이 더 좋은 물건도 있습니다.",
               "koAlternatives": [
-                "전략 게임은 제 성격에 잘 맞습니다."
+                "직접 보고 사는 것이 더 좋은 물건도 있습니다."
               ],
               "variants": [
-                "Strategy games match my personality.",
-                "I like calm games that make me think.",
-                "This type of game suits me well."
+                "Some items are better to see in person.",
+                "For some things, I prefer to check them at a store.",
+                "It is better to see clothes or shoes before buying them."
               ]
             }
           ],
           "hooks": [
-            "What kind of strategy game do you play?",
-            "Do you play on phone or PC?",
-            "How long do you usually play?",
-            "What is the hardest part of the game?"
+            "What do you buy most often?",
+            "Do you prefer online shopping or offline shopping?",
+            "How do you choose a product?",
+            "Do you read reviews before buying?"
           ]
         },
         {
-          "id": "09-strategy-games/q02-play-routine",
-          "topicId": "09-strategy-games",
-          "slug": "q02-play-routine",
+          "id": "09-shopping/q02-shopping-routine",
+          "topicId": "09-shopping",
+          "slug": "q02-shopping-routine",
           "order": 2,
-          "title": "Play Routine",
-          "promptKo": "전략 게임을 할 때 보통 어떻게 하는지 말해 주세요.",
-          "promptEn": "Tell me about your strategy game routine.",
+          "title": "Routine",
+          "promptKo": "쇼핑할 때 보통 어떤 순서로 하는지 말해 주세요.",
+          "promptEn": "Tell me about your usual shopping routine.",
           "flowPoints": [
-            "언제 하는지 → 어디서 하는지 → 시작 방식 → 작은 습관 → 마무리 순서",
-            "짧게 집중하는 루틴을 말한다",
-            "오래 하기보다 끊어서 한다는 결론으로 닫는다"
+            "필요 확인 -> 검색 -> 비교 -> 구매 -> 배송 확인",
+            "너무 자세한 기능 설명보다 쉬운 순서 표현을 반복한다.",
+            "카페/퇴근 후 루틴과 연결해서 자연스럽게 말한다."
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "저는 보통 주말 저녁이나 아이가 먼저 잠든 뒤에 전략 게임을 합니다.",
-              "en": "I usually play strategy games on weekend evenings or after my child goes to sleep.",
+              "ko": "저는 쇼핑을 할 때 먼저 정말 필요한 물건인지 확인합니다.",
+              "en": "When I shop, I first check if I really need the item.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "한 번 시작하면 20분 정도만 하고, 너무 늦게까지는 하지 않습니다.",
-              "en": "Once I start, I only play for about 20 minutes, and I do not stay up too late.",
+              "ko": "충동적으로 사면 집에 물건이 너무 많아져서, 보통 장바구니에 먼저 넣어 둡니다.",
+              "en": "If I buy things too quickly, my home gets too crowded, so I usually put items in the cart first.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "처음에는 지난 판 결과를 보고, 다음 선택을 짧게 정리한 뒤 시작합니다.",
-              "en": "At the beginning, I look at the result from the last game and quickly think through my next choice.",
+              "ko": "그다음 퇴근 후나 주말 아침에 가격과 후기를 천천히 비교합니다.",
+              "en": "Then after work or on a weekend morning, I slowly compare prices and reviews.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난 토요일에는 2판을 연속으로 했는데, 두 번째 판은 초반에 자원을 아껴서 훨씬 수월했습니다.",
-              "en": "Last Saturday, I played two rounds in a row, and the second round went much better because I saved resources early.",
+              "ko": "특히 전자기기 액세서리는 호환이 되는지 꼭 확인합니다.",
+              "en": "For electronic accessories, I always check compatibility.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "너무 오래 하면 머리가 피곤해서, 저는 보통 한두 판만 하고 멈춥니다.",
-              "en": "If I play for too long, my head gets tired, so I usually stop after one or two games.",
+              "ko": "예를 들어 케이블이나 충전기를 살 때는 제 노트북과 맞는지 먼저 봅니다.",
+              "en": "For example, when I buy a cable or charger, I first check if it works with my laptop.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "가끔은 음료를 옆에 두고 조용한 방에서 하면 더 집중이 잘 됩니다.",
-              "en": "Sometimes I focus better if I keep a drink nearby and stay in a quiet room.",
+              "ko": "마음에 드는 물건이 있으면 바로 사기보다 배송 날짜와 반품 조건도 확인합니다.",
+              "en": "When I find something I like, I also check the delivery date and return policy before buying it.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "짧게 하고 멈추는 편이 오히려 다음에도 계속하기 좋습니다.",
-              "en": "Stopping early actually makes it easier for me to keep the habit.",
+              "ko": "마지막으로 주문한 뒤에는 배송 알림을 한 번씩 확인합니다.",
+              "en": "After I place the order, I check the delivery notification from time to time.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 제 루틴은 길지 않지만 꾸준히 유지하기 쉽습니다.",
-              "en": "So my routine is short, but it is easy to repeat.",
+              "ko": "이렇게 하면 시간이 조금 걸리지만, 실수를 줄일 수 있어서 좋습니다.",
+              "en": "This takes a little time, but it helps me avoid mistakes.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "I usually play on weekend evenings.",
-            "I only play for about 20 minutes.",
-            "Short sessions are better for me.",
-            "Stopping early helps me keep the habit.",
-            "My routine is short but easy to repeat."
+            "I first check if I really need the item.",
+            "I put items in the cart first.",
+            "I compare prices and reviews.",
+            "I check the delivery date and return policy.",
+            "It helps me avoid mistakes."
           ],
           "keyWords": [
             {
-              "term": "round",
-              "meaning": "판"
+              "term": "cart",
+              "meaning": "장바구니"
             },
             {
-              "term": "resource",
-              "meaning": "자원"
+              "term": "compatibility",
+              "meaning": "호환성"
             },
             {
-              "term": "focus",
-              "meaning": "집중"
+              "term": "delivery date",
+              "meaning": "배송일"
             },
             {
-              "term": "quiet",
-              "meaning": "조용한"
+              "term": "return policy",
+              "meaning": "반품 조건"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "저는 주말 저녁에 게임을 합니다.",
+              "ko": "먼저 정말 필요한 물건인지 확인합니다.",
               "koAlternatives": [
-                "저는 주말 저녁에 게임을 합니다."
+                "먼저 정말 필요한 물건인지 확인합니다."
               ],
               "variants": [
-                "I usually play on weekend evenings.",
-                "Weekend evenings are my usual game time.",
-                "I often play after dinner on weekends."
+                "I first check if I really need the item.",
+                "I ask myself if the item is really necessary.",
+                "I try to make sure I actually need it."
               ]
             },
             {
               "id": "k2",
-              "ko": "게임은 너무 길지 않게 하는 편입니다.",
+              "ko": "가격과 후기를 비교합니다.",
               "koAlternatives": [
-                "게임은 너무 길지 않게 하는 편입니다."
+                "가격과 후기를 비교합니다."
               ],
               "variants": [
-                "I try not to make the game too long.",
-                "I keep the game time short and simple.",
-                "I prefer a short game session."
+                "I compare prices and reviews.",
+                "I check different prices and customer reviews.",
+                "I look at reviews before I make a decision."
               ]
             },
             {
               "id": "k3",
-              "ko": "저는 한 번에 20분 정도만 합니다.",
+              "ko": "배송 날짜와 반품 조건도 확인합니다.",
               "koAlternatives": [
-                "저는 한 번에 20분 정도만 합니다."
+                "배송 날짜와 반품 조건도 확인합니다."
               ],
               "variants": [
-                "I only play for about 20 minutes.",
-                "I keep each session short.",
-                "I do not play for too long at once."
+                "I also check the delivery date and return policy.",
+                "I make sure when it will arrive and how returns work.",
+                "I check delivery and return details before buying."
               ]
             },
             {
               "id": "k4",
-              "ko": "짧게 하는 편이 오래 가기 좋습니다.",
+              "ko": "실수를 줄일 수 있어서 좋습니다.",
               "koAlternatives": [
-                "짧게 하는 편이 오래 가기 좋습니다."
+                "실수를 줄일 수 있어서 좋습니다."
               ],
               "variants": [
-                "Short sessions are better for me.",
-                "It is easier to keep the habit when sessions are short.",
-                "Playing a little at a time works best for me."
-              ]
-            },
-            {
-              "id": "k5",
-              "ko": "짧게 멈추는 편이 습관을 유지하기 쉽습니다.",
-              "koAlternatives": [
-                "짧게 멈추는 편이 습관을 유지하기 쉽습니다."
-              ],
-              "variants": [
-                "Stopping early helps me keep the habit.",
-                "A short session makes it easier to continue next time.",
-                "Ending before I get too tired works better for me."
+                "It helps me avoid mistakes.",
+                "This routine helps me make better choices.",
+                "I can reduce mistakes when I check carefully."
               ]
             }
           ],
           "hooks": [
-            "Do you play after dinner?",
-            "How many rounds do you play?",
-            "Do you prefer short or long sessions?",
-            "What helps you focus in the game?"
+            "Do you check reviews?",
+            "How long do you compare products?",
+            "What do you do after ordering?",
+            "Have you ever returned something?"
           ]
         },
         {
-          "id": "09-strategy-games/q03-past-vs-present",
-          "topicId": "09-strategy-games",
+          "id": "09-shopping/q03-past-vs-present",
+          "topicId": "09-shopping",
           "slug": "q03-past-vs-present",
           "order": 3,
           "title": "Past vs Present",
-          "promptKo": "예전과 비교해서 전략 게임 습관이 어떻게 달라졌는지 말해 주세요.",
-          "promptEn": "Tell me how your strategy game habits have changed over time.",
+          "promptKo": "예전과 비교해서 쇼핑 습관이 어떻게 달라졌는지 말해 주세요.",
+          "promptEn": "Tell me how your shopping habits have changed over time.",
           "flowPoints": [
-            "예전에는 단순, 지금은 더 계획적",
-            "플레이 시간과 태도 변화",
-            "짧고 차분하게 즐긴다는 결론"
+            "예전 쇼핑 방식 -> 지금 쇼핑 방식 -> 이유 -> 예시 -> 정리",
+            "오프라인에서 온라인 중심으로 바뀐 흐름을 말한다.",
+            "과소비가 아니라 신중한 구매로 정리한다."
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "예전에는 전략 게임을 할 때 그냥 빠르게 공격하는 데만 집중했습니다.",
-              "en": "In the past, when I played strategy games, I only focused on attacking quickly.",
+              "ko": "예전에는 쇼핑을 할 때 직접 매장에 가는 경우가 많았습니다.",
+              "en": "In the past, I often went to stores when I shopped.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "지금은 초반 5분 동안 자원을 먼저 보고, 한 번 더 생각한 뒤 움직입니다.",
-              "en": "Now I look at my resources during the first 5 minutes and think a little before I move.",
+              "ko": "특히 대학생 때는 친구들과 쇼핑몰에 가서 옷이나 작은 물건을 구경하는 것을 좋아했습니다.",
+              "en": "Especially when I was a university student, I liked going to shopping malls with friends and looking around for clothes or small items.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "예전에는 이기면 바로 끝났다고 생각했지만, 지금은 중간 실수를 줄이는 게 더 중요하다고 느낍니다.",
-              "en": "Before, I thought winning quickly was everything, but now I feel that reducing mistakes is more important.",
+              "ko": "하지만 지금은 온라인 쇼핑을 훨씬 더 많이 합니다.",
+              "en": "But now I do much more online shopping.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난달에는 너무 서두르다가 첫 방어를 놓쳤는데, 그 뒤로는 시작 전에 메모를 짧게 하게 됐습니다.",
-              "en": "Last month, I rushed too much and missed my first defense, so after that I started writing a short note before each game.",
+              "ko": "회사 일과 가족 일정 때문에 시간을 길게 내기가 어렵기 때문입니다.",
+              "en": "It is because I do not have much free time due to work and family schedules.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "예전보다 게임이 더 차분해졌지만, 그만큼 결과도 더 안정적입니다.",
-              "en": "My games are calmer than before, but the results are more stable too.",
+              "ko": "또 예전에는 마음에 들면 바로 사는 편이었지만, 지금은 후기를 보고 며칠 생각한 뒤에 삽니다.",
+              "en": "Also, in the past, I bought things right away if I liked them, but now I read reviews and think for a few days before buying.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "물론 예전처럼 무작정 빨리 하는 재미도 있지만, 지금은 계획을 세우는 재미가 더 큽니다.",
-              "en": "Of course, the old fast style was fun in its own way, but now I enjoy planning more.",
+              "ko": "지난번에 노트북 거치대를 살 때도 여러 제품을 비교하고 가장 안정적인 제품을 골랐습니다.",
+              "en": "Last time, when I bought a laptop stand, I compared several products and chose the most stable one.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "예전에는 손이 먼저 움직였다면, 지금은 생각을 먼저 하는 편입니다.",
-              "en": "Before, I moved first and thought later, but now I think first and move later.",
+              "ko": "이전보다 쇼핑이 조금 덜 즉흥적이 되었지만, 실패하는 경우도 줄었습니다.",
+              "en": "My shopping is less spontaneous than before, but I make fewer bad choices.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 저는 지금 방식이 더 제 성격에 맞는다고 생각합니다.",
-              "en": "So I think my current style fits my personality better.",
+              "ko": "그래서 지금의 쇼핑 방식이 제 생활에는 더 잘 맞는다고 생각합니다.",
+              "en": "So I think my current shopping style fits my life better.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "I look at my resources first now.",
-            "Reducing mistakes is more important now.",
-            "Planning fits my personality better.",
-            "I think first and move later now.",
-            "My games are calmer but more stable now."
+            "I often went to stores in the past.",
+            "Now I do much more online shopping.",
+            "I read reviews before buying.",
+            "My shopping is less spontaneous now.",
+            "My current shopping style fits my life better."
           ],
           "keyWords": [
             {
-              "term": "resource",
-              "meaning": "자원"
+              "term": "shopping mall",
+              "meaning": "쇼핑몰"
             },
             {
-              "term": "defense",
-              "meaning": "방어"
+              "term": "spontaneous",
+              "meaning": "즉흥적인"
             },
             {
               "term": "stable",
               "meaning": "안정적인"
             },
             {
-              "term": "plan",
-              "meaning": "계획"
+              "term": "fit my life",
+              "meaning": "내 생활에 맞다"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "예전에는 빠르게 공격하는 데만 집중했습니다.",
+              "ko": "예전에는 직접 매장에 자주 갔습니다.",
               "koAlternatives": [
-                "예전에는 빠르게 공격하는 데만 집중했습니다."
+                "예전에는 직접 매장에 자주 갔습니다."
               ],
               "variants": [
-                "In the past, I only focused on attacking quickly.",
-                "I used to play more aggressively.",
-                "I did not think much before moving in the past."
+                "I often went to stores in the past.",
+                "I used to shop at physical stores more often.",
+                "In the past, I liked visiting stores in person."
               ]
             },
             {
               "id": "k2",
-              "ko": "지금은 자원을 먼저 봅니다.",
+              "ko": "지금은 온라인 쇼핑을 더 많이 합니다.",
               "koAlternatives": [
-                "지금은 자원을 먼저 봅니다."
+                "지금은 온라인 쇼핑을 더 많이 합니다."
               ],
               "variants": [
-                "I look at my resources first now.",
-                "I check resources before I act.",
-                "I think about resource balance first."
+                "Now I do much more online shopping.",
+                "These days, I shop online more often.",
+                "Online shopping has become my main way to shop."
               ]
             },
             {
               "id": "k3",
-              "ko": "지금 방식이 제 성격에 더 맞습니다.",
+              "ko": "후기를 보고 며칠 생각한 뒤에 삽니다.",
               "koAlternatives": [
-                "지금 방식이 제 성격에 더 맞습니다."
+                "후기를 보고 며칠 생각한 뒤에 삽니다."
               ],
               "variants": [
-                "My current style fits my personality better.",
-                "This slower style suits me more.",
-                "I feel more comfortable with my current way."
+                "I read reviews and think for a few days before buying.",
+                "I check reviews first and wait before I decide.",
+                "I do not buy right away anymore."
               ]
             },
             {
               "id": "k4",
-              "ko": "지금은 생각을 먼저 합니다.",
+              "ko": "실패하는 구매가 줄었습니다.",
               "koAlternatives": [
-                "지금은 생각을 먼저 합니다."
+                "실패하는 구매가 줄었습니다."
               ],
               "variants": [
-                "I think first and move later now.",
-                "I try to plan before I act.",
-                "I do better when I slow down first."
+                "I make fewer bad choices.",
+                "I have fewer shopping mistakes now.",
+                "I waste less money than before."
               ]
             }
           ],
           "hooks": [
-            "What changed the most?",
-            "Do you write notes before playing?",
-            "Do you play more carefully now?",
-            "What kind of style do you like?"
+            "Did you shop more offline before?",
+            "Why do you shop online now?",
+            "Do you buy things right away?",
+            "What changed the most?"
           ]
         },
         {
-          "id": "09-strategy-games/q04-memorable-experience",
-          "topicId": "09-strategy-games",
+          "id": "09-shopping/q04-memorable-experience",
+          "topicId": "09-shopping",
           "slug": "q04-memorable-experience",
           "order": 4,
           "title": "Memorable Experience",
-          "promptKo": "전략 게임에서 기억에 남는 경험을 말해 주세요.",
-          "promptEn": "Tell me about a memorable strategy game experience.",
+          "promptKo": "쇼핑하면서 기억에 남는 경험을 말해 주세요.",
+          "promptEn": "Talk about a memorable shopping experience.",
           "flowPoints": [
-            "언제/어디서 → 어려운 상황 → 반전 → 느낌 → 교훈 순서",
-            "역전승 같은 작은 성취를 말한다",
-            "포기하지 않고 끝까지 본다는 결론으로 닫는다"
+            "언제/무엇을 샀는지 -> 문제 -> 해결 -> 결과 -> 배운 점",
+            "배송 지연이나 제품 문제는 롤플레이와도 연결된다.",
+            "너무 큰 사건보다 현실적인 작은 문제로 말한다."
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "작년 겨울에 밤 11시쯤 전략 게임을 하다가 기억에 남는 승리를 한 적이 있습니다.",
-              "en": "Last winter, around 11 p.m., I had a memorable win in a strategy game.",
+              "ko": "작년에 온라인으로 노트북 가방을 샀던 일이 기억에 남습니다.",
+              "en": "I remember buying a laptop bag online last year.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "그 판은 초반에 계속 밀려서 거의 질 것 같았습니다.",
-              "en": "In that game, I kept falling behind early and almost thought I would lose.",
+              "ko": "회사에 노트북을 자주 가져가야 해서 가볍고 튼튼한 가방이 필요했습니다.",
+              "en": "I often had to carry my laptop to work, so I needed a bag that was light and strong.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "그런데 저는 바로 포기하지 않고, 방어를 한 번 더 세우고 자원을 모아서 천천히 다시 따라갔습니다.",
-              "en": "But I did not give up right away; I rebuilt my defense, gathered resources, and slowly caught up.",
+              "ko": "후기가 좋아서 주문했는데, 배송이 예상보다 이틀 정도 늦어졌습니다.",
+              "en": "The reviews were good, so I ordered it, but the delivery was delayed by about two days.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "마지막 5분쯤에 상대가 방심한 틈을 놓치지 않고 역전했을 때 정말 기분이 좋았습니다.",
-              "en": "About 5 minutes before the end, I saw a gap when my opponent relaxed a little, and I turned the game around.",
+              "ko": "처음에는 조금 답답했지만, 고객센터에 문의해서 배송 상황을 확인했습니다.",
+              "en": "At first, I felt a little frustrated, but I contacted customer service and checked the delivery status.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "물론 한 판에 오래 걸려서 조금 피곤했지만, 끝까지 버틴 보람이 있었습니다.",
-              "en": "It was a little tiring because the match took a long time, but it was worth it to keep going.",
+              "ko": "직원이 친절하게 위치를 확인해 주었고, 다음 날 받을 수 있다고 설명해 주었습니다.",
+              "en": "The staff kindly checked the location and explained that I could receive it the next day.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "그 경험 이후로는 불리해도 너무 빨리 끝낸다고 생각하지 않게 됐습니다.",
-              "en": "After that, I stopped thinking that a bad start means the game is already over.",
+              "ko": "다행히 가방은 잘 도착했고, 실제로 써 보니 수납공간도 많고 어깨도 편했습니다.",
+              "en": "Luckily, the bag arrived safely, and when I used it, it had enough space and felt comfortable on my shoulder.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "그때부터는 시작이 안 좋아도 마지막까지 보면 결과가 달라질 수 있다고 느꼈습니다.",
-              "en": "Since then, I have believed that the last part of the game can change everything.",
+              "ko": "그때 이후로 저는 중요한 물건은 너무 늦게 주문하지 않으려고 합니다.",
+              "en": "Since then, I try not to order important items too late.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 저는 전략 게임의 재미가 바로 이런 반전 순간에 있다고 느낍니다.",
-              "en": "So for me, the fun of strategy games is in those comeback moments.",
+              "ko": "쇼핑 자체보다 배송 일정과 반품 조건을 미리 확인하는 것이 중요하다고 느꼈습니다.",
+              "en": "I learned that checking the delivery schedule and return policy is just as important as choosing the item.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "I had a memorable win in a strategy game.",
-            "I rebuilt my defense and caught up slowly.",
-            "The fun is in comeback moments.",
-            "A bad start does not mean the game is over.",
-            "The last part can change everything."
+            "I bought a laptop bag online.",
+            "The delivery was delayed by about two days.",
+            "I contacted customer service.",
+            "The bag arrived safely.",
+            "I learned to check the delivery schedule."
           ],
           "keyWords": [
             {
-              "term": "win",
-              "meaning": "승리"
+              "term": "laptop bag",
+              "meaning": "노트북 가방"
             },
             {
-              "term": "defense",
-              "meaning": "방어"
+              "term": "delayed",
+              "meaning": "지연된"
             },
             {
-              "term": "resources",
-              "meaning": "자원"
+              "term": "customer service",
+              "meaning": "고객센터"
             },
             {
-              "term": "comeback",
-              "meaning": "역전"
+              "term": "delivery status",
+              "meaning": "배송 상태"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "전략 게임에서 기억에 남는 승리를 했습니다.",
+              "ko": "배송이 이틀 정도 늦어졌습니다.",
               "koAlternatives": [
-                "전략 게임에서 기억에 남는 승리를 했습니다."
+                "배송이 이틀 정도 늦어졌습니다."
               ],
               "variants": [
-                "I had a memorable win in a strategy game.",
-                "I won a game that I still remember.",
-                "That game became one of my best wins."
+                "The delivery was delayed by about two days.",
+                "It arrived about two days later than expected.",
+                "The package was delayed for two days."
               ]
             },
             {
               "id": "k2",
-              "ko": "초반에는 밀렸지만 끝까지 포기하지 않았습니다.",
+              "ko": "고객센터에 문의했습니다.",
               "koAlternatives": [
-                "초반에는 밀렸지만 끝까지 포기하지 않았습니다."
+                "고객센터에 문의했습니다."
               ],
               "variants": [
-                "I was behind early, but I did not give up.",
-                "Even when I fell behind, I kept playing carefully.",
-                "I stayed calm and kept going until the end."
+                "I contacted customer service.",
+                "I reached out to the customer service center.",
+                "I asked customer service about the delivery status."
               ]
             },
             {
               "id": "k3",
-              "ko": "방어를 다시 세우고 천천히 따라갔습니다.",
+              "ko": "가방은 문제없이 도착했습니다.",
               "koAlternatives": [
-                "방어를 다시 세우고 천천히 따라갔습니다."
+                "가방은 문제없이 도착했습니다."
               ],
               "variants": [
-                "I rebuilt my defense and caught up slowly.",
-                "I recovered by making my defense stronger.",
-                "I slowly came back after fixing my defense."
+                "The bag arrived safely.",
+                "The bag came without any problem.",
+                "I received the bag in good condition."
               ]
             },
             {
               "id": "k4",
-              "ko": "역전 순간이 가장 재미있습니다.",
+              "ko": "배송 일정을 미리 확인해야 합니다.",
               "koAlternatives": [
-                "역전 순간이 가장 재미있습니다."
+                "배송 일정을 미리 확인해야 합니다."
               ],
               "variants": [
-                "The fun is in comeback moments.",
-                "Turning the game around is the best part.",
-                "I like the moment when things flip at the end."
-              ]
-            },
-            {
-              "id": "k5",
-              "ko": "마지막까지 보면 결과가 달라질 수 있습니다.",
-              "koAlternatives": [
-                "마지막까지 보면 결과가 달라질 수 있습니다."
-              ],
-              "variants": [
-                "A bad start does not mean the game is over.",
-                "The last part can change everything.",
-                "Waiting until the end can make a big difference."
+                "I should check the delivery schedule in advance.",
+                "It is important to check when the item will arrive.",
+                "I learned to check delivery dates before ordering."
               ]
             }
           ],
           "hooks": [
-            "How long did the game last?",
-            "What caused the comeback?",
-            "Do you like close games?",
-            "What do you do when you are losing?"
+            "What did you buy?",
+            "Was there a delivery problem?",
+            "How did customer service help you?",
+            "What did you learn from that experience?"
           ]
         }
       ]
@@ -7142,9 +7171,8 @@
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "예전에는 계획 없이 떠나는 편이었습니다.",
+              "ko": "예전에는 계획 없이 떠나는 경우가 많았습니다.",
               "koAlternatives": [
-                "예전에는 계획 없이 떠나는 편이었습니다.",
                 "예전에는 계획 없이 떠나는 경우가 많았습니다."
               ],
               "variants": [
@@ -8815,15 +8843,977 @@
             "What manners do you teach your child?",
             "Do you go to public places alone?"
           ]
+        },
+        {
+          "id": "12-surprise-topics/q06-public-transportation",
+          "topicId": "12-surprise-topics",
+          "slug": "q06-public-transportation",
+          "order": 6,
+          "title": "Public Transportation",
+          "promptKo": "대중교통을 어떻게 이용하는지 말해 주세요.",
+          "promptEn": "Tell me how you use public transportation.",
+          "flowPoints": [
+            "이용 상황 -> 장점 -> 불편한 점 -> 작은 경험 -> 정리",
+            "지하철, 버스, 출퇴근을 연결한다.",
+            "드라이브와 비교해서 말할 수도 있다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "저는 평소에는 운전을 자주 하지만, 서울에 갈 때는 대중교통도 자주 이용합니다.",
+              "en": "I usually drive, but I also use public transportation when I go to Seoul.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "특히 지하철은 길이 막히지 않아서 약속 시간이 정해져 있을 때 편합니다.",
+              "en": "The subway is especially convenient when I have a fixed appointment because it is not affected by traffic.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "버스는 집 근처에서 타기 쉬워서 짧은 거리를 이동할 때 좋습니다.",
+              "en": "Buses are useful for short trips because I can take them near my apartment.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "다만 출퇴근 시간에는 사람이 너무 많아서 조금 피곤할 때가 있습니다.",
+              "en": "However, during rush hour, public transportation can be very crowded and a little tiring.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "지난달에는 회의가 서울에 있어서 지하철을 탔는데, 차를 가져가는 것보다 시간이 더 정확했습니다.",
+              "en": "Last month, I had a meeting in Seoul, so I took the subway, and the travel time was more predictable than driving.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "저는 보통 휴대폰으로 경로와 도착 시간을 먼저 확인합니다.",
+              "en": "I usually check the route and arrival time on my phone first.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "대중교통은 조금 복잡할 때도 있지만, 주차 걱정이 없다는 점이 큰 장점입니다.",
+              "en": "Public transportation can be a bit complicated sometimes, but not worrying about parking is a big advantage.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그래서 저는 상황에 따라 운전과 대중교통을 나누어 이용하는 편입니다.",
+              "en": "So I choose between driving and public transportation depending on the situation.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I use public transportation when I go to Seoul.",
+            "The subway is not affected by traffic.",
+            "Rush hour can be crowded and tiring.",
+            "I check the route on my phone first.",
+            "I choose depending on the situation."
+          ],
+          "keyWords": [
+            {
+              "term": "public transportation",
+              "meaning": "대중교통"
+            },
+            {
+              "term": "subway",
+              "meaning": "지하철"
+            },
+            {
+              "term": "rush hour",
+              "meaning": "출퇴근 시간"
+            },
+            {
+              "term": "predictable",
+              "meaning": "예측 가능한"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "서울에 갈 때는 대중교통을 이용합니다.",
+              "koAlternatives": [
+                "서울에 갈 때는 대중교통을 이용합니다."
+              ],
+              "variants": [
+                "I use public transportation when I go to Seoul.",
+                "I take the subway or bus when I visit Seoul.",
+                "Public transportation is useful for going to Seoul."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "지하철은 교통 체증의 영향을 덜 받습니다.",
+              "koAlternatives": [
+                "지하철은 교통 체증의 영향을 덜 받습니다."
+              ],
+              "variants": [
+                "The subway is not affected by traffic.",
+                "The subway is better when roads are busy.",
+                "Subway travel time is more predictable."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "출퇴근 시간에는 사람이 많아서 피곤합니다.",
+              "koAlternatives": [
+                "출퇴근 시간에는 사람이 많아서 피곤합니다."
+              ],
+              "variants": [
+                "Rush hour can be crowded and tiring.",
+                "Public transportation gets very busy during rush hour.",
+                "I feel tired when the train is too crowded."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "휴대폰으로 경로를 먼저 확인합니다.",
+              "koAlternatives": [
+                "휴대폰으로 경로를 먼저 확인합니다."
+              ],
+              "variants": [
+                "I check the route on my phone first.",
+                "I look up the route before I leave.",
+                "I check the arrival time with a map app."
+              ]
+            }
+          ],
+          "hooks": [
+            "Do you use the subway often?",
+            "Do you prefer driving or public transportation?",
+            "What is difficult during rush hour?",
+            "How do you check routes?"
+          ]
+        },
+        {
+          "id": "12-surprise-topics/q07-health-and-hospital",
+          "topicId": "12-surprise-topics",
+          "slug": "q07-health-and-hospital",
+          "order": 7,
+          "title": "Health And Hospital",
+          "promptKo": "건강 관리나 병원 방문 경험에 대해 말해 주세요.",
+          "promptEn": "Talk about health care or a hospital visit experience.",
+          "flowPoints": [
+            "건강 관리 습관 -> 병원 경험 -> 문제 -> 해결 -> 배운 점",
+            "큰 병보다 감기, 목 통증, 피로처럼 현실적인 소재를 쓴다.",
+            "가족과 회사 생활을 연결한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "저는 건강을 아주 특별하게 관리하지는 않지만, 기본적인 습관은 지키려고 합니다.",
+              "en": "I do not manage my health in a very special way, but I try to keep basic habits.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "평일에는 오래 앉아서 일하기 때문에, 저녁에 짧게 걷는 것이 도움이 됩니다.",
+              "en": "On weekdays, I sit for a long time at work, so taking a short walk in the evening helps me.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "또 잠이 부족하면 집중력이 떨어져서, 가능하면 너무 늦게 자지 않으려고 합니다.",
+              "en": "Also, when I do not sleep enough, my focus gets worse, so I try not to go to bed too late.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "작년에는 목이 많이 아파서 집 근처 병원에 간 적이 있습니다.",
+              "en": "Last year, I had a bad sore throat and visited a clinic near my apartment.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "처음에는 그냥 피곤해서 그런 줄 알았는데, 며칠 지나도 좋아지지 않았습니다.",
+              "en": "At first, I thought I was just tired, but it did not get better after a few days.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "병원에서 약을 받고 며칠 쉬었더니 훨씬 나아졌습니다.",
+              "en": "I got some medicine at the clinic and rested for a few days, and I felt much better.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "그 이후로는 몸이 보내는 작은 신호를 너무 오래 무시하지 않으려고 합니다.",
+              "en": "Since then, I try not to ignore small signals from my body for too long.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "건강 관리는 특별한 운동보다 작은 습관을 꾸준히 지키는 것이 중요하다고 생각합니다.",
+              "en": "I think health care is more about keeping small habits than doing something special.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I try to keep basic habits.",
+            "Taking a short walk helps me.",
+            "I visited a clinic near my apartment.",
+            "I try not to ignore small signals from my body.",
+            "Health care is about small habits."
+          ],
+          "keyWords": [
+            {
+              "term": "health care",
+              "meaning": "건강 관리"
+            },
+            {
+              "term": "clinic",
+              "meaning": "병원, 의원"
+            },
+            {
+              "term": "sore throat",
+              "meaning": "목 통증"
+            },
+            {
+              "term": "focus",
+              "meaning": "집중력"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "기본적인 건강 습관은 지키려고 합니다.",
+              "koAlternatives": [
+                "기본적인 건강 습관은 지키려고 합니다."
+              ],
+              "variants": [
+                "I try to keep basic health habits.",
+                "I try to take care of my health in simple ways.",
+                "I do small things to stay healthy."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "저녁에 짧게 걷는 것이 도움이 됩니다.",
+              "koAlternatives": [
+                "저녁에 짧게 걷는 것이 도움이 됩니다."
+              ],
+              "variants": [
+                "Taking a short walk in the evening helps me.",
+                "A short evening walk makes me feel better.",
+                "Walking after work helps my body relax."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "집 근처 병원에 갔습니다.",
+              "koAlternatives": [
+                "집 근처 병원에 갔습니다."
+              ],
+              "variants": [
+                "I visited a clinic near my apartment.",
+                "I went to a nearby clinic.",
+                "I saw a doctor at a clinic close to home."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "몸의 작은 신호를 무시하지 않으려고 합니다.",
+              "koAlternatives": [
+                "몸의 작은 신호를 무시하지 않으려고 합니다."
+              ],
+              "variants": [
+                "I try not to ignore small signals from my body.",
+                "I try to listen to my body earlier.",
+                "I do not wait too long when I feel sick."
+              ]
+            }
+          ],
+          "hooks": [
+            "How do you take care of your health?",
+            "Do you walk after work?",
+            "When did you last visit a clinic?",
+            "What did you learn from that experience?"
+          ]
+        },
+        {
+          "id": "12-surprise-topics/q08-delivery-and-online-service",
+          "topicId": "12-surprise-topics",
+          "slug": "q08-delivery-and-online-service",
+          "order": 8,
+          "title": "Delivery And Online Service",
+          "promptKo": "온라인 주문이나 배송 서비스 이용 경험에 대해 말해 주세요.",
+          "promptEn": "Talk about your experience with online orders or delivery services.",
+          "flowPoints": [
+            "이용 이유 -> 자주 사는 물건 -> 문제 경험 -> 해결 -> 정리",
+            "쇼핑 주제와 바로 연결한다.",
+            "배송 지연, 고객센터, 반품 조건 표현을 재사용한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "저는 온라인 주문과 배송 서비스를 꽤 자주 이용합니다.",
+              "en": "I use online orders and delivery services quite often.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "회사 일이 바쁠 때는 매장에 직접 갈 시간이 부족해서 온라인으로 생활용품을 사는 편입니다.",
+              "en": "When I am busy with work, I do not have much time to visit stores, so I buy household items online.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "주로 노트북 액세서리, 세제, 아이에게 필요한 작은 물건들을 주문합니다.",
+              "en": "I usually order laptop accessories, detergent, and small things for my child.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "편리한 점은 가격과 후기를 비교하고 집에서 받을 수 있다는 것입니다.",
+              "en": "The convenient part is that I can compare prices and reviews and receive items at home.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "하지만 가끔 배송이 늦어지거나 제품이 생각과 다를 때도 있습니다.",
+              "en": "However, sometimes delivery is delayed, or the product is different from what I expected.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "지난번에는 노트북 가방 배송이 이틀 늦어져서 고객센터에 문의했습니다.",
+              "en": "Last time, the delivery of my laptop bag was delayed by two days, so I contacted customer service.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "직원이 배송 위치를 확인해 주었고, 다음 날 문제없이 받을 수 있었습니다.",
+              "en": "The staff checked the delivery location, and I received it the next day without any problem.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그 이후로는 중요한 물건은 조금 일찍 주문하고, 배송일과 반품 조건을 꼭 확인합니다.",
+              "en": "Since then, I order important items a little early and always check the delivery date and return policy.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "온라인 서비스는 편하지만, 확인하는 습관도 필요하다고 생각합니다.",
+              "en": "Online services are convenient, but I think checking details is also necessary.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I use delivery services quite often.",
+            "I can compare prices and reviews.",
+            "Sometimes delivery is delayed.",
+            "I contacted customer service.",
+            "I always check the delivery date and return policy."
+          ],
+          "keyWords": [
+            {
+              "term": "delivery service",
+              "meaning": "배송 서비스"
+            },
+            {
+              "term": "household items",
+              "meaning": "생활용품"
+            },
+            {
+              "term": "delayed",
+              "meaning": "지연된"
+            },
+            {
+              "term": "return policy",
+              "meaning": "반품 조건"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "온라인 주문과 배송 서비스를 자주 이용합니다.",
+              "koAlternatives": [
+                "온라인 주문과 배송 서비스를 자주 이용합니다."
+              ],
+              "variants": [
+                "I use online orders and delivery services quite often.",
+                "I order things online pretty often.",
+                "Delivery services are part of my daily life."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "가격과 후기를 비교할 수 있어서 편합니다.",
+              "koAlternatives": [
+                "가격과 후기를 비교할 수 있어서 편합니다."
+              ],
+              "variants": [
+                "I can compare prices and reviews.",
+                "It is convenient to check prices and reviews together.",
+                "Reviews help me choose better products."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "배송이 늦어질 때도 있습니다.",
+              "koAlternatives": [
+                "배송이 늦어질 때도 있습니다."
+              ],
+              "variants": [
+                "Sometimes delivery is delayed.",
+                "Sometimes packages arrive later than expected.",
+                "Delivery can be late from time to time."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "배송일과 반품 조건을 확인합니다.",
+              "koAlternatives": [
+                "배송일과 반품 조건을 확인합니다."
+              ],
+              "variants": [
+                "I check the delivery date and return policy.",
+                "I make sure when it will arrive and how returns work.",
+                "I check the details before I order."
+              ]
+            }
+          ],
+          "hooks": [
+            "What do you order online?",
+            "Have you had a delivery problem?",
+            "Do you contact customer service?",
+            "Do you check return policies?"
+          ]
+        },
+        {
+          "id": "12-surprise-topics/q09-neighborhood-noise",
+          "topicId": "12-surprise-topics",
+          "slug": "q09-neighborhood-noise",
+          "order": 9,
+          "title": "Neighborhood Noise",
+          "promptKo": "동네나 아파트에서 겪을 수 있는 소음 문제에 대해 말해 주세요.",
+          "promptEn": "Talk about noise problems in your neighborhood or apartment.",
+          "flowPoints": [
+            "문제 소개 -> 언제 불편한지 -> 내 경험 -> 해결 방식 -> 정리",
+            "아파트 거주 페르소나와 바로 연결한다.",
+            "비난보다 배려와 관리사무소 연락으로 안정적으로 말한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "아파트에 살다 보면 가끔 소음 문제가 생길 수 있습니다.",
+              "en": "When people live in apartments, noise problems can happen sometimes.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "낮에는 어느 정도 괜찮지만, 밤 늦게 큰 소리가 나면 조금 신경이 쓰입니다.",
+              "en": "During the day, some noise is okay, but loud sounds late at night can bother me.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "저희 집도 예전에 위층에서 물건을 끄는 소리가 계속 들린 적이 있습니다.",
+              "en": "In my apartment, I once heard dragging sounds from upstairs many times.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "처음에는 바로 항의하지 않고 며칠 정도 상황을 지켜봤습니다.",
+              "en": "At first, I did not complain right away and watched the situation for a few days.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그래도 계속 반복되어서 관리사무소에 조용히 문의했습니다.",
+              "en": "But it kept happening, so I quietly asked the management office about it.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "다행히 큰 갈등 없이 안내 방송이 나갔고, 그 이후로는 소리가 많이 줄었습니다.",
+              "en": "Luckily, there was no big conflict, and after a notice was made, the noise became much better.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "저는 이런 문제는 감정적으로 말하기보다 차분하게 해결하는 것이 좋다고 생각합니다.",
+              "en": "I think it is better to solve this kind of problem calmly instead of emotionally.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "아파트는 여러 사람이 함께 사는 공간이라 기본적인 배려가 가장 중요합니다.",
+              "en": "Since an apartment is a shared living space, basic consideration matters most.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "Noise problems can happen in apartments.",
+            "Loud sounds late at night can bother me.",
+            "I asked the management office about it.",
+            "The noise became much better.",
+            "Basic consideration matters most."
+          ],
+          "keyWords": [
+            {
+              "term": "noise problem",
+              "meaning": "소음 문제"
+            },
+            {
+              "term": "upstairs",
+              "meaning": "위층"
+            },
+            {
+              "term": "management office",
+              "meaning": "관리사무소"
+            },
+            {
+              "term": "consideration",
+              "meaning": "배려"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "아파트에서는 소음 문제가 생길 수 있습니다.",
+              "koAlternatives": [
+                "아파트에서는 소음 문제가 생길 수 있습니다."
+              ],
+              "variants": [
+                "Noise problems can happen in apartments.",
+                "Apartment living can include noise issues.",
+                "It is possible to have noise problems in shared buildings."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "밤 늦게 큰 소리가 나면 신경이 쓰입니다.",
+              "koAlternatives": [
+                "밤 늦게 큰 소리가 나면 신경이 쓰입니다."
+              ],
+              "variants": [
+                "Loud sounds late at night can bother me.",
+                "Noise at night is more stressful.",
+                "I feel uncomfortable when it is noisy late at night."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "관리사무소에 조용히 문의했습니다.",
+              "koAlternatives": [
+                "관리사무소에 조용히 문의했습니다."
+              ],
+              "variants": [
+                "I quietly asked the management office about it.",
+                "I contacted the apartment office calmly.",
+                "I asked the management office for help."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "기본적인 배려가 가장 중요합니다.",
+              "koAlternatives": [
+                "기본적인 배려가 가장 중요합니다."
+              ],
+              "variants": [
+                "Basic consideration matters most.",
+                "Being considerate is the most important thing.",
+                "Simple consideration makes apartment life better."
+              ]
+            }
+          ],
+          "hooks": [
+            "Have you had noise problems?",
+            "What did you do about it?",
+            "Do you contact the management office?",
+            "Why is consideration important?"
+          ]
+        },
+        {
+          "id": "12-surprise-topics/q10-energy-saving",
+          "topicId": "12-surprise-topics",
+          "slug": "q10-energy-saving",
+          "order": 10,
+          "title": "Energy Saving",
+          "promptKo": "에너지 절약이나 전기 사용 습관에 대해 말해 주세요.",
+          "promptEn": "Talk about energy saving or your electricity use habits.",
+          "flowPoints": [
+            "왜 중요한지 -> 집에서 하는 행동 -> 계절별 차이 -> 작은 경험 -> 정리",
+            "환경, 관리비, 아파트 생활을 연결한다.",
+            "어렵게 말하지 않고 전등, 에어컨, 멀티탭으로 답한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "저는 에너지 절약이 환경뿐만 아니라 생활비와도 연결된다고 생각합니다.",
+              "en": "I think energy saving is connected not only to the environment but also to living costs.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "집에서는 사용하지 않는 방의 불을 끄고, 충전기가 필요 없을 때는 멀티탭을 끄려고 합니다.",
+              "en": "At home, I turn off lights in rooms we are not using, and I try to turn off the power strip when chargers are not needed.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "여름에는 에어컨을 너무 낮게 틀기보다 선풍기와 같이 사용합니다.",
+              "en": "In summer, I use a fan together with the air conditioner instead of setting the temperature too low.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "겨울에는 난방 온도를 너무 높이지 않고, 따뜻한 옷을 먼저 입는 편입니다.",
+              "en": "In winter, I do not set the heater too high, and I wear warm clothes first.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "지난달에는 전기요금이 조금 많이 나와서 가족과 함께 사용 습관을 다시 확인했습니다.",
+              "en": "Last month, our electricity bill was a little higher than usual, so my family checked our habits again.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "큰 변화는 아니었지만, 불필요한 전등과 대기 전력을 줄이려고 했습니다.",
+              "en": "It was not a big change, but we tried to reduce unnecessary lights and standby power.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "이런 행동은 아주 특별하지 않지만, 매일 하면 꽤 도움이 됩니다.",
+              "en": "These actions are not special, but if we do them every day, they can help a lot.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그래서 저는 에너지 절약은 거창한 일이 아니라 작은 생활 습관이라고 생각합니다.",
+              "en": "So I think energy saving is not a huge project, but a small daily habit.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "Energy saving is connected to living costs.",
+            "I turn off lights in rooms we are not using.",
+            "I use a fan with the air conditioner.",
+            "We tried to reduce standby power.",
+            "Energy saving is a small daily habit."
+          ],
+          "keyWords": [
+            {
+              "term": "energy saving",
+              "meaning": "에너지 절약"
+            },
+            {
+              "term": "electricity bill",
+              "meaning": "전기요금"
+            },
+            {
+              "term": "power strip",
+              "meaning": "멀티탭"
+            },
+            {
+              "term": "standby power",
+              "meaning": "대기 전력"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "에너지 절약은 생활비와도 연결됩니다.",
+              "koAlternatives": [
+                "에너지 절약은 생활비와도 연결됩니다."
+              ],
+              "variants": [
+                "Energy saving is connected to living costs.",
+                "Saving energy also helps with household expenses.",
+                "Energy use affects the electricity bill."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "사용하지 않는 방의 불을 끕니다.",
+              "koAlternatives": [
+                "사용하지 않는 방의 불을 끕니다."
+              ],
+              "variants": [
+                "I turn off lights in rooms we are not using.",
+                "I switch off lights when nobody is in the room.",
+                "I try not to leave lights on."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "에어컨과 선풍기를 같이 사용합니다.",
+              "koAlternatives": [
+                "에어컨과 선풍기를 같이 사용합니다."
+              ],
+              "variants": [
+                "I use a fan together with the air conditioner.",
+                "I use the air conditioner with a fan.",
+                "A fan helps me avoid setting the air conditioner too low."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "에너지 절약은 작은 생활 습관입니다.",
+              "koAlternatives": [
+                "에너지 절약은 작은 생활 습관입니다."
+              ],
+              "variants": [
+                "Energy saving is a small daily habit.",
+                "Saving energy starts with small habits.",
+                "Small daily actions can save energy."
+              ]
+            }
+          ],
+          "hooks": [
+            "How do you save energy at home?",
+            "Do you care about electricity bills?",
+            "What do you do in summer?",
+            "Do you turn off unused lights?"
+          ]
+        },
+        {
+          "id": "12-surprise-topics/00-magic-script-for-any-surprise-topic",
+          "topicId": "12-surprise-topics",
+          "slug": "00-magic-script-for-any-surprise-topic",
+          "order": 999,
+          "title": "Magic Script For Any Topic",
+          "promptKo": "잘 모르는 돌발 주제가 나왔을 때도 대답할 수 있는 범용 답변을 연습해 주세요.",
+          "promptEn": "Practice a universal answer for an unexpected topic you do not know well.",
+          "flowPoints": [
+            "인정 -> 일반 의견 -> 내 생활 연결 -> 작은 예시 -> 변화/문제 -> 정리",
+            "모르는 주제라도 바로 포기하지 않는다.",
+            "`I do not know much about it, but...` 다음에 내 일상으로 끌고 온다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "솔직히 말하면, 이 주제에 대해 아주 많이 알지는 못합니다.",
+              "en": "To be honest, I do not know a lot about this topic.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "하지만 제 생각에는 이것이 일상생활과 어느 정도 연결되어 있는 주제입니다.",
+              "en": "But I think it is connected to daily life in some way.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "저는 보통 이런 문제를 제 가족, 회사 생활, 또는 아파트 생활과 연결해서 생각합니다.",
+              "en": "I usually try to connect this kind of issue to my family, my work, or my apartment life.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "예를 들어, 최근에도 비슷한 상황을 작게 경험한 적이 있습니다.",
+              "en": "For example, I have had a small similar experience recently.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그때 저는 먼저 상황을 확인하고, 너무 크게 반응하기보다 가능한 선택지를 찾아보려고 했습니다.",
+              "en": "At that time, I first checked the situation and tried to find a practical option instead of reacting too strongly.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "이런 주제는 사람마다 생각이 다를 수 있지만, 작은 습관이나 기본적인 배려가 중요하다고 생각합니다.",
+              "en": "People may have different opinions about this topic, but I think small habits and basic consideration are important.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "요즘은 사회가 빠르게 변해서 이런 문제를 더 자주 보게 되는 것 같습니다.",
+              "en": "These days, society changes quickly, so we see this kind of issue more often.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그래서 저는 완벽한 답은 몰라도, 일상에서 할 수 있는 작은 행동부터 하는 것이 좋다고 생각합니다.",
+              "en": "So even if I do not know the perfect answer, I think it is better to start with small actions in daily life.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "결국 중요한 것은 너무 어렵게 생각하지 않고, 현실적으로 대응하는 태도라고 느낍니다.",
+              "en": "In the end, what matters most is not thinking too hard, but responding in a realistic way.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "To be honest, I do not know a lot about this topic.",
+            "It is connected to daily life in some way.",
+            "I try to connect it to my family, work, or apartment life.",
+            "Small habits and basic consideration are important.",
+            "It is better to start with small actions.",
+            "What matters most is responding in a realistic way."
+          ],
+          "keyWords": [
+            {
+              "term": "to be honest",
+              "meaning": "솔직히 말하면"
+            },
+            {
+              "term": "connected",
+              "meaning": "연결된"
+            },
+            {
+              "term": "practical option",
+              "meaning": "현실적인 선택지"
+            },
+            {
+              "term": "consideration",
+              "meaning": "배려"
+            },
+            {
+              "term": "realistic",
+              "meaning": "현실적인"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "이 주제에 대해 아주 많이 알지는 못합니다.",
+              "koAlternatives": [
+                "이 주제에 대해 아주 많이 알지는 못합니다."
+              ],
+              "variants": [
+                "I do not know a lot about this topic.",
+                "I am not an expert on this topic.",
+                "I do not have deep knowledge about it."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "그래도 일상생활과 연결되어 있다고 생각합니다.",
+              "koAlternatives": [
+                "그래도 일상생활과 연결되어 있다고 생각합니다."
+              ],
+              "variants": [
+                "I think it is connected to daily life in some way.",
+                "I can still connect it to my daily life.",
+                "It has something to do with everyday life."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "제 가족, 회사, 아파트 생활과 연결해서 생각합니다.",
+              "koAlternatives": [
+                "제 가족, 회사, 아파트 생활과 연결해서 생각합니다."
+              ],
+              "variants": [
+                "I connect it to my family, work, or apartment life.",
+                "I think about it through my own daily routine.",
+                "I try to relate it to my real life."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "작은 습관과 기본적인 배려가 중요합니다.",
+              "koAlternatives": [
+                "작은 습관과 기본적인 배려가 중요합니다."
+              ],
+              "variants": [
+                "Small habits and basic consideration are important.",
+                "Little habits and simple manners matter.",
+                "Basic consideration can make a big difference."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "완벽한 답보다 작은 행동이 중요합니다.",
+              "koAlternatives": [
+                "완벽한 답보다 작은 행동이 중요합니다."
+              ],
+              "variants": [
+                "Small actions are more important than a perfect answer.",
+                "It is better to start with something small.",
+                "I think practical action matters more than a perfect opinion."
+              ]
+            },
+            {
+              "id": "k6",
+              "ko": "현실적으로 대응하는 태도가 중요합니다.",
+              "koAlternatives": [
+                "현실적으로 대응하는 태도가 중요합니다."
+              ],
+              "variants": [
+                "Responding in a realistic way matters most.",
+                "A practical attitude is important.",
+                "It is important to handle the situation calmly and realistically."
+              ]
+            }
+          ],
+          "hooks": []
         }
       ]
     }
   ],
   "stats": {
     "topicCount": 12,
-    "questionCount": 51,
-    "totalScriptPairs": 425,
-    "alignedQuestionCount": 49,
+    "questionCount": 57,
+    "totalScriptPairs": 475,
+    "alignedQuestionCount": 55,
     "alignmentIssueCount": 2,
     "missingRequiredSections": []
   }
