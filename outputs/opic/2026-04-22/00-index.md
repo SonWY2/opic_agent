@@ -17,7 +17,7 @@
 - 06-park-walking-jogging/ : 공원 산책, 걷기, 조깅 루틴
 - 07-drive/ : 드라이브, 차 안 루틴, 길 위 문제 해결
 - 08-music/ : 음악 취향과 감상 루틴
-- 09-strategy-games/ : 전략 게임 설명과 플레이 경험
+- 09-shopping/ : 온라인 쇼핑 선호, 루틴, 변화, 기억에 남는 경험
 - 10-vacation/ : 국내 여행과 집에서 보내는 휴가
 - 11-roleplay/ : 예약, 문의, 문제 해결 롤플레이
 - 12-surprise-topics/ : 재활용, 인터넷, 날씨, 명절, 공공장소
@@ -59,10 +59,10 @@
 - 08-music/q03-past-vs-present.md
 - 08-music/q04-memorable-experience.md
 - 08-music/q05-industry-trends.md
-- 09-strategy-games/q01-game-description.md
-- 09-strategy-games/q02-play-routine.md
-- 09-strategy-games/q03-past-vs-present.md
-- 09-strategy-games/q04-memorable-experience.md
+- 09-shopping/q01-shopping-preference.md
+- 09-shopping/q02-shopping-routine.md
+- 09-shopping/q03-past-vs-present.md
+- 09-shopping/q04-memorable-experience.md
 - 10-vacation/q01-preferred-place.md
 - 10-vacation/q02-planning-and-routine.md
 - 10-vacation/q03-past-vs-present.md
@@ -82,7 +82,7 @@
 2. 02-work-it-software
 3. 03-home-apartment
 4. 05-cafe / 06-park-walking-jogging
-5. 07-drive / 08-music / 09-strategy-games
+5. 07-drive / 08-music / 09-shopping
 6. 10-vacation
 7. 11-roleplay
 8. 12-surprise-topics

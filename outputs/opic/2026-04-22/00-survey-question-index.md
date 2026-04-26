@@ -1,0 +1,324 @@
+# 00-survey-question-index
+
+## 1. 서베이 선택 항목 12개
+
+기준 폴더: `outputs/opic/2026-04-22/`
+
+대상 페르소나: 한국인 IT/소프트웨어 엔지니어, 아파트 거주, 가족과 함께 생활
+
+목표 난이도: OPIc 5-6, IH 목표
+
+아래 12개가 실제 시험 서베이에서 체크할 선택 항목입니다.
+
+| 번호 | 구분 | 서베이 선택 항목 | 연결 폴더 | 비고 |
+|---:|---|---|---|---|
+| 1 | 여가 활동 | 영화 보기 | `04-movies-performances-concerts` | 영화 중심 답변으로 준비 |
+| 2 | 여가 활동 | 공연 보기 | `04-movies-performances-concerts` | 영화와 비교 가능 |
+| 3 | 여가 활동 | 콘서트 보기 | `04-movies-performances-concerts` | 공연/라이브 경험으로 연결 |
+| 4 | 여가 활동 | 카페 가기 | `05-cafe` | 장소, 루틴, 경험 준비 |
+| 5 | 운동 / 활동 | 공원 가기 | `06-park-walking-jogging` | 산책 코스와 연결 |
+| 6 | 운동 / 활동 | 걷기 | `06-park-walking-jogging` | 평일 루틴으로 준비 |
+| 7 | 운동 / 활동 | 조깅 | `06-park-walking-jogging` | 가벼운 운동 흐름으로 준비 |
+| 8 | 이동 / 여가 | 드라이브하기 | `07-drive` | 가족 근교 드라이브 |
+| 9 | 취미 | 음악 감상하기 | `08-music` | 출퇴근, 산책 루틴과 연결 |
+| 10 | 취미 / 생활 | 쇼핑하기 | `09-shopping` | 온라인 쇼핑 중심 |
+| 11 | 휴가 | 국내 여행 | `10-vacation` | 강릉 등 짧은 가족 여행 |
+| 12 | 휴가 | 집에서 보내는 휴가 | `10-vacation` | staycation 답변으로 연결 |
+
+## 2. 배경 정보 및 추가 대비 영역
+
+### 배경 정보
+
+- 직업: 직장인 / IT 소프트웨어 업무
+- 거주지: 아파트 거주
+- 가족 구성: 가족과 함께 생활
+- 자기소개: IT 엔지니어, 레거시 마이그레이션, 시스템 개선, AI 에이전트 업무
+
+### 추가로 준비한 시험 대비 영역
+
+- 롤플레이: 예약, 문의, 문제 해결, 비슷한 경험
+- 돌발 주제: 재활용, 인터넷과 기기, 날씨와 계절, 명절, 공공장소
+
+### 교체 이력
+
+- 기존 선택 후보였던 `전략 게임`은 제외했습니다.
+- 0422 폴더에서는 `09-shopping`이 `09-strategy-games`를 대체합니다.
+- 쇼핑 스크립트는 온라인 쇼핑, 생활용품, 노트북 액세서리, 배송 지연 경험을 중심으로 구성했습니다.
+
+## 3. 스크립트화된 문제 목록
+
+### 01-self-intro
+
+선택/준비 항목: 자기소개
+
+- `q01-self-intro.md`
+  - 자기소개를 해 주세요.
+  - Tell me about yourself.
+
+### 02-work-it-software
+
+선택/준비 항목: 직장인, IT/소프트웨어 업무
+
+- `q01-company-and-role.md`
+  - 회사와 맡은 업무를 말해 주세요.
+  - Tell me about your company and your role.
+
+- `q02-daily-work-routine.md`
+  - 평소 업무 루틴을 말해 주세요.
+  - Describe your daily work routine.
+
+- `q03-past-vs-present.md`
+  - 예전과 비교해서 업무 방식이 어떻게 달라졌는지 말해 주세요.
+  - Tell me how your work has changed over time.
+
+- `q04-problem-solving.md`
+  - 최근 업무 문제와 해결 방법을 말해 주세요.
+  - Tell me about a problem you solved at work.
+
+- `q05-industry-trends.md`
+  - IT 업계의 최근 흐름을 말해 주세요.
+  - Tell me about current trends in the IT industry.
+
+- `q06-social-issues.md`
+  - 관심 있는 사회 문제를 말해 주세요.
+  - Tell me about a social issue you care about.
+
+### 03-home-apartment
+
+선택/준비 항목: 아파트 거주, 가족과 함께 생활
+
+- `q01-home-layout.md`
+  - 집 구조를 설명해 주세요.
+  - Describe your home layout.
+
+- `q02-home-routine.md`
+  - 집에서의 일상 루틴을 말해 주세요.
+  - Tell me about your home routine.
+
+- `q03-past-vs-present.md`
+  - 예전과 비교해서 집 생활이 어떻게 달라졌는지 말해 주세요.
+  - Tell me how your home life has changed over time.
+
+- `q04-home-problem-solving.md`
+  - 집에서 겪은 문제와 해결 방법을 말해 주세요.
+  - Tell me about a problem you had at home.
+
+- `q05-housing-issues.md`
+  - 주거 문제를 말해 주세요.
+  - Tell me about housing issues.
+
+### 04-movies-performances-concerts
+
+선택/준비 항목: 영화 / 공연 / 콘서트
+
+- `q01-preference.md`
+  - 영화와 공연 중 무엇을 더 좋아하는지 말해 주세요.
+  - Tell me which you prefer, movies or live performances.
+
+- `q02-viewing-routine.md`
+  - 영화나 공연을 볼 때 보통 어떻게 하는지 말해 주세요.
+  - Tell me about your viewing routine.
+
+- `q03-past-vs-present.md`
+  - 예전과 비교해서 영화나 공연을 보는 방식이 어떻게 달라졌는지 말해 주세요.
+  - Tell me how your movie-watching habits have changed.
+
+- `q04-memorable-experience.md`
+  - 기억에 남는 영화나 공연 경험을 말해 주세요.
+  - Tell me about a memorable movie or performance experience.
+
+- `q05-industry-trends.md`
+  - 영화, 공연, 콘서트의 최근 흐름을 말해 주세요.
+  - Tell me about current trends in movies, performances, or concerts.
+
+### 05-cafe
+
+선택/준비 항목: 카페 가기
+
+- `q01-place-description.md`
+  - 자주 가는 카페를 설명해 주세요.
+  - Describe your favorite cafe.
+
+- `q02-visit-routine.md`
+  - 카페에 갈 때 보통 어떻게 하는지 말해 주세요.
+  - Tell me about your cafe routine.
+
+- `q03-past-vs-present.md`
+  - 예전과 비교해서 카페 이용 방식이 어떻게 달라졌는지 말해 주세요.
+  - Tell me how your cafe habits have changed over time.
+
+- `q04-memorable-experience.md`
+  - 카페에서 기억에 남는 경험을 말해 주세요.
+  - Tell me about a memorable experience at a cafe.
+
+### 06-park-walking-jogging
+
+선택/준비 항목: 공원 산책 / 걷기 / 조깅
+
+- `q01-place-and-course.md`
+  - 자주 가는 공원과 산책 코스를 설명해 주세요.
+  - Describe the park or route you usually walk.
+
+- `q02-preparation-and-routine.md`
+  - 공원 산책이나 조깅 루틴을 말해 주세요.
+  - Tell me about your walking or jogging routine.
+
+- `q03-past-vs-present.md`
+  - 예전과 비교해서 산책이나 조깅 습관이 어떻게 달라졌는지 말해 주세요.
+  - Tell me how your walking or jogging habits have changed over time.
+
+- `q04-memorable-experience.md`
+  - 공원에서 기억에 남는 경험을 말해 주세요.
+  - Tell me about a memorable experience at the park.
+
+- `q05-health-trends.md`
+  - 걷기나 가벼운 운동과 관련된 최근 건강 흐름을 말해 주세요.
+  - Tell me about current health trends related to walking or light exercise.
+
+### 07-drive
+
+선택/준비 항목: 드라이브
+
+- `q01-destination.md`
+  - 자주 가는 드라이브 목적지를 말해 주세요.
+  - Tell me about a place you like to drive to.
+
+- `q02-in-car-routine.md`
+  - 차 안에서 보통 어떤 루틴이 있는지 말해 주세요.
+  - Tell me about your in-car routine.
+
+- `q03-past-vs-present.md`
+  - 예전과 비교해서 운전 습관이 어떻게 달라졌는지 말해 주세요.
+  - Tell me how your driving has changed over time.
+
+- `q04-problem-solving.md`
+  - 운전 중 겪은 문제와 해결 방법을 말해 주세요.
+  - Tell me about a driving problem you solved.
+
+### 08-music
+
+선택/준비 항목: 음악 감상
+
+- `q01-preference.md`
+  - 좋아하는 음악 취향을 말해 주세요.
+  - Tell me about your music preferences.
+
+- `q02-listening-routine.md`
+  - 음악을 들을 때 보통 어떻게 하는지 말해 주세요.
+  - Tell me about your music listening routine.
+
+- `q03-past-vs-present.md`
+  - 예전과 비교해서 음악을 듣는 방식이 어떻게 달라졌는지 말해 주세요.
+  - Tell me how your music habits have changed over time.
+
+- `q04-memorable-experience.md`
+  - 음악과 관련된 기억에 남는 경험을 말해 주세요.
+  - Tell me about a memorable music experience.
+
+- `q05-industry-trends.md`
+  - 음악 업계의 최근 흐름을 말해 주세요.
+  - Tell me about current trends in the music industry.
+
+### 09-shopping
+
+선택/준비 항목: 쇼핑
+
+- `q01-shopping-preference.md`
+  - 쇼핑할 때 어떤 것을 주로 사고, 어떤 쇼핑 방식을 선호하는지 말해 주세요.
+  - Talk about what you usually buy and what kind of shopping you prefer.
+
+- `q02-shopping-routine.md`
+  - 쇼핑할 때 보통 어떤 순서로 하는지 말해 주세요.
+  - Tell me about your usual shopping routine.
+
+- `q03-past-vs-present.md`
+  - 예전과 비교해서 쇼핑 습관이 어떻게 달라졌는지 말해 주세요.
+  - Tell me how your shopping habits have changed over time.
+
+- `q04-memorable-experience.md`
+  - 쇼핑하면서 기억에 남는 경험을 말해 주세요.
+  - Talk about a memorable shopping experience.
+
+### 10-vacation
+
+선택/준비 항목: 국내 여행 / 집에서 쉬는 휴가
+
+- `q01-preferred-place.md`
+  - 좋아하는 여행지를 말해 주세요.
+  - Tell me about your preferred vacation place.
+
+- `q02-planning-and-routine.md`
+  - 여행을 준비할 때 보통 어떻게 계획하는지 말해 주세요.
+  - Tell me about your vacation planning routine.
+
+- `q03-past-vs-present.md`
+  - 예전과 비교해서 휴가 방식이 어떻게 달라졌는지 말해 주세요.
+  - Tell me how your vacation habits have changed over time.
+
+- `q04-problem-solving.md`
+  - 휴가 중 겪은 문제와 해결 방법을 말해 주세요.
+  - Tell me about a problem you had during a vacation.
+
+### 11-roleplay
+
+준비 항목: 롤플레이 기본 세트
+
+- `q11-ask-questions.md`
+  - 예약할 때 직원에게 몇 가지 질문을 해 주세요.
+  - You are making a reservation. Ask the staff a few questions.
+
+- `q12-problem-and-alternatives.md`
+  - 예약 시간이 맞지 않을 때 상황을 설명하고 다른 선택지를 물어보세요.
+  - Your reservation time does not work. Ask for alternatives.
+
+- `q13-similar-experience.md`
+  - 비슷한 경험이 있는지 말하고 그때 어떻게 했는지 이야기해 주세요.
+  - Tell me about a similar experience and what you did.
+
+### 12-surprise-topics
+
+준비 항목: 돌발 주제
+
+- `q01-recycling.md`
+  - 집에서 재활용을 어떻게 하는지 말해 주세요.
+  - Tell me how you recycle at home.
+
+- `q02-internet-and-devices.md`
+  - 평소 인터넷과 전자기기를 어떻게 쓰는지 말해 주세요.
+  - Tell me how you use the internet and devices.
+
+- `q03-weather-and-seasons.md`
+  - 좋아하는 날씨와 계절을 말해 주세요.
+  - Tell me about your favorite weather and seasons.
+
+- `q04-holidays.md`
+  - 명절을 보통 어떻게 보내는지 말해 주세요.
+  - Tell me how you spend holidays.
+
+- `q05-public-places.md`
+  - 공공장소를 어떻게 이용하는지 말해 주세요.
+  - Tell me how you use public places.
+
+## 4. 개수 요약
+
+- 실제 서베이 체크 항목: 12개
+- 배경 정보 준비 폴더: 3개
+  - `01-self-intro`
+  - `02-work-it-software`
+  - `03-home-apartment`
+- 선택 항목 스크립트 폴더: 7개
+  - `04-movies-performances-concerts`
+  - `05-cafe`
+  - `06-park-walking-jogging`
+  - `07-drive`
+  - `08-music`
+  - `09-shopping`
+  - `10-vacation`
+- 추가 대비 폴더: 2개
+  - `11-roleplay`
+  - `12-surprise-topics`
+- 전체 질문 파일: 51개
+
+## 5. 메모
+
+- 롤플레이 보강팩은 `outputs/opic/2026-04-26/11-roleplay/`에 별도로 있습니다.

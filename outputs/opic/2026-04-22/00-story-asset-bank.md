@@ -49,12 +49,12 @@
 - Tone: calm
 - Keywords: playlist, earbuds, commute, mood
 
-## Asset 8. Strategy Game Session
+## Asset 8. Online Shopping Routine
 
-- Summary: 잠깐씩 하는 전략 게임과 작은 승리 경험
-- Reusable topics: games, hobby, comparison, memorable experience
-- Tone: light, focused
-- Keywords: turn, build, plan, win
+- Summary: 온라인으로 생활용품, 노트북 액세서리, 아이 물건을 신중하게 사는 루틴
+- Reusable topics: shopping, online shopping, comparison, memorable experience, roleplay
+- Tone: practical, calm
+- Keywords: reviews, delivery, return, customer service
 
 ## Asset 9. Domestic Trip or Staycation
 
