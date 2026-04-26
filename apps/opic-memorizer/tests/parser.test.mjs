@@ -57,4 +57,18 @@ describe('study data parser', () => {
     });
     expect(firstQuestion.keySentenceGroups[0].variants).toHaveLength(3);
   });
+
+  it('keeps drive memory flow points limited to markdown bullets', () => {
+    const data = buildStudyDataFromDirectory(sourceRoot);
+    const driveDestination = data.topics
+      .find((topic) => topic.id === '07-drive')
+      .questions.find((question) => question.slug === 'q01-destination');
+
+    expect(driveDestination.flowPoints).toEqual([
+      '출발 준비 -> 짧은 거리 -> 차 안 분위기 -> 도착 후 산책 -> 카페 한 번 -> 귀가 -> 짧은 기분 전환',
+      '각 문장은 다음 장면으로 넘어가게 만들어서 순서가 무너지면 흐름이 바로 어색해지도록 한다',
+      '핵심 표현은 `출발하기 전에`, `그래서`, `도착하면`, `그다음에는`, `돌아오는 길에는`, `그래서 저는`'
+    ]);
+    expect(driveDestination.flowPoints).not.toContain('### 이야기 흐름도');
+  });
 });
