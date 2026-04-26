@@ -303,6 +303,14 @@
   - 좋아하는 날씨와 계절을 말해 주세요.
   - Tell me about your favorite weather and seasons.
 
+- `q11-heavy-snow-commute.md`
+  - 나쁜 날씨 때문에 문제가 생긴 경험을 말해 주세요.
+  - Tell me about a time when bad weather caused a problem.
+
+- `q12-climate-change.md`
+  - 한국의 날씨나 기후가 예전과 비교해 어떻게 달라졌는지 말해 주세요.
+  - Tell me how the weather or climate in Korea has changed over time.
+
 - `q04-holidays.md`
   - 명절을 보통 어떻게 보내는지 말해 주세요.
   - Tell me how you spend holidays.
@@ -349,9 +357,9 @@
 - 추가 대비 폴더: 2개
   - `11-roleplay`
   - `12-surprise-topics`
-- 일반 질문 파일: 58개
+- 일반 질문 파일: 60개
 - 범용 돌발 템플릿: 1개
-- 전체 학습 markdown 파일: 59개
+- 전체 학습 markdown 파일: 61개
 
 ## 5. 메모
 

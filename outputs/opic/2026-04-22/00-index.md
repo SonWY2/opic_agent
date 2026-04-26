@@ -20,7 +20,7 @@
 - 09-shopping/ : 온라인 쇼핑 선호, 루틴, 변화, 기억에 남는 경험
 - 10-vacation/ : 제주 해변 여행, 휴가 준비, 여행 문제 해결
 - 11-roleplay/ : 예약, 문의, 문제 해결 롤플레이
-- 12-surprise-topics/ : 재활용, 인터넷, 날씨, 명절, 공공장소, 대중교통, 건강, 배송, 소음, 에너지 절약
+- 12-surprise-topics/ : 재활용, 인터넷, 날씨, 기후 변화, 명절, 공공장소, 대중교통, 건강, 배송, 소음, 에너지 절약
 
 ## 파일 목록
 
@@ -83,6 +83,8 @@
 - 12-surprise-topics/q08-delivery-and-online-service.md
 - 12-surprise-topics/q09-neighborhood-noise.md
 - 12-surprise-topics/q10-energy-saving.md
+- 12-surprise-topics/q11-heavy-snow-commute.md
+- 12-surprise-topics/q12-climate-change.md
 
 ## 공부 순서
 

@@ -8856,97 +8856,131 @@
           "promptKo": "좋아하는 날씨와 계절을 말해 주세요.",
           "promptEn": "Tell me about your favorite weather and seasons.",
           "flowPoints": [
-            "좋아하는 계절 → 이유 → 날씨에 따른 변화 → 작은 장면 → 마무리 순서",
-            "봄과 가을을 중심으로 말한다",
-            "날씨가 일상과 기분에 영향을 준다고 닫는다"
+            "한국의 사계절 소개 -> 봄/여름/가을/겨울 특징 -> 좋아하는 이유 -> 마무리",
+            "봄과 가을을 중심으로 말하되, 여름 해변과 겨울 분위기도 짧게 넣는다",
+            "한국에 사계절이 있어서 운이 좋다고 정리한다"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "저는 봄과 가을을 가장 좋아합니다.",
-              "en": "I like spring and fall the most.",
+              "ko": "한국에는 봄, 여름, 가을, 겨울이라는 뚜렷한 사계절이 있습니다.",
+              "en": "In Korea, we have four distinct seasons: spring, summer, fall, and winter.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "봄에는 날씨가 따뜻해져서 산책하기 좋고, 가을에는 공기가 맑아서 걷기 편합니다.",
-              "en": "In spring, the weather gets warm, so it is nice for walking, and in fall, the air is clear, so walking feels easy.",
+              "ko": "저는 그중에서도 봄과 가을을 가장 좋아합니다.",
+              "en": "Among them, I like spring and fall the most.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "여름은 너무 덥고, 겨울은 밖에 오래 있기 조금 힘듭니다.",
-              "en": "Summer is too hot, and winter is a little hard when I stay outside for too long.",
+              "ko": "봄에는 날씨가 온화하고 꽃이 피어서 산책하기 좋습니다.",
+              "en": "In spring, the weather is mild and flowers bloom, so it is nice for walking.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난주에는 아침에 쌀쌀했지만 낮에는 햇빛이 좋아서, 점심 시간에 잠깐 밖에 나가 걷기 좋았습니다.",
-              "en": "Last week, the morning was chilly, but the sun was nice in the afternoon, so it was good to go out for a short walk at lunch.",
+              "ko": "다만 봄에는 중국에서 오는 황사와 미세먼지가 있어서 그 점은 조금 불편합니다.",
+              "en": "However, in spring, yellow dust and fine dust from China can be uncomfortable.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "저는 날씨가 좋으면 기분도 조금 더 가벼워진다고 느낍니다.",
-              "en": "I feel that good weather makes my mood lighter too.",
+              "ko": "여름은 덥고 습하지만, 저는 바다에 가서 수영이나 물놀이를 할 수 있어서 여름도 좋아합니다.",
+              "en": "Summer is hot and humid, but I still like it because I can go to the beach and enjoy swimming or water activities.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "반대로 비가 많이 오면 계획을 바꾸게 되지만, 집에서 쉬는 날로 생각하면 나쁘지 않습니다.",
-              "en": "On the other hand, when it rains a lot, I change my plan, but I do not mind if I think of it as a rest day at home.",
+              "ko": "가을은 너무 덥지도 춥지도 않고, 하늘이 맑고 파래서 야외 활동을 하기에 가장 좋습니다.",
+              "en": "Fall is neither too hot nor too cold, and the sky is clear and blue, so it is the best season for outdoor activities.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "그래서 저는 계절이 바뀔 때마다 생활 리듬도 함께 바뀌는 것 같다고 생각합니다.",
-              "en": "I feel most comfortable when the weather is not too extreme.",
+              "ko": "겨울은 정말 춥고 눈이 많이 오면 교통이 불편해지지만, 크리스마스 같은 특별한 분위기가 있습니다.",
+              "en": "Winter is really cold, and heavy snow can make transportation difficult, but it has a special mood, like Christmas.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "날씨가 너무 극단적이지 않을 때 가장 편하게 움직일 수 있습니다.",
-              "en": "So I feel my daily rhythm changes with the seasons.",
+              "ko": "그래서 저는 계절마다 장단점이 있다고 생각합니다.",
+              "en": "So I think every season has its own good and bad points.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "날씨가 너무 극단적이지 않을 때는 일상도 더 편하고 기분도 좋아집니다.",
+              "en": "When the weather is not too extreme, my daily life feels easier and my mood gets better.",
+              "status": "aligned"
+            },
+            {
+              "id": "s10",
+              "index": 10,
+              "ko": "일 년 내내 덥거나 추운 곳이 아니라, 사계절을 모두 느낄 수 있는 한국에 살아서 운이 좋다고 생각합니다.",
+              "en": "I think I am lucky to live in Korea because I can experience all four seasons, not just hot or cold weather all year round.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
+            "Korea has four distinct seasons.",
             "I like spring and fall the most.",
-            "Good weather makes my mood lighter.",
-            "My daily rhythm changes with the seasons.",
-            "Mild weather feels the most comfortable.",
-            "Rainy days can become rest days at home."
+            "Fall is neither too hot nor too cold.",
+            "Heavy snow can make transportation difficult.",
+            "I am lucky to experience all four seasons."
           ],
           "keyWords": [
             {
-              "term": "clear",
-              "meaning": "맑은"
+              "term": "distinct seasons",
+              "meaning": "뚜렷한 계절"
             },
             {
-              "term": "chilly",
-              "meaning": "쌀쌀한"
+              "term": "mild",
+              "meaning": "온화한"
             },
             {
-              "term": "mood",
-              "meaning": "기분"
+              "term": "yellow dust",
+              "meaning": "황사"
             },
             {
-              "term": "rhythm",
-              "meaning": "리듬"
+              "term": "fine dust",
+              "meaning": "미세먼지"
+            },
+            {
+              "term": "humid",
+              "meaning": "습한"
+            },
+            {
+              "term": "outdoor activities",
+              "meaning": "야외 활동"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
+              "ko": "한국에는 뚜렷한 사계절이 있습니다.",
+              "koAlternatives": [
+                "한국에는 뚜렷한 사계절이 있습니다."
+              ],
+              "variants": [
+                "Korea has four distinct seasons.",
+                "We have four clear seasons in Korea.",
+                "In Korea, spring, summer, fall, and winter are quite different."
+              ]
+            },
+            {
+              "id": "k2",
               "ko": "저는 봄과 가을을 가장 좋아합니다.",
               "koAlternatives": [
                 "저는 봄과 가을을 가장 좋아합니다."
@@ -8954,75 +8988,63 @@
               "variants": [
                 "I like spring and fall the most.",
                 "Spring and fall are my favorite seasons.",
-                "I prefer mild weather."
-              ]
-            },
-            {
-              "id": "k2",
-              "ko": "너무 덥거나 너무 추운 날은 힘듭니다.",
-              "koAlternatives": [
-                "너무 덥거나 너무 추운 날은 힘듭니다."
-              ],
-              "variants": [
-                "Very hot or very cold days are hard for me.",
-                "Extreme weather makes me tired.",
-                "I feel better when the weather is mild."
+                "I prefer mild seasons like spring and fall."
               ]
             },
             {
               "id": "k3",
-              "ko": "날씨가 좋으면 기분도 좋아집니다.",
+              "ko": "가을은 너무 덥지도 춥지도 않습니다.",
               "koAlternatives": [
-                "날씨가 좋으면 기분도 좋아집니다."
+                "가을은 너무 덥지도 춥지도 않습니다."
               ],
               "variants": [
-                "Good weather makes my mood lighter.",
-                "Nice weather improves my mood.",
-                "Sunny days make me feel better."
+                "Fall is neither too hot nor too cold.",
+                "The weather in fall is just right.",
+                "Fall has comfortable weather for outdoor activities."
               ]
             },
             {
               "id": "k4",
-              "ko": "비가 오면 실내에서 쉬는 편입니다.",
+              "ko": "봄에는 황사와 미세먼지가 조금 불편합니다.",
               "koAlternatives": [
-                "비가 오면 실내에서 쉬는 편입니다."
+                "봄에는 황사와 미세먼지가 조금 불편합니다."
               ],
               "variants": [
-                "When it rains, I usually stay indoors and rest.",
-                "Rainy days make me slow down a little.",
-                "I prefer to stay inside when the weather is bad."
+                "Yellow dust and fine dust can be uncomfortable in spring.",
+                "Spring is nice, but air pollution can be a problem.",
+                "I do not like the fine dust we often get in spring."
               ]
             },
             {
               "id": "k5",
-              "ko": "계절이 바뀌면 생활 리듬도 바뀝니다.",
+              "ko": "폭설이 오면 교통이 불편해질 수 있습니다.",
               "koAlternatives": [
-                "계절이 바뀌면 생활 리듬도 바뀝니다."
+                "폭설이 오면 교통이 불편해질 수 있습니다."
               ],
               "variants": [
-                "My daily rhythm changes with the seasons.",
-                "The seasons change my routine a little.",
-                "My life rhythm shifts when the weather changes."
+                "Heavy snow can make transportation difficult.",
+                "A lot of snow can cause traffic problems.",
+                "When it snows heavily, commuting becomes harder."
               ]
             },
             {
               "id": "k6",
-              "ko": "날씨가 너무 극단적이지 않을 때 가장 편합니다.",
+              "ko": "사계절을 모두 느낄 수 있어서 좋습니다.",
               "koAlternatives": [
-                "날씨가 너무 극단적이지 않을 때 가장 편합니다."
+                "사계절을 모두 느낄 수 있어서 좋습니다."
               ],
               "variants": [
-                "Mild weather feels the most comfortable.",
-                "I feel best when the weather is not extreme.",
-                "Moderate weather fits my daily life best."
+                "I am lucky to experience all four seasons.",
+                "I like that I can enjoy different seasons in Korea.",
+                "Living with four seasons makes life more interesting."
               ]
             }
           ],
           "hooks": [
-            "Which season is the hardest for you?",
-            "Do you walk more in spring?",
-            "What do you do on rainy days?",
-            "How does weather affect your mood?"
+            "Which season do you like most?",
+            "What season is difficult for you?",
+            "How is summer in Korea?",
+            "Does weather affect your routine?"
           ]
         },
         {
@@ -10166,6 +10188,406 @@
           ]
         },
         {
+          "id": "12-surprise-topics/q11-heavy-snow-commute",
+          "topicId": "12-surprise-topics",
+          "slug": "q11-heavy-snow-commute",
+          "order": 11,
+          "title": "Heavy Snow Commute",
+          "promptKo": "나쁜 날씨 때문에 문제가 생긴 경험을 말해 주세요.",
+          "promptEn": "Tell me about a time when bad weather caused a problem.",
+          "flowPoints": [
+            "중요한 미팅이 있던 아침 -> 지하철 탑승 -> 폭설로 정차 -> 택시로 변경 -> 고객에게 연락 -> 성공적으로 마무리",
+            "packed like sardines 표현은 외우기 좋지만, 부담되면 very crowded로 바꿔도 된다",
+            "문제 해결 방식은 연락, 대안 선택, 상황 설명 순서로 말한다"
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "몇 년 전에 폭설 때문에 출근길에 문제가 생긴 적이 있습니다.",
+              "en": "A few years ago, I had a problem on my way to work because of heavy snow.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "그날 아침에는 고객과 중요한 미팅이 있어서 평소보다 조금 일찍 집을 나섰습니다.",
+              "en": "That morning, I had an important meeting with a client, so I left home a little earlier than usual.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "저는 평소처럼 지하철을 탔는데, 출근 시간이라 안이 매우 붐볐습니다.",
+              "en": "I took the subway as usual, but it was very crowded because it was rush hour.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "자리에 앉는 것은 포기하고 스마트폰으로 기사를 읽고 있었습니다.",
+              "en": "I gave up trying to get a seat and started reading some articles on my smartphone.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "몇 정거장을 지나자 지하철이 갑자기 멈췄습니다.",
+              "en": "After a few stops, the subway suddenly stopped.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "방송에서는 전날 밤 내린 폭설 때문에 선로에 문제가 생겼다고 했습니다.",
+              "en": "The announcement said there was a problem with the railroad track because of heavy snow from the night before.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "저는 약 15분 정도 기다리다가 지하철에서 내려 택시를 타기로 했습니다.",
+              "en": "I waited for about 15 minutes, and then I decided to get off the subway and take a taxi instead.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그리고 바로 고객에게 전화해서 상황을 설명했습니다.",
+              "en": "I called my client right away and explained the situation.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "다행히 고객은 제 상황을 이해해 주었고, 저는 그날 미팅을 성공적으로 마칠 수 있었습니다.",
+              "en": "Luckily, the client understood my situation, and I was able to finish the meeting successfully that day.",
+              "status": "aligned"
+            },
+            {
+              "id": "s10",
+              "index": 10,
+              "ko": "그 이후로 눈이 많이 오는 날에는 더 일찍 출발하고 교통 상황을 먼저 확인합니다.",
+              "en": "Since then, when it snows heavily, I leave earlier and check the traffic situation first.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I had a problem because of heavy snow.",
+            "I had an important meeting with a client.",
+            "The subway suddenly stopped.",
+            "I took a taxi instead.",
+            "I explained the situation to my client."
+          ],
+          "keyWords": [
+            {
+              "term": "heavy snow",
+              "meaning": "폭설"
+            },
+            {
+              "term": "rush hour",
+              "meaning": "출근 시간"
+            },
+            {
+              "term": "railroad track",
+              "meaning": "선로"
+            },
+            {
+              "term": "announcement",
+              "meaning": "안내 방송"
+            },
+            {
+              "term": "client",
+              "meaning": "고객"
+            },
+            {
+              "term": "successfully",
+              "meaning": "성공적으로"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "폭설 때문에 출근길에 문제가 생겼습니다.",
+              "koAlternatives": [
+                "폭설 때문에 출근길에 문제가 생겼습니다."
+              ],
+              "variants": [
+                "I had a problem on my way to work because of heavy snow.",
+                "Heavy snow caused a problem during my commute.",
+                "My commute became difficult because it snowed heavily."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "고객과 중요한 미팅이 있었습니다.",
+              "koAlternatives": [
+                "고객과 중요한 미팅이 있었습니다."
+              ],
+              "variants": [
+                "I had an important meeting with a client.",
+                "I needed to meet an important client that morning.",
+                "There was an important client meeting scheduled that day."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "지하철이 갑자기 멈췄습니다.",
+              "koAlternatives": [
+                "지하철이 갑자기 멈췄습니다."
+              ],
+              "variants": [
+                "The subway suddenly stopped.",
+                "The train stopped all of a sudden.",
+                "The subway did not move for a while."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "저는 지하철에서 내려 택시를 탔습니다.",
+              "koAlternatives": [
+                "저는 지하철에서 내려 택시를 탔습니다."
+              ],
+              "variants": [
+                "I got off the subway and took a taxi instead.",
+                "I changed my plan and took a taxi.",
+                "I decided to use a taxi as an alternative."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "고객에게 전화해서 상황을 설명했습니다.",
+              "koAlternatives": [
+                "고객에게 전화해서 상황을 설명했습니다."
+              ],
+              "variants": [
+                "I called my client and explained the situation.",
+                "I contacted the client right away.",
+                "I told the client what was happening."
+              ]
+            },
+            {
+              "id": "k6",
+              "ko": "그 이후로 눈이 오면 더 일찍 출발합니다.",
+              "koAlternatives": [
+                "그 이후로 눈이 오면 더 일찍 출발합니다."
+              ],
+              "variants": [
+                "Since then, I leave earlier when it snows.",
+                "After that experience, I check the weather more carefully.",
+                "Now I give myself more time on snowy days."
+              ]
+            }
+          ],
+          "hooks": [
+            "What happened because of the snow?",
+            "How did you solve the problem?",
+            "Did you call anyone?",
+            "What did you learn from that experience?"
+          ]
+        },
+        {
+          "id": "12-surprise-topics/q12-climate-change",
+          "topicId": "12-surprise-topics",
+          "slug": "q12-climate-change",
+          "order": 12,
+          "title": "Climate Change",
+          "promptKo": "한국의 날씨나 기후가 예전과 비교해 어떻게 달라졌는지 말해 주세요.",
+          "promptEn": "Tell me how the weather or climate in Korea has changed over time.",
+          "flowPoints": [
+            "예전의 예측 가능한 사계절 -> 지금의 이상기후 -> 짧아진 봄/가을 -> 미세먼지 -> 걱정과 바람",
+            "global warming, greenhouse gases 같은 표현은 한두 번만 쓴다",
+            "너무 과학적으로 말하기보다 일상에서 느끼는 변화를 중심으로 답한다"
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "한국의 기후는 예전과 비교해서 꽤 많이 달라졌다고 생각합니다.",
+              "en": "I think the climate in Korea has changed quite a lot compared to the past.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "예전에는 봄, 여름, 가을, 겨울이 뚜렷했고 날씨도 어느 정도 예측 가능했습니다.",
+              "en": "In the past, spring, summer, fall, and winter were distinct, and the weather was somewhat predictable.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "하지만 요즘에는 지구 온난화 때문에 이상기후가 더 자주 나타나는 것 같습니다.",
+              "en": "However, these days, unusual weather seems to happen more often because of global warming.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "예를 들어 여름은 예전보다 더 길고 덥게 느껴지고, 겨울도 갑자기 매우 추워질 때가 있습니다.",
+              "en": "For example, summer feels longer and hotter than before, and winter can suddenly become very cold.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "반대로 봄과 가을은 점점 짧아지고 있어서 조금 아쉽습니다.",
+              "en": "On the other hand, spring and fall are getting shorter, which is a little disappointing.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "또 하나의 문제는 미세먼지입니다.",
+              "en": "Another problem is fine dust.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "미세먼지가 심한 날에는 하늘이 안개 낀 날처럼 뿌옇게 보이고, 밖에서 걷기도 불편합니다.",
+              "en": "On heavy fine dust days, the sky looks cloudy like a foggy day, and walking outside becomes uncomfortable.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "저는 이런 변화가 사람들의 건강과 일상생활에 영향을 준다고 생각합니다.",
+              "en": "I think these changes affect people's health and daily lives.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "만약 우리가 지금처럼 온실가스를 계속 많이 배출한다면 앞으로 더 심한 기후 변화를 겪을 수도 있습니다.",
+              "en": "If we keep emitting a lot of greenhouse gases like now, we may experience even worse climate changes in the future.",
+              "status": "aligned"
+            },
+            {
+              "id": "s10",
+              "index": 10,
+              "ko": "그래서 작은 일이라도 에너지를 아끼고 환경을 생각하는 습관이 필요하다고 생각합니다.",
+              "en": "So I think we need habits like saving energy and caring about the environment, even in small ways.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "The climate in Korea has changed a lot.",
+            "The weather was more predictable in the past.",
+            "Spring and fall are getting shorter.",
+            "Fine dust is also a serious problem.",
+            "We may experience worse climate changes in the future."
+          ],
+          "keyWords": [
+            {
+              "term": "climate",
+              "meaning": "기후"
+            },
+            {
+              "term": "predictable",
+              "meaning": "예측 가능한"
+            },
+            {
+              "term": "global warming",
+              "meaning": "지구 온난화"
+            },
+            {
+              "term": "unusual weather",
+              "meaning": "이상기후"
+            },
+            {
+              "term": "fine dust",
+              "meaning": "미세먼지"
+            },
+            {
+              "term": "greenhouse gases",
+              "meaning": "온실가스"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "한국의 기후는 예전보다 많이 달라졌습니다.",
+              "koAlternatives": [
+                "한국의 기후는 예전보다 많이 달라졌습니다."
+              ],
+              "variants": [
+                "The climate in Korea has changed a lot.",
+                "Korea's weather is quite different from the past.",
+                "I feel the climate has changed compared to before."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "예전에는 날씨가 더 예측 가능했습니다.",
+              "koAlternatives": [
+                "예전에는 날씨가 더 예측 가능했습니다."
+              ],
+              "variants": [
+                "The weather was more predictable in the past.",
+                "In the past, the seasons felt more regular.",
+                "We used to have more stable weather."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "봄과 가을이 점점 짧아지고 있습니다.",
+              "koAlternatives": [
+                "봄과 가을이 점점 짧아지고 있습니다."
+              ],
+              "variants": [
+                "Spring and fall are getting shorter.",
+                "The mild seasons feel shorter these days.",
+                "It feels like summer and winter last longer now."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "미세먼지가 심한 날에는 하늘이 뿌옇습니다.",
+              "koAlternatives": [
+                "미세먼지가 심한 날에는 하늘이 뿌옇습니다."
+              ],
+              "variants": [
+                "On heavy fine dust days, the sky looks cloudy.",
+                "Fine dust makes the view look hazy.",
+                "The air looks like a foggy day when fine dust is bad."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "온실가스를 계속 배출하면 기후 변화가 더 심해질 수 있습니다.",
+              "koAlternatives": [
+                "온실가스를 계속 배출하면 기후 변화가 더 심해질 수 있습니다."
+              ],
+              "variants": [
+                "If we keep emitting greenhouse gases, climate change may get worse.",
+                "Climate change could become more serious if we do not change.",
+                "We may face worse weather problems in the future."
+              ]
+            },
+            {
+              "id": "k6",
+              "ko": "작은 일이라도 환경을 생각하는 습관이 필요합니다.",
+              "koAlternatives": [
+                "작은 일이라도 환경을 생각하는 습관이 필요합니다."
+              ],
+              "variants": [
+                "We need habits that care about the environment, even in small ways.",
+                "Small actions like saving energy can still matter.",
+                "I think we should build more eco-friendly habits."
+              ]
+            }
+          ],
+          "hooks": [
+            "How has the weather changed in Korea?",
+            "What season feels shorter now?",
+            "Is fine dust a problem?",
+            "What can people do about climate change?"
+          ]
+        },
+        {
           "id": "12-surprise-topics/00-magic-script-for-any-surprise-topic",
           "topicId": "12-surprise-topics",
           "slug": "00-magic-script-for-any-surprise-topic",
@@ -10355,9 +10777,9 @@
   ],
   "stats": {
     "topicCount": 12,
-    "questionCount": 59,
-    "totalScriptPairs": 510,
-    "alignedQuestionCount": 59,
+    "questionCount": 61,
+    "totalScriptPairs": 532,
+    "alignedQuestionCount": 61,
     "alignmentIssueCount": 0,
     "missingRequiredSections": []
   }

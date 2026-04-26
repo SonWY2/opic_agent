@@ -69,3 +69,10 @@
 - Reusable topics: roleplay, cancellation, alternatives
 - Tone: polite, helpful
 - Keywords: reschedule, available, confirm, apologize
+
+## Asset 11. Weather and Climate
+
+- Summary: 한국의 뚜렷한 사계절, 봄/가을 선호, 폭설로 지하철이 멈춘 출근길, 짧아진 봄과 가을 및 미세먼지
+- Reusable topics: weather, seasons, commute problem, climate change, public transportation
+- Tone: realistic, calm
+- Keywords: four seasons, mild, yellow dust, fine dust, heavy snow, subway, client, global warming
