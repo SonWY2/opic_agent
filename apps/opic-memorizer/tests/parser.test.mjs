@@ -42,7 +42,7 @@ describe('study data parser', () => {
       .filter((question) => question.hasAlignmentIssue)
       .map((question) => question.id);
 
-    expect(data.stats.alignedQuestionCount).toBe(49);
+    expect(data.stats.alignedQuestionCount).toBe(55);
     expect(data.stats.alignmentIssueCount).toBe(2);
     expect(issueIds).toEqual([
       '04-movies-performances-concerts/q03-past-vs-present',
