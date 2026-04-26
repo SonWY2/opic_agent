@@ -7,92 +7,103 @@
 
 ## 암기 포인트 및 흐름
 
-- 선호 장소 → 이유 → 구체 장면 → 대비 → 결론 순서
-- 바다와 조용한 동네를 함께 말한다
-- 멀지 않고 쉬기 좋은 곳이라는 느낌으로 닫는다
+- 선호 장소 -> 제주 소개 -> 바다 색과 해변 -> 음식 -> 주의점 -> 추천
+- 제주를 한국의 대표적인 해변 여행지로 말한다
+- 물놀이와 현지 음식을 즐길 수 있지만 붐빈다는 대비를 넣는다
 
 ## 한국어 전문
 
-저는 너무 붐비지 않는 국내 여행지를 좋아합니다.
+저는 여행을 정말 좋아하고, 특히 여름에는 바다로 가는 것을 좋아합니다.
 
-특히 강릉처럼 바다도 보고 카페도 갈 수 있는 곳이 좋습니다.
+한국에서 제가 가장 좋아하는 해변 여행지는 제주도입니다.
 
-아침에 해변을 조금 걷고, 점심에는 조용한 식당에서 간단히 먹는 일정이 편합니다.
+제주는 한국의 하와이처럼 느껴질 만큼 바다와 풍경이 아름다운 곳입니다.
 
-지난여름에는 오후 3시쯤 바다를 봤는데, 바람이 시원해서 생각보다 더 좋았습니다.
+특히 바다가 에메랄드빛이라서 보기만 해도 기분이 좋아집니다.
 
-물론 멀리 가는 해외여행도 매력적이지만, 준비가 복잡하면 쉽게 피곤해집니다.
+넓은 흰색 해변도 많아서 산책하거나 물놀이를 하기에 좋습니다.
 
-저는 너무 빡빡한 일정보다, 하루에 한두 가지 정도만 하는 여행이 좋습니다.
+해변 근처에는 식당도 많아서 여행 중에 현지 음식을 먹는 재미가 큽니다.
 
-그래서 제게 가장 잘 맞는 곳은 쉬면서도 가볍게 볼거리가 있는 곳입니다.
+물론 제주는 인기 있는 여행지라서 성수기에는 사람이 많고 조금 붐빌 수 있습니다.
+
+그래도 바다, 음식, 분위기를 함께 즐길 수 있어서 저에게는 꼭 다시 가고 싶은 곳입니다.
+
+제주도는 한국에 온 친구에게도 한 번쯤 꼭 추천하고 싶은 여행지입니다.
 
 ## 영어 전문
 
-I like domestic travel places that are not too crowded.
+I really like to travel, and in summer I especially like going to the beach.
 
-In particular, I like places like Gangneung, where I can see the sea and also visit a cafe.
+My favorite beach destination in Korea is Jeju Island.
 
-I enjoy a simple schedule, like walking on the beach in the morning and eating a light lunch at a quiet restaurant.
+Jeju feels a little like Hawaii in Korea because the sea and scenery are so beautiful.
 
-Last summer, I looked at the sea around 3 p.m., and the breeze felt cooler than I expected.
+The ocean is emerald colored, so just looking at it makes me feel good.
 
-Of course, overseas travel is attractive too, but if the preparation is too complicated, I get tired easily.
+There are also many wide white beaches, so it is nice for walking or enjoying water activities.
 
-I prefer a trip with only one or two main things to do in a day.
+Around the beaches, there are many restaurants, and trying local food is one of the biggest pleasures of travel.
 
-So the place that fits me best is somewhere I can rest and still see a little bit.
+Of course, Jeju is a very popular vacation spot, so it can be crowded during peak season.
+
+Still, I can enjoy the sea, food, and atmosphere together, so it is a place I really want to visit again.
+
+Jeju is also a place I would recommend to a friend visiting Korea.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
-- I like domestic travel places that are not too crowded.
-- I prefer simple travel schedules.
-- A place to rest and see a little bit fits me best.
+- I especially like going to the beach in summer.
+- My favorite beach destination is Jeju Island.
+- The ocean is emerald colored.
+- Trying local food is a big pleasure of travel.
+- Jeju is a place I want to visit again.
 
 ### Key Words
 
 - domestic travel : 국내 여행
 - beach : 해변
-- schedule : 일정
-- crowded : 붐비는
+- emerald colored : 에메랄드빛의
+- local food : 현지 음식
+- peak season : 성수기
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
-### 저는 붐비지 않는 국내 여행지를 좋아합니다.
+### 저는 여름에 바다로 가는 것을 좋아합니다.
 
-- I like domestic travel places that are not too crowded.
-- I prefer quieter places for trips.
-- A calm travel spot fits me well.
+- In summer, I especially like going to the beach.
+- I love beach trips in the summer.
+- Summer beach trips are my favorite.
 
-### 바다나 산처럼 편하게 볼 수 있는 곳이 좋습니다.
+### 제가 가장 좋아하는 해변 여행지는 제주도입니다.
 
-- I like places like the sea or the mountains.
-- A place with simple scenery works well for me.
-- I enjoy spots that are easy to look around and rest.
+- My favorite beach destination is Jeju Island.
+- Jeju Island is my favorite place for a beach trip.
+- I like Jeju the most when I think of beaches in Korea.
 
-### 하루에 한두 가지 정도만 하는 여행이 좋습니다.
+### 바다가 에메랄드빛이라서 아름답습니다.
 
-- I prefer simple travel schedules.
-- I like trips with only a few main plans.
-- A light itinerary works best for me.
+- The ocean is emerald colored.
+- The sea has a beautiful emerald color.
+- The color of the water is really beautiful.
 
-### 너무 빡빡하면 오히려 덜 즐겁습니다.
+### 현지 음식을 먹는 것이 여행의 큰 즐거움입니다.
 
-- If the schedule is too full, I enjoy it less.
-- A packed trip feels tiring to me.
-- I like travel more when there is enough room to rest.
+- Trying local food is a big pleasure of travel.
+- Eating local dishes is one of the best parts of a trip.
+- Local food makes the trip more memorable.
 
-### 쉬면서 볼거리가 있는 곳이 잘 맞습니다.
+### 제주도는 다시 가고 싶은 여행지입니다.
 
-- A place to rest and see a little bit fits me best.
-- I like places that are relaxing but still interesting.
-- Somewhere calm with a few things to enjoy is ideal for me.
+- Jeju is a place I want to visit again.
+- I would love to go back to Jeju someday.
+- Jeju is a must-visit place in Korea.
 
 ## Follow-up Hooks
 
 - What place do you like most?
 - Do you prefer sea or city trips?
-- Do you like busy places?
-- What kind of schedule works for you?
+- Have you been to Jeju?
+- What local food do you like when you travel?

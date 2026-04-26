@@ -12,7 +12,7 @@ describe('study data parser', () => {
 
     expect(data.datasetDate).toBe('2026-04-22');
     expect(data.stats.topicCount).toBe(12);
-    expect(data.stats.questionCount).toBe(57);
+    expect(data.stats.questionCount).toBe(59);
     expect(data.stats.missingRequiredSections).toEqual([]);
     expect(data.topics[0].questions[0]).toMatchObject({
       id: '01-self-intro/q01-self-intro',
@@ -35,19 +35,16 @@ describe('study data parser', () => {
     });
   });
 
-  it('flags the two known line-count mismatches instead of silently trusting them', () => {
+  it('keeps every full script aligned by line count', () => {
     const data = buildStudyDataFromDirectory(sourceRoot);
     const issueIds = data.topics
       .flatMap((topic) => topic.questions)
       .filter((question) => question.hasAlignmentIssue)
       .map((question) => question.id);
 
-    expect(data.stats.alignedQuestionCount).toBe(55);
-    expect(data.stats.alignmentIssueCount).toBe(2);
-    expect(issueIds).toEqual([
-      '04-movies-performances-concerts/q03-past-vs-present',
-      '10-vacation/q03-past-vs-present'
-    ]);
+    expect(data.stats.alignedQuestionCount).toBe(59);
+    expect(data.stats.alignmentIssueCount).toBe(0);
+    expect(issueIds).toEqual([]);
   });
 
   it('parses key Korean sentence groups with multiple English variants', () => {

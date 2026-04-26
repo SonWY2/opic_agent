@@ -107,6 +107,10 @@
   - 주거 문제를 말해 주세요.
   - Tell me about housing issues.
 
+- `q06-favorite-room.md`
+  - 집에서 가장 좋아하는 방이나 공간을 설명해 주세요.
+  - Describe your favorite room or space at home.
+
 ### 04-movies-performances-concerts
 
 선택/준비 항목: 영화 / 공연 / 콘서트
@@ -259,6 +263,10 @@
   - 휴가 중 겪은 문제와 해결 방법을 말해 주세요.
   - Tell me about a problem you had during a vacation.
 
+- `q05-memorable-beach-trip.md`
+  - 기억에 남는 해변 여행 경험을 말해 주세요.
+  - Talk about a memorable beach trip.
+
 ### 11-roleplay
 
 준비 항목: 롤플레이 기본 세트
@@ -341,9 +349,9 @@
 - 추가 대비 폴더: 2개
   - `11-roleplay`
   - `12-surprise-topics`
-- 일반 질문 파일: 56개
+- 일반 질문 파일: 58개
 - 범용 돌발 템플릿: 1개
-- 전체 학습 markdown 파일: 57개
+- 전체 학습 markdown 파일: 59개
 
 ## 5. 메모
 

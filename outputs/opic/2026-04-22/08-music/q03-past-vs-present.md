@@ -7,31 +7,33 @@
 
 ## 암기 포인트 및 흐름
 
-- 예전에는 그냥 들음, 지금은 상황별로 듣는다
-- 이어폰, 플레이리스트, 취향 변화
-- 음악이 생활 도구가 됐다는 결론
+- 어린 시절 영화 음악 -> 지금의 플레이리스트 -> 듣는 방식 변화 -> 정리
+- 예전에는 장면을 떠올리며 들었고, 지금은 상황별로 듣는다고 말한다
+- 취향은 바뀌었지만 오래된 음악도 남아 있다고 닫는다
 
 ## 한국어 전문
 
-예전에는 음악을 그냥 라디오처럼 듣는 경우가 많았습니다.
-지금은 출근, 산책, 집안일처럼 상황에 맞게 골라 듣는 편입니다.
-예전에는 한 번 듣고 끝나는 노래가 많았지만, 요즘은 플레이리스트를 저장해 두고 다시 듣습니다.
-지난달에는 산책하면서 같은 노래를 여러 번 들었는데, 이상하게도 반복해서 들을수록 더 편했습니다.
-예전에는 가사보다 멜로디만 들을 때가 많았지만, 지금은 분위기와 속도도 같이 봅니다.
-물론 새로운 노래를 찾는 재미도 있지만, 자주 듣는 곡이 주는 안정감이 더 큽니다.
-예전에는 그냥 듣는 느낌이었다면, 지금은 음악을 상황에 맞게 쓰는 느낌이 더 강합니다.
-그래서 저는 음악을 단순한 취미보다, 생활에 붙어 있는 도구처럼 느낍니다.
+예전에는 음악을 들으면 특정 영화 장면을 떠올리는 경우가 많았습니다.
+초등학생 때 Lion King을 본 뒤에는 사운드트랙을 들을 때마다 영화 장면이 바로 생각났습니다.
+그때는 음악 자체보다 영화의 감정과 장면이 더 크게 느껴졌습니다.
+지금은 출근, 산책, 집안일처럼 상황에 맞게 음악을 골라 듣는 편입니다.
+예전에는 한두 곡을 반복해서 들었다면, 요즘은 플레이리스트를 저장해 두고 분위기별로 듣습니다.
+제 취향도 예전보다 조금 차분해졌고, 너무 강한 음악보다는 편안한 노래가 더 좋습니다.
+그래도 가끔 디즈니 음악을 들으면 어릴 때의 기억이 자연스럽게 떠오릅니다.
+그래서 제 음악 습관은 많이 바뀌었지만, 오래된 영화 음악은 아직 제 취향 안에 남아 있습니다.
+이제 음악은 단순한 취미라기보다 하루의 분위기를 조절하는 도구처럼 느껴집니다.
 
 ## 영어 전문
 
-In the past, I often listened to music just like the radio, without much thought.
+In the past, music often made me think of certain movie scenes.
+After I watched The Lion King in elementary school, the soundtrack immediately reminded me of the movie scenes.
+At that time, the feelings and scenes from the movie felt stronger than the music itself.
 Now I choose songs based on the situation, like commuting, walking, or doing chores.
-Before, I had many songs that I listened to only once, but now I save playlists and listen again.
-Last month, I listened to the same song many times during a walk, and strangely enough, it felt more comfortable each time.
-In the past, I paid more attention to the melody than the lyrics, but now I also look at the mood and pace.
-Of course, finding new songs is still fun, but familiar songs give me more stability.
-Before, music was something I just listened to, but now it is something I use depending on my day.
-So I see music less as a hobby only and more as a tool that fits into daily life.
+Before, I repeated one or two songs, but these days I save playlists and listen by mood.
+My taste has also become calmer, and I prefer comfortable songs to very strong music.
+Still, when I listen to Disney music sometimes, childhood memories come back naturally.
+So my music habits have changed a lot, but old movie soundtracks are still part of my taste.
+Now music feels less like a simple hobby and more like a tool that controls the mood of my day.
 
 ## 키 문장 및 단어
 
@@ -39,24 +41,24 @@ So I see music less as a hobby only and more as a tool that fits into daily life
 
 - I choose songs based on the situation now.
 - I save playlists and listen again.
-- Familiar songs give me more stability.
+- Old soundtracks are still part of my taste.
 - Music is something I use depending on my day.
-- I look at the mood and pace too.
+- Music reminds me of certain movie scenes.
 
 ### Key Words
 
 - playlist : 재생목록
 - melody : 멜로디
-- stability : 안정감
+- childhood memory : 어린 시절 기억
 - mood : 분위기
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
-### 예전에는 그냥 듣는 경우가 많았습니다.
+### 예전에는 음악을 들으면 영화 장면이 떠올랐습니다.
 
-- In the past, I often listened without much thought.
-- I used to play music casually.
-- I did not choose songs very carefully before.
+- In the past, music often made me think of movie scenes.
+- Music used to bring movie scenes back to me.
+- I connected music with movie scenes when I was young.
 
 ### 지금은 상황에 맞게 골라 듣습니다.
 
@@ -64,11 +66,11 @@ So I see music less as a hobby only and more as a tool that fits into daily life
 - I listen differently depending on what I am doing.
 - I pick music to match my day.
 
-### 익숙한 노래가 더 안정감을 줍니다.
+### 오래된 사운드트랙도 아직 제 취향 안에 있습니다.
 
-- Familiar songs give me more stability.
-- Songs I know well feel more comforting.
-- Old favorites make me feel calmer.
+- Old soundtracks are still part of my taste.
+- I still enjoy some soundtracks from my childhood.
+- Those old movie songs still sound nice to me.
 
 ### 지금은 음악을 상황에 맞게 씁니다.
 
@@ -76,7 +78,7 @@ So I see music less as a hobby only and more as a tool that fits into daily life
 - I choose music differently depending on what I am doing.
 - I use music as part of my daily routine.
 
-### 예전보다 플레이리스트를 더 자주 만듭니다.
+### 지금은 플레이리스트를 분위기별로 듣습니다.
 
 - I make playlists more often now than before.
 - I spend more time organizing songs these days.
@@ -86,5 +88,5 @@ So I see music less as a hobby only and more as a tool that fits into daily life
 
 - What changed the most for you?
 - Do you save songs now?
-- Do you listen by mood?
-- What song do you repeat most?
+- Do old songs bring back memories?
+- Do you still listen to movie soundtracks?

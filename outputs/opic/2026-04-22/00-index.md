@@ -11,14 +11,14 @@
 
 - 01-self-intro/ : 자기소개와 일상 소개
 - 02-work-it-software/ : 회사, 업무, 변화, 문제 해결, 산업/사회 이슈
-- 03-home-apartment/ : 집 구조, 집 루틴, 비교, 집 문제, 거주 이슈
+- 03-home-apartment/ : 집 구조, 집 루틴, 비교, 집 문제, 거주 이슈, 좋아하는 공간
 - 04-movies-performances-concerts/ : 영화/공연/콘서트 취향과 경험
 - 05-cafe/ : 카페 장소, 방문 루틴, 경험
 - 06-park-walking-jogging/ : 공원 산책, 걷기, 조깅 루틴
 - 07-drive/ : 드라이브, 차 안 루틴, 길 위 문제 해결
 - 08-music/ : 음악 취향과 감상 루틴
 - 09-shopping/ : 온라인 쇼핑 선호, 루틴, 변화, 기억에 남는 경험
-- 10-vacation/ : 국내 여행과 집에서 보내는 휴가
+- 10-vacation/ : 제주 해변 여행, 휴가 준비, 여행 문제 해결
 - 11-roleplay/ : 예약, 문의, 문제 해결 롤플레이
 - 12-surprise-topics/ : 재활용, 인터넷, 날씨, 명절, 공공장소, 대중교통, 건강, 배송, 소음, 에너지 절약
 
@@ -36,6 +36,7 @@
 - 03-home-apartment/q03-past-vs-present.md
 - 03-home-apartment/q04-home-problem-solving.md
 - 03-home-apartment/q05-housing-issues.md
+- 03-home-apartment/q06-favorite-room.md
 - 04-movies-performances-concerts/q01-preference.md
 - 04-movies-performances-concerts/q02-viewing-routine.md
 - 04-movies-performances-concerts/q03-past-vs-present.md
@@ -67,6 +68,7 @@
 - 10-vacation/q02-planning-and-routine.md
 - 10-vacation/q03-past-vs-present.md
 - 10-vacation/q04-problem-solving.md
+- 10-vacation/q05-memorable-beach-trip.md
 - 11-roleplay/q11-ask-questions.md
 - 11-roleplay/q12-problem-and-alternatives.md
 - 11-roleplay/q13-similar-experience.md

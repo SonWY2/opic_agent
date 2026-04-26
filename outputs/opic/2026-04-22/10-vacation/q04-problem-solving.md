@@ -7,74 +7,80 @@
 
 ## 암기 포인트 및 흐름
 
-- 문제 상황 → 빠른 확인 → 대안 → 결과 → 교훈 순서
-- 날씨나 숙소 문제를 구체적으로 말한다
-- 여행은 계획대로 안 돼도 조정이 중요하다고 닫는다
+- 해외여행 중 휴대폰 분실 -> 확인 -> 호텔 복귀 -> 통신사 연락 -> 교훈
+- 호주 오페라하우스 가는 길을 구체적인 사건으로 쓴다
+- 이후 여행에서는 휴대폰과 소지품을 더 조심한다고 닫는다
 
 ## 한국어 전문
 
-지난 휴가 때는 비가 갑자기 많이 와서 일정이 조금 바뀌었습니다.
-원래는 바닷가를 오래 볼 생각이었는데, 바람이 세서 밖에 오래 있기 어려웠습니다.
-그래서 근처 카페로 먼저 들어가서 30분 정도 쉬고, 그다음에 실내 위주로 바꿨습니다.
-처음에는 아쉬웠지만, 오히려 천천히 쉬면서 더 편한 여행이 됐습니다.
-아이도 있어서 무리해서 돌아다니기보다, 바로 계획을 바꾼 게 좋았습니다.
-결국 비 때문에 더 늦어진 것도 아니고, 큰 문제 없이 하루를 보낼 수 있었습니다.
-그래서 저는 여행에서 가장 중요한 건 완벽한 계획보다 빨리 조정하는 능력이라고 생각합니다.
+몇 년 전에 혼자 호주로 배낭여행을 갔다가 휴대폰을 잃어버린 적이 있습니다.
+그 일은 시드니 오페라하우스에 가는 길에 생겼습니다.
+호텔에서 걸어가기에는 거리가 있어서 지하철을 탔습니다.
+거의 도착했을 때 휴대폰이 없다는 것을 알게 되었고, 아마 지하철에 두고 내린 것 같았습니다.
+그 휴대폰은 산 지 몇 달밖에 안 된 새 휴대폰이라서 정말 속상했습니다.
+처음에는 오페라하우스를 둘러볼 기분도 나지 않았습니다.
+그래서 바로 호텔로 돌아가서 한국 통신사에 연락했고, 휴대폰 사용을 정지했습니다.
+그 일 이후로는 여행할 때 소지품, 특히 휴대폰을 훨씬 더 신경 씁니다.
+여행에서는 좋은 계획도 중요하지만, 기본적인 물건 관리가 정말 중요하다고 느꼈습니다.
 
 ## 영어 전문
 
-During my last vacation, heavy rain suddenly changed my plan.
-I had planned to stay by the beach for a long time, but the wind was too strong to stay outside.
-So I went into a nearby cafe first, rested for about 30 minutes, and then switched to indoor activities.
-At first, I was a little disappointed, but the slower pace actually made the trip feel more comfortable.
-Since my child was with us, changing the plan quickly was better than trying to force everything.
-In the end, the rain did not really ruin the day, and we got through it without any big trouble.
-So I think the most important thing on a trip is not a perfect plan, but the ability to adjust quickly.
+A few years ago, I went backpacking in Australia by myself and lost my cell phone there.
+It happened on my way to the Sydney Opera House.
+The Opera House was not within walking distance from my hotel, so I took the subway.
+When I almost arrived, I realized that my phone was missing, and I probably left it on the subway.
+The phone was still new because I had bought it only a few months earlier, so I felt really upset.
+At first, I did not even feel like looking around the Opera House anymore.
+So I went back to the hotel right away, contacted my telecommunications company in Korea, and deactivated the phone.
+Ever since then, I pay much more attention to my belongings when I travel, especially my cell phone.
+I learned that good plans are important, but taking care of basic belongings is also very important during a trip.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
-- Heavy rain changed my plan.
-- I switched to indoor activities.
-- Adjusting quickly is very important.
+- I lost my cell phone while traveling.
+- It happened on my way to the Sydney Opera House.
+- I contacted my telecommunications company.
+- I deactivated my phone.
+- I pay more attention to my belongings now.
 
 ### Key Words
 
-- wind : 바람
-- indoor : 실내의
-- disappointed : 아쉬운
-- adjust : 조정하다
+- backpacking : 배낭여행
+- belongings : 소지품
+- telecommunications company : 통신사
+- deactivate : 사용을 정지하다
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
-### 비가 와서 일정이 바뀌었습니다.
+### 여행 중에 휴대폰을 잃어버렸습니다.
 
-- Heavy rain changed my plan.
-- The weather forced me to change the schedule.
-- Rain made me adjust my plan.
+- I lost my cell phone while traveling.
+- My phone went missing during a trip.
+- I could not find my cell phone while I was abroad.
 
-### 실내 일정으로 바꿨습니다.
+### 오페라하우스에 가는 길에 생긴 일이었습니다.
 
-- I switched to indoor activities.
-- I changed to indoor plans.
-- I moved the trip inside.
+- It happened on my way to the Sydney Opera House.
+- I noticed it while I was going to the Opera House.
+- I realized the problem before I arrived at the Opera House.
 
-### 빨리 조정하는 것이 중요합니다.
+### 한국 통신사에 연락해서 휴대폰을 정지했습니다.
 
-- Adjusting quickly is very important.
-- Being flexible matters a lot.
-- It helps to change plans fast when needed.
+- I contacted my telecommunications company and deactivated the phone.
+- I called my phone company in Korea and stopped the service.
+- I asked the company to block the phone service.
 
-### 그래도 하루를 완전히 망치지는 않았습니다.
+### 그 이후로 소지품을 더 신경 씁니다.
 
-- It did not ruin the whole day.
-- Even with rain, the day still went well.
-- The change was annoying, but we still made the best of it.
+- I pay more attention to my belongings now.
+- Since then, I check my phone more often when I travel.
+- I became more careful with my things, especially my phone.
 
 ## Follow-up Hooks
 
-- Was the weather bad?
-- What indoor place did you go to?
-- Did your child enjoy it?
-- How do you feel when plans change?
+- Where did you lose your phone?
+- What did you do after losing it?
+- Did you contact your phone company?
+- What did you learn from that experience?

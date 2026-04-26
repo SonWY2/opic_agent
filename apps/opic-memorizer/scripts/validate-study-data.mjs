@@ -8,10 +8,10 @@ const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
 const failures = [];
 
-if (data.stats.questionCount !== 57) failures.push(`Expected 57 questions, got ${data.stats.questionCount}`);
+if (data.stats.questionCount !== 59) failures.push(`Expected 59 questions, got ${data.stats.questionCount}`);
 if (data.stats.topicCount !== 12) failures.push(`Expected 12 topics, got ${data.stats.topicCount}`);
-if (data.stats.alignmentIssueCount !== 2) {
-  failures.push(`Expected 2 alignment issues, got ${data.stats.alignmentIssueCount}`);
+if (data.stats.alignmentIssueCount !== 0) {
+  failures.push(`Expected 0 alignment issues, got ${data.stats.alignmentIssueCount}`);
 }
 if (data.stats.missingRequiredSections.length !== 0) {
   failures.push(`Missing required sections: ${JSON.stringify(data.stats.missingRequiredSections)}`);

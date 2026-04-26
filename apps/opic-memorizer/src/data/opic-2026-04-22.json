@@ -1156,9 +1156,9 @@
           "promptKo": "집 구조를 설명해 주세요.",
           "promptEn": "Describe your home layout.",
           "flowPoints": [
-            "전체 구조 → 방 구성 → 자주 쓰는 공간 → 작은 장점 → 마무리 순서",
-            "방 개수와 생활 동선을 구체적으로 말한다",
-            "넓지는 않지만 쓰기 편하다는 느낌으로 닫는다"
+            "8층 아파트 -> 현관 -> 거실 -> 주방 -> 방 구성 -> 좋아하는 공간 순서",
+            "TV, 소파, 새 에어컨, 식탁, 전자레인지, 냉장고처럼 쉬운 물건을 넣는다",
+            "큰 창문과 햇빛이 좋은 내 공간으로 따뜻하게 마무리한다"
           ],
           "scriptPairs": [
             {
@@ -1171,70 +1171,83 @@
             {
               "id": "s2",
               "index": 2,
-              "ko": "집은 거실, 부엌, 침실 두 개로 되어 있습니다.",
-              "en": "The apartment has a living room, a kitchen, and two bedrooms.",
+              "ko": "저희 집은 아파트 8층에 있고, 방 네 개와 거실, 주방, 욕실 두 개가 있습니다.",
+              "en": "My home is on the eighth floor, and it has four rooms, a living room, a kitchen, and two bathrooms.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "한쪽 방은 아이 방으로 쓰고, 다른 방은 간단한 서재처럼 쓰고 있습니다.",
-              "en": "One room is for my daughter, and the other room works as a small study.",
+              "ko": "집에 처음 들어오면 신발을 벗는 작은 현관 공간이 먼저 보입니다.",
+              "en": "When you first walk in, you can see a small entrance area where we take off our shoes.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "거실은 생각보다 넓지 않지만, 가족이 모이기에는 충분합니다.",
-              "en": "The living room is not very large, but it is enough for our family to spend time together.",
+              "ko": "그다음에는 거실이 나오는데, 저녁 식사 후에 가족이 TV를 보거나 이야기를 나누는 곳입니다.",
+              "en": "The next area is the living room, where my family watches TV or talks together after dinner.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "주방은 바로 옆에 있어서 저녁 준비를 할 때 동선이 짧습니다.",
-              "en": "The kitchen is right next to it, so dinner prep is easy.",
+              "ko": "거실에는 TV, 편한 소파, 그리고 지난달에 새로 산 에어컨이 있습니다.",
+              "en": "In the living room, there is a TV, a comfortable sofa, and a new air conditioner we bought last month.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "지난주 저녁에는 아이 숙제를 거실에서 같이 봤는데, 테이블이 가까워서 금방 정리할 수 있었습니다.",
-              "en": "Last week, I helped my daughter with her homework in the living room, and the close table made it easy to clean up quickly.",
+              "ko": "왼쪽에는 주방이 있고, 식탁, 전자레인지, 냉장고를 주로 사용합니다.",
+              "en": "On the left, there is a kitchen, and we mainly use the dining table, microwave, and refrigerator there.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "제가 가장 자주 쓰는 곳은 거실 소파와 작은 책상입니다.",
-              "en": "The places I use most are the sofa in the living room and the small desk.",
+              "ko": "방은 안방, 아이 방, 작은 서재, 그리고 물건을 정리해 두는 방으로 나누어 쓰고 있습니다.",
+              "en": "We use the rooms as the main bedroom, my daughter's room, a small study, and a storage room.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "집이 아주 크지는 않지만, 필요한 공간이 딱 있어서 생활하기 편합니다.",
-              "en": "The apartment is not fancy, but it fits our daily life very well.",
+              "ko": "그중 제가 가장 좋아하는 곳은 작은 서재입니다.",
+              "en": "Among all the rooms, my favorite place is the small study.",
               "status": "aligned"
             },
             {
               "id": "s9",
               "index": 9,
-              "ko": "그래서 저는 이 집이 화려하진 않아도, 매일 쓰기 좋은 구조라고 느낍니다.",
-              "en": "So I like it because it is practical and easy to live in every day.",
+              "ko": "그 방에는 큰 창문이 있어서 낮에는 햇빛이 많이 들어오고, 짧게 일하거나 책을 읽기에 좋습니다.",
+              "en": "It has a big window, so I can get a lot of sunshine during the day, and it is nice for short work or reading.",
+              "status": "aligned"
+            },
+            {
+              "id": "s10",
+              "index": 10,
+              "ko": "집이 아주 화려한 것은 아니지만, 가족이 살기에 편하고 따뜻한 공간이라서 마음에 듭니다.",
+              "en": "My home is not very fancy, but I like it because it is comfortable and warm for my family.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "My apartment has two bedrooms.",
-            "The layout is practical for daily life.",
-            "The kitchen is close to the living room."
+            "My home is on the eighth floor.",
+            "The living room is where my family spends time together.",
+            "My favorite place is the small study.",
+            "It has a big window with a lot of sunshine.",
+            "My home is comfortable and warm for my family."
           ],
           "keyWords": [
             {
               "term": "apartment",
               "meaning": "아파트"
+            },
+            {
+              "term": "entrance area",
+              "meaning": "현관"
             },
             {
               "term": "living room",
@@ -1245,81 +1258,81 @@
               "meaning": "서재"
             },
             {
-              "term": "practical",
-              "meaning": "실용적인"
+              "term": "storage room",
+              "meaning": "수납방"
             },
             {
-              "term": "layout",
-              "meaning": "구조, 배치"
+              "term": "sunshine",
+              "meaning": "햇빛"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "집에는 방이 두 개 있습니다.",
+              "ko": "저희 집은 아파트 8층에 있습니다.",
               "koAlternatives": [
-                "집에는 방이 두 개 있습니다."
+                "저희 집은 아파트 8층에 있습니다."
               ],
               "variants": [
-                "My apartment has two bedrooms.",
-                "There are two bedrooms in my apartment.",
-                "We have two rooms in the apartment."
+                "My home is on the eighth floor.",
+                "I live on the eighth floor of an apartment building.",
+                "Our apartment is located on the eighth floor."
               ]
             },
             {
               "id": "k2",
-              "ko": "주방이 거실과 가까워서 동선이 짧습니다.",
+              "ko": "집에 들어오면 신발을 벗는 작은 현관이 보입니다.",
               "koAlternatives": [
-                "주방이 거실과 가까워서 동선이 짧습니다."
+                "집에 들어오면 신발을 벗는 작은 현관이 보입니다."
               ],
               "variants": [
-                "The kitchen is close to the living room, so the flow is easy.",
-                "The short distance between the kitchen and living room is convenient.",
-                "The layout saves time when I prepare dinner."
+                "When you first walk in, you can see a small entrance area.",
+                "There is a small space where we take off our shoes.",
+                "The first thing you see is the entrance area."
               ]
             },
             {
               "id": "k3",
-              "ko": "구조가 생활하기 편합니다.",
+              "ko": "거실은 가족이 함께 시간을 보내는 곳입니다.",
               "koAlternatives": [
-                "구조가 생활하기 편합니다."
+                "거실은 가족이 함께 시간을 보내는 곳입니다."
               ],
               "variants": [
-                "The layout is practical for daily life.",
-                "The layout works well for us.",
-                "It is an easy place to live in every day."
+                "The living room is where my family spends time together.",
+                "My family watches TV together in the living room.",
+                "We usually talk or rest together in the living room after dinner."
               ]
             },
             {
               "id": "k4",
-              "ko": "거실은 크지 않아도 가족이 모이기에는 충분합니다.",
+              "ko": "제가 가장 좋아하는 곳은 작은 서재입니다.",
               "koAlternatives": [
-                "거실은 크지 않아도 가족이 모이기에는 충분합니다."
+                "제가 가장 좋아하는 곳은 작은 서재입니다."
               ],
               "variants": [
-                "The living room is not very large, but it is enough for our family.",
-                "Even though the living room is small, it works for family time.",
-                "The space is not big, but it is comfortable enough for us."
+                "My favorite place is the small study.",
+                "Among all the rooms, I like the study the most.",
+                "The small study is the room I use most comfortably."
               ]
             },
             {
               "id": "k5",
-              "ko": "주방이 거실과 가까워서 동선이 짧습니다.",
+              "ko": "큰 창문이 있어서 햇빛이 많이 들어옵니다.",
               "koAlternatives": [
-                "주방이 거실과 가까워서 동선이 짧습니다."
+                "큰 창문이 있어서 햇빛이 많이 들어옵니다."
               ],
               "variants": [
-                "The kitchen is close to the living room, so the flow is easy.",
-                "The short distance between the kitchen and living room is convenient.",
-                "The layout saves time when I prepare dinner."
+                "It has a big window with a lot of sunshine.",
+                "A lot of sunlight comes through the big window.",
+                "The big window makes the room feel bright."
               ]
             }
           ],
           "hooks": [
             "Which room do you use most?",
-            "Do you have a balcony?",
-            "What do you keep in the study?",
-            "How often does your family use the living room?"
+            "What is in your living room?",
+            "Why do you like your study?",
+            "Does your home get a lot of sunlight?"
           ]
         },
         {
@@ -1487,147 +1500,168 @@
           "promptKo": "예전과 비교해서 집 생활이 어떻게 달라졌는지 말해 주세요.",
           "promptEn": "Tell me how your home life has changed over time.",
           "flowPoints": [
-            "예전에는 좁고 단순, 지금은 가족 중심과 기능 분리",
-            "가전과 공간 활용 변화를 함께 말한다",
-            "편해졌지만 관리할 것도 늘었다는 대비를 넣는다"
+            "어릴 때 단독주택 -> 작은 구조 -> 정원 기억 -> 지금 8층 아파트 -> 장단점",
+            "예전 집의 정원과 현재 아파트의 편리함을 대비한다",
+            "현재 집은 편하지만 층간소음과 정원 부재가 아쉽다고 닫는다"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "예전에는 지금보다 더 작은 집에서 살았고, 방도 한두 개 정도만 썼습니다.",
-              "en": "In the past, I lived in a smaller place than I do now, and I only used one or two rooms.",
+              "ko": "어릴 때 저는 단층 주택에서 살았습니다.",
+              "en": "When I was young, I used to live in a single-story house.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "그때는 집에서 쉬기보다 밖에서 시간을 보내는 일이 더 많았습니다.",
-              "en": "Back then, I spent more time outside than relaxing at home.",
+              "ko": "그 집에는 방 두 개, 거실, 주방, 욕실이 있었고, 아주 크지는 않았지만 가족이 살기에는 충분했습니다.",
+              "en": "It had two bedrooms, a living room, a kitchen, and a bathroom, and it was not very big, but it was enough for a family.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "지금은 아파트에서 가족과 함께 살면서, 거실과 서재를 나눠 쓰고 있습니다.",
-              "en": "Now I live in an apartment with my family, and we use the living room and the study separately.",
+              "ko": "제가 특히 좋아했던 점은 작은 정원이 있었다는 것입니다.",
+              "en": "One thing I especially liked about my old house was that it had a small garden.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "작은 책상도 따로 있어서, 집에서도 잠깐 일이나 정리를 하기 편합니다.",
-              "en": "I also have a small desk, so it is easier to do a little work or organizing at home.",
+              "ko": "어머니가 그곳에서 채소와 꽃을 키우셨고, 저는 그 근처에서 많은 시간을 보냈습니다.",
+              "en": "My mother grew vegetables and flowers there, and I spent a lot of time around that area.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "예전에는 빨래나 청소가 더 번거롭게 느껴졌지만, 지금은 가전이 좋아져서 훨씬 수월합니다.",
-              "en": "House chores used to feel more annoying, but now appliances make them much easier.",
+              "ko": "지금은 주거 지역에 있는 높은 아파트 8층에서 가족과 함께 살고 있습니다.",
+              "en": "Now I live with my family on the eighth floor of a tall apartment building in a residential area.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "지난주에도 청소기를 10분 정도 돌리니 금방 끝나서, 예전보다 집안일이 덜 부담스럽다는 걸 느꼈습니다.",
-              "en": "Last week, I ran the vacuum for about 10 minutes, and I noticed again that housework feels much lighter than before.",
+              "ko": "현재 집은 방 네 개, 거실, 주방, 욕실 두 개가 있어서 예전보다 훨씬 넓고 편합니다.",
+              "en": "My current home has four rooms, a living room, a kitchen, and two bathrooms, so it is much bigger and more convenient than before.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "물론 공간이 늘면 관리할 것도 조금 더 많아지지만, 생활은 훨씬 편해졌습니다.",
-              "en": "Of course, a bigger space also means a little more to manage, but daily life is much more comfortable now.",
+              "ko": "하지만 가끔 층간소음 때문에 스트레스를 받을 때가 있습니다.",
+              "en": "However, I sometimes get stressed out about inter-floor noise.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 저는 지금의 생활이 더 현실적이고, 제 일상에도 잘 맞는다고 생각합니다.",
-              "en": "So I think my current life fits me better.",
+              "ko": "또 어릴 때 집처럼 정원이 없다는 점은 조금 아쉽습니다.",
+              "en": "Also, I miss having a garden like the one we had when I was a child.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그래도 지금 집은 가족 생활과 제 업무 루틴에 잘 맞아서 전반적으로 만족합니다.",
+              "en": "Still, my current home fits my family life and work routine well, so overall I am satisfied with it.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "I used to live in a smaller place.",
-            "I can organize things more easily at home now.",
-            "Appliances make housework much easier."
+            "I used to live in a single-story house.",
+            "My old house had a small garden.",
+            "Now I live on the eighth floor of an apartment building.",
+            "I sometimes get stressed out about inter-floor noise.",
+            "I miss having a garden."
           ],
           "keyWords": [
             {
-              "term": "appliances",
-              "meaning": "가전제품"
+              "term": "single-story house",
+              "meaning": "단층 주택"
             },
             {
-              "term": "organize",
-              "meaning": "정리하다"
+              "term": "garden",
+              "meaning": "정원"
             },
             {
-              "term": "comfortable",
-              "meaning": "편안한"
+              "term": "residential area",
+              "meaning": "주거 지역"
             },
             {
-              "term": "manage",
-              "meaning": "관리하다"
+              "term": "inter-floor noise",
+              "meaning": "층간소음"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "예전에는 더 작은 집에서 살았습니다.",
+              "ko": "어릴 때 단층 주택에서 살았습니다.",
               "koAlternatives": [
-                "예전에는 더 작은 집에서 살았습니다."
+                "어릴 때 단층 주택에서 살았습니다."
               ],
               "variants": [
-                "I used to live in a smaller place.",
-                "My old home was smaller than my current one.",
-                "I did not have as much space in the past."
+                "I used to live in a single-story house.",
+                "When I was young, I lived in a one-story house.",
+                "My old home was a small single-story house."
               ]
             },
             {
               "id": "k2",
-              "ko": "지금은 집에서 정리하기가 더 편합니다.",
+              "ko": "예전 집에는 작은 정원이 있었습니다.",
               "koAlternatives": [
-                "지금은 집에서 정리하기가 더 편합니다."
+                "예전 집에는 작은 정원이 있었습니다."
               ],
               "variants": [
-                "I can organize things more easily at home now.",
-                "It is easier to keep things in order now.",
-                "I have a better setup for small tasks at home."
+                "My old house had a small garden.",
+                "There was a small garden at my old house.",
+                "One thing I liked about my old home was the garden."
               ]
             },
             {
               "id": "k3",
-              "ko": "가전제품 덕분에 집안일이 훨씬 수월합니다.",
+              "ko": "지금은 아파트 8층에 살고 있습니다.",
               "koAlternatives": [
-                "가전제품 덕분에 집안일이 훨씬 수월합니다."
+                "지금은 아파트 8층에 살고 있습니다."
               ],
               "variants": [
-                "Appliances make housework much easier.",
-                "Modern machines save me a lot of time.",
-                "House chores feel lighter because of good appliances."
+                "Now I live on the eighth floor of an apartment building.",
+                "My current home is on the eighth floor.",
+                "These days, I live in a tall apartment building."
               ]
             },
             {
               "id": "k4",
-              "ko": "지금 집은 가족이 함께 지내기에도 더 좋습니다.",
+              "ko": "가끔 층간소음 때문에 스트레스를 받습니다.",
               "koAlternatives": [
-                "지금 집은 가족이 함께 지내기에도 더 좋습니다."
+                "가끔 층간소음 때문에 스트레스를 받습니다."
               ],
               "variants": [
-                "My current home is better for living with my family.",
-                "This place fits our family life more comfortably.",
-                "The current home works better for daily family routines."
+                "I sometimes get stressed out about inter-floor noise.",
+                "Noise between floors can be stressful sometimes.",
+                "Apartment noise can bother me from time to time."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "어릴 때처럼 정원이 있었으면 좋겠습니다.",
+              "koAlternatives": [
+                "어릴 때처럼 정원이 있었으면 좋겠습니다."
+              ],
+              "variants": [
+                "I miss having a garden like the one we had when I was young.",
+                "I sometimes wish our family had a small garden.",
+                "It would be nice to have a garden again."
               ]
             }
           ],
           "hooks": [
             "What was your old home like?",
-            "Do you work from home sometimes?",
-            "What appliance do you use most?",
-            "Is your current home bigger than before?"
+            "Did your old home have a garden?",
+            "Is your current apartment bigger?",
+            "Do you have inter-floor noise?"
           ]
         },
         {
@@ -1791,16 +1825,16 @@
           "promptKo": "주거 문제를 말해 주세요.",
           "promptEn": "Tell me about housing issues.",
           "flowPoints": [
-            "관심 이슈 → 비용 부담 → 실제 느낌 → 비교 → 결론 순서",
-            "전세/월세/관리비 같은 현실 단어를 넣는다",
-            "안정적인 생활을 해치는 부분을 한 번 짚고 마무리한다"
+            "관심 이슈 -> 관리비/집값 -> 층간소음 -> 정원 없는 아쉬움 -> 안정성",
+            "비용 문제와 아파트 생활 문제를 함께 말한다",
+            "안정적인 주거 환경이 중요하다고 닫는다"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "제가 생각하는 주거 문제는 집값과 관리비 부담입니다.",
-              "en": "The housing issues I think about are high home prices and maintenance costs.",
+              "ko": "제가 생각하는 주거 문제는 집값, 관리비, 그리고 아파트 소음 문제입니다.",
+              "en": "The housing issues I think about are high home prices, maintenance costs, and apartment noise.",
               "status": "aligned"
             },
             {
@@ -1827,20 +1861,34 @@
             {
               "id": "s5",
               "index": 5,
-              "ko": "물론 오래된 집보다 새 집이 편한 점은 있지만, 모든 사람이 쉽게 옮길 수 있는 건 아닙니다.",
-              "en": "Of course, newer homes can be more comfortable than older ones, but not everyone can move easily.",
+              "ko": "또 아파트에서는 가끔 층간소음 때문에 스트레스를 받을 때도 있습니다.",
+              "en": "Also, in an apartment, I sometimes get stressed out about inter-floor noise.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "그래서 저는 주거 문제를 단순히 집의 크기보다, 생활이 꾸준히 가능한지로 봅니다.",
-              "en": "So when I think about housing issues, I focus less on size and more on whether daily life can stay stable.",
+              "ko": "어릴 때 살던 집에는 작은 정원이 있어서 밖에서 쉬기 좋았는데, 지금 아파트에는 그런 공간이 없는 점도 조금 아쉽습니다.",
+              "en": "When I was young, my old house had a small garden, so it was nice to rest outside, but my current apartment does not have that kind of space.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
+              "ko": "물론 지금 집은 편하고 넓지만, 모든 사람이 원하는 집으로 쉽게 옮길 수 있는 건 아닙니다.",
+              "en": "Of course, my current home is comfortable and spacious, but not everyone can move to the home they want easily.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그래서 저는 주거 문제를 단순히 집의 크기보다, 생활이 꾸준히 안정적으로 가능한지로 봅니다.",
+              "en": "So when I think about housing issues, I focus less on size and more on whether daily life can stay stable.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
               "ko": "안정적으로 살 수 있는 환경이 있어야 일도 생활도 덜 흔들린다고 생각합니다.",
               "en": "A stable place to live makes both work and life feel less shaky.",
               "status": "aligned"
@@ -1850,7 +1898,9 @@
           "keySentences": [
             "High housing costs are a big issue.",
             "Maintenance fees can become a burden.",
-            "Stable housing matters for daily life."
+            "Inter-floor noise can be stressful.",
+            "Stable housing matters for daily life.",
+            "I miss having a small garden."
           ],
           "keyWords": [
             {
@@ -1860,6 +1910,14 @@
             {
               "term": "burden",
               "meaning": "부담"
+            },
+            {
+              "term": "inter-floor noise",
+              "meaning": "층간소음"
+            },
+            {
+              "term": "garden",
+              "meaning": "정원"
             },
             {
               "term": "stable",
@@ -1885,6 +1943,18 @@
             },
             {
               "id": "k2",
+              "ko": "층간소음이 스트레스가 될 때도 있습니다.",
+              "koAlternatives": [
+                "층간소음이 스트레스가 될 때도 있습니다."
+              ],
+              "variants": [
+                "Inter-floor noise can be stressful.",
+                "Noise between floors can be a problem in apartments.",
+                "Apartment noise can make daily life uncomfortable."
+              ]
+            },
+            {
+              "id": "k3",
               "ko": "매달 드는 비용이 계속 쌓이면 부담이 됩니다.",
               "koAlternatives": [
                 "매달 드는 비용이 계속 쌓이면 부담이 됩니다."
@@ -1896,7 +1966,7 @@
               ]
             },
             {
-              "id": "k3",
+              "id": "k4",
               "ko": "안정적인 주거 환경이 중요합니다.",
               "koAlternatives": [
                 "안정적인 주거 환경이 중요합니다."
@@ -1908,15 +1978,15 @@
               ]
             },
             {
-              "id": "k4",
-              "ko": "오래 살 수 있는 집이 더 안심이 됩니다.",
+              "id": "k5",
+              "ko": "작은 정원이 없는 점은 조금 아쉽습니다.",
               "koAlternatives": [
-                "오래 살 수 있는 집이 더 안심이 됩니다."
+                "작은 정원이 없는 점은 조금 아쉽습니다."
               ],
               "variants": [
-                "A home that I can stay in for a long time feels more reassuring.",
-                "It is more comfortable when I can live there steadily.",
-                "Long-term stability makes housing feel much better."
+                "I miss having a small garden.",
+                "It is a little sad that my apartment does not have a garden.",
+                "I sometimes wish my family had an outdoor space."
               ]
             }
           ],
@@ -1924,7 +1994,184 @@
             "Do you think rent is too high?",
             "What housing problem concerns you most?",
             "Do you pay attention to maintenance fees?",
-            "Is your current home comfortable?"
+            "Do you ever worry about inter-floor noise?"
+          ]
+        },
+        {
+          "id": "03-home-apartment/q06-favorite-room",
+          "topicId": "03-home-apartment",
+          "slug": "q06-favorite-room",
+          "order": 6,
+          "title": "Favorite Room",
+          "promptKo": "집에서 가장 좋아하는 방이나 공간을 설명해 주세요.",
+          "promptEn": "Describe your favorite room or space at home.",
+          "flowPoints": [
+            "가장 좋아하는 공간 -> 큰 창문과 햇빛 -> 가구 -> 사용하는 방식 -> 의미",
+            "예전 암기 문장의 `big window`, `sunshine`, `own space` 표현을 재사용한다.",
+            "크기보다 나만의 공간이 중요하다는 결론으로 닫는다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "집에서 제가 가장 좋아하는 공간은 작은 서재입니다.",
+              "en": "My favorite space at home is the small study.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "이 방은 아주 크지는 않지만, 큰 창문이 있어서 낮에는 햇빛이 많이 들어옵니다.",
+              "en": "This room is not very big, but it has a big window, so I can get a lot of sunshine during the day.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "처음 방에 들어가면 작은 책상이 보이고, 그 옆에는 책과 노트북을 두는 선반이 있습니다.",
+              "en": "When I first walk into the room, I can see a small desk, and next to it there is a shelf for books and my laptop.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "책상은 오래 사용한 물건이라 새것은 아니지만, 저에게는 꽤 익숙하고 편합니다.",
+              "en": "The desk is not new because I have used it for a long time, but it feels familiar and comfortable to me.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "오른쪽 구석에는 작은 수납장이 있어서 책, 케이블, 사무용품을 정리해 둡니다.",
+              "en": "In the right corner, there is a small cabinet where I keep books, cables, and office supplies.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "저는 이 방에서 짧게 일을 하거나, 문서를 읽거나, 조용히 생각을 정리합니다.",
+              "en": "I use this room to do short work, read documents, or quietly organize my thoughts.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "공간이 넓지는 않아도 필요한 물건이 가까이 있어서 사용하기 편합니다.",
+              "en": "Even though the space is not large, everything I need is nearby, so it is easy to use.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "특히 햇빛이 좋은 날에는 방 분위기가 훨씬 따뜻하게 느껴집니다.",
+              "en": "Especially on sunny days, the room feels much warmer and brighter.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그래서 저는 방의 크기와 상관없이 자기만의 공간이 있는 것이 중요하다고 생각합니다.",
+              "en": "So I think it is important to have your own space, regardless of its size.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "My favorite space is the small study.",
+            "It has a big window with a lot of sunshine.",
+            "The desk feels familiar and comfortable.",
+            "I organize my thoughts in this room.",
+            "It is important to have your own space."
+          ],
+          "keyWords": [
+            {
+              "term": "study",
+              "meaning": "서재"
+            },
+            {
+              "term": "sunshine",
+              "meaning": "햇빛"
+            },
+            {
+              "term": "shelf",
+              "meaning": "선반"
+            },
+            {
+              "term": "cabinet",
+              "meaning": "수납장"
+            },
+            {
+              "term": "own space",
+              "meaning": "자기만의 공간"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "제가 가장 좋아하는 공간은 작은 서재입니다.",
+              "koAlternatives": [
+                "제가 가장 좋아하는 공간은 작은 서재입니다."
+              ],
+              "variants": [
+                "My favorite space is the small study.",
+                "Among all the rooms, I like the small study the most.",
+                "The small study is my favorite room at home."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "큰 창문이 있어서 햇빛이 많이 들어옵니다.",
+              "koAlternatives": [
+                "큰 창문이 있어서 햇빛이 많이 들어옵니다."
+              ],
+              "variants": [
+                "It has a big window with a lot of sunshine.",
+                "I can get a lot of sunlight through the big window.",
+                "The big window makes the room bright during the day."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "오래 쓴 책상이지만 편합니다.",
+              "koAlternatives": [
+                "오래 쓴 책상이지만 편합니다."
+              ],
+              "variants": [
+                "The desk is old, but it feels comfortable.",
+                "I have used the desk for a long time, so it feels familiar.",
+                "The desk is not new, but I like it because I am used to it."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "이 방에서 생각을 조용히 정리합니다.",
+              "koAlternatives": [
+                "이 방에서 생각을 조용히 정리합니다."
+              ],
+              "variants": [
+                "I quietly organize my thoughts in this room.",
+                "This room helps me clear my head.",
+                "I use this room when I need quiet time."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "크기와 상관없이 자기만의 공간이 중요합니다.",
+              "koAlternatives": [
+                "크기와 상관없이 자기만의 공간이 중요합니다."
+              ],
+              "variants": [
+                "It is important to have your own space, regardless of its size.",
+                "Having a personal space matters more than the size.",
+                "Even a small room can be meaningful if it feels like my own space."
+              ]
+            }
+          ],
+          "hooks": [
+            "Why do you like that room?",
+            "What furniture is in the room?",
+            "Does the room get a lot of sunlight?",
+            "Do you work or rest there?"
           ]
         }
       ]
@@ -2268,73 +2515,73 @@
               "index": 1,
               "ko": "예전에는 영화를 보려면 거의 항상 영화관에 가야 했습니다.",
               "en": "In the past, I almost always had to go to a theater to watch a movie.",
-              "status": "needs-review"
+              "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
               "ko": "그래서 주말에 시간을 따로 내고, 표도 미리 챙겨야 했습니다.",
               "en": "So I had to set aside time on the weekend and make sure I got the tickets early.",
-              "status": "needs-review"
+              "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
               "ko": "지금은 집에서도 스트리밍으로 쉽게 볼 수 있고, 저희 집에는 홈시어터도 있어서 꽤 만족스럽게 볼 수 있습니다.",
               "en": "Now it is much easier because I can stream movies at home, and I actually have a home theater setup there too.",
-              "status": "needs-review"
+              "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
               "ko": "지난주에도 저녁 8시쯤 집에서 바로 영화를 틀었는데, 이동 시간이 없어서 아주 편했습니다.",
               "en": "Last week, I started a movie at home around 8 p.m., and it was very comfortable because I did not need to travel.",
-              "status": "needs-review"
+              "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "예전에는 불편했지만 극장 사운드가 좋다는 느낌이 강했는데, 요즘에는 홈시어터 기술도 좋아지고 실제로 집에서도 충분히 몰입할 수 있어서 저는 더 집에서 영화를 보는 편입니다.",
+              "ko": "예전에는 불편했지만 극장 사운드가 좋다는 느낌이 강했습니다.",
               "en": "In the past, the theater sound felt special even though it was less convenient, but these days home theater technology is much better, so I can enjoy movies at home almost as much.",
-              "status": "needs-review"
+              "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "물론 집은 편한 대신 가끔 집중력이 덜할 때도 있습니다.",
+              "ko": "하지만 요즘에는 홈시어터 기술도 좋아지고 실제로 집에서도 충분히 몰입할 수 있어서 저는 더 집에서 영화를 보는 편입니다.",
               "en": "That is one big reason I prefer watching movies at home now.",
-              "status": "needs-review"
+              "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "그래도 편한 자세로 볼 수 있고, 중간에 쉬기도 쉬워서 일상적으로는 훨씬 잘 맞습니다.",
+              "ko": "물론 집은 편한 대신 가끔 집중력이 덜할 때도 있습니다.",
               "en": "Of course, home is comfortable, but sometimes my focus gets a little weaker.",
-              "status": "needs-review"
+              "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "반대로 특별한 작품이나 큰 화면이 필요한 영화는 아직 영화관이 더 좋다고 느낍니다.",
+              "ko": "그래도 편한 자세로 볼 수 있고, 중간에 쉬기도 쉬워서 일상적으로는 훨씬 잘 맞습니다.",
               "en": "Still, being able to watch in a relaxed position and take a break when I want is a clear advantage.",
-              "status": "needs-review"
+              "status": "aligned"
             },
             {
               "id": "s9",
               "index": 9,
-              "ko": "그래서 지금은 일상적으로 볼 때는 집을, 특별한 경험이 필요할 때는 영화관을 선택합니다.",
+              "ko": "반대로 특별한 작품이나 큰 화면이 필요한 영화는 아직 영화관이 더 좋다고 느낍니다.",
               "en": "On the other hand, movie theaters still feel better for big-screen movies or special experiences.",
-              "status": "needs-review"
+              "status": "aligned"
             },
             {
               "id": "s10",
               "index": 10,
-              "ko": "",
+              "ko": "그래서 지금은 일상적으로 볼 때는 집을, 특별한 경험이 필요할 때는 영화관을 선택합니다.",
               "en": "So now I think of it as home for regular viewing and outside for special occasions.",
-              "status": "needs-review"
+              "status": "aligned"
             }
           ],
-          "hasAlignmentIssue": true,
+          "hasAlignmentIssue": false,
           "keySentences": [
             "In the past, I almost always went to a theater.",
             "Streaming at home is much more convenient now.",
@@ -5315,80 +5562,91 @@
           "promptKo": "좋아하는 음악 취향을 말해 주세요.",
           "promptEn": "Tell me about your music preferences.",
           "flowPoints": [
-            "좋아하는 장르 → 듣는 이유 → 상황 → 대비 → 마무리 순서",
-            "잔잔한 음악과 일상 활용을 말한다",
-            "기분 조절에 도움이 된다고 닫는다"
+            "처음 좋아하게 된 계기 -> 지금 취향 -> 듣는 상황 -> 감정 -> 마무리 순서",
+            "Lion King, Aladdin 같은 디즈니 사운드트랙을 기억 자산으로 쓴다",
+            "지금은 잔잔한 팝과 영화 음악을 좋아한다고 정리한다"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "저는 시끄러운 음악보다 잔잔한 음악을 더 좋아합니다.",
-              "en": "I like calm music more than loud music.",
+              "ko": "저는 시끄러운 음악보다 잔잔한 팝이나 영화 음악을 더 좋아합니다.",
+              "en": "I like calm pop music and movie soundtracks more than loud music.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "주로 팝이나 인디 느낌의 노래를 듣고, 가사도 너무 복잡하지 않은 것을 선호합니다.",
-              "en": "I usually listen to pop or indie songs, and I prefer lyrics that are not too complicated.",
+              "ko": "처음 음악에 관심을 갖게 된 건 초등학생 때였던 것 같습니다.",
+              "en": "I think I first became interested in music when I was in elementary school.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "출퇴근할 때나 저녁 산책할 때 들으면 기분이 편해집니다.",
-              "en": "When I listen on my commute or during an evening walk, I feel more relaxed.",
+              "ko": "그때 어머니가 저를 영화관에 데려가서 디즈니 애니메이션 Lion King을 보여 주셨습니다.",
+              "en": "At that time, my mother took me to the movies and showed me the Disney animation The Lion King.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난주에는 비 오는 날 차 안에서 같은 플레이리스트를 20분 정도 들었는데, 분위기가 잘 맞아서 좋았습니다.",
-              "en": "Last week, I listened to the same playlist in the car for about 20 minutes on a rainy day, and the mood matched well.",
+              "ko": "영화도 인상적이었지만, 저는 특히 사운드트랙이 오래 기억에 남았습니다.",
+              "en": "The movie was impressive, but the soundtrack stayed with me the most.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "물론 신나는 노래도 가끔 듣지만, 너무 강하면 오래 듣기 어렵습니다.",
-              "en": "Of course, I sometimes listen to energetic songs, but if the music is too strong, I cannot listen for very long.",
+              "ko": "나중에는 Aladdin 음악도 좋아하게 되었고, 두 영화 음악은 지금도 저에게 비슷하게 특별합니다.",
+              "en": "Later, I also came to like the music from Aladdin, and both soundtracks still feel special to me.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "저는 음악을 배경처럼 두고, 하루를 조금 부드럽게 만드는 편이 좋습니다.",
-              "en": "I like music as something in the background that softens my day a little.",
+              "ko": "요즘은 출퇴근할 때나 저녁 산책할 때 잔잔한 플레이리스트를 자주 듣습니다.",
+              "en": "These days, I often listen to a calm playlist during my commute or evening walk.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "반대로 집중이 필요할 때는 너무 강한 노래보다 잔잔한 음악이 더 잘 맞습니다.",
-              "en": "When I need to focus, calm music also works better than loud songs.",
+              "ko": "가끔 디즈니 음악을 들으면 어릴 때 봤던 장면이 바로 떠오릅니다.",
+              "en": "When I hear Disney music sometimes, the scenes from my childhood come back right away.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 제 취향은 화려하기보다 편안한 쪽에 가깝습니다.",
-              "en": "So my taste is more comfortable than flashy.",
+              "ko": "그래서 제 음악 취향은 화려하기보다 편안하고 추억이 있는 쪽에 가깝습니다.",
+              "en": "So my music taste is more comfortable and nostalgic than flashy.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "음악은 제 하루를 조금 부드럽게 만들어 주는 좋은 배경 같습니다.",
+              "en": "Music feels like a nice background that softens my day a little.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
             "I like calm music more than loud music.",
-            "Music helps me relax during my commute.",
-            "My taste is more comfortable than flashy.",
-            "Calm music works better when I need to focus.",
-            "Music softens my day a little."
+            "I first became interested in music in elementary school.",
+            "The Lion King soundtrack stayed with me.",
+            "Disney music brings back movie scenes.",
+            "My taste is comfortable and nostalgic."
           ],
           "keyWords": [
             {
               "term": "indie",
               "meaning": "인디"
+            },
+            {
+              "term": "soundtrack",
+              "meaning": "사운드트랙"
             },
             {
               "term": "playlist",
@@ -5399,8 +5657,8 @@
               "meaning": "출퇴근"
             },
             {
-              "term": "relaxed",
-              "meaning": "편안한"
+              "term": "nostalgic",
+              "meaning": "추억이 떠오르는"
             }
           ],
           "keySentenceGroups": [
@@ -5418,58 +5676,58 @@
             },
             {
               "id": "k2",
-              "ko": "출퇴근할 때 음악을 듣습니다.",
+              "ko": "초등학생 때 음악에 관심을 갖게 되었습니다.",
               "koAlternatives": [
-                "출퇴근할 때 음악을 듣습니다."
+                "초등학생 때 음악에 관심을 갖게 되었습니다."
               ],
               "variants": [
-                "Music helps me relax during my commute.",
-                "I listen to music on the way to and from work.",
-                "I often play songs while commuting."
+                "I first became interested in music in elementary school.",
+                "My interest in music started when I was a child.",
+                "I started liking music when I was about ten years old."
               ]
             },
             {
               "id": "k3",
-              "ko": "음악은 하루를 부드럽게 만들어 줍니다.",
+              "ko": "Lion King 사운드트랙이 오래 기억에 남았습니다.",
               "koAlternatives": [
-                "음악은 하루를 부드럽게 만들어 줍니다."
+                "Lion King 사운드트랙이 오래 기억에 남았습니다."
               ],
               "variants": [
-                "Music softens my day a little.",
-                "Songs help me feel less tense.",
-                "Music makes daily life feel calmer."
+                "The Lion King soundtrack stayed with me.",
+                "I still remember the music from The Lion King.",
+                "The soundtrack from that movie left a strong impression on me."
               ]
             },
             {
               "id": "k4",
-              "ko": "집중이 필요할 때는 잔잔한 음악이 더 잘 맞습니다.",
+              "ko": "디즈니 음악을 들으면 영화 장면이 떠오릅니다.",
               "koAlternatives": [
-                "집중이 필요할 때는 잔잔한 음악이 더 잘 맞습니다."
+                "디즈니 음악을 들으면 영화 장면이 떠오릅니다."
               ],
               "variants": [
-                "Calm music works better when I need to focus.",
-                "Softer songs fit my mood when I need concentration.",
-                "Quiet music helps me stay focused."
+                "Disney music brings back movie scenes.",
+                "When I hear Disney songs, I remember the scenes right away.",
+                "The music makes me think of the movies again."
               ]
             },
             {
               "id": "k5",
-              "ko": "너무 시끄러운 음악은 오래 듣기 어렵습니다.",
+              "ko": "제 취향은 편안하고 추억이 있는 쪽입니다.",
               "koAlternatives": [
-                "너무 시끄러운 음악은 오래 듣기 어렵습니다."
+                "제 취향은 편안하고 추억이 있는 쪽입니다."
               ],
               "variants": [
-                "I cannot listen to very loud music for long.",
-                "Too much noise makes me tired quickly.",
-                "I prefer music that stays comfortable for a while."
+                "My taste is comfortable and nostalgic.",
+                "I like music that feels calm and brings back memories.",
+                "I prefer songs that feel familiar and warm."
               ]
             }
           ],
           "hooks": [
             "What genre do you like?",
-            "Do you listen with earphones?",
-            "Do you make your own playlist?",
-            "When do you listen most often?"
+            "What soundtrack do you remember?",
+            "Did you like Disney music as a child?",
+            "Does music bring back memories for you?"
           ]
         },
         {
@@ -5481,9 +5739,9 @@
           "promptKo": "음악을 들을 때 보통 어떻게 하는지 말해 주세요.",
           "promptEn": "Tell me about your music listening routine.",
           "flowPoints": [
-            "언제 듣는지 → 어디서 듣는지 → 어떤 곡인지 → 작은 습관 → 마무리 순서",
-            "아침과 산책을 연결한다",
-            "음악이 집중과 기분 정리에 도움이 된다고 닫는다"
+            "언제 듣는지 -> 어떤 플레이리스트인지 -> 디즈니 음악 사용 -> 효과 -> 마무리",
+            "출퇴근, 산책, 집안일처럼 반복 루틴에 붙인다",
+            "익숙한 노래를 들으면 생각 정리에 좋다고 닫는다"
           ],
           "scriptPairs": [
             {
@@ -5496,8 +5754,8 @@
             {
               "id": "s2",
               "index": 2,
-              "ko": "출근할 때는 이어폰으로 조용한 노래를 듣고, 퇴근 후에는 조금 더 편한 곡을 듣습니다.",
-              "en": "On the way to work, I use earphones and listen to quiet songs, and after work I choose something a little more comfortable.",
+              "ko": "출근할 때는 이어폰으로 잔잔한 팝을 듣고, 퇴근 후에는 조금 더 편한 노래를 고릅니다.",
+              "en": "On the way to work, I use earphones and listen to calm pop songs, and after work I choose something more comfortable.",
               "status": "aligned"
             },
             {
@@ -5510,34 +5768,41 @@
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난주에는 비슷한 분위기의 노래 5곡을 연속으로 들었는데, 생각 정리하는 데 도움이 됐습니다.",
-              "en": "Last week, I listened to five songs with a similar mood in a row, and it helped me organize my thoughts.",
+              "ko": "가끔 기분 전환이 필요하면 Lion King이나 Aladdin 같은 디즈니 사운드트랙도 듣습니다.",
+              "en": "When I need a small mood change, I sometimes listen to Disney soundtracks like The Lion King or Aladdin.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "너무 시끄러운 음악은 집중을 방해할 때가 있어서, 저는 장면에 맞는 음악을 고릅니다.",
-              "en": "Very loud music can interrupt my focus, so I choose songs that match the situation.",
+              "ko": "그런 음악은 어릴 때 봤던 영화 장면을 떠올리게 해서 기분이 조금 따뜻해집니다.",
+              "en": "That kind of music reminds me of movie scenes from my childhood, so it makes me feel a little warm.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "가끔은 집안일을 할 때도 음악을 틀어 두면 시간이 더 빨리 갑니다.",
-              "en": "Sometimes I also play music while doing chores, and then the time seems to pass faster.",
+              "ko": "지난주에는 산책하면서 디즈니 노래와 잔잔한 팝을 이어서 들었는데, 생각 정리에 도움이 됐습니다.",
+              "en": "Last week, I listened to Disney songs and calm pop songs during a walk, and it helped me organize my thoughts.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "하루가 바쁠수록 짧게라도 음악을 듣는 시간이 오히려 도움이 됩니다.",
-              "en": "When my day is busy, even a short listening session helps me reset a little.",
+              "ko": "너무 시끄러운 음악은 집중을 방해할 때가 있어서, 저는 상황에 맞는 음악을 고릅니다.",
+              "en": "Very loud music can interrupt my focus, so I choose songs that match the situation.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
+              "ko": "하루가 바쁠수록 짧게라도 익숙한 노래를 듣는 시간이 오히려 도움이 됩니다.",
+              "en": "When my day is busy, even a short time with familiar songs helps me reset a little.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
               "ko": "그래서 제 음악 루틴은 특별하지 않지만, 일상에는 꽤 잘 맞습니다.",
               "en": "So my listening routine is simple, but it fits my daily life well.",
               "status": "aligned"
@@ -5547,9 +5812,9 @@
           "keySentences": [
             "I listen to music on my commute.",
             "I prefer listening in order.",
+            "I sometimes listen to Disney soundtracks.",
             "Music helps me organize my thoughts.",
-            "Music helps me reset a little.",
-            "I choose songs that match the situation."
+            "Music helps me reset a little."
           ],
           "keyWords": [
             {
@@ -5565,8 +5830,8 @@
               "meaning": "재생목록"
             },
             {
-              "term": "focus",
-              "meaning": "집중"
+              "term": "familiar",
+              "meaning": "익숙한"
             }
           ],
           "keySentenceGroups": [
@@ -5596,6 +5861,18 @@
             },
             {
               "id": "k3",
+              "ko": "가끔 디즈니 사운드트랙을 듣습니다.",
+              "koAlternatives": [
+                "가끔 디즈니 사운드트랙을 듣습니다."
+              ],
+              "variants": [
+                "I sometimes listen to Disney soundtracks.",
+                "I play Disney music when I need a small mood change.",
+                "Disney songs are part of my old favorite playlist."
+              ]
+            },
+            {
+              "id": "k4",
               "ko": "음악은 생각을 정리하는 데 도움이 됩니다.",
               "koAlternatives": [
                 "음악은 생각을 정리하는 데 도움이 됩니다."
@@ -5607,19 +5884,19 @@
               ]
             },
             {
-              "id": "k4",
-              "ko": "음악은 바쁜 하루를 잠깐 정리해 줍니다.",
+              "id": "k5",
+              "ko": "익숙한 노래는 바쁜 하루를 잠깐 정리해 줍니다.",
               "koAlternatives": [
-                "음악은 바쁜 하루를 잠깐 정리해 줍니다."
+                "익숙한 노래는 바쁜 하루를 잠깐 정리해 줍니다."
               ],
               "variants": [
                 "Music helps me reset a little.",
                 "A short listening session helps me calm down.",
-                "Music gives me a quick break from a busy day."
+                "Familiar songs give me a quick break from a busy day."
               ]
             },
             {
-              "id": "k5",
+              "id": "k6",
               "ko": "짧은 시간이라도 자주 듣는 편입니다.",
               "koAlternatives": [
                 "짧은 시간이라도 자주 듣는 편입니다."
@@ -5635,7 +5912,7 @@
             "Do you listen at work too?",
             "Do you prefer shuffle or order?",
             "What kind of songs do you save?",
-            "Does music help you focus?"
+            "Do you still listen to old soundtracks?"
           ]
         },
         {
@@ -5647,65 +5924,72 @@
           "promptKo": "예전과 비교해서 음악을 듣는 방식이 어떻게 달라졌는지 말해 주세요.",
           "promptEn": "Tell me how your music habits have changed over time.",
           "flowPoints": [
-            "예전에는 그냥 들음, 지금은 상황별로 듣는다",
-            "이어폰, 플레이리스트, 취향 변화",
-            "음악이 생활 도구가 됐다는 결론"
+            "어린 시절 영화 음악 -> 지금의 플레이리스트 -> 듣는 방식 변화 -> 정리",
+            "예전에는 장면을 떠올리며 들었고, 지금은 상황별로 듣는다고 말한다",
+            "취향은 바뀌었지만 오래된 음악도 남아 있다고 닫는다"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "예전에는 음악을 그냥 라디오처럼 듣는 경우가 많았습니다.",
-              "en": "In the past, I often listened to music just like the radio, without much thought.",
+              "ko": "예전에는 음악을 들으면 특정 영화 장면을 떠올리는 경우가 많았습니다.",
+              "en": "In the past, music often made me think of certain movie scenes.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "지금은 출근, 산책, 집안일처럼 상황에 맞게 골라 듣는 편입니다.",
-              "en": "Now I choose songs based on the situation, like commuting, walking, or doing chores.",
+              "ko": "초등학생 때 Lion King을 본 뒤에는 사운드트랙을 들을 때마다 영화 장면이 바로 생각났습니다.",
+              "en": "After I watched The Lion King in elementary school, the soundtrack immediately reminded me of the movie scenes.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "예전에는 한 번 듣고 끝나는 노래가 많았지만, 요즘은 플레이리스트를 저장해 두고 다시 듣습니다.",
-              "en": "Before, I had many songs that I listened to only once, but now I save playlists and listen again.",
+              "ko": "그때는 음악 자체보다 영화의 감정과 장면이 더 크게 느껴졌습니다.",
+              "en": "At that time, the feelings and scenes from the movie felt stronger than the music itself.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난달에는 산책하면서 같은 노래를 여러 번 들었는데, 이상하게도 반복해서 들을수록 더 편했습니다.",
-              "en": "Last month, I listened to the same song many times during a walk, and strangely enough, it felt more comfortable each time.",
+              "ko": "지금은 출근, 산책, 집안일처럼 상황에 맞게 음악을 골라 듣는 편입니다.",
+              "en": "Now I choose songs based on the situation, like commuting, walking, or doing chores.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "예전에는 가사보다 멜로디만 들을 때가 많았지만, 지금은 분위기와 속도도 같이 봅니다.",
-              "en": "In the past, I paid more attention to the melody than the lyrics, but now I also look at the mood and pace.",
+              "ko": "예전에는 한두 곡을 반복해서 들었다면, 요즘은 플레이리스트를 저장해 두고 분위기별로 듣습니다.",
+              "en": "Before, I repeated one or two songs, but these days I save playlists and listen by mood.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "물론 새로운 노래를 찾는 재미도 있지만, 자주 듣는 곡이 주는 안정감이 더 큽니다.",
-              "en": "Of course, finding new songs is still fun, but familiar songs give me more stability.",
+              "ko": "제 취향도 예전보다 조금 차분해졌고, 너무 강한 음악보다는 편안한 노래가 더 좋습니다.",
+              "en": "My taste has also become calmer, and I prefer comfortable songs to very strong music.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "예전에는 그냥 듣는 느낌이었다면, 지금은 음악을 상황에 맞게 쓰는 느낌이 더 강합니다.",
-              "en": "Before, music was something I just listened to, but now it is something I use depending on my day.",
+              "ko": "그래도 가끔 디즈니 음악을 들으면 어릴 때의 기억이 자연스럽게 떠오릅니다.",
+              "en": "Still, when I listen to Disney music sometimes, childhood memories come back naturally.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 저는 음악을 단순한 취미보다, 생활에 붙어 있는 도구처럼 느낍니다.",
-              "en": "So I see music less as a hobby only and more as a tool that fits into daily life.",
+              "ko": "그래서 제 음악 습관은 많이 바뀌었지만, 오래된 영화 음악은 아직 제 취향 안에 남아 있습니다.",
+              "en": "So my music habits have changed a lot, but old movie soundtracks are still part of my taste.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "이제 음악은 단순한 취미라기보다 하루의 분위기를 조절하는 도구처럼 느껴집니다.",
+              "en": "Now music feels less like a simple hobby and more like a tool that controls the mood of my day.",
               "status": "aligned"
             }
           ],
@@ -5713,9 +5997,9 @@
           "keySentences": [
             "I choose songs based on the situation now.",
             "I save playlists and listen again.",
-            "Familiar songs give me more stability.",
+            "Old soundtracks are still part of my taste.",
             "Music is something I use depending on my day.",
-            "I look at the mood and pace too."
+            "Music reminds me of certain movie scenes."
           ],
           "keyWords": [
             {
@@ -5727,8 +6011,8 @@
               "meaning": "멜로디"
             },
             {
-              "term": "stability",
-              "meaning": "안정감"
+              "term": "childhood memory",
+              "meaning": "어린 시절 기억"
             },
             {
               "term": "mood",
@@ -5738,14 +6022,14 @@
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "예전에는 그냥 듣는 경우가 많았습니다.",
+              "ko": "예전에는 음악을 들으면 영화 장면이 떠올랐습니다.",
               "koAlternatives": [
-                "예전에는 그냥 듣는 경우가 많았습니다."
+                "예전에는 음악을 들으면 영화 장면이 떠올랐습니다."
               ],
               "variants": [
-                "In the past, I often listened without much thought.",
-                "I used to play music casually.",
-                "I did not choose songs very carefully before."
+                "In the past, music often made me think of movie scenes.",
+                "Music used to bring movie scenes back to me.",
+                "I connected music with movie scenes when I was young."
               ]
             },
             {
@@ -5762,14 +6046,14 @@
             },
             {
               "id": "k3",
-              "ko": "익숙한 노래가 더 안정감을 줍니다.",
+              "ko": "오래된 사운드트랙도 아직 제 취향 안에 있습니다.",
               "koAlternatives": [
-                "익숙한 노래가 더 안정감을 줍니다."
+                "오래된 사운드트랙도 아직 제 취향 안에 있습니다."
               ],
               "variants": [
-                "Familiar songs give me more stability.",
-                "Songs I know well feel more comforting.",
-                "Old favorites make me feel calmer."
+                "Old soundtracks are still part of my taste.",
+                "I still enjoy some soundtracks from my childhood.",
+                "Those old movie songs still sound nice to me."
               ]
             },
             {
@@ -5786,9 +6070,9 @@
             },
             {
               "id": "k5",
-              "ko": "예전보다 플레이리스트를 더 자주 만듭니다.",
+              "ko": "지금은 플레이리스트를 분위기별로 듣습니다.",
               "koAlternatives": [
-                "예전보다 플레이리스트를 더 자주 만듭니다."
+                "지금은 플레이리스트를 분위기별로 듣습니다."
               ],
               "variants": [
                 "I make playlists more often now than before.",
@@ -5800,8 +6084,8 @@
           "hooks": [
             "What changed the most for you?",
             "Do you save songs now?",
-            "Do you listen by mood?",
-            "What song do you repeat most?"
+            "Do old songs bring back memories?",
+            "Do you still listen to movie soundtracks?"
           ]
         },
         {
@@ -5813,161 +6097,175 @@
           "promptKo": "음악과 관련된 기억에 남는 경험을 말해 주세요.",
           "promptEn": "Tell me about a memorable music experience.",
           "flowPoints": [
-            "언제/어디서 → 어떤 노래 → 작은 감정 변화 → 이유 → 마무리 순서",
-            "비 오는 날, 야간 산책 같은 장면을 넣는다",
-            "노래와 장면이 같이 기억난다고 닫는다"
+            "어린 시절 -> 어머니와 영화관 -> Lion King -> 사운드트랙 -> 지금도 기억",
+            "디즈니 음악을 들으면 장면이 떠오른다는 흐름을 쓴다",
+            "마지막에 \"시험 끝나고 다시 보고 싶다\" 느낌으로 자연스럽게 닫는다"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "작년 여름에 비 오는 밤에 음악을 들으며 산책한 적이 있습니다.",
-              "en": "Last summer, I had a memorable walk while listening to music on a rainy night.",
+              "ko": "음악과 관련해서 가장 기억에 남는 경험은 초등학생 때 영화관에 갔던 일입니다.",
+              "en": "My most memorable experience with music was when I went to the movies in elementary school.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "그때는 10시쯤이었고, 사람이 거의 없어서 조용했습니다.",
-              "en": "It was around 10 p.m., and there were almost no people outside, so it was very quiet.",
+              "ko": "그날 어머니가 저를 데리고 디즈니 애니메이션 Lion King을 보여 주셨습니다.",
+              "en": "That day, my mother took me to see the Disney animation The Lion King.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "제가 좋아하는 잔잔한 노래가 나왔는데, 이상하게도 그날 공기와 잘 맞았습니다.",
-              "en": "A soft song I liked came on, and strangely enough, it matched the air that night very well.",
+              "ko": "영화 자체도 정말 인상적이고 감동적이었지만, 저는 사운드트랙이 특히 좋았습니다.",
+              "en": "The movie itself was very impressive and touching, but I especially liked the soundtrack.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "중간에 신호등 앞에서 잠깐 멈췄을 때, 노래 한 소절이 계속 머리에 남았습니다.",
-              "en": "When I stopped at a crosswalk for a moment, one line from the song kept staying in my head.",
+              "ko": "나중에 그 음악 중 일부를 Elton John 같은 가수가 불렀다는 것도 알게 되었습니다.",
+              "en": "Later, I learned that some of the songs were sung by singers like Elton John.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "그때는 그냥 평범한 산책이었지만, 음악 덕분에 분위기가 더 특별하게 느껴졌습니다.",
-              "en": "It was just a normal walk, but the music made the atmosphere feel more special.",
+              "ko": "집에 돌아온 뒤에도 그 음악을 들으면 영화 장면이 자연스럽게 떠올랐습니다.",
+              "en": "After I came home, whenever I listened to the music, the movie scenes came back naturally.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "그날은 일이 조금 피곤했던 날이었는데, 음악을 들으니 생각보다 기분이 빨리 풀렸습니다.",
-              "en": "That day, I was a little tired from work, but the music helped my mood improve faster than I expected.",
+              "ko": "나중에는 Aladdin 음악도 좋아하게 되었고, 두 영화 음악은 저에게 거의 비슷하게 특별했습니다.",
+              "en": "Later, I also came to like the music from Aladdin, and both soundtracks felt almost equally special to me.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "지금도 그 노래를 들으면 그날의 비 냄새와 바람이 먼저 생각납니다.",
-              "en": "Even now, when I hear that song, I first remember the smell of rain and the cool wind from that night.",
+              "ko": "지금은 음악 취향이 많이 바뀌었지만, 가끔 디즈니 음악을 들으면 여전히 기분이 좋아집니다.",
+              "en": "Now my music taste has changed a lot, but when I listen to Disney music sometimes, it still makes me feel good.",
               "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 저는 음악이 순간을 기억으로 남겨 주는 힘이 있다고 생각합니다.",
-              "en": "So I think music has the power to turn a simple moment into a memory.",
+              "ko": "어릴 때 좋아했던 노래가 아직도 좋게 들린다는 점이 조금 신기합니다.",
+              "en": "It is a little interesting that songs I liked as a child still sound nice to me.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그래서 저는 음악이 단순한 소리보다 기억을 다시 불러오는 힘이 있다고 생각합니다.",
+              "en": "So I think music has the power to bring back memories, not just sound.",
+              "status": "aligned"
+            },
+            {
+              "id": "s10",
+              "index": 10,
+              "ko": "가끔은 이 시험이 끝나고 그 영화들을 다시 보고 싶다는 생각도 듭니다.",
+              "en": "Sometimes I even feel like watching those movies again after this test.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "I had a memorable walk while listening to music.",
-            "The song matched the atmosphere that night.",
-            "Music can turn a simple moment into a memory.",
-            "The music helped my mood improve.",
-            "I still remember the smell of rain."
+            "My mother took me to see The Lion King.",
+            "I especially liked the soundtrack.",
+            "The movie scenes came back naturally.",
+            "The songs still sound nice to me.",
+            "Music has the power to bring back memories."
           ],
           "keyWords": [
             {
-              "term": "crosswalk",
-              "meaning": "횡단보도"
+              "term": "touching",
+              "meaning": "감동적인"
             },
             {
-              "term": "atmosphere",
-              "meaning": "분위기"
+              "term": "soundtrack",
+              "meaning": "사운드트랙"
             },
             {
               "term": "memorable",
               "meaning": "기억에 남는"
             },
             {
-              "term": "rain smell",
-              "meaning": "비 냄새"
+              "term": "bring back",
+              "meaning": "다시 떠올리다"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "음악을 들으며 기억에 남는 산책을 했습니다.",
+              "ko": "어머니가 Lion King을 보여 주셨습니다.",
               "koAlternatives": [
-                "음악을 들으며 기억에 남는 산책을 했습니다."
+                "어머니가 Lion King을 보여 주셨습니다."
               ],
               "variants": [
-                "I had a memorable walk while listening to music.",
-                "Music made my walk more special.",
-                "I remember that walk because of the song."
+                "My mother took me to see The Lion King.",
+                "My mother showed me The Lion King when I was young.",
+                "I watched The Lion King with my mother in elementary school."
               ]
             },
             {
               "id": "k2",
-              "ko": "노래가 그날 분위기와 잘 맞았습니다.",
+              "ko": "저는 사운드트랙이 특히 좋았습니다.",
               "koAlternatives": [
-                "노래가 그날 분위기와 잘 맞았습니다."
+                "저는 사운드트랙이 특히 좋았습니다."
               ],
               "variants": [
-                "The song matched the atmosphere that night.",
-                "The music fit the mood very well.",
-                "The song went perfectly with the night."
+                "I especially liked the soundtrack.",
+                "The soundtrack stayed with me the most.",
+                "The music from the movie was very impressive."
               ]
             },
             {
               "id": "k3",
-              "ko": "음악은 평범한 순간을 기억으로 바꿉니다.",
+              "ko": "음악을 들으면 영화 장면이 떠올랐습니다.",
               "koAlternatives": [
-                "음악은 평범한 순간을 기억으로 바꿉니다."
+                "음악을 들으면 영화 장면이 떠올랐습니다."
               ],
               "variants": [
-                "Music can turn a simple moment into a memory.",
-                "Songs can make small moments unforgettable.",
-                "Music helps ordinary moments stay in my mind."
+                "The movie scenes came back naturally.",
+                "The music reminded me of the movie scenes.",
+                "Whenever I heard the soundtrack, I could recall the scenes."
               ]
             },
             {
               "id": "k4",
-              "ko": "그 이후로 그 노래를 들으면 그때가 바로 떠오릅니다.",
+              "ko": "어릴 때 좋아했던 노래가 아직도 좋게 들립니다.",
               "koAlternatives": [
-                "그 이후로 그 노래를 들으면 그때가 바로 떠오릅니다."
+                "어릴 때 좋아했던 노래가 아직도 좋게 들립니다."
               ],
               "variants": [
-                "Since then, that song brings the memory back right away.",
-                "Now I think of that moment whenever I hear it.",
-                "The song still reminds me of that night clearly."
+                "The songs still sound nice to me.",
+                "Songs I liked as a child still feel good.",
+                "Those old songs still have a warm feeling for me."
               ]
             },
             {
               "id": "k5",
-              "ko": "음악이 기분을 빨리 풀어 줬습니다.",
+              "ko": "음악은 기억을 다시 불러오는 힘이 있습니다.",
               "koAlternatives": [
-                "음악이 기분을 빨리 풀어 줬습니다."
+                "음악은 기억을 다시 불러오는 힘이 있습니다."
               ],
               "variants": [
-                "The music helped my mood improve.",
-                "Music made me feel better faster than I expected.",
-                "The song helped me shake off the tired feeling."
+                "Music has the power to bring back memories.",
+                "Music can bring old memories back.",
+                "Songs can connect a sound with a memory."
               ]
             }
           ],
           "hooks": [
-            "What song was it?",
-            "Was it raining hard?",
-            "Do songs remind you of places?",
-            "When do you feel music most strongly?"
+            "What movie soundtrack do you remember?",
+            "Did you watch The Lion King as a child?",
+            "Do songs remind you of movie scenes?",
+            "Do you still listen to childhood songs?"
           ]
         },
         {
@@ -5979,9 +6277,9 @@
           "promptKo": "음악 업계의 최근 흐름을 말해 주세요.",
           "promptEn": "Tell me about current trends in the music industry.",
           "flowPoints": [
-            "스트리밍 → 개인화 추천 → 짧은 소비 → 라이브 가치 → 결론 순서",
-            "음악 듣는 방식의 변화와 장단점을 함께 말한다",
-            "추천은 편하지만 라이브는 다르다고 닫는다"
+            "스트리밍 -> 추천 기능 -> 사운드트랙 재발견 -> 장단점 -> 결론",
+            "디즈니 사운드트랙을 예전 음악 재발견 예시로 쓴다",
+            "추천은 편하지만 오래된 취향도 중요하다고 닫는다"
           ],
           "scriptPairs": [
             {
@@ -6008,27 +6306,41 @@
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난주에는 추천 곡 3개를 연속으로 들었는데, 그중 1곡은 바로 제 취향이어서 저장해 두었습니다.",
-              "en": "Last week, I listened to three recommended songs in a row, and one of them matched my taste so well that I saved it immediately.",
+              "ko": "가끔 추천 기능이 예전에 좋아했던 영화 음악을 다시 보여 줄 때도 있습니다.",
+              "en": "Sometimes recommendation features also show me old movie soundtracks that I used to like.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "편하게 듣는 방식은 좋아졌지만, 라이브 공연처럼 현장에서 느끼는 에너지는 여전히 다릅니다.",
-              "en": "The easy way of listening has improved a lot, but the energy you feel at a live performance is still different.",
+              "ko": "지난주에는 디즈니 사운드트랙이 추천에 떠서 Lion King 음악을 오랜만에 들었습니다.",
+              "en": "Last week, a Disney soundtrack came up in my recommendations, so I listened to music from The Lion King again.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "그래서 요즘 음악 트렌드는 더 빨라지고 편해졌지만, 직접 듣는 경험의 가치는 그대로 남아 있다고 봅니다.",
-              "en": "So the music trend has become faster and more convenient, but the value of hearing music live is still there.",
+              "ko": "그 음악을 들으니 어릴 때 봤던 영화 장면이 바로 떠올라서 조금 반가웠습니다.",
+              "en": "When I heard it, the movie scenes from my childhood came back right away, and it felt nice.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
+              "ko": "편하게 듣는 방식은 좋아졌지만, 라이브 공연처럼 현장에서 느끼는 에너지는 여전히 다릅니다.",
+              "en": "The easy way of listening has improved a lot, but the energy you feel at a live performance is still different.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그래서 요즘 음악 트렌드는 더 빨라지고 편해졌지만, 오래된 취향과 직접 듣는 경험의 가치도 남아 있다고 봅니다.",
+              "en": "So the music trend has become faster and more convenient, but old tastes and live experiences still have value.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
               "ko": "저는 추천 기능이 편하긴 해도, 가끔은 직접 찾아보는 과정도 있어야 취향이 더 넓어진다고 생각합니다.",
               "en": "I think recommendation tools are useful, but finding songs by yourself is still important if you want to expand your taste.",
               "status": "aligned"
@@ -6037,10 +6349,10 @@
           "hasAlignmentIssue": false,
           "keySentences": [
             "Streaming and recommendations are the main trend.",
+            "Recommendations can bring back old soundtracks.",
             "Live energy is still different.",
             "It is still important to find music by yourself sometimes.",
-            "Recommendation tools are useful.",
-            "Finding songs by yourself expands your taste."
+            "Recommendation tools are useful."
           ],
           "keyWords": [
             {
@@ -6056,8 +6368,8 @@
               "meaning": "앨범"
             },
             {
-              "term": "live performance",
-              "meaning": "라이브 공연"
+              "term": "old taste",
+              "meaning": "오래된 취향"
             }
           ],
           "keySentenceGroups": [
@@ -6075,6 +6387,18 @@
             },
             {
               "id": "k2",
+              "ko": "추천 기능이 오래된 사운드트랙을 다시 보여 줄 때도 있습니다.",
+              "koAlternatives": [
+                "추천 기능이 오래된 사운드트랙을 다시 보여 줄 때도 있습니다."
+              ],
+              "variants": [
+                "Recommendations can bring back old soundtracks.",
+                "Recommendation tools sometimes remind me of old songs.",
+                "Streaming apps can help me rediscover old movie music."
+              ]
+            },
+            {
+              "id": "k3",
               "ko": "라이브 공연의 에너지는 다릅니다.",
               "koAlternatives": [
                 "라이브 공연의 에너지는 다릅니다."
@@ -6086,19 +6410,19 @@
               ]
             },
             {
-              "id": "k3",
-              "ko": "가끔은 직접 찾는 재미도 중요합니다.",
+              "id": "k4",
+              "ko": "오래된 취향도 여전히 가치가 있습니다.",
               "koAlternatives": [
-                "가끔은 직접 찾는 재미도 중요합니다."
+                "오래된 취향도 여전히 가치가 있습니다."
               ],
               "variants": [
-                "It is still important to find music by yourself sometimes.",
-                "I still like searching for songs on my own sometimes.",
-                "Discovery is part of the fun too."
+                "Old tastes still have value.",
+                "Songs from the past can still feel meaningful.",
+                "Old favorites are still part of my taste."
               ]
             },
             {
-              "id": "k4",
+              "id": "k5",
               "ko": "추천이 편해도 취향은 직접 만들어 가는 것 같습니다.",
               "koAlternatives": [
                 "추천이 편해도 취향은 직접 만들어 가는 것 같습니다."
@@ -6110,7 +6434,7 @@
               ]
             },
             {
-              "id": "k5",
+              "id": "k6",
               "ko": "직접 찾아보는 과정도 중요합니다.",
               "koAlternatives": [
                 "직접 찾아보는 과정도 중요합니다."
@@ -6125,8 +6449,8 @@
           "hooks": [
             "Do you use recommendations a lot?",
             "Do you still listen to albums?",
-            "What do you do when you find a new song?",
-            "Do you go to live music events?"
+            "Do recommendations bring back old songs?",
+            "Do you still listen to movie soundtracks?"
           ]
         }
       ]
@@ -6766,66 +7090,82 @@
           "promptKo": "좋아하는 여행지를 말해 주세요.",
           "promptEn": "Tell me about your preferred vacation place.",
           "flowPoints": [
-            "선호 장소 → 이유 → 구체 장면 → 대비 → 결론 순서",
-            "바다와 조용한 동네를 함께 말한다",
-            "멀지 않고 쉬기 좋은 곳이라는 느낌으로 닫는다"
+            "선호 장소 -> 제주 소개 -> 바다 색과 해변 -> 음식 -> 주의점 -> 추천",
+            "제주를 한국의 대표적인 해변 여행지로 말한다",
+            "물놀이와 현지 음식을 즐길 수 있지만 붐빈다는 대비를 넣는다"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "저는 너무 붐비지 않는 국내 여행지를 좋아합니다.",
-              "en": "I like domestic travel places that are not too crowded.",
+              "ko": "저는 여행을 정말 좋아하고, 특히 여름에는 바다로 가는 것을 좋아합니다.",
+              "en": "I really like to travel, and in summer I especially like going to the beach.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "특히 강릉처럼 바다도 보고 카페도 갈 수 있는 곳이 좋습니다.",
-              "en": "In particular, I like places like Gangneung, where I can see the sea and also visit a cafe.",
+              "ko": "한국에서 제가 가장 좋아하는 해변 여행지는 제주도입니다.",
+              "en": "My favorite beach destination in Korea is Jeju Island.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "아침에 해변을 조금 걷고, 점심에는 조용한 식당에서 간단히 먹는 일정이 편합니다.",
-              "en": "I enjoy a simple schedule, like walking on the beach in the morning and eating a light lunch at a quiet restaurant.",
+              "ko": "제주는 한국의 하와이처럼 느껴질 만큼 바다와 풍경이 아름다운 곳입니다.",
+              "en": "Jeju feels a little like Hawaii in Korea because the sea and scenery are so beautiful.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난여름에는 오후 3시쯤 바다를 봤는데, 바람이 시원해서 생각보다 더 좋았습니다.",
-              "en": "Last summer, I looked at the sea around 3 p.m., and the breeze felt cooler than I expected.",
+              "ko": "특히 바다가 에메랄드빛이라서 보기만 해도 기분이 좋아집니다.",
+              "en": "The ocean is emerald colored, so just looking at it makes me feel good.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "물론 멀리 가는 해외여행도 매력적이지만, 준비가 복잡하면 쉽게 피곤해집니다.",
-              "en": "Of course, overseas travel is attractive too, but if the preparation is too complicated, I get tired easily.",
+              "ko": "넓은 흰색 해변도 많아서 산책하거나 물놀이를 하기에 좋습니다.",
+              "en": "There are also many wide white beaches, so it is nice for walking or enjoying water activities.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "저는 너무 빡빡한 일정보다, 하루에 한두 가지 정도만 하는 여행이 좋습니다.",
-              "en": "I prefer a trip with only one or two main things to do in a day.",
+              "ko": "해변 근처에는 식당도 많아서 여행 중에 현지 음식을 먹는 재미가 큽니다.",
+              "en": "Around the beaches, there are many restaurants, and trying local food is one of the biggest pleasures of travel.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "그래서 제게 가장 잘 맞는 곳은 쉬면서도 가볍게 볼거리가 있는 곳입니다.",
-              "en": "So the place that fits me best is somewhere I can rest and still see a little bit.",
+              "ko": "물론 제주는 인기 있는 여행지라서 성수기에는 사람이 많고 조금 붐빌 수 있습니다.",
+              "en": "Of course, Jeju is a very popular vacation spot, so it can be crowded during peak season.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그래도 바다, 음식, 분위기를 함께 즐길 수 있어서 저에게는 꼭 다시 가고 싶은 곳입니다.",
+              "en": "Still, I can enjoy the sea, food, and atmosphere together, so it is a place I really want to visit again.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "제주도는 한국에 온 친구에게도 한 번쯤 꼭 추천하고 싶은 여행지입니다.",
+              "en": "Jeju is also a place I would recommend to a friend visiting Korea.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "I like domestic travel places that are not too crowded.",
-            "I prefer simple travel schedules.",
-            "A place to rest and see a little bit fits me best."
+            "I especially like going to the beach in summer.",
+            "My favorite beach destination is Jeju Island.",
+            "The ocean is emerald colored.",
+            "Trying local food is a big pleasure of travel.",
+            "Jeju is a place I want to visit again."
           ],
           "keyWords": [
             {
@@ -6837,81 +7177,85 @@
               "meaning": "해변"
             },
             {
-              "term": "schedule",
-              "meaning": "일정"
+              "term": "emerald colored",
+              "meaning": "에메랄드빛의"
             },
             {
-              "term": "crowded",
-              "meaning": "붐비는"
+              "term": "local food",
+              "meaning": "현지 음식"
+            },
+            {
+              "term": "peak season",
+              "meaning": "성수기"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "저는 붐비지 않는 국내 여행지를 좋아합니다.",
+              "ko": "저는 여름에 바다로 가는 것을 좋아합니다.",
               "koAlternatives": [
-                "저는 붐비지 않는 국내 여행지를 좋아합니다."
+                "저는 여름에 바다로 가는 것을 좋아합니다."
               ],
               "variants": [
-                "I like domestic travel places that are not too crowded.",
-                "I prefer quieter places for trips.",
-                "A calm travel spot fits me well."
+                "In summer, I especially like going to the beach.",
+                "I love beach trips in the summer.",
+                "Summer beach trips are my favorite."
               ]
             },
             {
               "id": "k2",
-              "ko": "바다나 산처럼 편하게 볼 수 있는 곳이 좋습니다.",
+              "ko": "제가 가장 좋아하는 해변 여행지는 제주도입니다.",
               "koAlternatives": [
-                "바다나 산처럼 편하게 볼 수 있는 곳이 좋습니다."
+                "제가 가장 좋아하는 해변 여행지는 제주도입니다."
               ],
               "variants": [
-                "I like places like the sea or the mountains.",
-                "A place with simple scenery works well for me.",
-                "I enjoy spots that are easy to look around and rest."
+                "My favorite beach destination is Jeju Island.",
+                "Jeju Island is my favorite place for a beach trip.",
+                "I like Jeju the most when I think of beaches in Korea."
               ]
             },
             {
               "id": "k3",
-              "ko": "하루에 한두 가지 정도만 하는 여행이 좋습니다.",
+              "ko": "바다가 에메랄드빛이라서 아름답습니다.",
               "koAlternatives": [
-                "하루에 한두 가지 정도만 하는 여행이 좋습니다."
+                "바다가 에메랄드빛이라서 아름답습니다."
               ],
               "variants": [
-                "I prefer simple travel schedules.",
-                "I like trips with only a few main plans.",
-                "A light itinerary works best for me."
+                "The ocean is emerald colored.",
+                "The sea has a beautiful emerald color.",
+                "The color of the water is really beautiful."
               ]
             },
             {
               "id": "k4",
-              "ko": "너무 빡빡하면 오히려 덜 즐겁습니다.",
+              "ko": "현지 음식을 먹는 것이 여행의 큰 즐거움입니다.",
               "koAlternatives": [
-                "너무 빡빡하면 오히려 덜 즐겁습니다."
+                "현지 음식을 먹는 것이 여행의 큰 즐거움입니다."
               ],
               "variants": [
-                "If the schedule is too full, I enjoy it less.",
-                "A packed trip feels tiring to me.",
-                "I like travel more when there is enough room to rest."
+                "Trying local food is a big pleasure of travel.",
+                "Eating local dishes is one of the best parts of a trip.",
+                "Local food makes the trip more memorable."
               ]
             },
             {
               "id": "k5",
-              "ko": "쉬면서 볼거리가 있는 곳이 잘 맞습니다.",
+              "ko": "제주도는 다시 가고 싶은 여행지입니다.",
               "koAlternatives": [
-                "쉬면서 볼거리가 있는 곳이 잘 맞습니다."
+                "제주도는 다시 가고 싶은 여행지입니다."
               ],
               "variants": [
-                "A place to rest and see a little bit fits me best.",
-                "I like places that are relaxing but still interesting.",
-                "Somewhere calm with a few things to enjoy is ideal for me."
+                "Jeju is a place I want to visit again.",
+                "I would love to go back to Jeju someday.",
+                "Jeju is a must-visit place in Korea."
               ]
             }
           ],
           "hooks": [
             "What place do you like most?",
             "Do you prefer sea or city trips?",
-            "Do you like busy places?",
-            "What kind of schedule works for you?"
+            "Have you been to Jeju?",
+            "What local food do you like when you travel?"
           ]
         },
         {
@@ -6945,43 +7289,51 @@
             {
               "id": "s3",
               "index": 3,
-              "ko": "준비물은 많지 않게 챙기고, 충전기와 간단한 간식은 꼭 넣습니다.",
-              "en": "I do not pack too much, but I always bring a charger and a few simple snacks.",
+              "ko": "해변으로 갈 때는 수영복, 여벌 옷, 충전기, 간단한 간식을 꼭 챙깁니다.",
+              "en": "When I go to the beach, I always pack a swimsuit, extra clothes, a charger, and a few simple snacks.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난번에는 출발 전날 비 소식을 보고 우산을 하나 더 챙겼는데, 실제로 도움이 됐습니다.",
-              "en": "Last time, I saw a rain forecast the day before leaving and packed one extra umbrella, which turned out to be useful.",
+              "ko": "제주처럼 바다를 보러 가는 여행이면 날씨와 바람도 꼭 확인합니다.",
+              "en": "If I am going somewhere like Jeju to see the ocean, I also check the weather and wind carefully.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "너무 많은 일정을 넣으면 오히려 쉬기 어려워서, 저는 하루에 두세 가지 정도만 정합니다.",
-              "en": "If I put too many things on the schedule, it becomes hard to rest, so I usually set only two or three plans a day.",
+              "ko": "지난번에는 출발 전날 비 소식을 보고 우산을 하나 더 챙겼는데, 실제로 도움이 됐습니다.",
+              "en": "Last time, I saw a rain forecast the day before leaving and packed one extra umbrella, which turned out to be useful.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "여행 중에는 사진도 몇 장 찍지만, 너무 자주 움직이지 않으려고 합니다.",
-              "en": "During the trip, I take a few photos, but I do not try to move around too much.",
+              "ko": "너무 많은 일정을 넣으면 오히려 쉬기 어려워서, 저는 하루에 두세 가지 정도만 정합니다.",
+              "en": "If I put too many things on the schedule, it becomes hard to rest, so I usually set only two or three plans a day.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "그래서 제 휴가 루틴은 꼼꼼하지만, 최대한 편하게 쉬는 쪽에 가깝습니다.",
-              "en": "So my vacation routine is careful, but it is still focused on relaxing as much as possible.",
+              "ko": "여행 중에는 해변을 걷고 현지 식당을 한두 곳 가는 정도가 가장 편합니다.",
+              "en": "During the trip, walking on the beach and visiting one or two local restaurants feels the most comfortable.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그래서 제 휴가 루틴은 꼼꼼하지만, 최대한 편하게 쉬고 맛있는 음식을 먹는 쪽에 가깝습니다.",
+              "en": "So my vacation routine is careful, but it is mostly focused on relaxing and eating good local food.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
             "I check my schedule about two weeks in advance.",
-            "I always bring a charger and snacks.",
+            "I pack a swimsuit, extra clothes, and a charger.",
+            "I check the weather and wind carefully.",
             "I prefer two or three plans a day."
           ],
           "keyWords": [
@@ -6992,6 +7344,10 @@
             {
               "term": "transportation",
               "meaning": "교통편"
+            },
+            {
+              "term": "swimsuit",
+              "meaning": "수영복"
             },
             {
               "term": "forecast",
@@ -7029,26 +7385,26 @@
             },
             {
               "id": "k3",
-              "ko": "충전기와 간단한 간식은 꼭 챙깁니다.",
+              "ko": "해변 여행에는 수영복과 충전기를 꼭 챙깁니다.",
               "koAlternatives": [
-                "충전기와 간단한 간식은 꼭 챙깁니다."
+                "해변 여행에는 수영복과 충전기를 꼭 챙깁니다."
               ],
               "variants": [
-                "I always bring a charger and snacks.",
-                "I make sure to pack a charger and some snacks.",
-                "I never forget basic things like a charger."
+                "I pack a swimsuit and a charger for a beach trip.",
+                "I make sure to bring a swimsuit, extra clothes, and a charger.",
+                "I never forget basic things like a charger when I travel."
               ]
             },
             {
               "id": "k4",
-              "ko": "날씨 예보도 꼭 봅니다.",
+              "ko": "날씨와 바람도 꼭 확인합니다.",
               "koAlternatives": [
-                "날씨 예보도 꼭 봅니다."
+                "날씨와 바람도 꼭 확인합니다."
               ],
               "variants": [
-                "I also check the weather forecast carefully.",
+                "I check the weather and wind carefully.",
                 "The forecast is something I always look at.",
-                "I do not want bad weather to surprise me."
+                "I do not want bad weather or strong wind to surprise me."
               ]
             },
             {
@@ -7061,6 +7417,18 @@
                 "I prefer two or three plans a day.",
                 "I keep the daily schedule light.",
                 "I do not make the itinerary too packed."
+              ]
+            },
+            {
+              "id": "k6",
+              "ko": "현지 식당을 가는 것도 여행의 중요한 부분입니다.",
+              "koAlternatives": [
+                "현지 식당을 가는 것도 여행의 중요한 부분입니다."
+              ],
+              "variants": [
+                "Visiting local restaurants is an important part of travel.",
+                "I like trying local food during a trip.",
+                "Local restaurants make the trip more enjoyable."
               ]
             }
           ],
@@ -7080,80 +7448,91 @@
           "promptKo": "예전과 비교해서 휴가 방식이 어떻게 달라졌는지 말해 주세요.",
           "promptEn": "Tell me how your vacation habits have changed over time.",
           "flowPoints": [
-            "예전에는 즉흥적, 지금은 더 계획적",
-            "아이와 함께하는 변화",
-            "편하지만 여유를 더 챙기게 됐다는 결론"
+            "어릴 때 가족 해변 여행 -> 지금 가족 여행 방식 -> 계획 변화 -> 편안함",
+            "예전에는 물놀이와 모래놀이가 중심, 지금은 숙소/이동/아이 컨디션을 본다",
+            "지금은 많이 보는 여행보다 편하고 기억에 남는 여행이 좋다고 닫는다"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "예전에는 휴가를 갈 때도 계획을 크게 세우지 않고 바로 떠나는 편이었습니다.",
-              "en": "In the past, I used to go on vacation without making many plans.",
-              "status": "needs-review"
+              "ko": "어릴 때는 가족과 해변으로 가는 여행을 정말 좋아했습니다.",
+              "en": "When I was young, I really liked going to the beach with my family.",
+              "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "지금은 아이와 함께 가는 경우가 많아서, 숙소와 이동 시간을 더 꼼꼼히 봅니다.",
-              "en": "Now I often travel with my child, so I check the hotel and travel time more carefully.",
-              "status": "needs-review"
+              "ko": "그때는 계획보다 물놀이, 수영, 모래성 만들기 같은 활동이 더 중요했습니다.",
+              "en": "At that time, activities like swimming, playing in the water, and making sand castles mattered more than planning.",
+              "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "예전에는 바쁘게 많이 보는 여행이 좋았지만, 지금은 천천히 쉬는 시간이 더 중요합니다.",
-              "en": "Before, I liked trips where I could see many things quickly, but now resting slowly matters more.",
-              "status": "needs-review"
+              "ko": "특히 제주도처럼 바다가 예쁜 곳에 가면 하루 종일 밖에서 놀아도 지치지 않았습니다.",
+              "en": "Especially when we went somewhere with a beautiful ocean, like Jeju, I could play outside all day without getting tired.",
+              "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "지난해에는 체크인 시간이 늦어질까 봐 중간에 잠깐 쉬었다 갔는데, 그 덕분에 도착 후에도 덜 피곤했습니다.",
-              "en": "Last year, I took a short break on the way because I was worried about check-in time, and that helped me feel less tired after arrival.",
-              "status": "needs-review"
+              "ko": "하지만 지금은 아이와 함께 가는 경우가 많아서 숙소와 이동 시간을 더 꼼꼼히 봅니다.",
+              "en": "But now I often travel with my child, so I check the hotel and travel time more carefully.",
+              "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "예전보다 준비할 것은 늘었지만, 그만큼 불편한 일이 줄어들었습니다.",
-              "en": "I have more things to prepare now than before, but there are fewer uncomfortable moments.",
-              "status": "needs-review"
+              "ko": "예전에는 바쁘게 많이 노는 여행이 좋았지만, 지금은 천천히 쉬는 시간이 더 중요합니다.",
+              "en": "Before, I liked active trips, but now resting slowly matters more.",
+              "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "그래서 지금은 무조건 많이 보는 여행보다, 편하게 쉬면서 기억에 남는 여행이 더 좋습니다.",
-              "en": "Before, spontaneity mattered more, but now comfort matters more.",
-              "status": "needs-review"
+              "ko": "지난해에는 체크인 시간이 늦어질까 봐 중간에 잠깐 쉬었다 갔는데, 그 덕분에 도착 후에도 덜 피곤했습니다.",
+              "en": "Last year, I took a short break on the way because I was worried about check-in time, and that helped me feel less tired after arrival.",
+              "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "예전에는 즉흥성이 더 중요했다면, 지금은 편안함이 더 중요해졌습니다.",
-              "en": "So now I like trips that are comfortable and memorable rather than just busy.",
-              "status": "needs-review"
+              "ko": "예전보다 준비할 것은 늘었지만, 그만큼 불편한 일이 줄어들었습니다.",
+              "en": "I have more things to prepare now than before, but there are fewer uncomfortable moments.",
+              "status": "aligned"
             },
             {
               "id": "s8",
               "index": 8,
-              "ko": "그래서 지금 방식이 제 가족에게도 더 잘 맞습니다.",
-              "en": "",
-              "status": "needs-review"
+              "ko": "그래서 지금은 무조건 많이 보는 여행보다, 편하게 쉬면서 기억에 남는 여행이 더 좋습니다.",
+              "en": "So now I like trips that are comfortable and memorable rather than just busy.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "예전에는 즐거운 활동이 중심이었다면, 지금은 가족 모두가 편한 일정이 더 중요해졌습니다.",
+              "en": "Before, fun activities mattered most, but now a comfortable schedule for my family matters more.",
+              "status": "aligned"
             }
           ],
-          "hasAlignmentIssue": true,
+          "hasAlignmentIssue": false,
           "keySentences": [
-            "I used to travel without many plans.",
+            "I liked going to the beach with my family.",
+            "I used to enjoy swimming and making sand castles.",
             "Resting slowly matters more now.",
             "Comfortable trips feel better now.",
-            "Comfort matters more now.",
             "My current way fits my family better."
           ],
           "keyWords": [
             {
               "term": "check-in",
               "meaning": "체크인"
+            },
+            {
+              "term": "sand castle",
+              "meaning": "모래성"
             },
             {
               "term": "memorable",
@@ -7171,18 +7550,30 @@
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "예전에는 계획 없이 떠나는 경우가 많았습니다.",
+              "ko": "어릴 때는 가족과 해변에 가는 것을 좋아했습니다.",
               "koAlternatives": [
-                "예전에는 계획 없이 떠나는 경우가 많았습니다."
+                "어릴 때는 가족과 해변에 가는 것을 좋아했습니다."
               ],
               "variants": [
-                "I used to travel without many plans.",
-                "I was more spontaneous before.",
-                "I did not plan much in the past."
+                "I liked going to the beach with my family.",
+                "Family beach trips were my favorite when I was young.",
+                "I enjoyed beach vacations with my family as a child."
               ]
             },
             {
               "id": "k2",
+              "ko": "예전에는 수영과 모래성 만들기를 좋아했습니다.",
+              "koAlternatives": [
+                "예전에는 수영과 모래성 만들기를 좋아했습니다."
+              ],
+              "variants": [
+                "I used to enjoy swimming and making sand castles.",
+                "Swimming and making sand castles were my favorite activities.",
+                "I liked playing in the water and building sand castles."
+              ]
+            },
+            {
+              "id": "k3",
               "ko": "지금은 천천히 쉬는 시간이 더 중요합니다.",
               "koAlternatives": [
                 "지금은 천천히 쉬는 시간이 더 중요합니다."
@@ -7194,7 +7585,7 @@
               ]
             },
             {
-              "id": "k3",
+              "id": "k4",
               "ko": "아이와 함께 가면 더 단순한 일정이 좋습니다.",
               "koAlternatives": [
                 "아이와 함께 가면 더 단순한 일정이 좋습니다."
@@ -7206,7 +7597,7 @@
               ]
             },
             {
-              "id": "k4",
+              "id": "k5",
               "ko": "지금은 편안함이 더 중요합니다.",
               "koAlternatives": [
                 "지금은 편안함이 더 중요합니다."
@@ -7218,7 +7609,7 @@
               ]
             },
             {
-              "id": "k5",
+              "id": "k6",
               "ko": "지금은 편한 여행이 더 좋습니다.",
               "koAlternatives": [
                 "지금은 편한 여행이 더 좋습니다."
@@ -7233,8 +7624,8 @@
           "hooks": [
             "Did you travel differently before?",
             "What matters most now?",
-            "Do you travel with your child?",
-            "Do you like packed trips?"
+            "Did you go to the beach as a child?",
+            "Do you prefer active trips or relaxing trips?"
           ]
         },
         {
@@ -7246,140 +7637,333 @@
           "promptKo": "휴가 중 겪은 문제와 해결 방법을 말해 주세요.",
           "promptEn": "Tell me about a problem you had during a vacation.",
           "flowPoints": [
-            "문제 상황 → 빠른 확인 → 대안 → 결과 → 교훈 순서",
-            "날씨나 숙소 문제를 구체적으로 말한다",
-            "여행은 계획대로 안 돼도 조정이 중요하다고 닫는다"
+            "해외여행 중 휴대폰 분실 -> 확인 -> 호텔 복귀 -> 통신사 연락 -> 교훈",
+            "호주 오페라하우스 가는 길을 구체적인 사건으로 쓴다",
+            "이후 여행에서는 휴대폰과 소지품을 더 조심한다고 닫는다"
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "지난 휴가 때는 비가 갑자기 많이 와서 일정이 조금 바뀌었습니다.",
-              "en": "During my last vacation, heavy rain suddenly changed my plan.",
+              "ko": "몇 년 전에 혼자 호주로 배낭여행을 갔다가 휴대폰을 잃어버린 적이 있습니다.",
+              "en": "A few years ago, I went backpacking in Australia by myself and lost my cell phone there.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "원래는 바닷가를 오래 볼 생각이었는데, 바람이 세서 밖에 오래 있기 어려웠습니다.",
-              "en": "I had planned to stay by the beach for a long time, but the wind was too strong to stay outside.",
+              "ko": "그 일은 시드니 오페라하우스에 가는 길에 생겼습니다.",
+              "en": "It happened on my way to the Sydney Opera House.",
               "status": "aligned"
             },
             {
               "id": "s3",
               "index": 3,
-              "ko": "그래서 근처 카페로 먼저 들어가서 30분 정도 쉬고, 그다음에 실내 위주로 바꿨습니다.",
-              "en": "So I went into a nearby cafe first, rested for about 30 minutes, and then switched to indoor activities.",
+              "ko": "호텔에서 걸어가기에는 거리가 있어서 지하철을 탔습니다.",
+              "en": "The Opera House was not within walking distance from my hotel, so I took the subway.",
               "status": "aligned"
             },
             {
               "id": "s4",
               "index": 4,
-              "ko": "처음에는 아쉬웠지만, 오히려 천천히 쉬면서 더 편한 여행이 됐습니다.",
-              "en": "At first, I was a little disappointed, but the slower pace actually made the trip feel more comfortable.",
+              "ko": "거의 도착했을 때 휴대폰이 없다는 것을 알게 되었고, 아마 지하철에 두고 내린 것 같았습니다.",
+              "en": "When I almost arrived, I realized that my phone was missing, and I probably left it on the subway.",
               "status": "aligned"
             },
             {
               "id": "s5",
               "index": 5,
-              "ko": "아이도 있어서 무리해서 돌아다니기보다, 바로 계획을 바꾼 게 좋았습니다.",
-              "en": "Since my child was with us, changing the plan quickly was better than trying to force everything.",
+              "ko": "그 휴대폰은 산 지 몇 달밖에 안 된 새 휴대폰이라서 정말 속상했습니다.",
+              "en": "The phone was still new because I had bought it only a few months earlier, so I felt really upset.",
               "status": "aligned"
             },
             {
               "id": "s6",
               "index": 6,
-              "ko": "결국 비 때문에 더 늦어진 것도 아니고, 큰 문제 없이 하루를 보낼 수 있었습니다.",
-              "en": "In the end, the rain did not really ruin the day, and we got through it without any big trouble.",
+              "ko": "처음에는 오페라하우스를 둘러볼 기분도 나지 않았습니다.",
+              "en": "At first, I did not even feel like looking around the Opera House anymore.",
               "status": "aligned"
             },
             {
               "id": "s7",
               "index": 7,
-              "ko": "그래서 저는 여행에서 가장 중요한 건 완벽한 계획보다 빨리 조정하는 능력이라고 생각합니다.",
-              "en": "So I think the most important thing on a trip is not a perfect plan, but the ability to adjust quickly.",
+              "ko": "그래서 바로 호텔로 돌아가서 한국 통신사에 연락했고, 휴대폰 사용을 정지했습니다.",
+              "en": "So I went back to the hotel right away, contacted my telecommunications company in Korea, and deactivated the phone.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그 일 이후로는 여행할 때 소지품, 특히 휴대폰을 훨씬 더 신경 씁니다.",
+              "en": "Ever since then, I pay much more attention to my belongings when I travel, especially my cell phone.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "여행에서는 좋은 계획도 중요하지만, 기본적인 물건 관리가 정말 중요하다고 느꼈습니다.",
+              "en": "I learned that good plans are important, but taking care of basic belongings is also very important during a trip.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "Heavy rain changed my plan.",
-            "I switched to indoor activities.",
-            "Adjusting quickly is very important."
+            "I lost my cell phone while traveling.",
+            "It happened on my way to the Sydney Opera House.",
+            "I contacted my telecommunications company.",
+            "I deactivated my phone.",
+            "I pay more attention to my belongings now."
           ],
           "keyWords": [
             {
-              "term": "wind",
-              "meaning": "바람"
+              "term": "backpacking",
+              "meaning": "배낭여행"
             },
             {
-              "term": "indoor",
-              "meaning": "실내의"
+              "term": "belongings",
+              "meaning": "소지품"
             },
             {
-              "term": "disappointed",
-              "meaning": "아쉬운"
+              "term": "telecommunications company",
+              "meaning": "통신사"
             },
             {
-              "term": "adjust",
-              "meaning": "조정하다"
+              "term": "deactivate",
+              "meaning": "사용을 정지하다"
             }
           ],
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "비가 와서 일정이 바뀌었습니다.",
+              "ko": "여행 중에 휴대폰을 잃어버렸습니다.",
               "koAlternatives": [
-                "비가 와서 일정이 바뀌었습니다."
+                "여행 중에 휴대폰을 잃어버렸습니다."
               ],
               "variants": [
-                "Heavy rain changed my plan.",
-                "The weather forced me to change the schedule.",
-                "Rain made me adjust my plan."
+                "I lost my cell phone while traveling.",
+                "My phone went missing during a trip.",
+                "I could not find my cell phone while I was abroad."
               ]
             },
             {
               "id": "k2",
-              "ko": "실내 일정으로 바꿨습니다.",
+              "ko": "오페라하우스에 가는 길에 생긴 일이었습니다.",
               "koAlternatives": [
-                "실내 일정으로 바꿨습니다."
+                "오페라하우스에 가는 길에 생긴 일이었습니다."
               ],
               "variants": [
-                "I switched to indoor activities.",
-                "I changed to indoor plans.",
-                "I moved the trip inside."
+                "It happened on my way to the Sydney Opera House.",
+                "I noticed it while I was going to the Opera House.",
+                "I realized the problem before I arrived at the Opera House."
               ]
             },
             {
               "id": "k3",
-              "ko": "빨리 조정하는 것이 중요합니다.",
+              "ko": "한국 통신사에 연락해서 휴대폰을 정지했습니다.",
               "koAlternatives": [
-                "빨리 조정하는 것이 중요합니다."
+                "한국 통신사에 연락해서 휴대폰을 정지했습니다."
               ],
               "variants": [
-                "Adjusting quickly is very important.",
-                "Being flexible matters a lot.",
-                "It helps to change plans fast when needed."
+                "I contacted my telecommunications company and deactivated the phone.",
+                "I called my phone company in Korea and stopped the service.",
+                "I asked the company to block the phone service."
               ]
             },
             {
               "id": "k4",
-              "ko": "그래도 하루를 완전히 망치지는 않았습니다.",
+              "ko": "그 이후로 소지품을 더 신경 씁니다.",
               "koAlternatives": [
-                "그래도 하루를 완전히 망치지는 않았습니다."
+                "그 이후로 소지품을 더 신경 씁니다."
               ],
               "variants": [
-                "It did not ruin the whole day.",
-                "Even with rain, the day still went well.",
-                "The change was annoying, but we still made the best of it."
+                "I pay more attention to my belongings now.",
+                "Since then, I check my phone more often when I travel.",
+                "I became more careful with my things, especially my phone."
               ]
             }
           ],
           "hooks": [
-            "Was the weather bad?",
-            "What indoor place did you go to?",
-            "Did your child enjoy it?",
-            "How do you feel when plans change?"
+            "Where did you lose your phone?",
+            "What did you do after losing it?",
+            "Did you contact your phone company?",
+            "What did you learn from that experience?"
+          ]
+        },
+        {
+          "id": "10-vacation/q05-memorable-beach-trip",
+          "topicId": "10-vacation",
+          "slug": "q05-memorable-beach-trip",
+          "order": 5,
+          "title": "Memorable Beach Trip",
+          "promptKo": "기억에 남는 해변 여행 경험을 말해 주세요.",
+          "promptEn": "Talk about a memorable beach trip.",
+          "flowPoints": [
+            "어릴 때 가족 여행 -> 제주 해변 -> 물놀이/모래성 -> 현지 식당 -> 느낌",
+            "emerald colored ocean, wide white beach, local food 표현을 반복한다.",
+            "수영 후 배고파서 음식이 더 맛있었다는 쉬운 감정으로 마무리한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "어릴 때 가족과 제주도 해변에 갔던 여행이 기억에 남습니다.",
+              "en": "I remember going to a beach in Jeju with my family when I was a child.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "제주는 한국에서 가장 아름다운 해변이 있는 곳 중 하나라고 생각합니다.",
+              "en": "I think Jeju has some of the most beautiful beaches in Korea.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "그때 본 바다는 에메랄드빛이었고, 물도 정말 깨끗해 보였습니다.",
+              "en": "The ocean I saw back then was emerald colored, and the water looked very clean.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "저는 가족과 함께 하루 종일 수영을 하고, 해변에서 모래성을 만들며 놀았습니다.",
+              "en": "I spent the whole day swimming with my family and making sand castles on the beach.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "넓고 하얀 해변이라서 아이들이 놀기에도 좋고, 그냥 걷기에도 좋았습니다.",
+              "en": "The beach was wide and white, so it was good for children to play and also nice for walking.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "물놀이를 한 뒤에는 해변 근처의 현지 식당에 갔습니다.",
+              "en": "After playing in the water, we went to a local restaurant near the beach.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "너무 배가 고파서 그런지, 그날 먹은 음식이 정말 맛있게 느껴졌습니다.",
+              "en": "Maybe because I was so hungry, the food tasted really amazing that day.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "특히 고기가 부드럽고 육즙이 있어서 아직도 기억이 납니다.",
+              "en": "I especially remember the meat because it was tender and juicy.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그 여행 이후로 저는 해변 여행을 생각하면 제주도와 그 식당이 먼저 떠오릅니다.",
+              "en": "Since that trip, when I think of beach vacations, Jeju and that restaurant come to my mind first.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I remember going to a beach in Jeju with my family.",
+            "The ocean was emerald colored.",
+            "I spent the whole day swimming.",
+            "We went to a local restaurant near the beach.",
+            "The food tasted amazing because I was hungry."
+          ],
+          "keyWords": [
+            {
+              "term": "emerald colored",
+              "meaning": "에메랄드빛의"
+            },
+            {
+              "term": "sand castle",
+              "meaning": "모래성"
+            },
+            {
+              "term": "local restaurant",
+              "meaning": "현지 식당"
+            },
+            {
+              "term": "tender",
+              "meaning": "부드러운"
+            },
+            {
+              "term": "juicy",
+              "meaning": "육즙이 있는"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "가족과 제주도 해변에 갔던 일이 기억납니다.",
+              "koAlternatives": [
+                "가족과 제주도 해변에 갔던 일이 기억납니다."
+              ],
+              "variants": [
+                "I remember going to a beach in Jeju with my family.",
+                "I still remember a family beach trip to Jeju.",
+                "A beach trip to Jeju with my family stays in my memory."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "바다가 에메랄드빛이고 깨끗했습니다.",
+              "koAlternatives": [
+                "바다가 에메랄드빛이고 깨끗했습니다."
+              ],
+              "variants": [
+                "The ocean was emerald colored and clean.",
+                "The sea had a beautiful emerald color.",
+                "The water looked clear and beautiful."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "하루 종일 수영하고 모래성을 만들었습니다.",
+              "koAlternatives": [
+                "하루 종일 수영하고 모래성을 만들었습니다."
+              ],
+              "variants": [
+                "I spent the whole day swimming and making sand castles.",
+                "I swam and built sand castles all day.",
+                "We enjoyed the beach by swimming and playing in the sand."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "현지 식당에서 먹은 음식이 정말 맛있었습니다.",
+              "koAlternatives": [
+                "현지 식당에서 먹은 음식이 정말 맛있었습니다."
+              ],
+              "variants": [
+                "The food at the local restaurant tasted amazing.",
+                "The local food was really good.",
+                "The meal near the beach was one of the best parts of the trip."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "너무 배고파서 음식이 더 맛있게 느껴졌습니다.",
+              "koAlternatives": [
+                "너무 배고파서 음식이 더 맛있게 느껴졌습니다."
+              ],
+              "variants": [
+                "The food tasted even better because I was so hungry.",
+                "Since I was starving after swimming, everything tasted great.",
+                "After playing in the water, the meal felt especially delicious."
+              ]
+            }
+          ],
+          "hooks": [
+            "When did you go to Jeju?",
+            "What did you do at the beach?",
+            "Did you try local food?",
+            "Why was the trip memorable?"
           ]
         }
       ]
@@ -9811,10 +10395,10 @@
   ],
   "stats": {
     "topicCount": 12,
-    "questionCount": 57,
-    "totalScriptPairs": 475,
-    "alignedQuestionCount": 55,
-    "alignmentIssueCount": 2,
+    "questionCount": 59,
+    "totalScriptPairs": 510,
+    "alignedQuestionCount": 59,
+    "alignmentIssueCount": 0,
     "missingRequiredSections": []
   }
 }

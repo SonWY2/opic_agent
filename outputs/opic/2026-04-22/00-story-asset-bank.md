@@ -16,10 +16,10 @@
 
 ## Asset 3. Apartment Routine
 
-- Summary: 퇴근 후 집에서 쉬고, 저녁에 가족과 15분 정도 산책한다
-- Reusable topics: home, routine, housing issue
+- Summary: 8층 아파트, 현관-거실-주방 구조, 햇빛 좋은 작은 서재, 어릴 때 단독주택과 정원 기억
+- Reusable topics: home, routine, housing issue, past vs present, favorite room
 - Tone: warm, simple
-- Keywords: living room, kitchen, walk, family
+- Keywords: eighth floor, entrance, living room, kitchen, study, sunshine, garden, inter-floor noise
 
 ## Asset 4. Neighborhood Cafe
 
@@ -44,10 +44,10 @@
 
 ## Asset 7. Music Playlist
 
-- Summary: 출퇴근과 산책 때 듣는 잔잔한 팝/인디 플레이리스트
-- Reusable topics: music, routine, trend, mood
+- Summary: 초등학생 때 어머니와 본 Lion King 사운드트랙, 지금도 듣는 잔잔한 팝/디즈니 음악
+- Reusable topics: music, routine, trend, mood, memorable experience, past vs present
 - Tone: calm
-- Keywords: playlist, earbuds, commute, mood
+- Keywords: soundtrack, Disney, Lion King, Aladdin, playlist, commute, memory
 
 ## Asset 8. Online Shopping Routine
 
@@ -58,10 +58,10 @@
 
 ## Asset 9. Domestic Trip or Staycation
 
-- Summary: 강릉 같은 국내 여행이나 집에서 쉬는 휴가
-- Reusable topics: vacation, planning, problem solving, preference
+- Summary: 제주 해변 여행, 에메랄드빛 바다, 현지 음식, 호주 여행 중 휴대폰 분실 경험
+- Reusable topics: vacation, planning, problem solving, preference, memorable experience
 - Tone: restful
-- Keywords: booking, packing, weather, itinerary
+- Keywords: Jeju, beach, emerald ocean, local food, Australia, cell phone, belongings
 
 ## Asset 10. Roleplay Reservation Fix
 
