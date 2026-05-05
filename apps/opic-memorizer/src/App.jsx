@@ -7,6 +7,7 @@ import {
   EyeOff,
   Layers3,
   Mic2,
+  Languages,
   RotateCcw,
   Shuffle,
   Sparkles
@@ -22,7 +23,8 @@ import {
 import { blankEnglishSentence, getAlignedPairs, stableShuffle } from './lib/study.js';
 
 const modes = [
-  { id: 'flow', label: 'Flow', icon: BookOpen },
+  { id: 'flow', label: 'Korean Flow', icon: BookOpen },
+  { id: 'english-flow', label: 'English Flow', icon: Languages },
   { id: 'drill', label: '1:1 Drill', icon: Layers3 },
   { id: 'variants', label: 'Variants', icon: Sparkles },
   { id: 'order', label: 'Order Quiz', icon: Shuffle },
@@ -42,6 +44,8 @@ export default function App() {
   const topic = findTopic(selectedTopicId) ?? dataset.topics[0];
   const question = findQuestion(selectedQuestionId) ?? topic.questions[0];
   const questionIndex = Math.max(0, topic.questions.findIndex((item) => item.id === question.id));
+  const isEnglishFlow = mode === 'english-flow';
+  const mobileToggleLabel = isMobileControlsOpen ? (isEnglishFlow ? 'Close' : '접기') : 'Topic';
 
   useEffect(() => {
     updateProgress((current) =>
@@ -159,7 +163,7 @@ export default function App() {
               aria-expanded={isMobileControlsOpen}
               aria-controls="mobile-topic-panel"
             >
-              {isMobileControlsOpen ? '접기' : 'Topic'}
+              {mobileToggleLabel}
               <ChevronDown size={16} aria-hidden="true" />
             </button>
           </div>
@@ -219,8 +223,14 @@ export default function App() {
           <div>
             <p className="eyebrow">Now studying</p>
             <h2>{question.title}</h2>
-            <p className="prompt">{question.promptKo}</p>
-            <p className="prompt muted">{question.promptEn}</p>
+            {isEnglishFlow ? (
+              <p className="prompt">{question.promptEn}</p>
+            ) : (
+              <>
+                <p className="prompt">{question.promptKo}</p>
+                <p className="prompt muted">{question.promptEn}</p>
+              </>
+            )}
           </div>
 
           <div className="status-cluster" aria-label="Progress summary">
@@ -261,6 +271,7 @@ export default function App() {
 }
 
 function StudyMode({ mode, question, progress, onRate, onQuizAttempt }) {
+  if (mode === 'english-flow') return <EnglishFlowMode question={question} />;
   if (mode === 'drill') return <DrillMode question={question} progress={progress} onRate={onRate} />;
   if (mode === 'variants') return <VariantsMode question={question} onRate={onRate} />;
   if (mode === 'order') return <OrderQuizMode question={question} onQuizAttempt={onQuizAttempt} />;
@@ -319,6 +330,62 @@ function FlowMode({ question }) {
           <p>{selectedPair.en || 'This line needs manual alignment review.'}</p>
         </div>
       )}
+    </section>
+  );
+}
+
+function EnglishFlowMode({ question }) {
+  const firstPairId = question.scriptPairs.find((pair) => pair.en)?.id ?? null;
+  const pairs = question.scriptPairs.filter((pair) => pair.en);
+  const [focusedPairId, setFocusedPairId] = useState(() => firstPairId);
+  const focusedPair = pairs.find((pair) => pair.id === focusedPairId) ?? null;
+
+  useEffect(() => {
+    setFocusedPairId(firstPairId);
+  }, [firstPairId]);
+
+  if (!pairs.length) {
+    return (
+      <EmptyMode
+        title="No English flow lines"
+        body="This question does not include English script lines yet."
+      />
+    );
+  }
+
+  return (
+    <section className="mode-panel flow-grid">
+      <div className="flow-points">
+        <div className="section-header">
+          <span>English flow</span>
+          <h3>English script in order</h3>
+        </div>
+        <p className="prompt muted">The Korean script is hidden in this view.</p>
+        <p className="prompt muted">
+          {focusedPair ? `Focused line ${focusedPair.index}` : 'Tap a line to focus it.'}
+        </p>
+      </div>
+
+      <div className="script-stack">
+        <div className="section-title-row">
+          <div className="section-header">
+            <span>Reading order</span>
+            <h3>English lines only</h3>
+          </div>
+          {question.hasAlignmentIssue && <span className="review-badge">line review needed</span>}
+        </div>
+        {pairs.map((pair) => (
+          <button
+            key={pair.id}
+            className={pair.id === focusedPair?.id ? 'script-line is-selected' : 'script-line'}
+            onClick={() => setFocusedPairId(pair.id)}
+            type="button"
+          >
+            <span>{pair.index}</span>
+            <strong>{pair.en}</strong>
+          </button>
+        ))}
+      </div>
     </section>
   );
 }

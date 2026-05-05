@@ -418,6 +418,11 @@ button {
   border-style: dashed;
 }
 
+.script-line.is-selected {
+  border-color: var(--green);
+  background: rgba(0, 113, 227, 0.06);
+}
+
 .toast {
   position: fixed;
   right: 28px;
@@ -1236,6 +1241,11 @@ body::before {
 
 .script-line.needs-review {
   border-style: dashed;
+}
+
+.script-line.is-selected {
+  border-color: rgba(0, 113, 227, 0.52);
+  background: rgba(0, 113, 227, 0.08);
 }
 
 .toast {

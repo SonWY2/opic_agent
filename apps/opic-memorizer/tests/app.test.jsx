@@ -27,6 +27,17 @@ describe('OPIc Memorizer app', () => {
     expect(window.localStorage.getItem('opic-memorizer:progress:2026-04-22')).toContain('mastered');
   });
 
+  it('shows an english-only flow view', () => {
+    render(<App />);
+
+    fireEvent.click(screen.getByRole('button', { name: /English Flow/ }));
+
+    expect(screen.getByText('Hi, my name is Minsoo Kim.')).toBeInTheDocument();
+    expect(screen.getByText('Tell me about yourself.')).toBeInTheDocument();
+    expect(screen.queryByText('안녕하세요. 저는 김민수라고 합니다.')).not.toBeInTheDocument();
+    expect(screen.queryByText('자기소개를 해 주세요.')).not.toBeInTheDocument();
+  });
+
   it('enables order quiz for aligned scripts', () => {
     render(<App />);
 
