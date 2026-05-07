@@ -49,8 +49,9 @@ describe('OPIc Memorizer app', () => {
 
     expect(writeText).toHaveBeenCalledTimes(1);
     const [copiedText] = writeText.mock.calls[0];
-    expect(copiedText).toContain('Hi, my name is Minsoo Kim.');
-    expect(copiedText).toContain('So I fit best with a life that is steady, but not too flat.');
+    const copiedLines = copiedText.split('\n\n');
+    expect(copiedLines[0]).toContain('1. Hi, my name is Minsoo Kim.');
+    expect(copiedLines[10]).toContain('11. So I fit best with a life that is steady, but not too flat.');
     expect(copiedText.split('\n\n')).toHaveLength(11);
     expect(screen.getByRole('button', { name: /Copied/ })).toBeInTheDocument();
   });

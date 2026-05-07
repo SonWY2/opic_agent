@@ -342,7 +342,7 @@ function EnglishFlowMode({ question }) {
   const [copyState, setCopyState] = useState('idle');
   const copyTimerRef = useRef(null);
   const focusedPair = pairs.find((pair) => pair.id === focusedPairId) ?? null;
-  const englishScript = pairs.map((pair) => pair.en).join('\n\n');
+  const englishScript = pairs.map((pair) => `${pair.index}. ${pair.en}`).join('\n\n');
 
   useEffect(() => {
     setFocusedPairId(firstPairId);
