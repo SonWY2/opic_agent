@@ -19,7 +19,7 @@
 - 08-music/ : 음악 취향과 감상 루틴
 - 09-shopping/ : 온라인 쇼핑 선호, 루틴, 변화, 기억에 남는 경험
 - 10-vacation/ : 제주 해변 여행, 휴가 준비, 여행 문제 해결
-- 11-roleplay/ : 예약, 문의, 문제 해결 롤플레이
+- 11-roleplay/ : 예약, 문의, 문제 해결, 카페/아파트/업무데모/호텔 롤플레이
 - 12-surprise-topics/ : 재활용, 인터넷, 날씨, 기후 변화, 명절, 공공장소, 대중교통, 건강, 배송, 소음, 에너지 절약
 
 ## 파일 목록
@@ -72,6 +72,18 @@
 - 11-roleplay/q11-ask-questions.md
 - 11-roleplay/q12-problem-and-alternatives.md
 - 11-roleplay/q13-similar-experience.md
+- 11-roleplay/q14-cafe-ask-questions.md
+- 11-roleplay/q15-cafe-problem-and-alternatives.md
+- 11-roleplay/q16-cafe-similar-experience.md
+- 11-roleplay/q17-apartment-repair-ask-questions.md
+- 11-roleplay/q18-apartment-repair-problem-and-alternatives.md
+- 11-roleplay/q19-apartment-repair-similar-experience.md
+- 11-roleplay/q20-work-demo-ask-questions.md
+- 11-roleplay/q21-work-demo-problem-and-alternatives.md
+- 11-roleplay/q22-work-demo-similar-experience.md
+- 11-roleplay/q23-hotel-ask-questions.md
+- 11-roleplay/q24-hotel-problem-and-alternatives.md
+- 11-roleplay/q25-hotel-similar-experience.md
 - 12-surprise-topics/00-magic-script-for-any-surprise-topic.md
 - 12-surprise-topics/q01-recycling.md
 - 12-surprise-topics/q02-internet-and-devices.md

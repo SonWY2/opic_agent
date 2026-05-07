@@ -200,7 +200,7 @@
     },
     {
       "id": "02-work-it-software",
-      "title": "Work IT Software",
+      "title": "Work It Software",
       "questions": [
         {
           "id": "02-work-it-software/q01-company-and-role",
@@ -8472,6 +8472,1885 @@
             "Did the new time work well?",
             "Do you confirm earlier now?"
           ]
+        },
+        {
+          "id": "11-roleplay/q14-cafe-ask-questions",
+          "topicId": "11-roleplay",
+          "slug": "q14-cafe-ask-questions",
+          "order": 14,
+          "title": "Cafe Ask Questions",
+          "promptKo": "카페에 가기 전에 직원에게 자리, 와이파이, 콘센트에 대해 질문해 주세요.",
+          "promptEn": "You are calling a cafe. Ask about seats, Wi-Fi, and outlets.",
+          "flowPoints": [
+            "인사 -> 방문 목적 -> 자리 질문 -> 와이파이/콘센트 질문 -> 확인",
+            "너무 많은 조건을 말하지 않고, 실용적인 질문 3개만 묻는다.",
+            "마지막에는 방문 전에 확인하고 싶다고 정리한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 오늘 오후에 카페에 가려고 하는데 몇 가지 질문이 있습니다.",
+              "en": "Hello. I am planning to visit your cafe this afternoon, and I have a few questions.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "저는 노트북으로 짧게 작업할 예정이라 조용한 자리가 있는지 알고 싶습니다.",
+              "en": "I will do some short work on my laptop, so I would like to know if you have quiet seats.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "혹시 와이파이가 안정적으로 잘 되는 편인가요?",
+              "en": "Is the Wi-Fi usually stable there?",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "그리고 콘센트를 사용할 수 있는 좌석도 있나요?",
+              "en": "Also, are there any seats where I can use an outlet?",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "제가 보통 퇴근 후에 한 시간 정도 공부하거나 일을 해서, 너무 시끄럽지 않은 자리가 필요합니다.",
+              "en": "I usually study or work for about an hour after work, so I need a place that is not too noisy.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "만약 창가 자리나 벽 쪽 자리가 가능하면 더 좋을 것 같습니다.",
+              "en": "If a window seat or a seat near the wall is available, that would be even better.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "예약이 필요한지도 궁금합니다.",
+              "en": "Do I need to make a reservation?",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "방문 전에 미리 확인할 수 있으면 도움이 될 것 같습니다.",
+              "en": "It would help if I could check these things before I visit.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "감사합니다.",
+              "en": "Thank you.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I have a few questions.",
+            "Do you have quiet seats?",
+            "Is the Wi-Fi stable?",
+            "Can I use an outlet?",
+            "Do I need to make a reservation?"
+          ],
+          "keyWords": [
+            {
+              "term": "quiet seat",
+              "meaning": "조용한 자리"
+            },
+            {
+              "term": "stable Wi-Fi",
+              "meaning": "안정적인 와이파이"
+            },
+            {
+              "term": "outlet",
+              "meaning": "콘센트"
+            },
+            {
+              "term": "reservation",
+              "meaning": "예약"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "조용한 자리가 있는지 알고 싶습니다.",
+              "koAlternatives": [
+                "조용한 자리가 있는지 알고 싶습니다."
+              ],
+              "variants": [
+                "I would like to know if you have quiet seats.",
+                "Do you have any quiet seats available?",
+                "Is there a quieter area in the cafe?"
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "와이파이가 안정적인가요?",
+              "koAlternatives": [
+                "와이파이가 안정적인가요?"
+              ],
+              "variants": [
+                "Is the Wi-Fi stable?",
+                "Does the Wi-Fi usually work well?",
+                "Can I use reliable Wi-Fi there?"
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "콘센트를 사용할 수 있는 좌석이 있나요?",
+              "koAlternatives": [
+                "콘센트를 사용할 수 있는 좌석이 있나요?"
+              ],
+              "variants": [
+                "Are there any seats where I can use an outlet?",
+                "Do you have seats with outlets?",
+                "Can I charge my laptop at the cafe?"
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "예약이 필요한가요?",
+              "koAlternatives": [
+                "예약이 필요한가요?"
+              ],
+              "variants": [
+                "Do I need to make a reservation?",
+                "Should I book a seat in advance?",
+                "Is a reservation required?"
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q15-cafe-problem-and-alternatives",
+          "topicId": "11-roleplay",
+          "slug": "q15-cafe-problem-and-alternatives",
+          "order": 15,
+          "title": "Cafe Problem and Alternatives",
+          "promptKo": "카페에 가려고 했지만 자리가 없거나 너무 시끄러운 상황입니다. 문제를 설명하고 다른 선택지를 물어보세요.",
+          "promptEn": "You wanted to visit a cafe, but the cafe is full or too noisy. Explain the problem and ask for alternatives.",
+          "flowPoints": [
+            "문제 설명 -> 사과/상황 -> 대안 시간 -> 대안 자리 -> 확인",
+            "불평처럼 들리지 않게 말하고, 가능한 선택지를 묻는다.",
+            "Q14의 카페 질문과 같은 표현을 재사용한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 조금 전에 카페에 가려고 했는데 자리가 거의 없는 것 같아서 연락드립니다.",
+              "en": "Hello. I was planning to visit your cafe a little earlier, but it seemed almost full, so I am calling.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "저는 노트북으로 간단한 작업을 해야 해서 너무 시끄러운 자리는 조금 어렵습니다.",
+              "en": "I need to do some simple work on my laptop, so a very noisy seat is a bit difficult for me.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "혹시 30분 뒤에 오면 조용한 자리가 생길 가능성이 있을까요?",
+              "en": "If I come in about thirty minutes, is there a chance that a quieter seat will be available?",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "아니면 콘센트가 있는 자리 중에서 가장 덜 시끄러운 곳을 추천해 주실 수 있을까요?",
+              "en": "Or could you recommend the least noisy seat with an outlet?",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "제가 오래 머물 생각은 아니고 한 시간 정도만 있을 예정입니다.",
+              "en": "I am not planning to stay for a long time, maybe just about an hour.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "만약 오늘 너무 붐비면, 내일 비슷한 시간에 다시 가도 괜찮습니다.",
+              "en": "If today is too busy, I can also come back around the same time tomorrow.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "가능한 시간이나 자리를 알려 주시면 거기에 맞추겠습니다.",
+              "en": "Please let me know what time or seat would work, and I will follow that.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "방문 전에 다시 한번 확인하고 싶습니다.",
+              "en": "I would like to check once more before I visit.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "감사합니다.",
+              "en": "Thank you.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "It seemed almost full.",
+            "A very noisy seat is difficult for me.",
+            "Is there a chance that a quieter seat will be available?",
+            "I can come back tomorrow.",
+            "I will follow what works."
+          ],
+          "keyWords": [
+            {
+              "term": "almost full",
+              "meaning": "거의 꽉 찬"
+            },
+            {
+              "term": "quieter seat",
+              "meaning": "더 조용한 자리"
+            },
+            {
+              "term": "recommend",
+              "meaning": "추천하다"
+            },
+            {
+              "term": "come back",
+              "meaning": "다시 오다"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "자리가 거의 없는 것 같았습니다.",
+              "koAlternatives": [
+                "자리가 거의 없는 것 같았습니다."
+              ],
+              "variants": [
+                "It seemed almost full.",
+                "The cafe looked almost full.",
+                "There did not seem to be many seats."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "너무 시끄러운 자리는 조금 어렵습니다.",
+              "koAlternatives": [
+                "너무 시끄러운 자리는 조금 어렵습니다."
+              ],
+              "variants": [
+                "A very noisy seat is a bit difficult for me.",
+                "I cannot focus well in a very noisy area.",
+                "A quieter seat would work better for me."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "30분 뒤에 오면 자리가 생길까요?",
+              "koAlternatives": [
+                "30분 뒤에 오면 자리가 생길까요?"
+              ],
+              "variants": [
+                "If I come in about thirty minutes, will a seat be available?",
+                "Would there be a seat if I came a little later?",
+                "Is there a chance a seat will open up soon?"
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "내일 다시 가도 괜찮습니다.",
+              "koAlternatives": [
+                "내일 다시 가도 괜찮습니다."
+              ],
+              "variants": [
+                "I can also come back tomorrow.",
+                "Tomorrow would work for me too.",
+                "I am okay with visiting tomorrow instead."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q16-cafe-similar-experience",
+          "topicId": "11-roleplay",
+          "slug": "q16-cafe-similar-experience",
+          "order": 16,
+          "title": "Cafe Similar Experience",
+          "promptKo": "카페에서 비슷한 문제가 있었던 경험과 어떻게 해결했는지 말해 주세요.",
+          "promptEn": "Talk about a similar cafe experience and explain how you solved it.",
+          "flowPoints": [
+            "경험 소개 -> 문제 -> 행동 -> 결과 -> 배운 점",
+            "노트북 작업, 조용한 자리, 콘센트 표현을 반복한다.",
+            "마지막은 \"미리 확인하는 습관\"으로 정리한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "네, 비슷한 경험이 있습니다.",
+              "en": "Yes, I have a similar experience.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "작년에 퇴근 후에 카페에서 노트북으로 문서를 정리하려고 했습니다.",
+              "en": "Last year, after work, I went to a cafe to organize some documents on my laptop.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "그런데 막상 가 보니 카페가 너무 붐비고, 콘센트가 있는 자리는 이미 다 찼습니다.",
+              "en": "But when I arrived, the cafe was very crowded, and all the seats with outlets were already taken.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "처음에는 그냥 앉으려고 했지만, 소음 때문에 집중하기 어려웠습니다.",
+              "en": "At first, I tried to just sit anywhere, but it was hard to focus because of the noise.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그래서 직원에게 조용한 자리가 나올 가능성이 있는지 물어봤습니다.",
+              "en": "So I asked the staff if a quieter seat might become available.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "직원이 20분 정도 기다리면 벽 쪽 자리가 날 것 같다고 말해 주었습니다.",
+              "en": "The staff told me that a seat near the wall would probably open up in about twenty minutes.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "저는 근처에서 잠깐 산책한 뒤 다시 갔고, 그 자리에서 한 시간 정도 편하게 작업했습니다.",
+              "en": "I took a short walk nearby and came back later.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그 자리에서 한 시간 정도 편하게 작업할 수 있었습니다.",
+              "en": "Then I worked comfortably for about an hour at that seat.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그 이후로는 카페에 가기 전에 와이파이와 콘센트를 먼저 확인하는 편입니다.",
+              "en": "Since then, I usually check Wi-Fi and outlets before I visit a cafe.",
+              "status": "aligned"
+            },
+            {
+              "id": "s10",
+              "index": 10,
+              "ko": "작은 확인이지만 시간을 아끼는 데 도움이 됩니다.",
+              "en": "It is a small check, but it helps me save time.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I have a similar experience.",
+            "All the seats with outlets were taken.",
+            "It was hard to focus because of the noise.",
+            "I asked if a quieter seat might become available.",
+            "It helps me save time."
+          ],
+          "keyWords": [
+            {
+              "term": "crowded",
+              "meaning": "붐비는"
+            },
+            {
+              "term": "taken",
+              "meaning": "이미 사용 중인"
+            },
+            {
+              "term": "focus",
+              "meaning": "집중하다"
+            },
+            {
+              "term": "save time",
+              "meaning": "시간을 아끼다"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "콘센트가 있는 자리는 이미 다 찼습니다.",
+              "koAlternatives": [
+                "콘센트가 있는 자리는 이미 다 찼습니다."
+              ],
+              "variants": [
+                "All the seats with outlets were already taken.",
+                "There were no outlet seats left.",
+                "Every seat with an outlet was occupied."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "소음 때문에 집중하기 어려웠습니다.",
+              "koAlternatives": [
+                "소음 때문에 집중하기 어려웠습니다."
+              ],
+              "variants": [
+                "It was hard to focus because of the noise.",
+                "The noise made it difficult to concentrate.",
+                "I could not work well because it was too noisy."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "조용한 자리가 나올지 물어봤습니다.",
+              "koAlternatives": [
+                "조용한 자리가 나올지 물어봤습니다."
+              ],
+              "variants": [
+                "I asked if a quieter seat might become available.",
+                "I asked whether a quiet seat would open up.",
+                "I checked if I could move to a quieter area later."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "미리 확인하면 시간을 아낄 수 있습니다.",
+              "koAlternatives": [
+                "미리 확인하면 시간을 아낄 수 있습니다."
+              ],
+              "variants": [
+                "Checking in advance helps me save time.",
+                "It saves time when I check first.",
+                "A quick check before visiting can save a lot of time."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q17-apartment-repair-ask-questions",
+          "topicId": "11-roleplay",
+          "slug": "q17-apartment-repair-ask-questions",
+          "order": 17,
+          "title": "Apartment Repair Ask Questions",
+          "promptKo": "아파트 관리사무소에 전화해서 수리 일정과 준비할 점을 질문해 주세요.",
+          "promptEn": "Call the apartment management office and ask about a repair schedule and preparation.",
+          "flowPoints": [
+            "문제 설명 -> 방문 가능 시간 -> 예상 소요 시간 -> 준비할 점 -> 연락 방법",
+            "집/아파트 주제와 롤플레이를 연결한다.",
+            "재택근무 일정 때문에 시간을 확인하는 흐름을 사용한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 아파트 수리 관련해서 몇 가지 질문이 있습니다.",
+              "en": "Hello. I have a few questions about an apartment repair.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "저희 집 욕실 수도꼭지에서 물이 조금 새고 있어서 점검을 받고 싶습니다.",
+              "en": "The bathroom faucet in my home is leaking a little, so I would like to have it checked.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "혹시 이번 주 중에 기사님 방문이 가능한 시간이 있을까요?",
+              "en": "Is there any time this week when a technician can visit?",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "제가 낮에는 재택근무 미팅이 있어서, 가능하면 오전 10시 전이나 오후 4시 이후가 좋습니다.",
+              "en": "I have remote work meetings during the day, so before 10 a.m. or after 4 p.m. would be better if possible.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "수리에 보통 시간이 얼마나 걸리는지도 알고 싶습니다.",
+              "en": "I would also like to know how long the repair usually takes.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "방문 전에 제가 비워 두거나 준비해야 하는 공간이 있나요?",
+              "en": "Is there any space I should clear or prepare before the visit?",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "그리고 기사님이 오시기 전에 전화나 문자로 연락을 받을 수 있을까요?",
+              "en": "Also, can I get a call or text before the technician arrives?",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "가능한 일정을 알려 주시면 제가 맞춰 보겠습니다.",
+              "en": "Please let me know the available schedule, and I will try to match it.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "감사합니다.",
+              "en": "Thank you.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "The bathroom faucet is leaking.",
+            "Is there any time this week?",
+            "Before 10 a.m. or after 4 p.m. would be better.",
+            "How long does the repair usually take?",
+            "Can I get a call before the technician arrives?"
+          ],
+          "keyWords": [
+            {
+              "term": "faucet",
+              "meaning": "수도꼭지"
+            },
+            {
+              "term": "leak",
+              "meaning": "새다"
+            },
+            {
+              "term": "technician",
+              "meaning": "기사님"
+            },
+            {
+              "term": "repair",
+              "meaning": "수리"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "수도꼭지에서 물이 조금 새고 있습니다.",
+              "koAlternatives": [
+                "수도꼭지에서 물이 조금 새고 있습니다."
+              ],
+              "variants": [
+                "The faucet is leaking a little.",
+                "There is a small leak from the faucet.",
+                "Water is coming out slightly from the faucet."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "이번 주에 방문 가능한 시간이 있나요?",
+              "koAlternatives": [
+                "이번 주에 방문 가능한 시간이 있나요?"
+              ],
+              "variants": [
+                "Is there any time this week when a technician can visit?",
+                "Do you have any available repair time this week?",
+                "Can someone come by this week?"
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "수리에 시간이 얼마나 걸리나요?",
+              "koAlternatives": [
+                "수리에 시간이 얼마나 걸리나요?"
+              ],
+              "variants": [
+                "How long does the repair usually take?",
+                "How much time should I expect for the repair?",
+                "Do you know how long it will take?"
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "방문 전에 연락을 받을 수 있을까요?",
+              "koAlternatives": [
+                "방문 전에 연락을 받을 수 있을까요?"
+              ],
+              "variants": [
+                "Can I get a call before the technician arrives?",
+                "Could you text me before the visit?",
+                "Can someone contact me before coming?"
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q18-apartment-repair-problem-and-alternatives",
+          "topicId": "11-roleplay",
+          "slug": "q18-apartment-repair-problem-and-alternatives",
+          "order": 18,
+          "title": "Apartment Repair Problem and Alternatives",
+          "promptKo": "수리 방문 시간이 재택근무 미팅과 겹칩니다. 상황을 설명하고 다른 시간을 요청해 주세요.",
+          "promptEn": "The repair visit conflicts with your remote work meeting. Explain the problem and ask for another time.",
+          "flowPoints": [
+            "일정 충돌 설명 -> 사과 -> 가능한 시간 2개 제시 -> 긴급 여부 확인 -> 확정 요청",
+            "Q17의 수리 상황을 그대로 이어 간다.",
+            "\"그 시간은 어렵다\"를 부드럽게 말하는 연습을 한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 오늘 예정된 수리 방문 시간 때문에 연락드립니다.",
+              "en": "Hello. I am calling about the repair visit scheduled for today.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "기사님이 오후 2시에 오신다고 들었는데, 그 시간에 중요한 재택근무 미팅이 생겼습니다.",
+              "en": "I heard the technician is coming at 2 p.m., but I now have an important remote work meeting at that time.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "죄송하지만 그 시간에는 문을 열어 드리기가 조금 어렵습니다.",
+              "en": "I am sorry, but it will be difficult for me to open the door then.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "혹시 오늘 오후 4시 이후로 변경할 수 있을까요?",
+              "en": "Could we change the visit to after 4 p.m. today?",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그 시간이 어렵다면 내일 오전 9시에서 10시 사이도 가능합니다.",
+              "en": "If that does not work, tomorrow between 9 and 10 a.m. is also possible for me.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "수도꼭지에서 물이 많이 새는 것은 아니라서 하루 정도는 기다릴 수 있습니다.",
+              "en": "The faucet is not leaking badly, so I can wait one more day.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "다만 정확한 시간을 미리 알면 제가 일정을 조정하기 훨씬 쉽습니다.",
+              "en": "But if I know the exact time in advance, it is much easier for me to adjust my schedule.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "가능한 선택지를 알려 주시면 바로 확인하겠습니다.",
+              "en": "Please let me know the available options, and I will confirm right away.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "감사합니다.",
+              "en": "Thank you.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I am calling about the repair visit.",
+            "I have an important remote work meeting.",
+            "It will be difficult for me to open the door then.",
+            "Could we change the visit to after 4 p.m.?",
+            "I will confirm right away."
+          ],
+          "keyWords": [
+            {
+              "term": "scheduled",
+              "meaning": "예정된"
+            },
+            {
+              "term": "conflict",
+              "meaning": "겹치다"
+            },
+            {
+              "term": "adjust",
+              "meaning": "조정하다"
+            },
+            {
+              "term": "confirm",
+              "meaning": "확인하다"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "그 시간에 중요한 미팅이 생겼습니다.",
+              "koAlternatives": [
+                "그 시간에 중요한 미팅이 생겼습니다."
+              ],
+              "variants": [
+                "I now have an important meeting at that time.",
+                "A work meeting came up at that time.",
+                "That time conflicts with an important meeting."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "그 시간에는 문을 열어 드리기 어렵습니다.",
+              "koAlternatives": [
+                "그 시간에는 문을 열어 드리기 어렵습니다."
+              ],
+              "variants": [
+                "It will be difficult for me to open the door then.",
+                "I may not be available to let the technician in.",
+                "I cannot be at the door at that time."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "오늘 오후 4시 이후로 바꿀 수 있을까요?",
+              "koAlternatives": [
+                "오늘 오후 4시 이후로 바꿀 수 있을까요?"
+              ],
+              "variants": [
+                "Could we change the visit to after 4 p.m. today?",
+                "Is after 4 p.m. today possible?",
+                "Can the technician come later this afternoon?"
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "가능한 선택지를 알려 주세요.",
+              "koAlternatives": [
+                "가능한 선택지를 알려 주세요."
+              ],
+              "variants": [
+                "Please let me know the available options.",
+                "Could you tell me what times are possible?",
+                "Please share any other time slots that work."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q19-apartment-repair-similar-experience",
+          "topicId": "11-roleplay",
+          "slug": "q19-apartment-repair-similar-experience",
+          "order": 19,
+          "title": "Apartment Repair Similar Experience",
+          "promptKo": "집 수리나 관리사무소와 관련된 비슷한 경험을 말해 주세요.",
+          "promptEn": "Talk about a similar experience with a home repair or apartment management office.",
+          "flowPoints": [
+            "경험 소개 -> 문제 발견 -> 연락 -> 일정 조정 -> 결과",
+            "아파트, 가족, 재택근무 설정을 자연스럽게 연결한다.",
+            "배운 점은 \"문제는 빨리 알리는 것이 좋다\"로 정리한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "네, 비슷한 경험이 있습니다.",
+              "en": "Yes, I have a similar experience.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "몇 달 전에 저희 집 싱크대 아래에서 물이 조금 새는 것을 발견했습니다.",
+              "en": "A few months ago, I found a small leak under the kitchen sink in my apartment.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "처음에는 큰 문제는 아니라고 생각했지만, 가족이 걱정해서 관리사무소에 바로 전화했습니다.",
+              "en": "At first, I thought it was not a big problem, but my family was worried, so I called the management office right away.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "그날 저는 재택근무 중이라 아무 때나 기사님을 맞이하기는 어려웠습니다.",
+              "en": "I was working from home that day, so it was difficult to meet the technician at any time.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그래서 오전 미팅이 끝난 뒤에 방문이 가능한지 물어봤습니다.",
+              "en": "So I asked if the technician could visit after my morning meeting.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "다행히 관리사무소에서 오후 시간으로 일정을 조정해 주었습니다.",
+              "en": "Luckily, the management office adjusted the schedule to the afternoon.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "기사님이 와서 부품을 확인하고, 짧은 시간 안에 문제를 해결해 주었습니다.",
+              "en": "The technician came, checked the part, and fixed the problem in a short time.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그 경험 이후로 집에서 작은 문제가 생겨도 너무 오래 기다리지 않으려고 합니다.",
+              "en": "After that experience, I try not to wait too long when I notice a small problem at home.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "빨리 말하면 수리도 더 쉽고 가족도 더 안심할 수 있습니다.",
+              "en": "If I report it early, the repair is easier and my family feels more comfortable.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I found a small leak.",
+            "I called the management office right away.",
+            "I was working from home that day.",
+            "The management office adjusted the schedule.",
+            "It is better to report it early."
+          ],
+          "keyWords": [
+            {
+              "term": "kitchen sink",
+              "meaning": "주방 싱크대"
+            },
+            {
+              "term": "management office",
+              "meaning": "관리사무소"
+            },
+            {
+              "term": "report",
+              "meaning": "알리다, 신고하다"
+            },
+            {
+              "term": "comfortable",
+              "meaning": "안심하는"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "싱크대 아래에서 물이 조금 샜습니다.",
+              "koAlternatives": [
+                "싱크대 아래에서 물이 조금 샜습니다."
+              ],
+              "variants": [
+                "I found a small leak under the kitchen sink.",
+                "There was a little water under the sink.",
+                "The kitchen sink area was leaking slightly."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "관리사무소에 바로 전화했습니다.",
+              "koAlternatives": [
+                "관리사무소에 바로 전화했습니다."
+              ],
+              "variants": [
+                "I called the management office right away.",
+                "I contacted the apartment office immediately.",
+                "I reached out to the management office as soon as I noticed it."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "재택근무 중이라 시간이 제한적이었습니다.",
+              "koAlternatives": [
+                "재택근무 중이라 시간이 제한적이었습니다."
+              ],
+              "variants": [
+                "I was working from home, so my time was limited.",
+                "Because of remote work, I could not meet the technician anytime.",
+                "My work schedule made the visit time a little difficult."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "빨리 알리면 수리가 더 쉽습니다.",
+              "koAlternatives": [
+                "빨리 알리면 수리가 더 쉽습니다."
+              ],
+              "variants": [
+                "If I report it early, the repair is easier.",
+                "Early contact makes the repair process smoother.",
+                "It is easier to fix the problem when I speak up early."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q20-work-demo-ask-questions",
+          "topicId": "11-roleplay",
+          "slug": "q20-work-demo-ask-questions",
+          "order": 20,
+          "title": "Work Demo Ask Questions",
+          "promptKo": "고객사와 소프트웨어 데모 미팅을 잡기 전에 필요한 정보를 질문해 주세요.",
+          "promptEn": "Before setting up a software demo meeting with a client, ask for the necessary information.",
+          "flowPoints": [
+            "미팅 목적 -> 참석자 -> 시간 -> 데모 환경 -> 자료 요청",
+            "IT 직무 페르소나를 직접 활용한다.",
+            "질문은 업무 전화처럼 짧고 명확하게 한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 다음 주 소프트웨어 데모 미팅과 관련해서 몇 가지 확인하고 싶습니다.",
+              "en": "Hello. I would like to check a few things about next week's software demo meeting.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "먼저 미팅에 몇 분 정도 참석하실 예정인가요?",
+              "en": "First, how many people will join the meeting?",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "그리고 가장 편한 날짜와 시간이 언제인지 알려 주실 수 있을까요?",
+              "en": "Also, could you let me know the date and time that works best for you?",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "데모에서는 기존 시스템에서 새 시스템으로 데이터를 옮기는 흐름을 보여 드리려고 합니다.",
+              "en": "In the demo, I plan to show how data moves from the legacy system to the new system.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "혹시 특별히 보고 싶은 기능이나 화면이 있으신가요?",
+              "en": "Are there any specific features or screens you would like to see?",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "또한 화면 공유가 가능한 회의 도구를 사용하면 좋을 것 같습니다.",
+              "en": "Also, it would be helpful to use a meeting tool that allows screen sharing.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "필요하다면 제가 데모 전에 짧은 안내 자료를 보내 드릴 수 있습니다.",
+              "en": "If needed, I can send a short guide before the demo.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "확인해 주시면 일정과 자료를 맞춰 준비하겠습니다.",
+              "en": "Once you confirm, I will prepare the schedule and materials accordingly.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "감사합니다.",
+              "en": "Thank you.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I would like to check a few things.",
+            "How many people will join?",
+            "What date and time works best for you?",
+            "Are there any specific features you would like to see?",
+            "I can send a short guide before the demo."
+          ],
+          "keyWords": [
+            {
+              "term": "software demo",
+              "meaning": "소프트웨어 데모"
+            },
+            {
+              "term": "legacy system",
+              "meaning": "레거시 시스템"
+            },
+            {
+              "term": "screen sharing",
+              "meaning": "화면 공유"
+            },
+            {
+              "term": "materials",
+              "meaning": "자료"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "몇 분이 참석하실 예정인가요?",
+              "koAlternatives": [
+                "몇 분이 참석하실 예정인가요?"
+              ],
+              "variants": [
+                "How many people will join the meeting?",
+                "How many attendees should I expect?",
+                "Could you tell me how many people will be there?"
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "가장 편한 날짜와 시간이 언제인가요?",
+              "koAlternatives": [
+                "가장 편한 날짜와 시간이 언제인가요?"
+              ],
+              "variants": [
+                "What date and time works best for you?",
+                "Could you let me know your preferred time?",
+                "When would be most convenient for you?"
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "보고 싶은 기능이 있으신가요?",
+              "koAlternatives": [
+                "보고 싶은 기능이 있으신가요?"
+              ],
+              "variants": [
+                "Are there any specific features you would like to see?",
+                "Is there any function you want me to focus on?",
+                "Do you have any screens you want to check during the demo?"
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "데모 전에 자료를 보내 드릴 수 있습니다.",
+              "koAlternatives": [
+                "데모 전에 자료를 보내 드릴 수 있습니다."
+              ],
+              "variants": [
+                "I can send a short guide before the demo.",
+                "I can share the materials in advance.",
+                "I can send a brief document before the meeting."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q21-work-demo-problem-and-alternatives",
+          "topicId": "11-roleplay",
+          "slug": "q21-work-demo-problem-and-alternatives",
+          "order": 21,
+          "title": "Work Demo Problem and Alternatives",
+          "promptKo": "데모 환경에 문제가 생겼습니다. 고객에게 상황을 설명하고 대안을 제시해 주세요.",
+          "promptEn": "There is a problem with the demo environment. Explain the situation to the client and suggest alternatives.",
+          "flowPoints": [
+            "문제 설명 -> 사과 -> 영향 범위 -> 대안 2개 -> 확인 요청",
+            "IT 업무 상황에서 자주 쓸 수 있는 안정적인 문제 해결 흐름이다.",
+            "\"완전히 망했다\"가 아니라 \"일부 기능이 불안정하다\"로 말한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 오늘 데모와 관련해서 미리 말씀드릴 문제가 있습니다.",
+              "en": "Hello. I want to let you know about an issue before today's demo.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "현재 데모 서버의 일부 기능이 조금 불안정합니다.",
+              "en": "Some features on the demo server are a little unstable right now.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "죄송하지만, 실시간 데모를 그대로 진행하면 중간에 화면이 느려질 수 있습니다.",
+              "en": "I am sorry, but if we run the live demo as planned, some screens may become slow during the meeting.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "대신 첫 번째 방법으로, 제가 미리 녹화해 둔 짧은 데모 영상을 보여 드릴 수 있습니다.",
+              "en": "As a first option, I can show you a short demo video that I recorded in advance.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "두 번째 방법으로, 핵심 기능만 먼저 설명하고 전체 데모는 내일 다시 진행할 수도 있습니다.",
+              "en": "As a second option, I can explain only the key features today and run the full demo again tomorrow.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "데이터 이전 흐름과 주요 화면은 오늘 설명드릴 수 있습니다.",
+              "en": "I can still explain the data migration flow and the main screens today.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "다만 실제 클릭 테스트는 안정적인 환경에서 보여 드리는 것이 더 좋을 것 같습니다.",
+              "en": "However, it would be better to show the actual click test in a stable environment.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "어떤 방식이 더 편하신지 알려 주시면 그에 맞춰 진행하겠습니다.",
+              "en": "Please let me know which option is more convenient for you, and I will follow that.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "불편을 드려 죄송합니다.",
+              "en": "I am sorry for the inconvenience.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "Some features are a little unstable.",
+            "Some screens may become slow.",
+            "I can show a recorded demo video.",
+            "We can run the full demo again tomorrow.",
+            "Please let me know which option is more convenient."
+          ],
+          "keyWords": [
+            {
+              "term": "unstable",
+              "meaning": "불안정한"
+            },
+            {
+              "term": "recorded demo",
+              "meaning": "녹화된 데모"
+            },
+            {
+              "term": "key features",
+              "meaning": "핵심 기능"
+            },
+            {
+              "term": "inconvenience",
+              "meaning": "불편"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "일부 기능이 조금 불안정합니다.",
+              "koAlternatives": [
+                "일부 기능이 조금 불안정합니다."
+              ],
+              "variants": [
+                "Some features are a little unstable.",
+                "A few functions are not fully stable right now.",
+                "The demo environment has some minor issues."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "실시간 데모 중 화면이 느려질 수 있습니다.",
+              "koAlternatives": [
+                "실시간 데모 중 화면이 느려질 수 있습니다."
+              ],
+              "variants": [
+                "Some screens may become slow during the live demo.",
+                "The system may respond slowly during the demo.",
+                "There may be some delay if we run the live demo."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "녹화해 둔 데모 영상을 보여 드릴 수 있습니다.",
+              "koAlternatives": [
+                "녹화해 둔 데모 영상을 보여 드릴 수 있습니다."
+              ],
+              "variants": [
+                "I can show you a recorded demo video.",
+                "I can use a demo video I prepared in advance.",
+                "I can walk you through a pre-recorded demo."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "전체 데모는 내일 다시 진행할 수 있습니다.",
+              "koAlternatives": [
+                "전체 데모는 내일 다시 진행할 수 있습니다."
+              ],
+              "variants": [
+                "We can run the full demo again tomorrow.",
+                "I can reschedule the complete demo for tomorrow.",
+                "We can do the full live demo tomorrow instead."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q22-work-demo-similar-experience",
+          "topicId": "11-roleplay",
+          "slug": "q22-work-demo-similar-experience",
+          "order": 22,
+          "title": "Work Demo Similar Experience",
+          "promptKo": "업무 중 시스템 문제를 해결했던 비슷한 경험을 말해 주세요.",
+          "promptEn": "Talk about a similar experience when you solved a system issue at work.",
+          "flowPoints": [
+            "프로젝트 상황 -> 문제 발생 -> 대안 제시 -> 결과 -> 배운 점",
+            "legacy migration, system improvement 표현을 자연스럽게 재사용한다.",
+            "Q21의 \"녹화 영상, 핵심 기능, 다시 진행\" 흐름과 연결한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "네, 업무에서 비슷한 경험이 있습니다.",
+              "en": "Yes, I have a similar work experience.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "예전에 레거시 시스템을 새 시스템으로 옮기는 프로젝트에서 고객 데모를 준비한 적이 있습니다.",
+              "en": "In the past, I prepared a client demo for a project that moved a legacy system to a new system.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "그런데 미팅 직전에 테스트 서버가 느려져서 일부 화면이 정상적으로 열리지 않았습니다.",
+              "en": "But right before the meeting, the test server became slow, and some screens did not open properly.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "저는 먼저 고객에게 상황을 설명하고, 불편을 드려 죄송하다고 말했습니다.",
+              "en": "I first explained the situation to the client and apologized for the inconvenience.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그리고 미리 준비해 둔 스크린샷과 짧은 영상을 사용해서 핵심 흐름을 설명했습니다.",
+              "en": "Then I used prepared screenshots and a short video to explain the key flow.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "그 후 서버가 안정된 다음 날에 실제 데모를 다시 진행했습니다.",
+              "en": "After the server became stable, we ran the actual demo again the next day.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "다행히 고객은 상황을 이해해 주었고, 프로젝트 일정에도 큰 문제는 없었습니다.",
+              "en": "Luckily, the client understood the situation, and there was no major issue with the project schedule.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그 경험 이후로 저는 중요한 데모 전에는 항상 백업 자료를 준비합니다.",
+              "en": "Since then, I always prepare backup materials before an important demo.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "문제가 생겨도 대안이 있으면 훨씬 차분하게 대응할 수 있습니다.",
+              "en": "When I have an alternative, I can handle problems much more calmly.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "The test server became slow.",
+            "Some screens did not open properly.",
+            "I explained the situation and apologized.",
+            "I used backup materials.",
+            "I can handle problems more calmly."
+          ],
+          "keyWords": [
+            {
+              "term": "test server",
+              "meaning": "테스트 서버"
+            },
+            {
+              "term": "properly",
+              "meaning": "제대로"
+            },
+            {
+              "term": "backup materials",
+              "meaning": "백업 자료"
+            },
+            {
+              "term": "calmly",
+              "meaning": "차분하게"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "테스트 서버가 느려졌습니다.",
+              "koAlternatives": [
+                "테스트 서버가 느려졌습니다."
+              ],
+              "variants": [
+                "The test server became slow.",
+                "The test server started responding slowly.",
+                "The test environment was not stable."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "일부 화면이 정상적으로 열리지 않았습니다.",
+              "koAlternatives": [
+                "일부 화면이 정상적으로 열리지 않았습니다."
+              ],
+              "variants": [
+                "Some screens did not open properly.",
+                "A few pages were not loading correctly.",
+                "Some parts of the system did not work as expected."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "백업 자료로 핵심 흐름을 설명했습니다.",
+              "koAlternatives": [
+                "백업 자료로 핵심 흐름을 설명했습니다."
+              ],
+              "variants": [
+                "I used backup materials to explain the key flow.",
+                "I walked them through the main process with screenshots.",
+                "I explained the important parts using a short video."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "대안이 있으면 차분하게 대응할 수 있습니다.",
+              "koAlternatives": [
+                "대안이 있으면 차분하게 대응할 수 있습니다."
+              ],
+              "variants": [
+                "When I have an alternative, I can handle problems more calmly.",
+                "A backup plan helps me stay calm.",
+                "It is easier to respond when I have another option."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q23-hotel-ask-questions",
+          "topicId": "11-roleplay",
+          "slug": "q23-hotel-ask-questions",
+          "order": 23,
+          "title": "Hotel Ask Questions",
+          "promptKo": "여행 전에 호텔에 전화해서 체크인, 조식, 주변 교통에 대해 질문해 주세요.",
+          "promptEn": "Before a trip, call a hotel and ask about check-in, breakfast, and transportation.",
+          "flowPoints": [
+            "예약 확인 -> 체크인 시간 -> 조식 -> 교통/주차 -> 요청사항",
+            "여행 주제와 롤플레이를 연결한다.",
+            "가족과 함께 가는 설정을 사용해서 자연스럽게 질문한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 다음 주말 호텔 예약과 관련해서 몇 가지 질문이 있습니다.",
+              "en": "Hello. I have a few questions about my hotel reservation for next weekend.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "먼저 체크인은 몇 시부터 가능한가요?",
+              "en": "First, what time does check-in start?",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "저희가 가족과 함께 갈 예정이라 조금 일찍 도착할 수도 있습니다.",
+              "en": "I will visit with my family, so we may arrive a little early.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "혹시 방이 준비되어 있으면 일찍 체크인할 수 있는지도 궁금합니다.",
+              "en": "If the room is ready, is early check-in possible?",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그리고 조식은 예약에 포함되어 있나요?",
+              "en": "Also, is breakfast included in the reservation?",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "아이가 있어서 조식 시간이 너무 이른지 확인하고 싶습니다.",
+              "en": "I am coming with my child, so I would like to check if the breakfast time is too early.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "호텔 근처에 지하철역이나 버스 정류장이 가까운지도 알려 주실 수 있을까요?",
+              "en": "Could you also tell me if there is a subway station or bus stop near the hotel?",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "만약 차를 가져가면 주차가 가능한지도 확인하고 싶습니다.",
+              "en": "If we bring a car, I would like to know whether parking is available.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "방문 전에 정보를 정리해 두면 여행 준비가 훨씬 쉬울 것 같습니다.",
+              "en": "If I organize this information before the trip, it will be much easier to prepare.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "What time does check-in start?",
+            "Is early check-in possible?",
+            "Is breakfast included?",
+            "Is there a subway station near the hotel?",
+            "Is parking available?"
+          ],
+          "keyWords": [
+            {
+              "term": "check-in",
+              "meaning": "체크인"
+            },
+            {
+              "term": "breakfast included",
+              "meaning": "조식 포함"
+            },
+            {
+              "term": "transportation",
+              "meaning": "교통"
+            },
+            {
+              "term": "parking",
+              "meaning": "주차"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "체크인은 몇 시부터 가능한가요?",
+              "koAlternatives": [
+                "체크인은 몇 시부터 가능한가요?"
+              ],
+              "variants": [
+                "What time does check-in start?",
+                "From what time can we check in?",
+                "When is the earliest check-in time?"
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "일찍 체크인할 수 있나요?",
+              "koAlternatives": [
+                "일찍 체크인할 수 있나요?"
+              ],
+              "variants": [
+                "Is early check-in possible?",
+                "Can we check in a little early?",
+                "Would early check-in be available if the room is ready?"
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "조식이 예약에 포함되어 있나요?",
+              "koAlternatives": [
+                "조식이 예약에 포함되어 있나요?"
+              ],
+              "variants": [
+                "Is breakfast included in the reservation?",
+                "Does my booking include breakfast?",
+                "Is breakfast part of the room package?"
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "호텔 근처에 대중교통이 있나요?",
+              "koAlternatives": [
+                "호텔 근처에 대중교통이 있나요?"
+              ],
+              "variants": [
+                "Is there public transportation near the hotel?",
+                "Is there a subway station or bus stop nearby?",
+                "Can we use public transportation easily from the hotel?"
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q24-hotel-problem-and-alternatives",
+          "topicId": "11-roleplay",
+          "slug": "q24-hotel-problem-and-alternatives",
+          "order": 24,
+          "title": "Hotel Problem and Alternatives",
+          "promptKo": "교통 문제로 호텔 체크인이 늦어질 것 같습니다. 상황을 설명하고 대안을 요청해 주세요.",
+          "promptEn": "Because of a transportation problem, you will arrive late at the hotel. Explain the situation and ask for alternatives.",
+          "flowPoints": [
+            "늦는 이유 -> 사과 -> 예약 유지 요청 -> 늦은 체크인 확인 -> 추가 대안",
+            "호텔/여행 상황에서 가장 흔한 롤플레이 문제다.",
+            "\"예약을 취소하지 말아 달라\"를 공손하게 말한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 오늘 체크인 예정인 예약자입니다.",
+              "en": "Hello. I have a reservation for check-in today.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "교통이 많이 막혀서 호텔 도착이 예상보다 늦어질 것 같습니다.",
+              "en": "Because of heavy traffic, I think I will arrive at the hotel later than expected.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "원래는 저녁 7시쯤 도착하려고 했는데, 아마 9시쯤 도착할 것 같습니다.",
+              "en": "I originally planned to arrive around 7 p.m., but I will probably arrive around 9 p.m.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "불편을 드려 죄송하지만 제 예약을 유지해 주실 수 있을까요?",
+              "en": "I am sorry for the inconvenience, but could you please keep my reservation?",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "늦은 체크인이 가능한지도 확인하고 싶습니다.",
+              "en": "I would also like to check if late check-in is possible.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "혹시 도착 전에 제가 따로 보내야 하는 정보가 있나요?",
+              "en": "Is there any information I should send before I arrive?",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "만약 프런트 데스크가 닫힌다면, 다른 체크인 방법이 있는지도 알려 주세요.",
+              "en": "If the front desk closes, please let me know if there is another check-in method.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "저희는 가족과 함께 가는 중이라 예약이 취소되지 않는 것이 중요합니다.",
+              "en": "I am traveling with my family, so it is important that the reservation is not canceled.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "가능한 방법을 알려 주시면 바로 따르겠습니다.",
+              "en": "Please let me know what I can do, and I will follow your instructions.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I will arrive later than expected.",
+            "Could you please keep my reservation?",
+            "Is late check-in possible?",
+            "Is there any information I should send?",
+            "I will follow your instructions."
+          ],
+          "keyWords": [
+            {
+              "term": "heavy traffic",
+              "meaning": "심한 교통 체증"
+            },
+            {
+              "term": "late check-in",
+              "meaning": "늦은 체크인"
+            },
+            {
+              "term": "front desk",
+              "meaning": "프런트 데스크"
+            },
+            {
+              "term": "instruction",
+              "meaning": "안내, 지시"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "예상보다 늦게 도착할 것 같습니다.",
+              "koAlternatives": [
+                "예상보다 늦게 도착할 것 같습니다."
+              ],
+              "variants": [
+                "I will arrive later than expected.",
+                "I think I will get there later than planned.",
+                "My arrival will probably be delayed."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "예약을 유지해 주실 수 있나요?",
+              "koAlternatives": [
+                "예약을 유지해 주실 수 있나요?"
+              ],
+              "variants": [
+                "Could you please keep my reservation?",
+                "Could you hold my booking?",
+                "Please do not cancel my reservation."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "늦은 체크인이 가능한가요?",
+              "koAlternatives": [
+                "늦은 체크인이 가능한가요?"
+              ],
+              "variants": [
+                "Is late check-in possible?",
+                "Can I check in late tonight?",
+                "Do you allow late check-in?"
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "다른 체크인 방법이 있나요?",
+              "koAlternatives": [
+                "다른 체크인 방법이 있나요?"
+              ],
+              "variants": [
+                "Is there another check-in method?",
+                "Do you have a self check-in option?",
+                "Is there a way to check in after the front desk closes?"
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "11-roleplay/q25-hotel-similar-experience",
+          "topicId": "11-roleplay",
+          "slug": "q25-hotel-similar-experience",
+          "order": 25,
+          "title": "Hotel Similar Experience",
+          "promptKo": "여행 중 호텔 체크인이나 예약과 관련된 비슷한 경험을 말해 주세요.",
+          "promptEn": "Talk about a similar experience with hotel check-in or a reservation during a trip.",
+          "flowPoints": [
+            "여행 상황 -> 문제 발생 -> 호텔에 연락 -> 해결 -> 배운 점",
+            "Q23, Q24의 호텔 표현을 반복해서 암기 부담을 줄인다.",
+            "마지막은 \"미리 연락하면 문제가 작아진다\"로 정리한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "네, 비슷한 경험이 있습니다.",
+              "en": "Yes, I have a similar experience.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "작년에 가족과 짧은 여행을 갔을 때 호텔 체크인이 늦어진 적이 있습니다.",
+              "en": "Last year, when I took a short trip with my family, our hotel check-in was delayed.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "그날 비가 많이 오고 길이 막혀서 예상보다 한 시간 넘게 늦었습니다.",
+              "en": "It rained a lot that day, and traffic was heavy, so we were more than an hour late.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "저는 걱정이 돼서 호텔에 바로 전화했고, 도착 시간이 늦어질 것 같다고 설명했습니다.",
+              "en": "I was worried, so I called the hotel right away and explained that our arrival would be delayed.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "직원에게 예약을 유지할 수 있는지와 늦은 체크인이 가능한지 물어봤습니다.",
+              "en": "I asked the staff if they could keep our reservation and if late check-in was possible.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "다행히 직원이 괜찮다고 했고, 도착하면 프런트에서 바로 도와주겠다고 말했습니다.",
+              "en": "Luckily, the staff said it was okay and told us they would help us at the front desk when we arrived.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "우리는 밤에 도착했지만 문제없이 체크인할 수 있었습니다.",
+              "en": "We arrived at night, but we were able to check in without any problem.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그때 미리 연락하길 정말 잘했다고 느꼈습니다.",
+              "en": "At that time, I felt that calling ahead was the right choice.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "이후로 여행 중 일정이 바뀌면 가능한 한 빨리 호텔이나 식당에 연락합니다.",
+              "en": "Since then, when my travel schedule changes, I contact the hotel or restaurant as early as possible.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "Our hotel check-in was delayed.",
+            "Traffic was heavy.",
+            "I called the hotel right away.",
+            "Could you keep our reservation?",
+            "Calling ahead was the right choice."
+          ],
+          "keyWords": [
+            {
+              "term": "delayed",
+              "meaning": "지연된"
+            },
+            {
+              "term": "arrival",
+              "meaning": "도착"
+            },
+            {
+              "term": "without any problem",
+              "meaning": "문제없이"
+            },
+            {
+              "term": "as early as possible",
+              "meaning": "가능한 한 빨리"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "호텔 체크인이 늦어졌습니다.",
+              "koAlternatives": [
+                "호텔 체크인이 늦어졌습니다."
+              ],
+              "variants": [
+                "Our hotel check-in was delayed.",
+                "We were late for hotel check-in.",
+                "We could not arrive at the hotel on time."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "호텔에 바로 전화했습니다.",
+              "koAlternatives": [
+                "호텔에 바로 전화했습니다."
+              ],
+              "variants": [
+                "I called the hotel right away.",
+                "I contacted the hotel immediately.",
+                "I reached out to the hotel as soon as I could."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "문제없이 체크인할 수 있었습니다.",
+              "koAlternatives": [
+                "문제없이 체크인할 수 있었습니다."
+              ],
+              "variants": [
+                "We were able to check in without any problem.",
+                "The check-in went smoothly.",
+                "We checked in without any trouble."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "미리 연락하길 잘했다고 느꼈습니다.",
+              "koAlternatives": [
+                "미리 연락하길 잘했다고 느꼈습니다."
+              ],
+              "variants": [
+                "I felt that calling ahead was the right choice.",
+                "I was glad I contacted them early.",
+                "It was a good idea to call before we arrived."
+              ]
+            }
+          ],
+          "hooks": []
         }
       ]
     },
@@ -10777,9 +12656,9 @@
   ],
   "stats": {
     "topicCount": 12,
-    "questionCount": 61,
-    "totalScriptPairs": 532,
-    "alignedQuestionCount": 61,
+    "questionCount": 73,
+    "totalScriptPairs": 641,
+    "alignedQuestionCount": 73,
     "alignmentIssueCount": 0,
     "missingRequiredSections": []
   }

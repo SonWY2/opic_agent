@@ -12,7 +12,7 @@ describe('study data parser', () => {
 
     expect(data.datasetDate).toBe('2026-04-22');
     expect(data.stats.topicCount).toBe(12);
-    expect(data.stats.questionCount).toBe(61);
+    expect(data.stats.questionCount).toBe(73);
     expect(data.stats.missingRequiredSections).toEqual([]);
     expect(data.topics[0].questions[0]).toMatchObject({
       id: '01-self-intro/q01-self-intro',
@@ -42,7 +42,7 @@ describe('study data parser', () => {
       .filter((question) => question.hasAlignmentIssue)
       .map((question) => question.id);
 
-    expect(data.stats.alignedQuestionCount).toBe(61);
+    expect(data.stats.alignedQuestionCount).toBe(73);
     expect(data.stats.alignmentIssueCount).toBe(0);
     expect(issueIds).toEqual([]);
   });
