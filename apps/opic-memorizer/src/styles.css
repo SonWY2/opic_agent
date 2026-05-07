@@ -139,6 +139,7 @@ button {
 .primary-action,
 .rating-row button,
 .card-counter button,
+.copy-script-button,
 .order-chip,
 .quiz-actions button,
 .blank-line {
@@ -364,6 +365,14 @@ button {
   margin-bottom: 12px;
 }
 
+.section-title-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .review-badge {
   padding: 4px 8px;
   border-radius: 999px;
@@ -371,6 +380,40 @@ button {
   color: #8d5b0c;
   font-size: 0.78rem;
   font-weight: 750;
+}
+
+.copy-script-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 253, 248, 0.92);
+  color: var(--ink);
+  font-weight: 750;
+}
+
+.copy-script-button:hover,
+.copy-script-button:focus-visible {
+  border-color: var(--green);
+}
+
+.copy-script-button[data-state='copied'] {
+  border-color: var(--green);
+  background: rgba(0, 113, 227, 0.08);
+  color: var(--green-dark);
+}
+
+.copy-script-button[data-state='error'] {
+  border-color: rgba(179, 38, 30, 0.4);
+  background: rgba(179, 38, 30, 0.08);
+  color: #9b1c1c;
+}
+
+.copy-script-button:disabled {
+  cursor: wait;
+  opacity: 0.8;
 }
 
 .script-stack {
@@ -1204,10 +1247,53 @@ body::before {
   align-items: flex-start;
 }
 
+.section-title-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .review-badge {
   border-radius: 999px;
   background: rgba(134, 134, 139, 0.12);
   color: #6e6e73;
+}
+
+.copy-script-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--ink);
+  font-weight: 750;
+  box-shadow: none;
+}
+
+.copy-script-button:hover,
+.copy-script-button:focus-visible {
+  border-color: rgba(0, 113, 227, 0.34);
+}
+
+.copy-script-button[data-state='copied'] {
+  border-color: rgba(0, 113, 227, 0.52);
+  background: rgba(0, 113, 227, 0.08);
+  color: var(--ink);
+}
+
+.copy-script-button[data-state='error'] {
+  border-color: rgba(179, 38, 30, 0.4);
+  background: rgba(179, 38, 30, 0.08);
+  color: #9b1c1c;
+}
+
+.copy-script-button:disabled {
+  cursor: wait;
+  opacity: 0.8;
 }
 
 .flow-points {

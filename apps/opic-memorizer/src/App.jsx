@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   BookOpen,
   Check,
   ChevronDown,
+  Copy,
   Eye,
   EyeOff,
   Layers3,
@@ -338,11 +339,28 @@ function EnglishFlowMode({ question }) {
   const firstPairId = question.scriptPairs.find((pair) => pair.en)?.id ?? null;
   const pairs = question.scriptPairs.filter((pair) => pair.en);
   const [focusedPairId, setFocusedPairId] = useState(() => firstPairId);
+  const [copyState, setCopyState] = useState('idle');
+  const copyTimerRef = useRef(null);
   const focusedPair = pairs.find((pair) => pair.id === focusedPairId) ?? null;
+  const englishScript = pairs.map((pair) => pair.en).join('\n\n');
 
   useEffect(() => {
     setFocusedPairId(firstPairId);
+    setCopyState('idle');
+    if (copyTimerRef.current) {
+      window.clearTimeout(copyTimerRef.current);
+      copyTimerRef.current = null;
+    }
   }, [firstPairId]);
+
+  useEffect(
+    () => () => {
+      if (copyTimerRef.current) {
+        window.clearTimeout(copyTimerRef.current);
+      }
+    },
+    []
+  );
 
   if (!pairs.length) {
     return (
@@ -352,6 +370,33 @@ function EnglishFlowMode({ question }) {
       />
     );
   }
+
+  async function handleCopyAll() {
+    try {
+      if (copyTimerRef.current) {
+        window.clearTimeout(copyTimerRef.current);
+      }
+      setCopyState('copying');
+      await copyTextToClipboard(englishScript);
+      setCopyState('copied');
+    } catch {
+      setCopyState('error');
+    } finally {
+      copyTimerRef.current = window.setTimeout(() => {
+        setCopyState('idle');
+        copyTimerRef.current = null;
+      }, 1800);
+    }
+  }
+
+  const copyLabel =
+    copyState === 'copied'
+      ? 'Copied'
+      : copyState === 'error'
+        ? 'Retry copy'
+        : copyState === 'copying'
+          ? 'Copying...'
+          : 'Copy script';
 
   return (
     <section className="mode-panel flow-grid">
@@ -372,7 +417,19 @@ function EnglishFlowMode({ question }) {
             <span>Reading order</span>
             <h3>English lines only</h3>
           </div>
-          {question.hasAlignmentIssue && <span className="review-badge">line review needed</span>}
+          <div className="section-title-actions">
+            <button
+              type="button"
+              className="copy-script-button"
+              data-state={copyState}
+              onClick={handleCopyAll}
+              disabled={copyState === 'copying'}
+            >
+              {copyState === 'copied' ? <Check size={16} aria-hidden="true" /> : <Copy size={16} aria-hidden="true" />}
+              <span>{copyLabel}</span>
+            </button>
+            {question.hasAlignmentIssue && <span className="review-badge">line review needed</span>}
+          </div>
         </div>
         {pairs.map((pair) => (
           <button
@@ -388,6 +445,30 @@ function EnglishFlowMode({ question }) {
       </div>
     </section>
   );
+}
+
+async function copyTextToClipboard(text) {
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.setAttribute('readonly', 'true');
+  textarea.style.position = 'fixed';
+  textarea.style.top = '-1000px';
+  textarea.style.opacity = '0';
+  document.body.appendChild(textarea);
+  textarea.select();
+  try {
+    const didCopy = document.execCommand?.('copy');
+    if (!didCopy) {
+      throw new Error('Copy to clipboard failed');
+    }
+  } finally {
+    document.body.removeChild(textarea);
+  }
 }
 
 function DrillMode({ question, progress, onRate }) {

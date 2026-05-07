@@ -1,11 +1,12 @@
 import { fireEvent, render, screen, within } from '@testing-library/react';
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import userEvent from '@testing-library/user-event';
 import App from '../src/App.jsx';
 
 describe('OPIc Memorizer app', () => {
   beforeEach(() => {
     window.localStorage.clear();
+    vi.restoreAllMocks();
   });
 
   it('renders topic navigation and reveals English from a Korean flow sentence', () => {
@@ -36,6 +37,22 @@ describe('OPIc Memorizer app', () => {
     expect(screen.getByText('Tell me about yourself.')).toBeInTheDocument();
     expect(screen.queryByText('안녕하세요. 저는 김민수라고 합니다.')).not.toBeInTheDocument();
     expect(screen.queryByText('자기소개를 해 주세요.')).not.toBeInTheDocument();
+  });
+
+  it('copies the full english flow script to the clipboard', async () => {
+    const user = userEvent.setup();
+    const writeText = vi.spyOn(navigator.clipboard, 'writeText').mockResolvedValue(undefined);
+    render(<App />);
+
+    await user.click(screen.getByRole('button', { name: /English Flow/ }));
+    await user.click(screen.getByRole('button', { name: /Copy script/ }));
+
+    expect(writeText).toHaveBeenCalledTimes(1);
+    const [copiedText] = writeText.mock.calls[0];
+    expect(copiedText).toContain('Hi, my name is Minsoo Kim.');
+    expect(copiedText).toContain('So I fit best with a life that is steady, but not too flat.');
+    expect(copiedText.split('\n\n')).toHaveLength(11);
+    expect(screen.getByRole('button', { name: /Copied/ })).toBeInTheDocument();
   });
 
   it('enables order quiz for aligned scripts', () => {
