@@ -7,15 +7,15 @@
 
 ## 암기 포인트 및 흐름
 
-- 완벽히 모르겠다고 인정 -> 내 생활 기준으로 답하겠다고 전환 -> 회사/가족/아파트 연결 -> 작은 최근 경험 -> 침착한 대응 -> 작은 행동/태도 -> 정리
+- 질문을 완전히 이해하지 못했을 수 있다고 인정 -> 그래도 내 생활 기준으로 답하겠다고 전환 -> 회사/가족/아파트 연결 -> 작은 최근 경험 -> 침착한 대응 -> 작은 행동/태도 -> 정리
 - 문제 유형을 고르지 말고 첫 문장부터 바로 말한다.
-- 핵심은 `If I answer based on my own life...`로 모든 질문을 내 생활로 끌고 오는 것이다.
+- 핵심은 `I may not have understood the question perfectly, but...` 다음에 `based on my own life`로 끌고 오는 것이다.
 
 ## 한국어 전문
 
-솔직히 말하면, 이 질문에 대해 완벽한 답을 가지고 있지는 않습니다.
+죄송하지만, 제가 이 질문을 완벽하게 이해하지 못했을 수도 있습니다.
 
-하지만 제 생활을 기준으로 말하면 어느 정도 연결해서 답할 수 있습니다.
+그래도 제 생활을 기준으로 말하면 어느 정도 연결해서 답할 수 있습니다.
 
 저는 IT 회사에서 일하고, 퇴근 후에는 가족과 아파트에서 평범하게 지냅니다.
 
@@ -29,11 +29,11 @@
 
 이런 경험을 통해 저는 큰 답보다 침착한 태도와 작은 행동이 더 중요하다고 느꼈습니다.
 
-그래서 이 질문에 대한 제 생각은, 완벽하지 않아도 일상에서 현실적으로 대응하는 것이 가장 중요하다는 것입니다.
+그래서 질문에 대한 제 답이 완벽하지는 않아도, 일상에서 현실적으로 대응하는 태도가 가장 중요하다고 생각합니다.
 
 ## 영어 전문
 
-To be honest, I do not have a perfect answer to this question.
+I am sorry, but I may not have understood the question perfectly.
 
 But if I answer based on my own life, I can still connect it to something real.
 
@@ -49,13 +49,13 @@ If necessary, I asked my family or looked up information on my phone and chose a
 
 Through this kind of experience, I learned that a calm attitude and small actions are more important than a perfect answer.
 
-So my opinion about this question is that responding realistically in daily life matters most, even if the answer is not perfect.
+So even if my answer is not perfect, I think responding realistically in daily life matters most.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
-- I do not have a perfect answer to this question.
+- I may not have understood the question perfectly.
 - If I answer based on my own life, I can connect it to something real.
 - Most topics can be connected to my work life, my family life, or my daily routine.
 - I tried not to make it too complicated.
@@ -63,7 +63,7 @@ So my opinion about this question is that responding realistically in daily life
 
 ### Key Words
 
-- perfect answer : 완벽한 답
+- understand perfectly : 완벽하게 이해하다
 - based on my own life : 제 생활을 기준으로
 - connect it to something real : 현실적인 것과 연결하다
 - practical option : 현실적인 선택
@@ -72,11 +72,11 @@ So my opinion about this question is that responding realistically in daily life
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
-### 이 질문에 대해 완벽한 답을 가지고 있지는 않습니다.
+### 이 질문을 완벽하게 이해하지 못했을 수도 있습니다.
 
-- I do not have a perfect answer to this question.
-- I am not completely sure about this question.
-- I do not know everything about this topic.
+- I may not have understood the question perfectly.
+- I am not completely sure if I understood the question correctly.
+- I may not know exactly what this question is asking.
 
 ### 제 생활을 기준으로 말하면 연결해서 답할 수 있습니다.
 
@@ -96,18 +96,18 @@ So my opinion about this question is that responding realistically in daily life
 - I tried to keep it simple.
 - I did not want to overthink the situation.
 
-### 완벽한 답보다 침착한 태도와 작은 행동이 더 중요합니다.
+### 답이 완벽하지 않아도 현실적으로 대응하는 태도가 중요합니다.
 
+- Even if my answer is not perfect, responding realistically matters most.
 - A calm attitude and small actions are more important than a perfect answer.
-- Staying calm and doing something small matters more than being perfect.
-- I think a realistic attitude is more useful than a perfect answer.
+- I think a realistic attitude is more useful than trying to be perfect.
 
 ## Quick Answer Version
 
-To be honest, I do not have a perfect answer to this question.
+I am sorry, but I may not have understood the question perfectly.
 But if I answer based on my own life, I can connect it to something real.
 I work at an IT company and live with my family in an apartment.
 Most topics can be connected to my work, family, or daily routine.
 Recently, I had a small similar experience.
 I checked the situation and tried to keep it simple.
-In the end, I think responding realistically in daily life matters most.
+In the end, even if my answer is not perfect, responding realistically matters most.

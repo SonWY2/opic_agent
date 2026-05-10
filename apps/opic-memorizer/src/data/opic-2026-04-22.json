@@ -13534,22 +13534,22 @@
           "promptKo": "문제 유형을 고르기 어려울 때도 바로 말할 수 있는 최후의 마법 스크립트를 연습해 주세요.",
           "promptEn": "Practice an emergency script you can use when you cannot choose the question type.",
           "flowPoints": [
-            "완벽히 모르겠다고 인정 -> 내 생활 기준으로 답하겠다고 전환 -> 회사/가족/아파트 연결 -> 작은 최근 경험 -> 침착한 대응 -> 작은 행동/태도 -> 정리",
+            "질문을 완전히 이해하지 못했을 수 있다고 인정 -> 그래도 내 생활 기준으로 답하겠다고 전환 -> 회사/가족/아파트 연결 -> 작은 최근 경험 -> 침착한 대응 -> 작은 행동/태도 -> 정리",
             "문제 유형을 고르지 말고 첫 문장부터 바로 말한다.",
-            "핵심은 `If I answer based on my own life...`로 모든 질문을 내 생활로 끌고 오는 것이다."
+            "핵심은 `I may not have understood the question perfectly, but...` 다음에 `based on my own life`로 끌고 오는 것이다."
           ],
           "scriptPairs": [
             {
               "id": "s1",
               "index": 1,
-              "ko": "솔직히 말하면, 이 질문에 대해 완벽한 답을 가지고 있지는 않습니다.",
-              "en": "To be honest, I do not have a perfect answer to this question.",
+              "ko": "죄송하지만, 제가 이 질문을 완벽하게 이해하지 못했을 수도 있습니다.",
+              "en": "I am sorry, but I may not have understood the question perfectly.",
               "status": "aligned"
             },
             {
               "id": "s2",
               "index": 2,
-              "ko": "하지만 제 생활을 기준으로 말하면 어느 정도 연결해서 답할 수 있습니다.",
+              "ko": "그래도 제 생활을 기준으로 말하면 어느 정도 연결해서 답할 수 있습니다.",
               "en": "But if I answer based on my own life, I can still connect it to something real.",
               "status": "aligned"
             },
@@ -13598,14 +13598,14 @@
             {
               "id": "s9",
               "index": 9,
-              "ko": "그래서 이 질문에 대한 제 생각은, 완벽하지 않아도 일상에서 현실적으로 대응하는 것이 가장 중요하다는 것입니다.",
-              "en": "So my opinion about this question is that responding realistically in daily life matters most, even if the answer is not perfect.",
+              "ko": "그래서 질문에 대한 제 답이 완벽하지는 않아도, 일상에서 현실적으로 대응하는 태도가 가장 중요하다고 생각합니다.",
+              "en": "So even if my answer is not perfect, I think responding realistically in daily life matters most.",
               "status": "aligned"
             }
           ],
           "hasAlignmentIssue": false,
           "keySentences": [
-            "I do not have a perfect answer to this question.",
+            "I may not have understood the question perfectly.",
             "If I answer based on my own life, I can connect it to something real.",
             "Most topics can be connected to my work life, my family life, or my daily routine.",
             "I tried not to make it too complicated.",
@@ -13613,8 +13613,8 @@
           ],
           "keyWords": [
             {
-              "term": "perfect answer",
-              "meaning": "완벽한 답"
+              "term": "understand perfectly",
+              "meaning": "완벽하게 이해하다"
             },
             {
               "term": "based on my own life",
@@ -13640,14 +13640,14 @@
           "keySentenceGroups": [
             {
               "id": "k1",
-              "ko": "이 질문에 대해 완벽한 답을 가지고 있지는 않습니다.",
+              "ko": "이 질문을 완벽하게 이해하지 못했을 수도 있습니다.",
               "koAlternatives": [
-                "이 질문에 대해 완벽한 답을 가지고 있지는 않습니다."
+                "이 질문을 완벽하게 이해하지 못했을 수도 있습니다."
               ],
               "variants": [
-                "I do not have a perfect answer to this question.",
-                "I am not completely sure about this question.",
-                "I do not know everything about this topic."
+                "I may not have understood the question perfectly.",
+                "I am not completely sure if I understood the question correctly.",
+                "I may not know exactly what this question is asking."
               ]
             },
             {
@@ -13688,14 +13688,14 @@
             },
             {
               "id": "k5",
-              "ko": "완벽한 답보다 침착한 태도와 작은 행동이 더 중요합니다.",
+              "ko": "답이 완벽하지 않아도 현실적으로 대응하는 태도가 중요합니다.",
               "koAlternatives": [
-                "완벽한 답보다 침착한 태도와 작은 행동이 더 중요합니다."
+                "답이 완벽하지 않아도 현실적으로 대응하는 태도가 중요합니다."
               ],
               "variants": [
+                "Even if my answer is not perfect, responding realistically matters most.",
                 "A calm attitude and small actions are more important than a perfect answer.",
-                "Staying calm and doing something small matters more than being perfect.",
-                "I think a realistic attitude is more useful than a perfect answer."
+                "I think a realistic attitude is more useful than trying to be perfect."
               ]
             }
           ],
