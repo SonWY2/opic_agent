@@ -1,4 +1,4 @@
-# Surprise Topics - Universal Problem Solving Script
+# Magic Script - Universal Problem Solving Script
 
 ## 문제
 

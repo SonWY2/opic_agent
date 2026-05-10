@@ -1,4 +1,4 @@
-# Surprise Topics - Universal Routine Script
+# Magic Script - Universal Routine Script
 
 ## 문제
 

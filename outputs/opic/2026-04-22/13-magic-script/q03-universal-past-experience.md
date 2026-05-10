@@ -1,4 +1,4 @@
-# Surprise Topics - Universal Past Experience Script
+# Magic Script - Universal Past Experience Script
 
 ## 문제
 

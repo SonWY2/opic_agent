@@ -1,4 +1,4 @@
-# Surprise Topics - Universal Past Vs Present Script
+# Magic Script - Universal Past Vs Present Script
 
 ## 문제
 

@@ -1,4 +1,4 @@
-# Surprise Topics - Magic Script For Any Topic
+# Magic Script - Magic Script For Any Topic
 
 ## 목적
 

@@ -1,4 +1,4 @@
-# Surprise Topics - Any Question Emergency Script
+# Magic Script - Any Question Emergency Script
 
 ## 문제
 

@@ -4,17 +4,17 @@
 
 ### Day 1
 
-- 최후의 마법 스크립트 q18
-- 문제 해결형 q15
-- 과거 경험형 q14
+- 최후의 마법 스크립트 `13-magic-script/q07`
+- 문제 해결형 `13-magic-script/q04`
+- 과거 경험형 `13-magic-script/q03`
 - 자기소개
 - 회사와 업무
 
 ### Day 2
 
-- 변화 비교형 q16
-- 의견/선호형 q17
-- 평소 루틴형 q13
+- 변화 비교형 `13-magic-script/q05`
+- 의견/선호형 `13-magic-script/q06`
+- 평소 루틴형 `13-magic-script/q02`
 - 집 구조와 집 루틴
 - 카페
 
@@ -39,11 +39,11 @@
 
 ## 시간이 없을 때 우선순위
 
-1. `q18-any-question-emergency-script.md`만 먼저 외운다.
-2. 그다음 `q15-universal-problem-solving.md`로 돌발/롤플레이 문제를 버틴다.
-3. 시간이 더 있으면 `q14`, `q16`, `q17`, `q13` 순서로 확장한다.
-4. 실제 문제를 듣고 유형이 바로 안 떠오르면 q18로 시작한다.
-5. 유형이 떠오르면 q15, q14, q16, q17, q13 중 하나로 바꿔 말한다.
+1. `13-magic-script/q07-any-question-emergency-script.md`만 먼저 외운다.
+2. 그다음 `13-magic-script/q04-universal-problem-solving.md`로 돌발/롤플레이 문제를 버틴다.
+3. 시간이 더 있으면 q03, q05, q06, q02 순서로 확장한다.
+4. 실제 문제를 듣고 유형이 바로 안 떠오르면 q07로 시작한다.
+5. 유형이 떠오르면 q04, q03, q05, q06, q02 중 하나로 바꿔 말한다.
 
 ## 복습 방법
 
@@ -52,5 +52,5 @@
 - 같은 스토리 자산이 보이면 연결해서 외운다
 - 답변이 길어지면 짧은 문장으로 다시 바꾼다
 - 대비 문장 1개와 구체 디테일 1개를 꼭 넣는다
-- 돌발 주제가 어렵게 느껴지면 `00-magic-script-for-any-surprise-topic.md` 흐름으로 먼저 답한다
-- 문제 유형을 고르는 것조차 어렵다면 `q18-any-question-emergency-script.md`를 그대로 사용한다
+- 돌발 주제가 어렵게 느껴지면 `13-magic-script/q01-magic-script-for-any-surprise-topic.md` 흐름으로 먼저 답한다
+- 문제 유형을 고르는 것조차 어렵다면 `13-magic-script/q07-any-question-emergency-script.md`를 그대로 사용한다

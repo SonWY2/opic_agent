@@ -12465,1056 +12465,18 @@
             "Is fine dust a problem?",
             "What can people do about climate change?"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "13-magic-script",
+      "title": "Magic Script",
+      "questions": [
         {
-          "id": "12-surprise-topics/q13-universal-routine",
-          "topicId": "12-surprise-topics",
-          "slug": "q13-universal-routine",
-          "order": 13,
-          "title": "Universal Routine Script",
-          "promptKo": "어떤 주제든 평소 루틴으로 연결해서 답해 주세요.",
-          "promptEn": "Answer any topic by connecting it to your normal routine.",
-          "flowPoints": [
-            "짧은 휴식 필요 -> 퇴근 후 피곤함 -> 단순한 루틴 -> 구체적 장면 -> 도움이 되는 이유 -> 정리",
-            "모르는 주제라도 `I usually do this when I need a short break.`로 시작한다.",
-            "장소나 활동만 바꾸면 카페, 공원, 음악, 영화, 운전, 집 문제에 모두 쓸 수 있다."
-          ],
-          "scriptPairs": [
-            {
-              "id": "s1",
-              "index": 1,
-              "ko": "저는 보통 짧은 휴식이 필요할 때 이런 활동을 합니다.",
-              "en": "I usually do this when I need a short break.",
-              "status": "aligned"
-            },
-            {
-              "id": "s2",
-              "index": 2,
-              "ko": "평일에는 IT 회사에서 일하기 때문에 하루가 꽤 바쁠 때가 많습니다.",
-              "en": "On weekdays, I work at an IT company, so my day can be quite busy.",
-              "status": "aligned"
-            },
-            {
-              "id": "s3",
-              "index": 3,
-              "ko": "그래서 퇴근 후에는 너무 복잡한 일을 하기보다 단순한 루틴을 선호합니다.",
-              "en": "After work, I prefer a simple routine instead of doing something complicated.",
-              "status": "aligned"
-            },
-            {
-              "id": "s4",
-              "index": 4,
-              "ko": "예를 들어, 저는 집 근처 카페에 가거나 아파트 주변을 잠깐 걷습니다.",
-              "en": "For example, I go to a cafe near my apartment or take a short walk around my place.",
-              "status": "aligned"
-            },
-            {
-              "id": "s5",
-              "index": 5,
-              "ko": "가끔은 조용한 음악을 들으면서 하루 동안 있었던 일을 정리하기도 합니다.",
-              "en": "Sometimes I listen to quiet music and organize my thoughts from the day.",
-              "status": "aligned"
-            },
-            {
-              "id": "s6",
-              "index": 6,
-              "ko": "이 활동은 특별하지는 않지만 제 머리를 조금 맑게 해 줍니다.",
-              "en": "This activity is not special, but it helps me clear my head.",
-              "status": "aligned"
-            },
-            {
-              "id": "s7",
-              "index": 7,
-              "ko": "또 가족과 짧게 대화할 수 있어서 기분도 안정됩니다.",
-              "en": "Also, I can have a short conversation with my family, so I feel more settled.",
-              "status": "aligned"
-            },
-            {
-              "id": "s8",
-              "index": 8,
-              "ko": "저는 이런 작은 루틴이 바쁜 회사 생활과 균형을 잡는 데 도움이 된다고 생각합니다.",
-              "en": "I think this small routine helps me keep a balance with my busy work life.",
-              "status": "aligned"
-            },
-            {
-              "id": "s9",
-              "index": 9,
-              "ko": "그래서 이 주제는 제 평소 생활과 자연스럽게 연결된다고 말할 수 있습니다.",
-              "en": "So I can say this topic is naturally connected to my normal life.",
-              "status": "aligned"
-            }
-          ],
-          "hasAlignmentIssue": false,
-          "keySentences": [
-            "I usually do this when I need a short break.",
-            "I prefer a simple routine after work.",
-            "It helps me clear my head.",
-            "This topic is naturally connected to my normal life.",
-            "It helps me keep a balance with my busy work life."
-          ],
-          "keyWords": [
-            {
-              "term": "short break",
-              "meaning": "짧은 휴식"
-            },
-            {
-              "term": "simple routine",
-              "meaning": "단순한 루틴"
-            },
-            {
-              "term": "clear my head",
-              "meaning": "머리를 맑게 하다"
-            },
-            {
-              "term": "settled",
-              "meaning": "안정된"
-            },
-            {
-              "term": "keep a balance",
-              "meaning": "균형을 잡다"
-            }
-          ],
-          "keySentenceGroups": [
-            {
-              "id": "k1",
-              "ko": "저는 짧은 휴식이 필요할 때 이 활동을 합니다.",
-              "koAlternatives": [
-                "저는 짧은 휴식이 필요할 때 이 활동을 합니다."
-              ],
-              "variants": [
-                "I usually do this when I need a short break.",
-                "I often do this when I want to relax for a moment.",
-                "This is something I do when I need to rest a little."
-              ]
-            },
-            {
-              "id": "k2",
-              "ko": "퇴근 후에는 단순한 루틴을 선호합니다.",
-              "koAlternatives": [
-                "퇴근 후에는 단순한 루틴을 선호합니다."
-              ],
-              "variants": [
-                "After work, I prefer a simple routine.",
-                "I like to keep things simple after work.",
-                "I do not want anything too complicated after a busy day."
-              ]
-            },
-            {
-              "id": "k3",
-              "ko": "집 근처 카페에 가거나 아파트 주변을 걷습니다.",
-              "koAlternatives": [
-                "집 근처 카페에 가거나 아파트 주변을 걷습니다."
-              ],
-              "variants": [
-                "I go to a cafe near my apartment or take a short walk.",
-                "I usually visit a local cafe or walk around my place.",
-                "I often do something simple near my apartment."
-              ]
-            },
-            {
-              "id": "k4",
-              "ko": "이 활동은 제 머리를 맑게 해 줍니다.",
-              "koAlternatives": [
-                "이 활동은 제 머리를 맑게 해 줍니다."
-              ],
-              "variants": [
-                "It helps me clear my head.",
-                "It makes my mind feel lighter.",
-                "It helps me organize my thoughts."
-              ]
-            },
-            {
-              "id": "k5",
-              "ko": "바쁜 회사 생활과 균형을 잡는 데 도움이 됩니다.",
-              "koAlternatives": [
-                "바쁜 회사 생활과 균형을 잡는 데 도움이 됩니다."
-              ],
-              "variants": [
-                "It helps me keep a balance with my busy work life.",
-                "It gives me a better balance after work.",
-                "It helps me feel more stable during a busy week."
-              ]
-            }
-          ],
-          "hooks": []
-        },
-        {
-          "id": "12-surprise-topics/q14-universal-past-experience",
-          "topicId": "12-surprise-topics",
-          "slug": "q14-universal-past-experience",
-          "order": 14,
-          "title": "Universal Past Experience Script",
-          "promptKo": "어떤 주제든 기억에 남는 경험으로 연결해서 답해 주세요.",
-          "promptEn": "Answer any topic by connecting it to a memorable past experience.",
-          "flowPoints": [
-            "몇 달 전 -> 바쁜 한 주 뒤 -> 평범한 계획 -> 작은 사건 -> 대화/휴식 -> 기억에 남은 이유",
-            "`One experience I remember happened a few months ago.`를 시작 문장으로 고정한다.",
-            "장소는 카페, 공원, 여행지, 회사, 집으로 바꿔 끼울 수 있다."
-          ],
-          "scriptPairs": [
-            {
-              "id": "s1",
-              "index": 1,
-              "ko": "제가 기억하는 한 가지 경험은 몇 달 전에 있었습니다.",
-              "en": "One experience I remember happened a few months ago.",
-              "status": "aligned"
-            },
-            {
-              "id": "s2",
-              "index": 2,
-              "ko": "그때 저는 회사에서 레거시 시스템 관련 업무를 하느라 한 주가 꽤 바빴습니다.",
-              "en": "At that time, I had a busy week at work because of a legacy system project.",
-              "status": "aligned"
-            },
-            {
-              "id": "s3",
-              "index": 3,
-              "ko": "주말에 저는 가족과 함께 집 근처로 잠깐 나갔습니다.",
-              "en": "On the weekend, I went out for a short time with my family near my apartment.",
-              "status": "aligned"
-            },
-            {
-              "id": "s4",
-              "index": 4,
-              "ko": "처음에는 그냥 커피를 마시거나 산책을 하려는 평범한 계획이었습니다.",
-              "en": "At first, it was just a simple plan to drink coffee or take a walk.",
-              "status": "aligned"
-            },
-            {
-              "id": "s5",
-              "index": 5,
-              "ko": "그런데 생각보다 날씨가 좋았고, 사람도 많지 않아서 분위기가 편안했습니다.",
-              "en": "But the weather was better than expected, and the place was not too crowded.",
-              "status": "aligned"
-            },
-            {
-              "id": "s6",
-              "index": 6,
-              "ko": "우리는 카페에서 잠깐 쉬면서 회사 이야기와 가족 이야기를 했습니다.",
-              "en": "We took a short break at a cafe and talked about work and family.",
-              "status": "aligned"
-            },
-            {
-              "id": "s7",
-              "index": 7,
-              "ko": "큰 사건은 아니었지만, 오랜만에 마음이 편해졌습니다.",
-              "en": "It was not a big event, but I felt relaxed for the first time in a while.",
-              "status": "aligned"
-            },
-            {
-              "id": "s8",
-              "index": 8,
-              "ko": "그날 이후로 저는 작은 경험도 충분히 기억에 남을 수 있다고 느꼈습니다.",
-              "en": "After that day, I realized that even a small experience can be memorable.",
-              "status": "aligned"
-            },
-            {
-              "id": "s9",
-              "index": 9,
-              "ko": "그래서 이 주제를 들으면 저는 그 평범하지만 편안했던 하루가 먼저 떠오릅니다.",
-              "en": "So when I hear this topic, I first think of that ordinary but comfortable day.",
-              "status": "aligned"
-            }
-          ],
-          "hasAlignmentIssue": false,
-          "keySentences": [
-            "One experience I remember happened a few months ago.",
-            "It was just a simple plan.",
-            "The place was not too crowded.",
-            "I felt relaxed for the first time in a while.",
-            "Even a small experience can be memorable."
-          ],
-          "keyWords": [
-            {
-              "term": "memorable",
-              "meaning": "기억에 남는"
-            },
-            {
-              "term": "a few months ago",
-              "meaning": "몇 달 전"
-            },
-            {
-              "term": "not too crowded",
-              "meaning": "너무 붐비지 않는"
-            },
-            {
-              "term": "relaxed",
-              "meaning": "편안한"
-            },
-            {
-              "term": "ordinary",
-              "meaning": "평범한"
-            }
-          ],
-          "keySentenceGroups": [
-            {
-              "id": "k1",
-              "ko": "기억에 남는 경험은 몇 달 전에 있었습니다.",
-              "koAlternatives": [
-                "기억에 남는 경험은 몇 달 전에 있었습니다."
-              ],
-              "variants": [
-                "One experience I remember happened a few months ago.",
-                "I had a memorable experience a few months ago.",
-                "Something I still remember happened several months ago."
-              ]
-            },
-            {
-              "id": "k2",
-              "ko": "처음에는 평범한 계획이었습니다.",
-              "koAlternatives": [
-                "처음에는 평범한 계획이었습니다."
-              ],
-              "variants": [
-                "At first, it was just a simple plan.",
-                "It started as a very normal plan.",
-                "I did not expect anything special at first."
-              ]
-            },
-            {
-              "id": "k3",
-              "ko": "장소가 너무 붐비지 않아서 편안했습니다.",
-              "koAlternatives": [
-                "장소가 너무 붐비지 않아서 편안했습니다."
-              ],
-              "variants": [
-                "The place was not too crowded, so it felt comfortable.",
-                "It was quiet enough for me to relax.",
-                "There were not many people, so the atmosphere was nice."
-              ]
-            },
-            {
-              "id": "k4",
-              "ko": "오랜만에 마음이 편해졌습니다.",
-              "koAlternatives": [
-                "오랜만에 마음이 편해졌습니다."
-              ],
-              "variants": [
-                "I felt relaxed for the first time in a while.",
-                "I felt calm after a busy week.",
-                "It helped me feel comfortable again."
-              ]
-            },
-            {
-              "id": "k5",
-              "ko": "작은 경험도 기억에 남을 수 있습니다.",
-              "koAlternatives": [
-                "작은 경험도 기억에 남을 수 있습니다."
-              ],
-              "variants": [
-                "Even a small experience can be memorable.",
-                "A small moment can stay in my memory.",
-                "It does not have to be a big event to be special."
-              ]
-            }
-          ],
-          "hooks": []
-        },
-        {
-          "id": "12-surprise-topics/q15-universal-problem-solving",
-          "topicId": "12-surprise-topics",
-          "slug": "q15-universal-problem-solving",
-          "order": 15,
-          "title": "Universal Problem Solving Script",
-          "promptKo": "어떤 주제든 작은 문제와 해결 경험으로 연결해서 답해 주세요.",
-          "promptEn": "Answer any topic by connecting it to a small problem and solution.",
-          "flowPoints": [
-            "작은 문제 발생 -> 예상 못함 -> 침착하게 확인 -> 도움 요청/대안 검색 -> 해결 -> 배운 점",
-            "돌발 질문, 롤플레이, 집 문제, 회사 문제, 여행 문제에 가장 먼저 재사용한다.",
-            "`I had a small problem in this situation.`를 시작 문장으로 고정한다."
-          ],
-          "scriptPairs": [
-            {
-              "id": "s1",
-              "index": 1,
-              "ko": "저는 이런 상황에서 작은 문제가 생긴 적이 있습니다.",
-              "en": "I had a small problem in this situation.",
-              "status": "aligned"
-            },
-            {
-              "id": "s2",
-              "index": 2,
-              "ko": "처음에는 예상하지 못한 일이어서 조금 당황했습니다.",
-              "en": "At first, I was a little stressed because I did not expect it.",
-              "status": "aligned"
-            },
-            {
-              "id": "s3",
-              "index": 3,
-              "ko": "하지만 회사에서 문제를 해결할 때처럼 먼저 상황을 차분히 확인하려고 했습니다.",
-              "en": "But like solving problems at work, I tried to check the situation calmly first.",
-              "status": "aligned"
-            },
-            {
-              "id": "s4",
-              "index": 4,
-              "ko": "저는 무엇이 문제인지 보고, 제가 바로 할 수 있는 일을 정리했습니다.",
-              "en": "I looked at what the problem was and organized what I could do right away.",
-              "status": "aligned"
-            },
-            {
-              "id": "s5",
-              "index": 5,
-              "ko": "그리고 필요하면 주변 사람에게 도움을 요청하거나 휴대폰으로 다른 방법을 찾아봤습니다.",
-              "en": "Then, if necessary, I asked someone for help or looked for another option on my phone.",
-              "status": "aligned"
-            },
-            {
-              "id": "s6",
-              "index": 6,
-              "ko": "다행히 큰 문제로 커지기 전에 현실적인 대안을 찾을 수 있었습니다.",
-              "en": "Luckily, I found a practical alternative before it became a bigger problem.",
-              "status": "aligned"
-            },
-            {
-              "id": "s7",
-              "index": 7,
-              "ko": "그 후에는 계획을 조금 바꾸고 상황을 계속 확인했습니다.",
-              "en": "After that, I changed my plan a little and kept checking the situation.",
-              "status": "aligned"
-            },
-            {
-              "id": "s8",
-              "index": 8,
-              "ko": "결국 문제는 해결되었고, 저는 너무 급하게 반응하지 않는 것이 중요하다고 느꼈습니다.",
-              "en": "In the end, the problem was solved, and I learned that reacting too quickly is not helpful.",
-              "status": "aligned"
-            },
-            {
-              "id": "s9",
-              "index": 9,
-              "ko": "이 경험 때문에 저는 비슷한 상황이 생기면 먼저 침착하게 확인하려고 합니다.",
-              "en": "Because of this experience, I try to stay calm first when something similar happens.",
-              "status": "aligned"
-            }
-          ],
-          "hasAlignmentIssue": false,
-          "keySentences": [
-            "I had a small problem in this situation.",
-            "I tried to check the situation calmly first.",
-            "I organized what I could do right away.",
-            "I found a practical alternative.",
-            "I learned that reacting too quickly is not helpful."
-          ],
-          "keyWords": [
-            {
-              "term": "small problem",
-              "meaning": "작은 문제"
-            },
-            {
-              "term": "calmly",
-              "meaning": "침착하게"
-            },
-            {
-              "term": "organize",
-              "meaning": "정리하다"
-            },
-            {
-              "term": "practical alternative",
-              "meaning": "현실적인 대안"
-            },
-            {
-              "term": "react too quickly",
-              "meaning": "너무 급하게 반응하다"
-            }
-          ],
-          "keySentenceGroups": [
-            {
-              "id": "k1",
-              "ko": "이런 상황에서 작은 문제가 생겼습니다.",
-              "koAlternatives": [
-                "이런 상황에서 작은 문제가 생겼습니다."
-              ],
-              "variants": [
-                "I had a small problem in this situation.",
-                "A small problem came up in this situation.",
-                "I experienced a minor issue related to this."
-              ]
-            },
-            {
-              "id": "k2",
-              "ko": "먼저 상황을 침착하게 확인했습니다.",
-              "koAlternatives": [
-                "먼저 상황을 침착하게 확인했습니다."
-              ],
-              "variants": [
-                "I tried to check the situation calmly first.",
-                "I first looked at the situation calmly.",
-                "I did not panic and checked what was going on."
-              ]
-            },
-            {
-              "id": "k3",
-              "ko": "제가 바로 할 수 있는 일을 정리했습니다.",
-              "koAlternatives": [
-                "제가 바로 할 수 있는 일을 정리했습니다."
-              ],
-              "variants": [
-                "I organized what I could do right away.",
-                "I made a quick list of possible actions.",
-                "I thought about what I could do first."
-              ]
-            },
-            {
-              "id": "k4",
-              "ko": "현실적인 대안을 찾았습니다.",
-              "koAlternatives": [
-                "현실적인 대안을 찾았습니다."
-              ],
-              "variants": [
-                "I found a practical alternative.",
-                "I looked for another realistic option.",
-                "I found a simple way to handle the problem."
-              ]
-            },
-            {
-              "id": "k5",
-              "ko": "비슷한 일이 생기면 먼저 침착하려고 합니다.",
-              "koAlternatives": [
-                "비슷한 일이 생기면 먼저 침착하려고 합니다."
-              ],
-              "variants": [
-                "I try to stay calm first when something similar happens.",
-                "I try not to panic in a similar situation.",
-                "I try to handle similar problems calmly."
-              ]
-            }
-          ],
-          "hooks": []
-        },
-        {
-          "id": "12-surprise-topics/q16-universal-past-vs-present",
-          "topicId": "12-surprise-topics",
-          "slug": "q16-universal-past-vs-present",
-          "order": 16,
-          "title": "Universal Past Vs Present Script",
-          "promptKo": "어떤 주제든 예전과 지금의 변화로 연결해서 답해 주세요.",
-          "promptEn": "Answer any topic by comparing the past and the present.",
-          "flowPoints": [
-            "과거에는 관심 적음/단순함 -> 지금은 중요해짐 -> 이유는 일/생활 변화 -> 예시 -> 편리함/휴식 선호 -> 정리",
-            "비교 질문이 아니어도 `In the past... but these days...`로 자연스럽게 확장한다.",
-            "회사 업무 변화, 집 생활 변화, 기술 변화, 취미 변화에 모두 재사용한다."
-          ],
-          "scriptPairs": [
-            {
-              "id": "s1",
-              "index": 1,
-              "ko": "예전에는 저는 이 주제에 대해 그렇게 많이 생각하지 않았습니다.",
-              "en": "In the past, I did not think about this topic very much.",
-              "status": "aligned"
-            },
-            {
-              "id": "s2",
-              "index": 2,
-              "ko": "그때는 제 생활이 지금보다 단순했고, 선택지도 많지 않았습니다.",
-              "en": "At that time, my life was simpler than now, and I did not have many options.",
-              "status": "aligned"
-            },
-            {
-              "id": "s3",
-              "index": 3,
-              "ko": "하지만 요즘에는 이 주제가 제 일상에서 더 중요해졌다고 느낍니다.",
-              "en": "But these days, I feel this topic has become more important in my daily life.",
-              "status": "aligned"
-            },
-            {
-              "id": "s4",
-              "index": 4,
-              "ko": "가장 큰 이유는 제 일하는 방식과 생활 방식이 많이 바뀌었기 때문입니다.",
-              "en": "The biggest reason is that my work style and lifestyle have changed a lot.",
-              "status": "aligned"
-            },
-            {
-              "id": "s5",
-              "index": 5,
-              "ko": "저는 IT 회사에서 일하면서 시스템 개선이나 AI 에이전트 관련 업무를 자주 합니다.",
-              "en": "I often work on system improvement or AI-agent-related tasks at an IT company.",
-              "status": "aligned"
-            },
-            {
-              "id": "s6",
-              "index": 6,
-              "ko": "그래서 퇴근 후에는 더 편하고 단순한 것을 찾게 됩니다.",
-              "en": "So after work, I tend to look for something more comfortable and simple.",
-              "status": "aligned"
-            },
-            {
-              "id": "s7",
-              "index": 7,
-              "ko": "예를 들어, 예전에는 그냥 시간을 보내는 것만 생각했지만, 지금은 휴식의 질도 중요하게 생각합니다.",
-              "en": "For example, in the past, I just thought about spending time, but now I care about the quality of rest.",
-              "status": "aligned"
-            },
-            {
-              "id": "s8",
-              "index": 8,
-              "ko": "또 스마트폰이나 온라인 서비스 덕분에 선택을 더 쉽게 할 수 있습니다.",
-              "en": "Also, smartphones and online services make it easier to choose things.",
-              "status": "aligned"
-            },
-            {
-              "id": "s9",
-              "index": 9,
-              "ko": "그래서 예전과 비교하면 저는 지금 편리함과 안정감을 더 중요하게 생각합니다.",
-              "en": "So compared to the past, I care more about convenience and stability now.",
-              "status": "aligned"
-            }
-          ],
-          "hasAlignmentIssue": false,
-          "keySentences": [
-            "In the past, I did not think about this topic very much.",
-            "This topic has become more important in my daily life.",
-            "My work style and lifestyle have changed a lot.",
-            "I care about the quality of rest.",
-            "I care more about convenience and stability now."
-          ],
-          "keyWords": [
-            {
-              "term": "in the past",
-              "meaning": "예전에는"
-            },
-            {
-              "term": "these days",
-              "meaning": "요즘에는"
-            },
-            {
-              "term": "lifestyle",
-              "meaning": "생활 방식"
-            },
-            {
-              "term": "quality of rest",
-              "meaning": "휴식의 질"
-            },
-            {
-              "term": "convenience",
-              "meaning": "편리함"
-            },
-            {
-              "term": "stability",
-              "meaning": "안정감"
-            }
-          ],
-          "keySentenceGroups": [
-            {
-              "id": "k1",
-              "ko": "예전에는 이 주제에 대해 많이 생각하지 않았습니다.",
-              "koAlternatives": [
-                "예전에는 이 주제에 대해 많이 생각하지 않았습니다."
-              ],
-              "variants": [
-                "In the past, I did not think about this topic very much.",
-                "Before, I did not pay much attention to this topic.",
-                "This was not a big part of my life in the past."
-              ]
-            },
-            {
-              "id": "k2",
-              "ko": "요즘에는 제 일상에서 더 중요해졌습니다.",
-              "koAlternatives": [
-                "요즘에는 제 일상에서 더 중요해졌습니다."
-              ],
-              "variants": [
-                "These days, it has become more important in my daily life.",
-                "Now, I feel it matters more in my everyday life.",
-                "It is more connected to my life now."
-              ]
-            },
-            {
-              "id": "k3",
-              "ko": "제 일하는 방식과 생활 방식이 바뀌었습니다.",
-              "koAlternatives": [
-                "제 일하는 방식과 생활 방식이 바뀌었습니다."
-              ],
-              "variants": [
-                "My work style and lifestyle have changed a lot.",
-                "The way I work and live has changed.",
-                "My daily routine is quite different from before."
-              ]
-            },
-            {
-              "id": "k4",
-              "ko": "지금은 휴식의 질도 중요하게 생각합니다.",
-              "koAlternatives": [
-                "지금은 휴식의 질도 중요하게 생각합니다."
-              ],
-              "variants": [
-                "Now I care about the quality of rest.",
-                "These days, good rest is important to me.",
-                "I think resting well matters more now."
-              ]
-            },
-            {
-              "id": "k5",
-              "ko": "편리함과 안정감을 더 중요하게 생각합니다.",
-              "koAlternatives": [
-                "편리함과 안정감을 더 중요하게 생각합니다."
-              ],
-              "variants": [
-                "I care more about convenience and stability now.",
-                "Convenience and a stable feeling are more important to me now.",
-                "I prefer things that are easy and comfortable these days."
-              ]
-            }
-          ],
-          "hooks": []
-        },
-        {
-          "id": "12-surprise-topics/q17-universal-opinion-preference",
-          "topicId": "12-surprise-topics",
-          "slug": "q17-universal-opinion-preference",
-          "order": 17,
-          "title": "Universal Opinion Preference Script",
-          "promptKo": "어떤 주제든 자신의 의견이나 선호로 연결해서 답해 주세요.",
-          "promptEn": "Answer any topic by explaining your opinion or preference.",
-          "flowPoints": [
-            "개인적으로 단순하고 편한 것 선호 -> 이유는 일이 복잡함 -> IT 업무 예시 -> 계획 부담 적음 -> 가족/일상과 맞음 -> 정리",
-            "좋아하는 것, 추천, 장단점, 선택 이유 질문에 우선 사용한다.",
-            "`Personally, I prefer something simple and comfortable.`를 시작 문장으로 고정한다."
-          ],
-          "scriptPairs": [
-            {
-              "id": "s1",
-              "index": 1,
-              "ko": "개인적으로 저는 단순하고 편안한 것을 선호합니다.",
-              "en": "Personally, I prefer something simple and comfortable.",
-              "status": "aligned"
-            },
-            {
-              "id": "s2",
-              "index": 2,
-              "ko": "가장 큰 이유는 제 일이 이미 꽤 복잡하기 때문입니다.",
-              "en": "The main reason is that my work is already quite complicated.",
-              "status": "aligned"
-            },
-            {
-              "id": "s3",
-              "index": 3,
-              "ko": "저는 소프트웨어 엔지니어로 일하면서 레거시 마이그레이션이나 시스템 개선 업무를 합니다.",
-              "en": "I work as a software engineer, and I deal with legacy migration or system improvement.",
-              "status": "aligned"
-            },
-            {
-              "id": "s4",
-              "index": 4,
-              "ko": "가끔은 AI 에이전트 관련 업무도 해서 하루 동안 생각할 것이 많습니다.",
-              "en": "Sometimes I also work on AI-agent-related tasks, so I have many things to think about during the day.",
-              "status": "aligned"
-            },
-            {
-              "id": "s5",
-              "index": 5,
-              "ko": "그래서 퇴근 후나 주말에는 너무 많은 준비가 필요한 활동을 피하려고 합니다.",
-              "en": "That is why after work or on weekends, I try to avoid activities that need too much preparation.",
-              "status": "aligned"
-            },
-            {
-              "id": "s6",
-              "index": 6,
-              "ko": "저는 가까운 곳에서 쉽게 할 수 있고, 가족과도 함께할 수 있는 선택을 좋아합니다.",
-              "en": "I like options that are easy to do nearby and that I can enjoy with my family.",
-              "status": "aligned"
-            },
-            {
-              "id": "s7",
-              "index": 7,
-              "ko": "예를 들어, 조용한 카페에 가거나 공원을 걷는 것이 저에게 잘 맞습니다.",
-              "en": "For example, going to a quiet cafe or walking in a park works well for me.",
-              "status": "aligned"
-            },
-            {
-              "id": "s8",
-              "index": 8,
-              "ko": "이런 선택은 특별하지 않아도 제 생활에 부담을 주지 않습니다.",
-              "en": "These choices are not special, but they do not add pressure to my life.",
-              "status": "aligned"
-            },
-            {
-              "id": "s9",
-              "index": 9,
-              "ko": "그래서 저는 이 주제에서도 편리하고 안정적인 방식을 가장 선호한다고 말할 수 있습니다.",
-              "en": "So even for this topic, I can say I prefer a convenient and stable option.",
-              "status": "aligned"
-            }
-          ],
-          "hasAlignmentIssue": false,
-          "keySentences": [
-            "Personally, I prefer something simple and comfortable.",
-            "My work is already quite complicated.",
-            "I try to avoid activities that need too much preparation.",
-            "These choices do not add pressure to my life.",
-            "I prefer a convenient and stable option."
-          ],
-          "keyWords": [
-            {
-              "term": "personally",
-              "meaning": "개인적으로"
-            },
-            {
-              "term": "prefer",
-              "meaning": "선호하다"
-            },
-            {
-              "term": "complicated",
-              "meaning": "복잡한"
-            },
-            {
-              "term": "preparation",
-              "meaning": "준비"
-            },
-            {
-              "term": "add pressure",
-              "meaning": "부담을 더하다"
-            },
-            {
-              "term": "convenient",
-              "meaning": "편리한"
-            }
-          ],
-          "keySentenceGroups": [
-            {
-              "id": "k1",
-              "ko": "저는 단순하고 편안한 것을 선호합니다.",
-              "koAlternatives": [
-                "저는 단순하고 편안한 것을 선호합니다."
-              ],
-              "variants": [
-                "Personally, I prefer something simple and comfortable.",
-                "I usually like things that are simple and relaxing.",
-                "I tend to choose comfortable and easy options."
-              ]
-            },
-            {
-              "id": "k2",
-              "ko": "제 일은 이미 꽤 복잡합니다.",
-              "koAlternatives": [
-                "제 일은 이미 꽤 복잡합니다."
-              ],
-              "variants": [
-                "My work is already quite complicated.",
-                "My job already requires a lot of thinking.",
-                "I deal with many complex issues at work."
-              ]
-            },
-            {
-              "id": "k3",
-              "ko": "준비가 많이 필요한 활동은 피하려고 합니다.",
-              "koAlternatives": [
-                "준비가 많이 필요한 활동은 피하려고 합니다."
-              ],
-              "variants": [
-                "I try to avoid activities that need too much preparation.",
-                "I do not prefer things that require a lot of planning.",
-                "I like activities that are easy to start."
-              ]
-            },
-            {
-              "id": "k4",
-              "ko": "제 생활에 부담을 주지 않습니다.",
-              "koAlternatives": [
-                "제 생활에 부담을 주지 않습니다."
-              ],
-              "variants": [
-                "They do not add pressure to my life.",
-                "They do not make my day more stressful.",
-                "They feel light and easy in my routine."
-              ]
-            },
-            {
-              "id": "k5",
-              "ko": "편리하고 안정적인 방식을 선호합니다.",
-              "koAlternatives": [
-                "편리하고 안정적인 방식을 선호합니다."
-              ],
-              "variants": [
-                "I prefer a convenient and stable option.",
-                "I like a choice that feels easy and reliable.",
-                "Convenience and stability matter most to me."
-              ]
-            }
-          ],
-          "hooks": []
-        },
-        {
-          "id": "12-surprise-topics/q18-any-question-emergency-script",
-          "topicId": "12-surprise-topics",
-          "slug": "q18-any-question-emergency-script",
-          "order": 18,
-          "title": "Any Question Emergency Script",
-          "promptKo": "문제 유형을 고르기 어려울 때도 바로 말할 수 있는 최후의 마법 스크립트를 연습해 주세요.",
-          "promptEn": "Practice an emergency script you can use when you cannot choose the question type.",
-          "flowPoints": [
-            "완벽히 모르겠다고 인정 -> 내 생활 기준으로 답하겠다고 전환 -> 회사/가족/아파트 연결 -> 작은 최근 경험 -> 침착한 대응 -> 작은 행동/태도 -> 정리",
-            "문제 유형을 고르지 말고 첫 문장부터 바로 말한다.",
-            "핵심은 `If I answer based on my own life...`로 모든 질문을 내 생활로 끌고 오는 것이다."
-          ],
-          "scriptPairs": [
-            {
-              "id": "s1",
-              "index": 1,
-              "ko": "솔직히 말하면, 이 질문에 대해 완벽한 답을 가지고 있지는 않습니다.",
-              "en": "To be honest, I do not have a perfect answer to this question.",
-              "status": "aligned"
-            },
-            {
-              "id": "s2",
-              "index": 2,
-              "ko": "하지만 제 생활을 기준으로 말하면 어느 정도 연결해서 답할 수 있습니다.",
-              "en": "But if I answer based on my own life, I can still connect it to something real.",
-              "status": "aligned"
-            },
-            {
-              "id": "s3",
-              "index": 3,
-              "ko": "저는 IT 회사에서 일하고, 퇴근 후에는 가족과 아파트에서 평범하게 지냅니다.",
-              "en": "I work at an IT company, and after work, I live a normal life with my family in an apartment.",
-              "status": "aligned"
-            },
-            {
-              "id": "s4",
-              "index": 4,
-              "ko": "그래서 대부분의 주제는 제 회사 생활, 가족 생활, 또는 집 근처 일상과 연결해서 생각할 수 있습니다.",
-              "en": "So most topics can be connected to my work life, my family life, or my daily routine near home.",
-              "status": "aligned"
-            },
-            {
-              "id": "s5",
-              "index": 5,
-              "ko": "최근에도 비슷하게 생각할 수 있는 작은 일이 있었습니다.",
-              "en": "Recently, I had a small experience that I can think about in a similar way.",
-              "status": "aligned"
-            },
-            {
-              "id": "s6",
-              "index": 6,
-              "ko": "그때 저는 먼저 상황을 확인하고, 너무 어렵게 생각하지 않으려고 했습니다.",
-              "en": "At that time, I first checked the situation and tried not to make it too complicated.",
-              "status": "aligned"
-            },
-            {
-              "id": "s7",
-              "index": 7,
-              "ko": "필요하면 가족에게 물어보거나 휴대폰으로 정보를 찾아보면서 현실적인 선택을 했습니다.",
-              "en": "If necessary, I asked my family or looked up information on my phone and chose a practical option.",
-              "status": "aligned"
-            },
-            {
-              "id": "s8",
-              "index": 8,
-              "ko": "이런 경험을 통해 저는 큰 답보다 침착한 태도와 작은 행동이 더 중요하다고 느꼈습니다.",
-              "en": "Through this kind of experience, I learned that a calm attitude and small actions are more important than a perfect answer.",
-              "status": "aligned"
-            },
-            {
-              "id": "s9",
-              "index": 9,
-              "ko": "그래서 이 질문에 대한 제 생각은, 완벽하지 않아도 일상에서 현실적으로 대응하는 것이 가장 중요하다는 것입니다.",
-              "en": "So my opinion about this question is that responding realistically in daily life matters most, even if the answer is not perfect.",
-              "status": "aligned"
-            }
-          ],
-          "hasAlignmentIssue": false,
-          "keySentences": [
-            "I do not have a perfect answer to this question.",
-            "If I answer based on my own life, I can connect it to something real.",
-            "Most topics can be connected to my work life, my family life, or my daily routine.",
-            "I tried not to make it too complicated.",
-            "A calm attitude and small actions are more important than a perfect answer."
-          ],
-          "keyWords": [
-            {
-              "term": "perfect answer",
-              "meaning": "완벽한 답"
-            },
-            {
-              "term": "based on my own life",
-              "meaning": "제 생활을 기준으로"
-            },
-            {
-              "term": "connect it to something real",
-              "meaning": "현실적인 것과 연결하다"
-            },
-            {
-              "term": "practical option",
-              "meaning": "현실적인 선택"
-            },
-            {
-              "term": "calm attitude",
-              "meaning": "침착한 태도"
-            },
-            {
-              "term": "responding realistically",
-              "meaning": "현실적으로 대응하기"
-            }
-          ],
-          "keySentenceGroups": [
-            {
-              "id": "k1",
-              "ko": "이 질문에 대해 완벽한 답을 가지고 있지는 않습니다.",
-              "koAlternatives": [
-                "이 질문에 대해 완벽한 답을 가지고 있지는 않습니다."
-              ],
-              "variants": [
-                "I do not have a perfect answer to this question.",
-                "I am not completely sure about this question.",
-                "I do not know everything about this topic."
-              ]
-            },
-            {
-              "id": "k2",
-              "ko": "제 생활을 기준으로 말하면 연결해서 답할 수 있습니다.",
-              "koAlternatives": [
-                "제 생활을 기준으로 말하면 연결해서 답할 수 있습니다."
-              ],
-              "variants": [
-                "If I answer based on my own life, I can connect it to something real.",
-                "I can talk about it through my own daily life.",
-                "I can still relate it to my real experience."
-              ]
-            },
-            {
-              "id": "k3",
-              "ko": "대부분의 주제는 제 회사 생활이나 가족 생활과 연결할 수 있습니다.",
-              "koAlternatives": [
-                "대부분의 주제는 제 회사 생활이나 가족 생활과 연결할 수 있습니다."
-              ],
-              "variants": [
-                "Most topics can be connected to my work life or family life.",
-                "I can connect many topics to my job, family, or home life.",
-                "I usually relate topics to my daily routine and work."
-              ]
-            },
-            {
-              "id": "k4",
-              "ko": "너무 어렵게 생각하지 않으려고 했습니다.",
-              "koAlternatives": [
-                "너무 어렵게 생각하지 않으려고 했습니다."
-              ],
-              "variants": [
-                "I tried not to make it too complicated.",
-                "I tried to keep it simple.",
-                "I did not want to overthink the situation."
-              ]
-            },
-            {
-              "id": "k5",
-              "ko": "완벽한 답보다 침착한 태도와 작은 행동이 더 중요합니다.",
-              "koAlternatives": [
-                "완벽한 답보다 침착한 태도와 작은 행동이 더 중요합니다."
-              ],
-              "variants": [
-                "A calm attitude and small actions are more important than a perfect answer.",
-                "Staying calm and doing something small matters more than being perfect.",
-                "I think a realistic attitude is more useful than a perfect answer."
-              ]
-            }
-          ],
-          "hooks": []
-        },
-        {
-          "id": "12-surprise-topics/00-magic-script-for-any-surprise-topic",
-          "topicId": "12-surprise-topics",
-          "slug": "00-magic-script-for-any-surprise-topic",
-          "order": 999,
+          "id": "13-magic-script/q01-magic-script-for-any-surprise-topic",
+          "topicId": "13-magic-script",
+          "slug": "q01-magic-script-for-any-surprise-topic",
+          "order": 1,
           "title": "Magic Script For Any Topic",
           "promptKo": "잘 모르는 돌발 주제가 나왔을 때도 대답할 수 있는 범용 답변을 연습해 주세요.",
           "promptEn": "Practice a universal answer for an unexpected topic you do not know well.",
@@ -13694,12 +12656,1056 @@
             }
           ],
           "hooks": []
+        },
+        {
+          "id": "13-magic-script/q02-universal-routine",
+          "topicId": "13-magic-script",
+          "slug": "q02-universal-routine",
+          "order": 2,
+          "title": "Universal Routine Script",
+          "promptKo": "어떤 주제든 평소 루틴으로 연결해서 답해 주세요.",
+          "promptEn": "Answer any topic by connecting it to your normal routine.",
+          "flowPoints": [
+            "짧은 휴식 필요 -> 퇴근 후 피곤함 -> 단순한 루틴 -> 구체적 장면 -> 도움이 되는 이유 -> 정리",
+            "모르는 주제라도 `I usually do this when I need a short break.`로 시작한다.",
+            "장소나 활동만 바꾸면 카페, 공원, 음악, 영화, 운전, 집 문제에 모두 쓸 수 있다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "저는 보통 짧은 휴식이 필요할 때 이런 활동을 합니다.",
+              "en": "I usually do this when I need a short break.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "평일에는 IT 회사에서 일하기 때문에 하루가 꽤 바쁠 때가 많습니다.",
+              "en": "On weekdays, I work at an IT company, so my day can be quite busy.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "그래서 퇴근 후에는 너무 복잡한 일을 하기보다 단순한 루틴을 선호합니다.",
+              "en": "After work, I prefer a simple routine instead of doing something complicated.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "예를 들어, 저는 집 근처 카페에 가거나 아파트 주변을 잠깐 걷습니다.",
+              "en": "For example, I go to a cafe near my apartment or take a short walk around my place.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "가끔은 조용한 음악을 들으면서 하루 동안 있었던 일을 정리하기도 합니다.",
+              "en": "Sometimes I listen to quiet music and organize my thoughts from the day.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "이 활동은 특별하지는 않지만 제 머리를 조금 맑게 해 줍니다.",
+              "en": "This activity is not special, but it helps me clear my head.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "또 가족과 짧게 대화할 수 있어서 기분도 안정됩니다.",
+              "en": "Also, I can have a short conversation with my family, so I feel more settled.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "저는 이런 작은 루틴이 바쁜 회사 생활과 균형을 잡는 데 도움이 된다고 생각합니다.",
+              "en": "I think this small routine helps me keep a balance with my busy work life.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그래서 이 주제는 제 평소 생활과 자연스럽게 연결된다고 말할 수 있습니다.",
+              "en": "So I can say this topic is naturally connected to my normal life.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I usually do this when I need a short break.",
+            "I prefer a simple routine after work.",
+            "It helps me clear my head.",
+            "This topic is naturally connected to my normal life.",
+            "It helps me keep a balance with my busy work life."
+          ],
+          "keyWords": [
+            {
+              "term": "short break",
+              "meaning": "짧은 휴식"
+            },
+            {
+              "term": "simple routine",
+              "meaning": "단순한 루틴"
+            },
+            {
+              "term": "clear my head",
+              "meaning": "머리를 맑게 하다"
+            },
+            {
+              "term": "settled",
+              "meaning": "안정된"
+            },
+            {
+              "term": "keep a balance",
+              "meaning": "균형을 잡다"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "저는 짧은 휴식이 필요할 때 이 활동을 합니다.",
+              "koAlternatives": [
+                "저는 짧은 휴식이 필요할 때 이 활동을 합니다."
+              ],
+              "variants": [
+                "I usually do this when I need a short break.",
+                "I often do this when I want to relax for a moment.",
+                "This is something I do when I need to rest a little."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "퇴근 후에는 단순한 루틴을 선호합니다.",
+              "koAlternatives": [
+                "퇴근 후에는 단순한 루틴을 선호합니다."
+              ],
+              "variants": [
+                "After work, I prefer a simple routine.",
+                "I like to keep things simple after work.",
+                "I do not want anything too complicated after a busy day."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "집 근처 카페에 가거나 아파트 주변을 걷습니다.",
+              "koAlternatives": [
+                "집 근처 카페에 가거나 아파트 주변을 걷습니다."
+              ],
+              "variants": [
+                "I go to a cafe near my apartment or take a short walk.",
+                "I usually visit a local cafe or walk around my place.",
+                "I often do something simple near my apartment."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "이 활동은 제 머리를 맑게 해 줍니다.",
+              "koAlternatives": [
+                "이 활동은 제 머리를 맑게 해 줍니다."
+              ],
+              "variants": [
+                "It helps me clear my head.",
+                "It makes my mind feel lighter.",
+                "It helps me organize my thoughts."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "바쁜 회사 생활과 균형을 잡는 데 도움이 됩니다.",
+              "koAlternatives": [
+                "바쁜 회사 생활과 균형을 잡는 데 도움이 됩니다."
+              ],
+              "variants": [
+                "It helps me keep a balance with my busy work life.",
+                "It gives me a better balance after work.",
+                "It helps me feel more stable during a busy week."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q03-universal-past-experience",
+          "topicId": "13-magic-script",
+          "slug": "q03-universal-past-experience",
+          "order": 3,
+          "title": "Universal Past Experience Script",
+          "promptKo": "어떤 주제든 기억에 남는 경험으로 연결해서 답해 주세요.",
+          "promptEn": "Answer any topic by connecting it to a memorable past experience.",
+          "flowPoints": [
+            "몇 달 전 -> 바쁜 한 주 뒤 -> 평범한 계획 -> 작은 사건 -> 대화/휴식 -> 기억에 남은 이유",
+            "`One experience I remember happened a few months ago.`를 시작 문장으로 고정한다.",
+            "장소는 카페, 공원, 여행지, 회사, 집으로 바꿔 끼울 수 있다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "제가 기억하는 한 가지 경험은 몇 달 전에 있었습니다.",
+              "en": "One experience I remember happened a few months ago.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "그때 저는 회사에서 레거시 시스템 관련 업무를 하느라 한 주가 꽤 바빴습니다.",
+              "en": "At that time, I had a busy week at work because of a legacy system project.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "주말에 저는 가족과 함께 집 근처로 잠깐 나갔습니다.",
+              "en": "On the weekend, I went out for a short time with my family near my apartment.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "처음에는 그냥 커피를 마시거나 산책을 하려는 평범한 계획이었습니다.",
+              "en": "At first, it was just a simple plan to drink coffee or take a walk.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그런데 생각보다 날씨가 좋았고, 사람도 많지 않아서 분위기가 편안했습니다.",
+              "en": "But the weather was better than expected, and the place was not too crowded.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "우리는 카페에서 잠깐 쉬면서 회사 이야기와 가족 이야기를 했습니다.",
+              "en": "We took a short break at a cafe and talked about work and family.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "큰 사건은 아니었지만, 오랜만에 마음이 편해졌습니다.",
+              "en": "It was not a big event, but I felt relaxed for the first time in a while.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그날 이후로 저는 작은 경험도 충분히 기억에 남을 수 있다고 느꼈습니다.",
+              "en": "After that day, I realized that even a small experience can be memorable.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그래서 이 주제를 들으면 저는 그 평범하지만 편안했던 하루가 먼저 떠오릅니다.",
+              "en": "So when I hear this topic, I first think of that ordinary but comfortable day.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "One experience I remember happened a few months ago.",
+            "It was just a simple plan.",
+            "The place was not too crowded.",
+            "I felt relaxed for the first time in a while.",
+            "Even a small experience can be memorable."
+          ],
+          "keyWords": [
+            {
+              "term": "memorable",
+              "meaning": "기억에 남는"
+            },
+            {
+              "term": "a few months ago",
+              "meaning": "몇 달 전"
+            },
+            {
+              "term": "not too crowded",
+              "meaning": "너무 붐비지 않는"
+            },
+            {
+              "term": "relaxed",
+              "meaning": "편안한"
+            },
+            {
+              "term": "ordinary",
+              "meaning": "평범한"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "기억에 남는 경험은 몇 달 전에 있었습니다.",
+              "koAlternatives": [
+                "기억에 남는 경험은 몇 달 전에 있었습니다."
+              ],
+              "variants": [
+                "One experience I remember happened a few months ago.",
+                "I had a memorable experience a few months ago.",
+                "Something I still remember happened several months ago."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "처음에는 평범한 계획이었습니다.",
+              "koAlternatives": [
+                "처음에는 평범한 계획이었습니다."
+              ],
+              "variants": [
+                "At first, it was just a simple plan.",
+                "It started as a very normal plan.",
+                "I did not expect anything special at first."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "장소가 너무 붐비지 않아서 편안했습니다.",
+              "koAlternatives": [
+                "장소가 너무 붐비지 않아서 편안했습니다."
+              ],
+              "variants": [
+                "The place was not too crowded, so it felt comfortable.",
+                "It was quiet enough for me to relax.",
+                "There were not many people, so the atmosphere was nice."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "오랜만에 마음이 편해졌습니다.",
+              "koAlternatives": [
+                "오랜만에 마음이 편해졌습니다."
+              ],
+              "variants": [
+                "I felt relaxed for the first time in a while.",
+                "I felt calm after a busy week.",
+                "It helped me feel comfortable again."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "작은 경험도 기억에 남을 수 있습니다.",
+              "koAlternatives": [
+                "작은 경험도 기억에 남을 수 있습니다."
+              ],
+              "variants": [
+                "Even a small experience can be memorable.",
+                "A small moment can stay in my memory.",
+                "It does not have to be a big event to be special."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q04-universal-problem-solving",
+          "topicId": "13-magic-script",
+          "slug": "q04-universal-problem-solving",
+          "order": 4,
+          "title": "Universal Problem Solving Script",
+          "promptKo": "어떤 주제든 작은 문제와 해결 경험으로 연결해서 답해 주세요.",
+          "promptEn": "Answer any topic by connecting it to a small problem and solution.",
+          "flowPoints": [
+            "작은 문제 발생 -> 예상 못함 -> 침착하게 확인 -> 도움 요청/대안 검색 -> 해결 -> 배운 점",
+            "돌발 질문, 롤플레이, 집 문제, 회사 문제, 여행 문제에 가장 먼저 재사용한다.",
+            "`I had a small problem in this situation.`를 시작 문장으로 고정한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "저는 이런 상황에서 작은 문제가 생긴 적이 있습니다.",
+              "en": "I had a small problem in this situation.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "처음에는 예상하지 못한 일이어서 조금 당황했습니다.",
+              "en": "At first, I was a little stressed because I did not expect it.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "하지만 회사에서 문제를 해결할 때처럼 먼저 상황을 차분히 확인하려고 했습니다.",
+              "en": "But like solving problems at work, I tried to check the situation calmly first.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "저는 무엇이 문제인지 보고, 제가 바로 할 수 있는 일을 정리했습니다.",
+              "en": "I looked at what the problem was and organized what I could do right away.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그리고 필요하면 주변 사람에게 도움을 요청하거나 휴대폰으로 다른 방법을 찾아봤습니다.",
+              "en": "Then, if necessary, I asked someone for help or looked for another option on my phone.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "다행히 큰 문제로 커지기 전에 현실적인 대안을 찾을 수 있었습니다.",
+              "en": "Luckily, I found a practical alternative before it became a bigger problem.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "그 후에는 계획을 조금 바꾸고 상황을 계속 확인했습니다.",
+              "en": "After that, I changed my plan a little and kept checking the situation.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "결국 문제는 해결되었고, 저는 너무 급하게 반응하지 않는 것이 중요하다고 느꼈습니다.",
+              "en": "In the end, the problem was solved, and I learned that reacting too quickly is not helpful.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "이 경험 때문에 저는 비슷한 상황이 생기면 먼저 침착하게 확인하려고 합니다.",
+              "en": "Because of this experience, I try to stay calm first when something similar happens.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I had a small problem in this situation.",
+            "I tried to check the situation calmly first.",
+            "I organized what I could do right away.",
+            "I found a practical alternative.",
+            "I learned that reacting too quickly is not helpful."
+          ],
+          "keyWords": [
+            {
+              "term": "small problem",
+              "meaning": "작은 문제"
+            },
+            {
+              "term": "calmly",
+              "meaning": "침착하게"
+            },
+            {
+              "term": "organize",
+              "meaning": "정리하다"
+            },
+            {
+              "term": "practical alternative",
+              "meaning": "현실적인 대안"
+            },
+            {
+              "term": "react too quickly",
+              "meaning": "너무 급하게 반응하다"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "이런 상황에서 작은 문제가 생겼습니다.",
+              "koAlternatives": [
+                "이런 상황에서 작은 문제가 생겼습니다."
+              ],
+              "variants": [
+                "I had a small problem in this situation.",
+                "A small problem came up in this situation.",
+                "I experienced a minor issue related to this."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "먼저 상황을 침착하게 확인했습니다.",
+              "koAlternatives": [
+                "먼저 상황을 침착하게 확인했습니다."
+              ],
+              "variants": [
+                "I tried to check the situation calmly first.",
+                "I first looked at the situation calmly.",
+                "I did not panic and checked what was going on."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "제가 바로 할 수 있는 일을 정리했습니다.",
+              "koAlternatives": [
+                "제가 바로 할 수 있는 일을 정리했습니다."
+              ],
+              "variants": [
+                "I organized what I could do right away.",
+                "I made a quick list of possible actions.",
+                "I thought about what I could do first."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "현실적인 대안을 찾았습니다.",
+              "koAlternatives": [
+                "현실적인 대안을 찾았습니다."
+              ],
+              "variants": [
+                "I found a practical alternative.",
+                "I looked for another realistic option.",
+                "I found a simple way to handle the problem."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "비슷한 일이 생기면 먼저 침착하려고 합니다.",
+              "koAlternatives": [
+                "비슷한 일이 생기면 먼저 침착하려고 합니다."
+              ],
+              "variants": [
+                "I try to stay calm first when something similar happens.",
+                "I try not to panic in a similar situation.",
+                "I try to handle similar problems calmly."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q05-universal-past-vs-present",
+          "topicId": "13-magic-script",
+          "slug": "q05-universal-past-vs-present",
+          "order": 5,
+          "title": "Universal Past Vs Present Script",
+          "promptKo": "어떤 주제든 예전과 지금의 변화로 연결해서 답해 주세요.",
+          "promptEn": "Answer any topic by comparing the past and the present.",
+          "flowPoints": [
+            "과거에는 관심 적음/단순함 -> 지금은 중요해짐 -> 이유는 일/생활 변화 -> 예시 -> 편리함/휴식 선호 -> 정리",
+            "비교 질문이 아니어도 `In the past... but these days...`로 자연스럽게 확장한다.",
+            "회사 업무 변화, 집 생활 변화, 기술 변화, 취미 변화에 모두 재사용한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "예전에는 저는 이 주제에 대해 그렇게 많이 생각하지 않았습니다.",
+              "en": "In the past, I did not think about this topic very much.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "그때는 제 생활이 지금보다 단순했고, 선택지도 많지 않았습니다.",
+              "en": "At that time, my life was simpler than now, and I did not have many options.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "하지만 요즘에는 이 주제가 제 일상에서 더 중요해졌다고 느낍니다.",
+              "en": "But these days, I feel this topic has become more important in my daily life.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "가장 큰 이유는 제 일하는 방식과 생활 방식이 많이 바뀌었기 때문입니다.",
+              "en": "The biggest reason is that my work style and lifestyle have changed a lot.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "저는 IT 회사에서 일하면서 시스템 개선이나 AI 에이전트 관련 업무를 자주 합니다.",
+              "en": "I often work on system improvement or AI-agent-related tasks at an IT company.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "그래서 퇴근 후에는 더 편하고 단순한 것을 찾게 됩니다.",
+              "en": "So after work, I tend to look for something more comfortable and simple.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "예를 들어, 예전에는 그냥 시간을 보내는 것만 생각했지만, 지금은 휴식의 질도 중요하게 생각합니다.",
+              "en": "For example, in the past, I just thought about spending time, but now I care about the quality of rest.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "또 스마트폰이나 온라인 서비스 덕분에 선택을 더 쉽게 할 수 있습니다.",
+              "en": "Also, smartphones and online services make it easier to choose things.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그래서 예전과 비교하면 저는 지금 편리함과 안정감을 더 중요하게 생각합니다.",
+              "en": "So compared to the past, I care more about convenience and stability now.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "In the past, I did not think about this topic very much.",
+            "This topic has become more important in my daily life.",
+            "My work style and lifestyle have changed a lot.",
+            "I care about the quality of rest.",
+            "I care more about convenience and stability now."
+          ],
+          "keyWords": [
+            {
+              "term": "in the past",
+              "meaning": "예전에는"
+            },
+            {
+              "term": "these days",
+              "meaning": "요즘에는"
+            },
+            {
+              "term": "lifestyle",
+              "meaning": "생활 방식"
+            },
+            {
+              "term": "quality of rest",
+              "meaning": "휴식의 질"
+            },
+            {
+              "term": "convenience",
+              "meaning": "편리함"
+            },
+            {
+              "term": "stability",
+              "meaning": "안정감"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "예전에는 이 주제에 대해 많이 생각하지 않았습니다.",
+              "koAlternatives": [
+                "예전에는 이 주제에 대해 많이 생각하지 않았습니다."
+              ],
+              "variants": [
+                "In the past, I did not think about this topic very much.",
+                "Before, I did not pay much attention to this topic.",
+                "This was not a big part of my life in the past."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "요즘에는 제 일상에서 더 중요해졌습니다.",
+              "koAlternatives": [
+                "요즘에는 제 일상에서 더 중요해졌습니다."
+              ],
+              "variants": [
+                "These days, it has become more important in my daily life.",
+                "Now, I feel it matters more in my everyday life.",
+                "It is more connected to my life now."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "제 일하는 방식과 생활 방식이 바뀌었습니다.",
+              "koAlternatives": [
+                "제 일하는 방식과 생활 방식이 바뀌었습니다."
+              ],
+              "variants": [
+                "My work style and lifestyle have changed a lot.",
+                "The way I work and live has changed.",
+                "My daily routine is quite different from before."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "지금은 휴식의 질도 중요하게 생각합니다.",
+              "koAlternatives": [
+                "지금은 휴식의 질도 중요하게 생각합니다."
+              ],
+              "variants": [
+                "Now I care about the quality of rest.",
+                "These days, good rest is important to me.",
+                "I think resting well matters more now."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "편리함과 안정감을 더 중요하게 생각합니다.",
+              "koAlternatives": [
+                "편리함과 안정감을 더 중요하게 생각합니다."
+              ],
+              "variants": [
+                "I care more about convenience and stability now.",
+                "Convenience and a stable feeling are more important to me now.",
+                "I prefer things that are easy and comfortable these days."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q06-universal-opinion-preference",
+          "topicId": "13-magic-script",
+          "slug": "q06-universal-opinion-preference",
+          "order": 6,
+          "title": "Universal Opinion Preference Script",
+          "promptKo": "어떤 주제든 자신의 의견이나 선호로 연결해서 답해 주세요.",
+          "promptEn": "Answer any topic by explaining your opinion or preference.",
+          "flowPoints": [
+            "개인적으로 단순하고 편한 것 선호 -> 이유는 일이 복잡함 -> IT 업무 예시 -> 계획 부담 적음 -> 가족/일상과 맞음 -> 정리",
+            "좋아하는 것, 추천, 장단점, 선택 이유 질문에 우선 사용한다.",
+            "`Personally, I prefer something simple and comfortable.`를 시작 문장으로 고정한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "개인적으로 저는 단순하고 편안한 것을 선호합니다.",
+              "en": "Personally, I prefer something simple and comfortable.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "가장 큰 이유는 제 일이 이미 꽤 복잡하기 때문입니다.",
+              "en": "The main reason is that my work is already quite complicated.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "저는 소프트웨어 엔지니어로 일하면서 레거시 마이그레이션이나 시스템 개선 업무를 합니다.",
+              "en": "I work as a software engineer, and I deal with legacy migration or system improvement.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "가끔은 AI 에이전트 관련 업무도 해서 하루 동안 생각할 것이 많습니다.",
+              "en": "Sometimes I also work on AI-agent-related tasks, so I have many things to think about during the day.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그래서 퇴근 후나 주말에는 너무 많은 준비가 필요한 활동을 피하려고 합니다.",
+              "en": "That is why after work or on weekends, I try to avoid activities that need too much preparation.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "저는 가까운 곳에서 쉽게 할 수 있고, 가족과도 함께할 수 있는 선택을 좋아합니다.",
+              "en": "I like options that are easy to do nearby and that I can enjoy with my family.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "예를 들어, 조용한 카페에 가거나 공원을 걷는 것이 저에게 잘 맞습니다.",
+              "en": "For example, going to a quiet cafe or walking in a park works well for me.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "이런 선택은 특별하지 않아도 제 생활에 부담을 주지 않습니다.",
+              "en": "These choices are not special, but they do not add pressure to my life.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그래서 저는 이 주제에서도 편리하고 안정적인 방식을 가장 선호한다고 말할 수 있습니다.",
+              "en": "So even for this topic, I can say I prefer a convenient and stable option.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "Personally, I prefer something simple and comfortable.",
+            "My work is already quite complicated.",
+            "I try to avoid activities that need too much preparation.",
+            "These choices do not add pressure to my life.",
+            "I prefer a convenient and stable option."
+          ],
+          "keyWords": [
+            {
+              "term": "personally",
+              "meaning": "개인적으로"
+            },
+            {
+              "term": "prefer",
+              "meaning": "선호하다"
+            },
+            {
+              "term": "complicated",
+              "meaning": "복잡한"
+            },
+            {
+              "term": "preparation",
+              "meaning": "준비"
+            },
+            {
+              "term": "add pressure",
+              "meaning": "부담을 더하다"
+            },
+            {
+              "term": "convenient",
+              "meaning": "편리한"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "저는 단순하고 편안한 것을 선호합니다.",
+              "koAlternatives": [
+                "저는 단순하고 편안한 것을 선호합니다."
+              ],
+              "variants": [
+                "Personally, I prefer something simple and comfortable.",
+                "I usually like things that are simple and relaxing.",
+                "I tend to choose comfortable and easy options."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "제 일은 이미 꽤 복잡합니다.",
+              "koAlternatives": [
+                "제 일은 이미 꽤 복잡합니다."
+              ],
+              "variants": [
+                "My work is already quite complicated.",
+                "My job already requires a lot of thinking.",
+                "I deal with many complex issues at work."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "준비가 많이 필요한 활동은 피하려고 합니다.",
+              "koAlternatives": [
+                "준비가 많이 필요한 활동은 피하려고 합니다."
+              ],
+              "variants": [
+                "I try to avoid activities that need too much preparation.",
+                "I do not prefer things that require a lot of planning.",
+                "I like activities that are easy to start."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "제 생활에 부담을 주지 않습니다.",
+              "koAlternatives": [
+                "제 생활에 부담을 주지 않습니다."
+              ],
+              "variants": [
+                "They do not add pressure to my life.",
+                "They do not make my day more stressful.",
+                "They feel light and easy in my routine."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "편리하고 안정적인 방식을 선호합니다.",
+              "koAlternatives": [
+                "편리하고 안정적인 방식을 선호합니다."
+              ],
+              "variants": [
+                "I prefer a convenient and stable option.",
+                "I like a choice that feels easy and reliable.",
+                "Convenience and stability matter most to me."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q07-any-question-emergency-script",
+          "topicId": "13-magic-script",
+          "slug": "q07-any-question-emergency-script",
+          "order": 7,
+          "title": "Any Question Emergency Script",
+          "promptKo": "문제 유형을 고르기 어려울 때도 바로 말할 수 있는 최후의 마법 스크립트를 연습해 주세요.",
+          "promptEn": "Practice an emergency script you can use when you cannot choose the question type.",
+          "flowPoints": [
+            "완벽히 모르겠다고 인정 -> 내 생활 기준으로 답하겠다고 전환 -> 회사/가족/아파트 연결 -> 작은 최근 경험 -> 침착한 대응 -> 작은 행동/태도 -> 정리",
+            "문제 유형을 고르지 말고 첫 문장부터 바로 말한다.",
+            "핵심은 `If I answer based on my own life...`로 모든 질문을 내 생활로 끌고 오는 것이다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "솔직히 말하면, 이 질문에 대해 완벽한 답을 가지고 있지는 않습니다.",
+              "en": "To be honest, I do not have a perfect answer to this question.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "하지만 제 생활을 기준으로 말하면 어느 정도 연결해서 답할 수 있습니다.",
+              "en": "But if I answer based on my own life, I can still connect it to something real.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "저는 IT 회사에서 일하고, 퇴근 후에는 가족과 아파트에서 평범하게 지냅니다.",
+              "en": "I work at an IT company, and after work, I live a normal life with my family in an apartment.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "그래서 대부분의 주제는 제 회사 생활, 가족 생활, 또는 집 근처 일상과 연결해서 생각할 수 있습니다.",
+              "en": "So most topics can be connected to my work life, my family life, or my daily routine near home.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "최근에도 비슷하게 생각할 수 있는 작은 일이 있었습니다.",
+              "en": "Recently, I had a small experience that I can think about in a similar way.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "그때 저는 먼저 상황을 확인하고, 너무 어렵게 생각하지 않으려고 했습니다.",
+              "en": "At that time, I first checked the situation and tried not to make it too complicated.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "필요하면 가족에게 물어보거나 휴대폰으로 정보를 찾아보면서 현실적인 선택을 했습니다.",
+              "en": "If necessary, I asked my family or looked up information on my phone and chose a practical option.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "이런 경험을 통해 저는 큰 답보다 침착한 태도와 작은 행동이 더 중요하다고 느꼈습니다.",
+              "en": "Through this kind of experience, I learned that a calm attitude and small actions are more important than a perfect answer.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "그래서 이 질문에 대한 제 생각은, 완벽하지 않아도 일상에서 현실적으로 대응하는 것이 가장 중요하다는 것입니다.",
+              "en": "So my opinion about this question is that responding realistically in daily life matters most, even if the answer is not perfect.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I do not have a perfect answer to this question.",
+            "If I answer based on my own life, I can connect it to something real.",
+            "Most topics can be connected to my work life, my family life, or my daily routine.",
+            "I tried not to make it too complicated.",
+            "A calm attitude and small actions are more important than a perfect answer."
+          ],
+          "keyWords": [
+            {
+              "term": "perfect answer",
+              "meaning": "완벽한 답"
+            },
+            {
+              "term": "based on my own life",
+              "meaning": "제 생활을 기준으로"
+            },
+            {
+              "term": "connect it to something real",
+              "meaning": "현실적인 것과 연결하다"
+            },
+            {
+              "term": "practical option",
+              "meaning": "현실적인 선택"
+            },
+            {
+              "term": "calm attitude",
+              "meaning": "침착한 태도"
+            },
+            {
+              "term": "responding realistically",
+              "meaning": "현실적으로 대응하기"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "이 질문에 대해 완벽한 답을 가지고 있지는 않습니다.",
+              "koAlternatives": [
+                "이 질문에 대해 완벽한 답을 가지고 있지는 않습니다."
+              ],
+              "variants": [
+                "I do not have a perfect answer to this question.",
+                "I am not completely sure about this question.",
+                "I do not know everything about this topic."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "제 생활을 기준으로 말하면 연결해서 답할 수 있습니다.",
+              "koAlternatives": [
+                "제 생활을 기준으로 말하면 연결해서 답할 수 있습니다."
+              ],
+              "variants": [
+                "If I answer based on my own life, I can connect it to something real.",
+                "I can talk about it through my own daily life.",
+                "I can still relate it to my real experience."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "대부분의 주제는 제 회사 생활이나 가족 생활과 연결할 수 있습니다.",
+              "koAlternatives": [
+                "대부분의 주제는 제 회사 생활이나 가족 생활과 연결할 수 있습니다."
+              ],
+              "variants": [
+                "Most topics can be connected to my work life or family life.",
+                "I can connect many topics to my job, family, or home life.",
+                "I usually relate topics to my daily routine and work."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "너무 어렵게 생각하지 않으려고 했습니다.",
+              "koAlternatives": [
+                "너무 어렵게 생각하지 않으려고 했습니다."
+              ],
+              "variants": [
+                "I tried not to make it too complicated.",
+                "I tried to keep it simple.",
+                "I did not want to overthink the situation."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "완벽한 답보다 침착한 태도와 작은 행동이 더 중요합니다.",
+              "koAlternatives": [
+                "완벽한 답보다 침착한 태도와 작은 행동이 더 중요합니다."
+              ],
+              "variants": [
+                "A calm attitude and small actions are more important than a perfect answer.",
+                "Staying calm and doing something small matters more than being perfect.",
+                "I think a realistic attitude is more useful than a perfect answer."
+              ]
+            }
+          ],
+          "hooks": []
         }
       ]
     }
   ],
   "stats": {
-    "topicCount": 12,
+    "topicCount": 13,
     "questionCount": 79,
     "totalScriptPairs": 695,
     "alignedQuestionCount": 79,

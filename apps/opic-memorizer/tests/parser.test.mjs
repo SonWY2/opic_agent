@@ -11,13 +11,17 @@ describe('study data parser', () => {
     const data = buildStudyDataFromDirectory(sourceRoot);
 
     expect(data.datasetDate).toBe('2026-04-22');
-    expect(data.stats.topicCount).toBe(12);
+    expect(data.stats.topicCount).toBe(13);
     expect(data.stats.questionCount).toBe(79);
     expect(data.stats.missingRequiredSections).toEqual([]);
     expect(data.topics[0].questions[0]).toMatchObject({
       id: '01-self-intro/q01-self-intro',
       promptKo: '자기소개를 해 주세요.',
       promptEn: 'Tell me about yourself.'
+    });
+    expect(data.topics.at(-1)).toMatchObject({
+      id: '13-magic-script',
+      title: 'Magic Script'
     });
   });
 

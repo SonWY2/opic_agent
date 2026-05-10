@@ -1,4 +1,4 @@
-# Surprise Topics - Universal Opinion Preference Script
+# Magic Script - Universal Opinion Preference Script
 
 ## 문제
 

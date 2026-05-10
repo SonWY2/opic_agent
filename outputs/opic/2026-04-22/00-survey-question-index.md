@@ -287,10 +287,6 @@
 
 준비 항목: 돌발 주제
 
-- `00-magic-script-for-any-surprise-topic.md`
-  - 어떤 돌발 질문에도 응답하기 위한 범용 스크립트입니다.
-  - A universal response format for unexpected topics.
-
 - `q01-recycling.md`
   - 집에서 재활용을 어떻게 하는지 말해 주세요.
   - Tell me how you recycle at home.
@@ -339,6 +335,38 @@
   - 에너지 절약이나 전기 사용 습관에 대해 말해 주세요.
   - Talk about energy saving or your electricity use habits.
 
+### 13-magic-script
+
+준비 항목: 문제 유형을 고르기 어려울 때 쓰는 만능 스크립트
+
+- `q01-magic-script-for-any-surprise-topic.md`
+  - 어떤 돌발 질문에도 응답하기 위한 범용 스크립트입니다.
+  - A universal response format for unexpected topics.
+
+- `q02-universal-routine.md`
+  - 어떤 주제든 평소 루틴으로 연결해서 답해 주세요.
+  - Answer any topic by connecting it to your normal routine.
+
+- `q03-universal-past-experience.md`
+  - 어떤 주제든 기억에 남는 경험으로 연결해서 답해 주세요.
+  - Answer any topic by connecting it to a memorable past experience.
+
+- `q04-universal-problem-solving.md`
+  - 어떤 주제든 작은 문제와 해결 경험으로 연결해서 답해 주세요.
+  - Answer any topic by connecting it to a small problem and solution.
+
+- `q05-universal-past-vs-present.md`
+  - 어떤 주제든 예전과 지금의 변화로 연결해서 답해 주세요.
+  - Answer any topic by comparing the past and the present.
+
+- `q06-universal-opinion-preference.md`
+  - 어떤 주제든 자신의 의견이나 선호로 연결해서 답해 주세요.
+  - Answer any topic by explaining your opinion or preference.
+
+- `q07-any-question-emergency-script.md`
+  - 문제 유형을 고르기 어려울 때도 바로 말할 수 있는 최후의 마법 스크립트를 연습해 주세요.
+  - Practice an emergency script you can use when you cannot choose the question type.
+
 ## 4. 개수 요약
 
 - 실제 서베이 체크 항목: 12개
@@ -354,12 +382,14 @@
   - `08-music`
   - `09-shopping`
   - `10-vacation`
-- 추가 대비 폴더: 2개
+- 추가 대비 폴더: 3개
   - `11-roleplay`
   - `12-surprise-topics`
-- 일반 질문 파일: 60개
-- 범용 돌발 템플릿: 1개
-- 전체 학습 markdown 파일: 61개
+  - `13-magic-script`
+- 일반/주제 질문 파일: 57개
+- 롤플레이 파일: 15개
+- Magic Script 파일: 7개
+- 전체 학습 markdown 파일: 79개
 
 ## 5. 메모
 
