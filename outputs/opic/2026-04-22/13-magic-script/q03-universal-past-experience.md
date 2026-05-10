@@ -2,111 +2,111 @@
 
 ## 문제
 
-- 한국어: 어떤 주제든 기억에 남는 경험으로 연결해서 답해 주세요.
-- English: Answer any topic by connecting it to a memorable past experience.
+- 한국어: 어떤 주제든 기억에 남는 한 번의 경험으로 연결해서 답해 주세요.
+- English: Answer any topic by connecting it to one memorable experience.
 
 ## 암기 포인트 및 흐름
 
-- 몇 달 전 -> 바쁜 한 주 뒤 -> 평범한 계획 -> 작은 사건 -> 대화/휴식 -> 기억에 남은 이유
-- `One experience I remember happened a few months ago.`를 시작 문장으로 고정한다.
-- 장소는 카페, 공원, 여행지, 회사, 집으로 바꿔 끼울 수 있다.
+- 언제/어디서 -> 누구와 -> 분위기 -> 인상 깊은 장면 -> 감정 -> 기억에 남은 이유
+- 문제 해결이나 의견 설명으로 흐르지 않는다.
+- 핵심은 `One moment I still remember happened...`로 한 장면을 말하는 것이다.
 
 ## 한국어 전문
 
-제가 기억하는 한 가지 경험은 몇 달 전에 있었습니다.
+제가 아직도 기억하는 한 장면은 작년 가을에 있었습니다.
 
-그때 저는 회사에서 레거시 시스템 관련 업무를 하느라 한 주가 꽤 바빴습니다.
+그날 저는 가족과 함께 집 근처 공원에 갔습니다.
 
-주말에 저는 가족과 함께 집 근처로 잠깐 나갔습니다.
+날씨가 선선했고, 길가에 노란 잎이 많이 떨어져 있었습니다.
 
-처음에는 그냥 커피를 마시거나 산책을 하려는 평범한 계획이었습니다.
+우리는 특별한 계획 없이 천천히 걸었습니다.
 
-그런데 생각보다 날씨가 좋았고, 사람도 많지 않아서 분위기가 편안했습니다.
+딸이 떨어진 잎을 주워서 저에게 보여 줬는데, 그 장면이 이상하게 기억에 남았습니다.
 
-우리는 카페에서 잠깐 쉬면서 회사 이야기와 가족 이야기를 했습니다.
+저는 그때 회사 생각을 잠깐 멈추고 그냥 그 순간을 즐겼습니다.
 
-큰 사건은 아니었지만, 오랜만에 마음이 편해졌습니다.
+큰 이벤트는 아니었지만 마음이 아주 편안했습니다.
 
-그날 이후로 저는 작은 경험도 충분히 기억에 남을 수 있다고 느꼈습니다.
+그 경험 때문에 저는 평범한 하루도 충분히 좋은 기억이 될 수 있다고 느꼈습니다.
 
-그래서 이 주제를 들으면 저는 그 평범하지만 편안했던 하루가 먼저 떠오릅니다.
+그래서 이 주제를 들으면 저는 먼저 그 조용하고 따뜻했던 장면을 떠올립니다.
 
 ## 영어 전문
 
-One experience I remember happened a few months ago.
+One moment I still remember happened last fall.
 
-At that time, I had a busy week at work because of a legacy system project.
+That day, I went to a park near my apartment with my family.
 
-On the weekend, I went out for a short time with my family near my apartment.
+The weather was cool, and many yellow leaves were on the path.
 
-At first, it was just a simple plan to drink coffee or take a walk.
+We walked slowly without any special plan.
 
-But the weather was better than expected, and the place was not too crowded.
+My daughter picked up a fallen leaf and showed it to me, and that scene somehow stayed in my memory.
 
-We took a short break at a cafe and talked about work and family.
+At that moment, I stopped thinking about work and just enjoyed the moment.
 
-It was not a big event, but I felt relaxed for the first time in a while.
+It was not a big event, but I felt very comfortable.
 
-After that day, I realized that even a small experience can be memorable.
+Because of that experience, I realized that an ordinary day can become a good memory.
 
-So when I hear this topic, I first think of that ordinary but comfortable day.
+So when I hear this topic, I first think of that quiet and warm scene.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
-- One experience I remember happened a few months ago.
-- It was just a simple plan.
-- The place was not too crowded.
-- I felt relaxed for the first time in a while.
-- Even a small experience can be memorable.
+- One moment I still remember happened last fall.
+- We walked slowly without any special plan.
+- That scene stayed in my memory.
+- I just enjoyed the moment.
+- An ordinary day can become a good memory.
 
 ### Key Words
 
-- memorable : 기억에 남는
-- a few months ago : 몇 달 전
-- not too crowded : 너무 붐비지 않는
-- relaxed : 편안한
-- ordinary : 평범한
+- one moment : 한 장면
+- last fall : 작년 가을
+- fallen leaf : 떨어진 잎
+- stay in my memory : 기억에 남다
+- ordinary day : 평범한 하루
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
-### 기억에 남는 경험은 몇 달 전에 있었습니다.
+### 아직도 기억하는 한 장면이 있습니다.
 
-- One experience I remember happened a few months ago.
-- I had a memorable experience a few months ago.
-- Something I still remember happened several months ago.
+- One moment I still remember happened last fall.
+- There is one scene I still remember.
+- I still remember one small moment clearly.
 
-### 처음에는 평범한 계획이었습니다.
+### 특별한 계획 없이 천천히 걸었습니다.
 
-- At first, it was just a simple plan.
-- It started as a very normal plan.
-- I did not expect anything special at first.
+- We walked slowly without any special plan.
+- We just walked around with no big plan.
+- We took a slow walk without planning much.
 
-### 장소가 너무 붐비지 않아서 편안했습니다.
+### 그 장면이 기억에 남았습니다.
 
-- The place was not too crowded, so it felt comfortable.
-- It was quiet enough for me to relax.
-- There were not many people, so the atmosphere was nice.
+- That scene stayed in my memory.
+- I still remember that moment clearly.
+- That small scene was memorable to me.
 
-### 오랜만에 마음이 편해졌습니다.
+### 그냥 그 순간을 즐겼습니다.
 
-- I felt relaxed for the first time in a while.
-- I felt calm after a busy week.
-- It helped me feel comfortable again.
+- I just enjoyed the moment.
+- I simply stayed in that moment.
+- I stopped thinking too much and enjoyed it.
 
-### 작은 경험도 기억에 남을 수 있습니다.
+### 평범한 하루도 좋은 기억이 될 수 있습니다.
 
-- Even a small experience can be memorable.
-- A small moment can stay in my memory.
-- It does not have to be a big event to be special.
+- An ordinary day can become a good memory.
+- Even a normal day can be memorable.
+- A simple day can stay in my mind for a long time.
 
 ## Quick Answer Version
 
-One experience I remember happened a few months ago.
-I had a busy week at work because of a legacy system project.
-On the weekend, I went out with my family near my apartment.
-It was just a simple plan to drink coffee or take a walk.
-The weather was nice, and the place was not too crowded.
-It was not a big event, but I felt relaxed.
-So I still remember that ordinary but comfortable day.
+One moment I still remember happened last fall.
+I went to a park near my apartment with my family.
+The weather was cool, and yellow leaves were on the path.
+We walked slowly without any special plan.
+My daughter showed me a fallen leaf.
+That small scene stayed in my memory.
+It made me feel that an ordinary day can become a good memory.

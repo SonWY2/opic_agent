@@ -2,111 +2,111 @@
 
 ## 문제
 
-- 한국어: 어떤 주제든 작은 문제와 해결 경험으로 연결해서 답해 주세요.
-- English: Answer any topic by connecting it to a small problem and solution.
+- 한국어: 어떤 주제든 예상하지 못한 문제와 해결 과정으로 연결해서 답해 주세요.
+- English: Answer any topic by connecting it to an unexpected problem and solution.
 
 ## 암기 포인트 및 흐름
 
-- 작은 문제 발생 -> 예상 못함 -> 침착하게 확인 -> 도움 요청/대안 검색 -> 해결 -> 배운 점
-- 돌발 질문, 롤플레이, 집 문제, 회사 문제, 여행 문제에 가장 먼저 재사용한다.
-- `I had a small problem in this situation.`를 시작 문장으로 고정한다.
+- 문제 발생 -> 영향 설명 -> 원인 확인 -> 임시 대안 -> 도움 요청 -> 해결 -> 배운 점
+- 감상이나 취향보다 행동 순서를 중심으로 말한다.
+- 핵심은 `The first thing I did was check the cause.`로 해결 절차를 보여 주는 것이다.
 
 ## 한국어 전문
 
-저는 이런 상황에서 작은 문제가 생긴 적이 있습니다.
+한번은 예상하지 못한 문제가 생겨서 바로 해결해야 했습니다.
 
-처음에는 예상하지 못한 일이어서 조금 당황했습니다.
+집에서 온라인 회의에 들어가려고 했는데 인터넷이 갑자기 끊겼습니다.
 
-하지만 회사에서 문제를 해결할 때처럼 먼저 상황을 차분히 확인하려고 했습니다.
+회의가 곧 시작될 예정이라서 조금 급했습니다.
 
-저는 무엇이 문제인지 보고, 제가 바로 할 수 있는 일을 정리했습니다.
+제가 가장 먼저 한 일은 원인을 확인하는 것이었습니다.
 
-그리고 필요하면 주변 사람에게 도움을 요청하거나 휴대폰으로 다른 방법을 찾아봤습니다.
+공유기를 다시 켜 보고, 노트북 설정도 확인했습니다.
 
-다행히 큰 문제로 커지기 전에 현실적인 대안을 찾을 수 있었습니다.
+그래도 바로 해결되지 않아서 휴대폰 핫스팟으로 임시로 접속했습니다.
 
-그 후에는 계획을 조금 바꾸고 상황을 계속 확인했습니다.
+그 후에 인터넷 회사 앱으로 장애 여부를 확인하고 고객센터에도 문의했습니다.
 
-결국 문제는 해결되었고, 저는 너무 급하게 반응하지 않는 것이 중요하다고 느꼈습니다.
+다행히 회의에는 늦지 않았고, 나중에 인터넷도 정상으로 돌아왔습니다.
 
-이 경험 때문에 저는 비슷한 상황이 생기면 먼저 침착하게 확인하려고 합니다.
+그 경험 이후로 저는 중요한 일이 있을 때 항상 예비 방법을 하나 준비해 둡니다.
 
 ## 영어 전문
 
-I had a small problem in this situation.
+Once, I had an unexpected problem and had to solve it quickly.
 
-At first, I was a little stressed because I did not expect it.
+I was about to join an online meeting at home, but the internet suddenly stopped working.
 
-But like solving problems at work, I tried to check the situation calmly first.
+The meeting was going to start soon, so I felt a little rushed.
 
-I looked at what the problem was and organized what I could do right away.
+The first thing I did was check the cause.
 
-Then, if necessary, I asked someone for help or looked for another option on my phone.
+I restarted the router and also checked the settings on my laptop.
 
-Luckily, I found a practical alternative before it became a bigger problem.
+When it did not work right away, I used my phone hotspot as a temporary solution.
 
-After that, I changed my plan a little and kept checking the situation.
+After that, I checked the internet company app and contacted customer service.
 
-In the end, the problem was solved, and I learned that reacting too quickly is not helpful.
+Luckily, I was not late for the meeting, and the internet came back later.
 
-Because of this experience, I try to stay calm first when something similar happens.
+After that experience, I always prepare one backup option when something important is coming.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
-- I had a small problem in this situation.
-- I tried to check the situation calmly first.
-- I organized what I could do right away.
-- I found a practical alternative.
-- I learned that reacting too quickly is not helpful.
+- I had an unexpected problem and had to solve it quickly.
+- The internet suddenly stopped working.
+- The first thing I did was check the cause.
+- I used my phone hotspot as a temporary solution.
+- I always prepare one backup option.
 
 ### Key Words
 
-- small problem : 작은 문제
-- calmly : 침착하게
-- organize : 정리하다
-- practical alternative : 현실적인 대안
-- react too quickly : 너무 급하게 반응하다
+- unexpected problem : 예상하지 못한 문제
+- cause : 원인
+- router : 공유기
+- temporary solution : 임시 해결책
+- backup option : 예비 방법
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
-### 이런 상황에서 작은 문제가 생겼습니다.
+### 예상하지 못한 문제가 생겼습니다.
 
-- I had a small problem in this situation.
-- A small problem came up in this situation.
-- I experienced a minor issue related to this.
+- I had an unexpected problem.
+- Something unexpected happened.
+- A problem came up suddenly.
 
-### 먼저 상황을 침착하게 확인했습니다.
+### 가장 먼저 원인을 확인했습니다.
 
-- I tried to check the situation calmly first.
-- I first looked at the situation calmly.
-- I did not panic and checked what was going on.
+- The first thing I did was check the cause.
+- I first tried to find the cause.
+- I started by checking what caused the problem.
 
-### 제가 바로 할 수 있는 일을 정리했습니다.
+### 임시 해결책을 사용했습니다.
 
-- I organized what I could do right away.
-- I made a quick list of possible actions.
-- I thought about what I could do first.
+- I used a temporary solution.
+- I found a short-term solution.
+- I used another option for the moment.
 
-### 현실적인 대안을 찾았습니다.
+### 고객센터에 문의했습니다.
 
-- I found a practical alternative.
-- I looked for another realistic option.
-- I found a simple way to handle the problem.
+- I contacted customer service.
+- I asked customer support for help.
+- I reached out to the service center.
 
-### 비슷한 일이 생기면 먼저 침착하려고 합니다.
+### 예비 방법을 준비해 둡니다.
 
-- I try to stay calm first when something similar happens.
-- I try not to panic in a similar situation.
-- I try to handle similar problems calmly.
+- I prepare one backup option.
+- I keep a backup plan ready.
+- I try to have another option just in case.
 
 ## Quick Answer Version
 
-I had a small problem in this situation.
-At first, I was a little stressed because I did not expect it.
-But I tried to check the situation calmly first.
-I organized what I could do right away.
-Then I asked someone for help or looked for another option on my phone.
-In the end, the problem was solved.
-Because of this experience, I try to stay calm first.
+Once, I had an unexpected problem and had to solve it quickly.
+I was about to join an online meeting, but the internet stopped working.
+The first thing I did was check the cause.
+I restarted the router and checked my laptop.
+Then I used my phone hotspot as a temporary solution.
+Luckily, I was not late for the meeting.
+After that, I always prepare one backup option.

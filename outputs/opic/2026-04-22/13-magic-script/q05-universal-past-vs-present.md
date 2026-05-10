@@ -2,111 +2,111 @@
 
 ## 문제
 
-- 한국어: 어떤 주제든 예전과 지금의 변화로 연결해서 답해 주세요.
+- 한국어: 어떤 주제든 예전과 지금의 차이로 연결해서 답해 주세요.
 - English: Answer any topic by comparing the past and the present.
 
 ## 암기 포인트 및 흐름
 
-- 과거에는 관심 적음/단순함 -> 지금은 중요해짐 -> 이유는 일/생활 변화 -> 예시 -> 편리함/휴식 선호 -> 정리
-- 비교 질문이 아니어도 `In the past... but these days...`로 자연스럽게 확장한다.
-- 회사 업무 변화, 집 생활 변화, 기술 변화, 취미 변화에 모두 재사용한다.
+- 예전 모습 -> 지금 모습 -> 바뀐 도구/환경 -> 좋은 점 -> 아쉬운 점 -> 내 생각
+- 개인 경험보다 비교 구조를 유지한다.
+- 핵심은 `The biggest change is how easy it is to get information now.`이다.
 
 ## 한국어 전문
 
-예전에는 저는 이 주제에 대해 그렇게 많이 생각하지 않았습니다.
+예전과 지금을 비교하면 가장 큰 차이는 정보를 얻는 방식입니다.
 
-그때는 제 생활이 지금보다 단순했고, 선택지도 많지 않았습니다.
+예전에는 뭔가를 하려면 직접 물어보거나 시간을 들여 찾아봐야 했습니다.
 
-하지만 요즘에는 이 주제가 제 일상에서 더 중요해졌다고 느낍니다.
+선택지도 많지 않았고, 확인하는 데 시간이 오래 걸렸습니다.
 
-가장 큰 이유는 제 일하는 방식과 생활 방식이 많이 바뀌었기 때문입니다.
+하지만 요즘은 스마트폰으로 거의 모든 정보를 바로 확인할 수 있습니다.
 
-저는 IT 회사에서 일하면서 시스템 개선이나 AI 에이전트 관련 업무를 자주 합니다.
+예약, 길 찾기, 리뷰 확인, 결제까지 훨씬 빠르고 편해졌습니다.
 
-그래서 퇴근 후에는 더 편하고 단순한 것을 찾게 됩니다.
+이런 변화 덕분에 생활은 전보다 훨씬 효율적이 되었습니다.
 
-예를 들어, 예전에는 그냥 시간을 보내는 것만 생각했지만, 지금은 휴식의 질도 중요하게 생각합니다.
+반면에 정보가 너무 많아서 오히려 선택이 어려울 때도 있습니다.
 
-또 스마트폰이나 온라인 서비스 덕분에 선택을 더 쉽게 할 수 있습니다.
+그래서 저는 편리함을 잘 사용하되 너무 의존하지 않는 것이 중요하다고 생각합니다.
 
-그래서 예전과 비교하면 저는 지금 편리함과 안정감을 더 중요하게 생각합니다.
+결국 예전보다 지금이 더 편하지만, 스스로 판단하는 습관도 필요합니다.
 
 ## 영어 전문
 
-In the past, I did not think about this topic very much.
+When I compare the past and the present, the biggest difference is how we get information.
 
-At that time, my life was simpler than now, and I did not have many options.
+In the past, if I wanted to do something, I had to ask someone or spend time looking for it.
 
-But these days, I feel this topic has become more important in my daily life.
+There were not many options, and checking details took a long time.
 
-The biggest reason is that my work style and lifestyle have changed a lot.
+But these days, I can check almost everything right away on my smartphone.
 
-I often work on system improvement or AI-agent-related tasks at an IT company.
+Reservations, directions, reviews, and payments have become much faster and more convenient.
 
-So after work, I tend to look for something more comfortable and simple.
+Because of this change, daily life has become much more efficient than before.
 
-For example, in the past, I just thought about spending time, but now I care about the quality of rest.
+On the other hand, there is too much information, so choosing something can be difficult.
 
-Also, smartphones and online services make it easier to choose things.
+So I think it is important to use convenience well but not depend on it too much.
 
-So compared to the past, I care more about convenience and stability now.
+In the end, life is more convenient now, but we still need the habit of making our own judgment.
 
 ## 키 문장 및 단어
 
 ### Key Sentences
 
-- In the past, I did not think about this topic very much.
-- This topic has become more important in my daily life.
-- My work style and lifestyle have changed a lot.
-- I care about the quality of rest.
-- I care more about convenience and stability now.
+- The biggest difference is how we get information.
+- Checking details took a long time.
+- I can check almost everything on my smartphone.
+- Daily life has become much more efficient.
+- We still need the habit of making our own judgment.
 
 ### Key Words
 
-- in the past : 예전에는
-- these days : 요즘에는
-- lifestyle : 생활 방식
-- quality of rest : 휴식의 질
-- convenience : 편리함
-- stability : 안정감
+- compare : 비교하다
+- information : 정보
+- efficient : 효율적인
+- depend on : 의존하다
+- judgment : 판단
 
 ## 키 한국어 문장 및 대응되는 영어표현 여러개
 
-### 예전에는 이 주제에 대해 많이 생각하지 않았습니다.
+### 가장 큰 차이는 정보를 얻는 방식입니다.
 
-- In the past, I did not think about this topic very much.
-- Before, I did not pay much attention to this topic.
-- This was not a big part of my life in the past.
+- The biggest difference is how we get information.
+- The main change is the way we find information.
+- What changed most is access to information.
 
-### 요즘에는 제 일상에서 더 중요해졌습니다.
+### 예전에는 확인하는 데 시간이 오래 걸렸습니다.
 
-- These days, it has become more important in my daily life.
-- Now, I feel it matters more in my everyday life.
-- It is more connected to my life now.
+- Checking details took a long time in the past.
+- It took more time to check things before.
+- In the past, getting information was slower.
 
-### 제 일하는 방식과 생활 방식이 바뀌었습니다.
+### 요즘은 스마트폰으로 바로 확인할 수 있습니다.
 
-- My work style and lifestyle have changed a lot.
-- The way I work and live has changed.
-- My daily routine is quite different from before.
+- These days, I can check it right away on my smartphone.
+- Now I can find information quickly on my phone.
+- Smartphones make it easy to check details.
 
-### 지금은 휴식의 질도 중요하게 생각합니다.
+### 생활이 훨씬 효율적이 되었습니다.
 
-- Now I care about the quality of rest.
-- These days, good rest is important to me.
-- I think resting well matters more now.
+- Daily life has become much more efficient.
+- Life is more convenient and efficient now.
+- Things take less time than before.
 
-### 편리함과 안정감을 더 중요하게 생각합니다.
+### 스스로 판단하는 습관도 필요합니다.
 
-- I care more about convenience and stability now.
-- Convenience and a stable feeling are more important to me now.
-- I prefer things that are easy and comfortable these days.
+- We still need the habit of making our own judgment.
+- It is important to think and decide for ourselves.
+- We should not depend only on information online.
 
 ## Quick Answer Version
 
-In the past, I did not think about this topic very much.
-My life was simpler than now, and I did not have many options.
-But these days, it has become more important in my daily life.
-My work style and lifestyle have changed a lot.
-After work, I look for something comfortable and simple.
-Now I care more about convenience and stability.
+The biggest difference between the past and now is information.
+In the past, checking details took a long time.
+But these days, I can check almost everything on my smartphone.
+Reservations, directions, reviews, and payments are much easier.
+Daily life has become more efficient.
+However, too much information can make choices difficult.
+So I think we still need our own judgment.
