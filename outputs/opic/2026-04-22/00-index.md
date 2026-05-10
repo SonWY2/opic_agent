@@ -20,7 +20,7 @@
 - 09-shopping/ : 온라인 쇼핑 선호, 루틴, 변화, 기억에 남는 경험
 - 10-vacation/ : 제주 해변 여행, 휴가 준비, 여행 문제 해결
 - 11-roleplay/ : 예약, 문의, 문제 해결, 카페/아파트/업무데모/호텔 롤플레이
-- 12-surprise-topics/ : 재활용, 인터넷, 날씨, 기후 변화, 명절, 공공장소, 대중교통, 건강, 배송, 소음, 에너지 절약
+- 12-surprise-topics/ : 재활용, 인터넷, 날씨, 기후 변화, 명절, 공공장소, 대중교통, 건강, 배송, 소음, 에너지 절약, 만능 뼈대 스크립트
 
 ## 파일 목록
 
@@ -97,14 +97,22 @@
 - 12-surprise-topics/q10-energy-saving.md
 - 12-surprise-topics/q11-heavy-snow-commute.md
 - 12-surprise-topics/q12-climate-change.md
+- 12-surprise-topics/q13-universal-routine.md
+- 12-surprise-topics/q14-universal-past-experience.md
+- 12-surprise-topics/q15-universal-problem-solving.md
+- 12-surprise-topics/q16-universal-past-vs-present.md
+- 12-surprise-topics/q17-universal-opinion-preference.md
+- 12-surprise-topics/q18-any-question-emergency-script.md
 
 ## 공부 순서
 
-1. 01-self-intro
-2. 02-work-it-software
-3. 03-home-apartment
-4. 05-cafe / 06-park-walking-jogging
-5. 07-drive / 08-music / 09-shopping
-6. 10-vacation
-7. 11-roleplay
-8. 12-surprise-topics
+1. 12-surprise-topics/q18-any-question-emergency-script.md
+2. 12-surprise-topics/q15-universal-problem-solving.md
+3. 12-surprise-topics/q14-universal-past-experience.md
+4. 12-surprise-topics/q16-universal-past-vs-present.md
+5. 12-surprise-topics/q17-universal-opinion-preference.md
+6. 12-surprise-topics/q13-universal-routine.md
+7. 01-self-intro
+8. 02-work-it-software / 03-home-apartment
+9. 05-cafe / 06-park-walking-jogging / 07-drive / 08-music
+10. 10-vacation / 11-roleplay / 12-surprise-topics

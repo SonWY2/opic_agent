@@ -76,3 +76,17 @@
 - Reusable topics: weather, seasons, commute problem, climate change, public transportation
 - Tone: realistic, calm
 - Keywords: four seasons, mild, yellow dust, fine dust, heavy snow, subway, client, global warming
+
+## Asset 12. Emergency Universal Answer
+
+- Summary: 문제 유형을 고르기 어려울 때 회사, 가족, 아파트 생활로 끌고 와서 현실적인 태도로 마무리하는 최후의 fallback
+- Reusable topics: unknown question, surprise topic, opinion, routine, experience, problem solving
+- Tone: calm, honest, practical
+- Keywords: perfect answer, based on my own life, work life, family life, daily routine, calm attitude, small actions
+
+## Asset 13. Five Universal Frames
+
+- Summary: 루틴형, 과거 경험형, 문제 해결형, 변화 비교형, 의견/선호형으로 대부분의 문제를 빠르게 분류하는 암기 뼈대
+- Reusable topics: all topic questions, survey topics, roleplay follow-up, surprise topics
+- Tone: stable, reusable
+- Keywords: routine, memorable experience, small problem, past and present, preference, convenient, stable
