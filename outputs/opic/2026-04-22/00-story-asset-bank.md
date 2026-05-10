@@ -97,3 +97,10 @@
 - Reusable topics: reservation, cafe, hotel, repair, delivery, work demo, roleplay follow-up
 - Tone: polite, calm, practical
 - Keywords: I have a few questions, something came up, alternative, replace, check early, speak politely
+
+## Asset 15. Any Topic Magic Openings
+
+- Summary: 질문을 완전히 이해하지 못했거나, 전문가가 아니거나, 직접 답하기 어렵거나, 주제가 너무 넓을 때 바로 시작하는 범용 fallback
+- Reusable topics: any unexpected topic, broad topic, unknown topic, unclear question, final emergency answer
+- Tone: honest, calm, non-defensive
+- Keywords: may not have understood, not an expert, hard to answer directly, broad topic, daily life, realistic attitude

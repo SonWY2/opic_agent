@@ -383,6 +383,22 @@
   - 롤플레이 후속 질문에서 비슷한 경험을 말해야 할 때 사용할 수 있는 스크립트를 연습해 주세요.
   - Practice a script for answering a roleplay follow-up question about a similar experience.
 
+- `q12-any-topic-not-clear-bridge.md`
+  - 질문이 명확하게 이해되지 않을 때도 바로 말할 수 있는 범용 스크립트를 연습해 주세요.
+  - Practice a universal script for answering when the question is not completely clear.
+
+- `q13-any-topic-not-expert-bridge.md`
+  - 잘 모르는 주제가 나왔을 때 전문가가 아니라고 인정하고 답하는 범용 스크립트를 연습해 주세요.
+  - Practice a universal script for answering by saying you are not an expert on the topic.
+
+- `q14-any-topic-hard-to-answer-directly.md`
+  - 질문에 바로 정확히 답하기 어려울 때 작은 예시로 우회하는 범용 스크립트를 연습해 주세요.
+  - Practice a universal script for answering with a small example when the question is hard to answer directly.
+
+- `q15-any-topic-broad-topic-bridge.md`
+  - 주제가 너무 넓게 느껴질 때 간단한 기준으로 좁혀서 답하는 범용 스크립트를 연습해 주세요.
+  - Practice a universal script for narrowing down a broad topic and answering simply.
+
 ## 4. 개수 요약
 
 - 실제 서베이 체크 항목: 12개
@@ -404,8 +420,8 @@
   - `13-magic-script`
 - 일반/주제 질문 파일: 57개
 - 롤플레이 파일: 15개
-- Magic Script 파일: 11개
-- 전체 학습 markdown 파일: 83개
+- Magic Script 파일: 15개
+- 전체 학습 markdown 파일: 87개
 
 ## 5. 메모
 

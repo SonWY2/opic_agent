@@ -108,20 +108,29 @@
 - 13-magic-script/q09-roleplay-change-alternatives-magic.md
 - 13-magic-script/q10-roleplay-report-problem-magic.md
 - 13-magic-script/q11-roleplay-similar-experience-magic.md
+- 13-magic-script/q12-any-topic-not-clear-bridge.md
+- 13-magic-script/q13-any-topic-not-expert-bridge.md
+- 13-magic-script/q14-any-topic-hard-to-answer-directly.md
+- 13-magic-script/q15-any-topic-broad-topic-bridge.md
 
 ## 공부 순서
 
 1. 13-magic-script/q07-any-question-emergency-script.md
-2. 13-magic-script/q04-universal-problem-solving.md
-3. 13-magic-script/q03-universal-past-experience.md
-4. 13-magic-script/q05-universal-past-vs-present.md
-5. 13-magic-script/q06-universal-opinion-preference.md
-6. 13-magic-script/q02-universal-routine.md
+2. 13-magic-script/q12-any-topic-not-clear-bridge.md
+3. 13-magic-script/q13-any-topic-not-expert-bridge.md
+4. 13-magic-script/q14-any-topic-hard-to-answer-directly.md
+5. 13-magic-script/q15-any-topic-broad-topic-bridge.md
+6. 13-magic-script/q01-magic-script-for-any-surprise-topic.md
 7. 13-magic-script/q08-roleplay-ask-questions-magic.md
 8. 13-magic-script/q09-roleplay-change-alternatives-magic.md
 9. 13-magic-script/q10-roleplay-report-problem-magic.md
 10. 13-magic-script/q11-roleplay-similar-experience-magic.md
-11. 01-self-intro
-12. 02-work-it-software / 03-home-apartment
-13. 05-cafe / 06-park-walking-jogging / 07-drive / 08-music
-14. 10-vacation / 11-roleplay / 12-surprise-topics / 13-magic-script
+11. 13-magic-script/q04-universal-problem-solving.md
+12. 13-magic-script/q03-universal-past-experience.md
+13. 13-magic-script/q05-universal-past-vs-present.md
+14. 13-magic-script/q06-universal-opinion-preference.md
+15. 13-magic-script/q02-universal-routine.md
+16. 01-self-intro
+17. 02-work-it-software / 03-home-apartment
+18. 05-cafe / 06-park-walking-jogging / 07-drive / 08-music
+19. 10-vacation / 11-roleplay / 12-surprise-topics / 13-magic-script
