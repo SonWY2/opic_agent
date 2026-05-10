@@ -104,6 +104,10 @@
 - 13-magic-script/q05-universal-past-vs-present.md
 - 13-magic-script/q06-universal-opinion-preference.md
 - 13-magic-script/q07-any-question-emergency-script.md
+- 13-magic-script/q08-roleplay-ask-questions-magic.md
+- 13-magic-script/q09-roleplay-change-alternatives-magic.md
+- 13-magic-script/q10-roleplay-report-problem-magic.md
+- 13-magic-script/q11-roleplay-similar-experience-magic.md
 
 ## 공부 순서
 
@@ -113,7 +117,11 @@
 4. 13-magic-script/q05-universal-past-vs-present.md
 5. 13-magic-script/q06-universal-opinion-preference.md
 6. 13-magic-script/q02-universal-routine.md
-7. 01-self-intro
-8. 02-work-it-software / 03-home-apartment
-9. 05-cafe / 06-park-walking-jogging / 07-drive / 08-music
-10. 10-vacation / 11-roleplay / 12-surprise-topics / 13-magic-script
+7. 13-magic-script/q08-roleplay-ask-questions-magic.md
+8. 13-magic-script/q09-roleplay-change-alternatives-magic.md
+9. 13-magic-script/q10-roleplay-report-problem-magic.md
+10. 13-magic-script/q11-roleplay-similar-experience-magic.md
+11. 01-self-intro
+12. 02-work-it-software / 03-home-apartment
+13. 05-cafe / 06-park-walking-jogging / 07-drive / 08-music
+14. 10-vacation / 11-roleplay / 12-surprise-topics / 13-magic-script

@@ -8,7 +8,7 @@ const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
 const failures = [];
 
-if (data.stats.questionCount !== 79) failures.push(`Expected 79 questions, got ${data.stats.questionCount}`);
+if (data.stats.questionCount !== 83) failures.push(`Expected 83 questions, got ${data.stats.questionCount}`);
 if (data.stats.topicCount !== 13) failures.push(`Expected 13 topics, got ${data.stats.topicCount}`);
 if (data.stats.alignmentIssueCount !== 0) {
   failures.push(`Expected 0 alignment issues, got ${data.stats.alignmentIssueCount}`);

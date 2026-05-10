@@ -367,6 +367,22 @@
   - 문제 유형을 고르기 어려울 때도 바로 말할 수 있는 최후의 마법 스크립트를 연습해 주세요.
   - Practice an emergency script you can use when you cannot choose the question type.
 
+- `q08-roleplay-ask-questions-magic.md`
+  - 어떤 롤플레이 상황이든 직원에게 몇 가지 질문을 해야 할 때 사용할 수 있는 스크립트를 연습해 주세요.
+  - Practice a roleplay script for asking staff a few questions in any situation.
+
+- `q09-roleplay-change-alternatives-magic.md`
+  - 예약이나 계획을 바꿔야 할 때 상황을 설명하고 대안을 요청하는 스크립트를 연습해 주세요.
+  - Practice a roleplay script for changing a reservation or plan and asking for alternatives.
+
+- `q10-roleplay-report-problem-magic.md`
+  - 서비스나 장소에서 문제가 생겼을 때 정중하게 설명하고 해결을 요청하는 스크립트를 연습해 주세요.
+  - Practice a roleplay script for politely reporting a problem and asking for a solution.
+
+- `q11-roleplay-similar-experience-magic.md`
+  - 롤플레이 후속 질문에서 비슷한 경험을 말해야 할 때 사용할 수 있는 스크립트를 연습해 주세요.
+  - Practice a script for answering a roleplay follow-up question about a similar experience.
+
 ## 4. 개수 요약
 
 - 실제 서베이 체크 항목: 12개
@@ -388,8 +404,8 @@
   - `13-magic-script`
 - 일반/주제 질문 파일: 57개
 - 롤플레이 파일: 15개
-- Magic Script 파일: 7개
-- 전체 학습 markdown 파일: 79개
+- Magic Script 파일: 11개
+- 전체 학습 markdown 파일: 83개
 
 ## 5. 메모
 

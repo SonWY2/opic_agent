@@ -90,3 +90,10 @@
 - Reusable topics: all topic questions, survey topics, roleplay follow-up, surprise topics
 - Tone: stable, reusable
 - Keywords: routine, memorable experience, small problem, past and present, preference, convenient, stable
+
+## Asset 14. Roleplay Magic Frames
+
+- Summary: 질문하기, 일정 변경/대안 요청, 문제 제기/해결 요청, 비슷한 경험 설명으로 롤플레이 세트를 빠르게 처리하는 공손한 뼈대
+- Reusable topics: reservation, cafe, hotel, repair, delivery, work demo, roleplay follow-up
+- Tone: polite, calm, practical
+- Keywords: I have a few questions, something came up, alternative, replace, check early, speak politely

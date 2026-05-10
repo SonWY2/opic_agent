@@ -13700,15 +13700,711 @@
             }
           ],
           "hooks": []
+        },
+        {
+          "id": "13-magic-script/q08-roleplay-ask-questions-magic",
+          "topicId": "13-magic-script",
+          "slug": "q08-roleplay-ask-questions-magic",
+          "order": 8,
+          "title": "Roleplay Ask Questions",
+          "promptKo": "어떤 롤플레이 상황이든 직원에게 몇 가지 질문을 해야 할 때 사용할 수 있는 스크립트를 연습해 주세요.",
+          "promptEn": "Practice a roleplay script for asking staff a few questions in any situation.",
+          "flowPoints": [
+            "인사 -> 목적 설명 -> 가능 여부 질문 -> 조건 질문 -> 추천 요청 -> 재확인 -> 감사",
+            "장소만 바꾸면 식당, 호텔, 카페, 수리센터, 회사 데모 문의에 모두 쓸 수 있다.",
+            "`I have a few questions about...`로 시작하고 마지막은 `I just want to confirm the details.`로 마무리한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 이 예약 또는 서비스에 대해 몇 가지 질문이 있습니다.",
+              "en": "Hello. I have a few questions about this reservation or service.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "먼저, 제가 원하는 날짜와 시간에 이용이 가능한지 확인하고 싶습니다.",
+              "en": "First, I would like to check if it is available on the date and time I want.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "가능하다면 가격이나 기본 조건도 간단히 알려 주실 수 있을까요?",
+              "en": "If possible, could you briefly tell me the price or basic conditions?",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "그리고 주차, 자리, 준비물처럼 제가 미리 알아야 할 것이 있는지도 궁금합니다.",
+              "en": "Also, I wonder if there is anything I should know in advance, like parking, seating, or preparation.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "만약 제가 원하는 시간이 어렵다면, 가장 가까운 가능한 시간을 추천해 주시면 좋겠습니다.",
+              "en": "If my preferred time is not possible, please recommend the closest available time.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "저는 가족과 함께 갈 수도 있어서 너무 복잡하지 않은 선택이 좋습니다.",
+              "en": "I may come with my family, so a simple option would be better for me.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "마지막으로, 제가 이해한 내용이 맞는지 다시 한번 확인하고 싶습니다.",
+              "en": "Lastly, I would like to confirm that I understood everything correctly.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "답변해 주시면 바로 결정하고 예약을 진행하겠습니다.",
+              "en": "If you answer these questions, I will decide right away and continue with the reservation.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "도와주셔서 감사합니다.",
+              "en": "Thank you for your help.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I have a few questions about this reservation or service.",
+            "Is it available on the date and time I want?",
+            "Is there anything I should know in advance?",
+            "Please recommend the closest available time.",
+            "I would like to confirm that I understood everything correctly."
+          ],
+          "keyWords": [
+            {
+              "term": "reservation",
+              "meaning": "예약"
+            },
+            {
+              "term": "service",
+              "meaning": "서비스"
+            },
+            {
+              "term": "available",
+              "meaning": "가능한"
+            },
+            {
+              "term": "in advance",
+              "meaning": "미리"
+            },
+            {
+              "term": "preferred time",
+              "meaning": "원하는 시간"
+            },
+            {
+              "term": "confirm",
+              "meaning": "확인하다"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "예약 또는 서비스에 대해 몇 가지 질문이 있습니다.",
+              "koAlternatives": [
+                "예약 또는 서비스에 대해 몇 가지 질문이 있습니다."
+              ],
+              "variants": [
+                "I have a few questions about this reservation or service.",
+                "I would like to ask a few questions about this.",
+                "Could I ask you some questions before I decide?"
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "원하는 날짜와 시간에 가능한지 확인하고 싶습니다.",
+              "koAlternatives": [
+                "원하는 날짜와 시간에 가능한지 확인하고 싶습니다."
+              ],
+              "variants": [
+                "I would like to check if it is available on the date and time I want.",
+                "Is my preferred date and time available?",
+                "Could you check availability for my preferred time?"
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "미리 알아야 할 것이 있는지 궁금합니다.",
+              "koAlternatives": [
+                "미리 알아야 할 것이 있는지 궁금합니다."
+              ],
+              "variants": [
+                "Is there anything I should know in advance?",
+                "Do I need to prepare anything before I come?",
+                "Could you tell me any important details ahead of time?"
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "가장 가까운 가능한 시간을 추천해 주세요.",
+              "koAlternatives": [
+                "가장 가까운 가능한 시간을 추천해 주세요."
+              ],
+              "variants": [
+                "Please recommend the closest available time.",
+                "Could you suggest the nearest available time?",
+                "What is the closest time slot that works?"
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "제가 이해한 내용이 맞는지 확인하고 싶습니다.",
+              "koAlternatives": [
+                "제가 이해한 내용이 맞는지 확인하고 싶습니다."
+              ],
+              "variants": [
+                "I would like to confirm that I understood everything correctly.",
+                "I just want to make sure I got the details right.",
+                "Could I double-check the details with you?"
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q09-roleplay-change-alternatives-magic",
+          "topicId": "13-magic-script",
+          "slug": "q09-roleplay-change-alternatives-magic",
+          "order": 9,
+          "title": "Roleplay Change And Alternatives",
+          "promptKo": "예약이나 계획을 바꿔야 할 때 상황을 설명하고 대안을 요청하는 스크립트를 연습해 주세요.",
+          "promptEn": "Practice a roleplay script for changing a reservation or plan and asking for alternatives.",
+          "flowPoints": [
+            "문제 설명 -> 사과 -> 원래 계획 -> 변경 요청 -> 대안 2개 -> 가능한 선택 확인 -> 감사",
+            "예약, 호텔, 카페, 수리 일정, 업무 데모 일정 변경에 모두 쓸 수 있다.",
+            "`Something came up`과 `Would another option be possible?`을 고정 표현으로 외운다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 죄송하지만 원래 계획을 조금 바꿔야 할 것 같습니다.",
+              "en": "Hello. I am sorry, but I think I need to change my original plan a little.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "갑자기 일이 생겨서 예약한 시간에 맞추기 어려워졌습니다.",
+              "en": "Something came up, so it has become difficult to make the reservation time.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "원래는 오늘 저녁 7시에 방문하려고 했습니다.",
+              "en": "Originally, I planned to visit at 7 p.m. today.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "혹시 시간을 8시쯤으로 바꾸거나 다른 날로 옮길 수 있을까요?",
+              "en": "Could I change it to around 8 p.m. or move it to another day?",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그 시간이 어렵다면 가장 가까운 가능한 시간도 괜찮습니다.",
+              "en": "If that time is difficult, the closest available time would also be fine.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "가능하면 예약 자체는 유지하고 싶습니다.",
+              "en": "If possible, I would like to keep the reservation itself.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "제가 선택할 수 있는 대안을 알려 주시면 바로 결정하겠습니다.",
+              "en": "Please let me know what alternatives I can choose from, and I will decide right away.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "갑작스럽게 연락드려 죄송하고, 도와주시면 정말 감사하겠습니다.",
+              "en": "I am sorry for contacting you suddenly, and I would really appreciate your help.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "마지막으로 변경된 내용을 문자나 이메일로 확인받을 수 있을까요?",
+              "en": "Lastly, could I get the changed details by text message or email?",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I need to change my original plan a little.",
+            "Something came up.",
+            "Could I change it to another time?",
+            "I would like to keep the reservation itself.",
+            "Could I get the changed details by text message or email?"
+          ],
+          "keyWords": [
+            {
+              "term": "original plan",
+              "meaning": "원래 계획"
+            },
+            {
+              "term": "something came up",
+              "meaning": "일이 생겼다"
+            },
+            {
+              "term": "move it to another day",
+              "meaning": "다른 날로 옮기다"
+            },
+            {
+              "term": "alternative",
+              "meaning": "대안"
+            },
+            {
+              "term": "changed details",
+              "meaning": "변경된 내용"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "원래 계획을 조금 바꿔야 할 것 같습니다.",
+              "koAlternatives": [
+                "원래 계획을 조금 바꿔야 할 것 같습니다."
+              ],
+              "variants": [
+                "I need to change my original plan a little.",
+                "I think I have to adjust my plan.",
+                "My original plan needs to be changed a bit."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "갑자기 일이 생겼습니다.",
+              "koAlternatives": [
+                "갑자기 일이 생겼습니다."
+              ],
+              "variants": [
+                "Something came up.",
+                "Something unexpected happened.",
+                "I had an unexpected situation."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "다른 시간이나 다른 날로 옮길 수 있을까요?",
+              "koAlternatives": [
+                "다른 시간이나 다른 날로 옮길 수 있을까요?"
+              ],
+              "variants": [
+                "Could I change it to another time or move it to another day?",
+                "Would another time or another day be possible?",
+                "Can I reschedule it for a different time or date?"
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "예약 자체는 유지하고 싶습니다.",
+              "koAlternatives": [
+                "예약 자체는 유지하고 싶습니다."
+              ],
+              "variants": [
+                "I would like to keep the reservation itself.",
+                "I still want to keep the booking if possible.",
+                "I hope I do not have to cancel the reservation."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "변경된 내용을 문자나 이메일로 확인받을 수 있을까요?",
+              "koAlternatives": [
+                "변경된 내용을 문자나 이메일로 확인받을 수 있을까요?"
+              ],
+              "variants": [
+                "Could I get the changed details by text message or email?",
+                "Could you send me the updated details by text or email?",
+                "Can you confirm the new details in writing?"
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q10-roleplay-report-problem-magic",
+          "topicId": "13-magic-script",
+          "slug": "q10-roleplay-report-problem-magic",
+          "order": 10,
+          "title": "Roleplay Report A Problem",
+          "promptKo": "서비스나 장소에서 문제가 생겼을 때 정중하게 설명하고 해결을 요청하는 스크립트를 연습해 주세요.",
+          "promptEn": "Practice a roleplay script for politely reporting a problem and asking for a solution.",
+          "flowPoints": [
+            "인사 -> 문제 설명 -> 영향 설명 -> 확인 요청 -> 해결 방법 2개 제안 -> 기다릴 수 있음 -> 재확인",
+            "호텔 방 문제, 카페 주문 문제, 아파트 수리, 배송 문제, 회사 데모 장비 문제에 모두 쓸 수 있다.",
+            "불평처럼 들리지 않게 `I understand these things can happen`을 넣는다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "안녕하세요. 죄송하지만 작은 문제가 있어서 말씀드리고 싶습니다.",
+              "en": "Hello. I am sorry, but I would like to mention a small problem.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "제가 받은 서비스나 물건이 예상했던 것과 조금 다릅니다.",
+              "en": "The service or item I received is a little different from what I expected.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "예를 들어, 예약 내용이 맞지 않거나, 준비된 것이 제대로 작동하지 않는 것 같습니다.",
+              "en": "For example, the reservation details may not be correct, or something prepared for me does not seem to work properly.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "이 문제 때문에 제가 계획한 일을 바로 진행하기가 조금 어렵습니다.",
+              "en": "Because of this problem, it is a little difficult for me to continue with my plan right away.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "이런 일이 생길 수 있다는 것은 이해하지만, 가능하면 확인해 주시면 좋겠습니다.",
+              "en": "I understand these things can happen, but I would appreciate it if you could check it.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "해결 방법으로 교체를 해 주시거나 다른 가능한 선택을 알려 주실 수 있을까요?",
+              "en": "As a solution, could you replace it or let me know another possible option?",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "시간이 조금 걸린다면 저는 잠깐 기다릴 수 있습니다.",
+              "en": "If it takes some time, I can wait for a little while.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "다만 언제쯤 해결될 수 있는지 알고 싶습니다.",
+              "en": "However, I would like to know when it can be fixed.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "도와주시면 감사하고, 해결된 내용을 다시 한번 확인하고 싶습니다.",
+              "en": "Thank you for your help, and I would like to confirm the solution once more.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I would like to mention a small problem.",
+            "It is different from what I expected.",
+            "I understand these things can happen.",
+            "Could you replace it or let me know another possible option?",
+            "I would like to know when it can be fixed."
+          ],
+          "keyWords": [
+            {
+              "term": "mention",
+              "meaning": "언급하다"
+            },
+            {
+              "term": "expected",
+              "meaning": "예상했던"
+            },
+            {
+              "term": "work properly",
+              "meaning": "제대로 작동하다"
+            },
+            {
+              "term": "replace",
+              "meaning": "교체하다"
+            },
+            {
+              "term": "possible option",
+              "meaning": "가능한 선택지"
+            },
+            {
+              "term": "fixed",
+              "meaning": "해결된"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "작은 문제가 있어서 말씀드리고 싶습니다.",
+              "koAlternatives": [
+                "작은 문제가 있어서 말씀드리고 싶습니다."
+              ],
+              "variants": [
+                "I would like to mention a small problem.",
+                "I need to tell you about a small issue.",
+                "There is a small problem I would like to discuss."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "예상했던 것과 조금 다릅니다.",
+              "koAlternatives": [
+                "예상했던 것과 조금 다릅니다."
+              ],
+              "variants": [
+                "It is a little different from what I expected.",
+                "It is not exactly what I expected.",
+                "The situation is different from what I understood."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "이런 일이 생길 수 있다는 것은 이해합니다.",
+              "koAlternatives": [
+                "이런 일이 생길 수 있다는 것은 이해합니다."
+              ],
+              "variants": [
+                "I understand these things can happen.",
+                "I know this kind of thing can happen sometimes.",
+                "I understand it may not be intentional."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "교체하거나 다른 선택을 알려 주실 수 있을까요?",
+              "koAlternatives": [
+                "교체하거나 다른 선택을 알려 주실 수 있을까요?"
+              ],
+              "variants": [
+                "Could you replace it or let me know another possible option?",
+                "Could you offer a replacement or another solution?",
+                "Is there another way to solve this problem?"
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "언제쯤 해결될 수 있는지 알고 싶습니다.",
+              "koAlternatives": [
+                "언제쯤 해결될 수 있는지 알고 싶습니다."
+              ],
+              "variants": [
+                "I would like to know when it can be fixed.",
+                "Could you tell me when this can be solved?",
+                "When do you think this issue can be handled?"
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q11-roleplay-similar-experience-magic",
+          "topicId": "13-magic-script",
+          "slug": "q11-roleplay-similar-experience-magic",
+          "order": 11,
+          "title": "Roleplay Similar Experience",
+          "promptKo": "롤플레이 후속 질문에서 비슷한 경험을 말해야 할 때 사용할 수 있는 스크립트를 연습해 주세요.",
+          "promptEn": "Practice a script for answering a roleplay follow-up question about a similar experience.",
+          "flowPoints": [
+            "비슷한 경험 있음 -> 언제/어디서 -> 문제 발생 -> 먼저 연락/확인 -> 대안 선택 -> 결과 -> 배운 점",
+            "롤플레이 세트의 마지막 질문에 대부분 사용할 수 있다.",
+            "`I had a similar experience before` 다음에 예약 변경, 서비스 문제, 일정 조정 중 하나로 연결한다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "네, 저는 전에 비슷한 경험이 있습니다.",
+              "en": "Yes, I had a similar experience before.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "몇 달 전에 가족과 함께 외출하려고 예약을 했는데, 갑자기 일정이 바뀌었습니다.",
+              "en": "A few months ago, I made a reservation to go out with my family, but our schedule suddenly changed.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "처음에는 조금 당황했지만, 저는 바로 전화를 해서 상황을 설명했습니다.",
+              "en": "At first, I was a little embarrassed, but I called right away and explained the situation.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "그리고 예약을 유지할 수 있는지, 아니면 다른 시간으로 바꿀 수 있는지 물어봤습니다.",
+              "en": "Then I asked if I could keep the reservation or change it to another time.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "직원이 몇 가지 가능한 선택을 알려 주었고, 저는 가장 가까운 시간을 골랐습니다.",
+              "en": "The staff gave me a few possible options, and I chose the closest time.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "조금 번거로웠지만 미리 연락했기 때문에 문제는 크게 커지지 않았습니다.",
+              "en": "It was a little inconvenient, but the problem did not get bigger because I contacted them early.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "결국 우리는 계획을 조금 바꿔서 괜찮게 해결할 수 있었습니다.",
+              "en": "In the end, we changed our plan a little and solved the situation without much trouble.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그 경험 이후로 저는 문제가 생기면 숨기기보다 빨리 말하는 것이 좋다고 생각합니다.",
+              "en": "After that experience, I think it is better to speak up early instead of hiding the problem.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "미리 확인하고 정중하게 말하면 대부분의 상황은 더 쉽게 해결됩니다.",
+              "en": "If I check early and speak politely, most situations become easier to solve.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "I had a similar experience before.",
+            "Our schedule suddenly changed.",
+            "I called right away and explained the situation.",
+            "I chose the closest time.",
+            "It is better to speak up early."
+          ],
+          "keyWords": [
+            {
+              "term": "similar experience",
+              "meaning": "비슷한 경험"
+            },
+            {
+              "term": "schedule",
+              "meaning": "일정"
+            },
+            {
+              "term": "embarrassed",
+              "meaning": "당황한"
+            },
+            {
+              "term": "contact early",
+              "meaning": "미리 연락하다"
+            },
+            {
+              "term": "without much trouble",
+              "meaning": "큰 문제 없이"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "전에 비슷한 경험이 있습니다.",
+              "koAlternatives": [
+                "전에 비슷한 경험이 있습니다."
+              ],
+              "variants": [
+                "I had a similar experience before.",
+                "Something similar happened to me before.",
+                "I went through a similar situation once."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "갑자기 일정이 바뀌었습니다.",
+              "koAlternatives": [
+                "갑자기 일정이 바뀌었습니다."
+              ],
+              "variants": [
+                "Our schedule suddenly changed.",
+                "Something changed in our schedule suddenly.",
+                "We had to adjust our schedule at the last minute."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "바로 연락해서 상황을 설명했습니다.",
+              "koAlternatives": [
+                "바로 연락해서 상황을 설명했습니다."
+              ],
+              "variants": [
+                "I called right away and explained the situation.",
+                "I contacted them immediately and told them what happened.",
+                "I reached out quickly and explained the problem."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "가장 가까운 시간을 골랐습니다.",
+              "koAlternatives": [
+                "가장 가까운 시간을 골랐습니다."
+              ],
+              "variants": [
+                "I chose the closest time.",
+                "I picked the nearest available time.",
+                "I selected the option that worked the soonest."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "미리 확인하고 정중하게 말하면 더 쉽게 해결됩니다.",
+              "koAlternatives": [
+                "미리 확인하고 정중하게 말하면 더 쉽게 해결됩니다."
+              ],
+              "variants": [
+                "If I check early and speak politely, most situations become easier to solve.",
+                "Early and polite communication makes the problem easier.",
+                "Things usually go better when I explain the situation early."
+              ]
+            }
+          ],
+          "hooks": []
         }
       ]
     }
   ],
   "stats": {
     "topicCount": 13,
-    "questionCount": 79,
-    "totalScriptPairs": 695,
-    "alignedQuestionCount": 79,
+    "questionCount": 83,
+    "totalScriptPairs": 731,
+    "alignedQuestionCount": 83,
     "alignmentIssueCount": 0,
     "missingRequiredSections": []
   }
