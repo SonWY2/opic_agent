@@ -12,7 +12,7 @@ describe('study data parser', () => {
 
     expect(data.datasetDate).toBe('2026-04-22');
     expect(data.stats.topicCount).toBe(13);
-    expect(data.stats.questionCount).toBe(87);
+    expect(data.stats.questionCount).toBe(91);
     expect(data.stats.missingRequiredSections).toEqual([]);
     expect(data.topics[0].questions[0]).toMatchObject({
       id: '01-self-intro/q01-self-intro',
@@ -23,6 +23,7 @@ describe('study data parser', () => {
       id: '13-magic-script',
       title: 'Magic Script'
     });
+    expect(data.topics.find((topic) => topic.id === '13-magic-script').questions).toHaveLength(19);
   });
 
   it('keeps aligned full scripts as one-to-one sentence pairs', () => {
@@ -46,7 +47,7 @@ describe('study data parser', () => {
       .filter((question) => question.hasAlignmentIssue)
       .map((question) => question.id);
 
-    expect(data.stats.alignedQuestionCount).toBe(87);
+    expect(data.stats.alignedQuestionCount).toBe(91);
     expect(data.stats.alignmentIssueCount).toBe(0);
     expect(issueIds).toEqual([]);
   });

@@ -200,7 +200,7 @@
     },
     {
       "id": "02-work-it-software",
-      "title": "Work It Software",
+      "title": "Work IT Software",
       "questions": [
         {
           "id": "02-work-it-software/q01-company-and-role",
@@ -15084,15 +15084,776 @@
             }
           ],
           "hooks": []
+        },
+        {
+          "id": "13-magic-script/q16-any-topic-caught-off-guard",
+          "topicId": "13-magic-script",
+          "slug": "q16-any-topic-caught-off-guard",
+          "order": 16,
+          "title": "Any Topic Caught Off Guard",
+          "promptKo": "예상하지 못한 질문이 나왔을 때 당황을 인정하고 시간을 벌며 답하는 범용 스크립트를 연습해 주세요.",
+          "promptEn": "Practice a universal script for buying time when an unexpected question catches you off guard.",
+          "flowPoints": [
+            "당황 인정 -> 예상 밖이었다고 말함 -> [주제]를 깊게 생각한 적 없다고 함 -> IT 일상으로 연결 -> 전문가 아님 인정 -> 짧은 일반 의견 -> 정리",
+            "첫 두 문장으로 시간을 벌고, 그다음에 내 일상으로 자연스럽게 끌고 온다.",
+            "마지막에는 아주 짧은 일반 의견만 넣고 자세한 설명은 과감히 멈춘다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "와, 이 질문은 정말 저를 잠깐 멈칫하게 만드네요.",
+              "en": "Wow, this question really caught me off guard.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "오늘 예상한 질문들 중에서는 사실 전혀 생각해 보지 못한 주제였습니다.",
+              "en": "Out of all the questions I expected today, this was not on my radar.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "솔직히 말씀드리면, 저는 [주제]에 대해 깊게 생각해 본 적이 거의 없습니다.",
+              "en": "To be completely honest with you, I have never really given much thought to [topic] before.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "제 일상은 보통 IT 업무로 너무 꽉 차 있어서 이런 주제를 따라갈 시간이 많지 않습니다.",
+              "en": "My daily routine is usually so packed with my IT work that I barely have time to keep up with topics like this.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "그래서 저는 확실히 전문가도 아니고, 바로 떠오르는 특별한 개인적 경험도 없습니다.",
+              "en": "So I am definitely not an expert, and I do not have any special personal experience to share right away.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "하지만 질문을 그냥 넘기고 싶지는 않습니다.",
+              "en": "But since you are asking, I do not want to just leave you hanging.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "지금 떠오르는 짧은 생각을 말씀드리자면, 이건 꽤 복잡한 문제라고 생각합니다.",
+              "en": "If I had to share my two cents right off the top of my head, I would say it is a pretty complex issue.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "주변에서 듣는 일반적인 의견을 보면, 대체로 상황에 따라 다른 것 같습니다.",
+              "en": "Generally speaking, based on what I hear from people around me, the consensus seems to be that it really depends on the situation.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "더 자세한 답변을 드리지는 못하겠지만, 제 지식은 여기까지인 것 같습니다.",
+              "en": "I am sorry I cannot give you a more detailed answer, but that is really the extent of my knowledge on this subject.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "This question really caught me off guard.",
+            "It was not on my radar.",
+            "I have never really given much thought to [topic] before.",
+            "I am definitely not an expert.",
+            "It really depends on the situation."
+          ],
+          "keyWords": [
+            {
+              "term": "caught me off guard",
+              "meaning": "저를 당황하게 했다"
+            },
+            {
+              "term": "on my radar",
+              "meaning": "제 예상 범위 안에"
+            },
+            {
+              "term": "give much thought",
+              "meaning": "깊게 생각하다"
+            },
+            {
+              "term": "packed with",
+              "meaning": "~로 꽉 찬"
+            },
+            {
+              "term": "leave you hanging",
+              "meaning": "그냥 넘기다"
+            },
+            {
+              "term": "two cents",
+              "meaning": "제 짧은 생각"
+            },
+            {
+              "term": "consensus",
+              "meaning": "대체적인 의견"
+            },
+            {
+              "term": "the extent of my knowledge",
+              "meaning": "제 지식의 범위"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "와, 이 질문은 정말 저를 잠깐 멈칫하게 만드네요.",
+              "koAlternatives": [
+                "와, 이 질문은 정말 저를 잠깐 멈칫하게 만드네요."
+              ],
+              "variants": [
+                "Wow, this question really caught me off guard.",
+                "This question took me by surprise.",
+                "That really caught me off guard."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "저는 [주제]에 대해 깊게 생각해 본 적이 거의 없습니다.",
+              "koAlternatives": [
+                "저는 [주제]에 대해 깊게 생각해 본 적이 거의 없습니다."
+              ],
+              "variants": [
+                "I have never really given much thought to [topic] before.",
+                "I have not thought about [topic] in much detail before.",
+                "I do not usually spend much time thinking about [topic]."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "제 일상은 보통 IT 업무로 너무 꽉 차 있습니다.",
+              "koAlternatives": [
+                "제 일상은 보통 IT 업무로 너무 꽉 차 있습니다."
+              ],
+              "variants": [
+                "My daily routine is usually so packed with my IT work.",
+                "My work schedule in IT keeps me very busy.",
+                "I am usually busy with IT work every day."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "저는 전문가가 아니고, 바로 떠오르는 개인적 경험도 없습니다.",
+              "koAlternatives": [
+                "저는 전문가가 아니고, 바로 떠오르는 개인적 경험도 없습니다."
+              ],
+              "variants": [
+                "I am definitely not an expert, and I do not have any special personal experience.",
+                "I am not an expert, and I do not have a personal story right away.",
+                "I do not have much firsthand experience with this."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "상황에 따라 다른 것 같습니다.",
+              "koAlternatives": [
+                "상황에 따라 다른 것 같습니다."
+              ],
+              "variants": [
+                "It really depends on the situation.",
+                "It seems to vary depending on the case.",
+                "There is no single answer for every situation."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q17-stress-relief-hobby",
+          "topicId": "13-magic-script",
+          "slug": "q17-stress-relief-hobby",
+          "order": 17,
+          "title": "Stress Relief Routine",
+          "promptKo": "IT 업무 스트레스를 취미나 여가로 푸는 만능 스크립트를 연습해 주세요.",
+          "promptEn": "Practice a universal script for explaining how you relieve stress with a hobby or leisure activity.",
+          "flowPoints": [
+            "IT 업무 스트레스 -> 여가 활동 소개 -> 완전히 벗어남 -> 머리 비우기 -> 재충전 -> 다음 주 버티기",
+            "취미 자체보다도 정신적인 회복 효과를 강조한다.",
+            "활동 이름만 바꿔서 카페, 공원, 산책, 음악 감상, 드라이브에도 그대로 쓴다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "아시다시피, 요즘 IT 분야에서 일하는 것은 정말 힘들고 스트레스가 많습니다.",
+              "en": "As you might already know, working in the tech field these days can be incredibly demanding and stressful.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "저는 복잡한 코드를 다루고, 버그를 찾고, 몇 시간씩 모니터를 바라보는 경우가 많습니다.",
+              "en": "I am constantly dealing with complex code, tracking down bugs, and staring at a monitor for hours on end.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "솔직히 금요일쯤 되면 몸도 마음도 완전히 지쳐 있습니다.",
+              "en": "Honestly, by the time Friday rolls around, I am completely drained both physically and mentally.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "그래서 여가 시간에는 [활동/취미/장소]가 저에게 가장 확실한 도피처입니다.",
+              "en": "So, when it comes to my free time, doing [activity/hobby/place] is my absolute go-to escape.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "이제는 단순한 취미가 아니라, 정신 건강을 유지하는 데 꼭 필요한 방법에 가깝습니다.",
+              "en": "It is not just a simple hobby for me anymore; it is practically a survival mechanism to keep my sanity.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "가장 좋은 점은 디지털 세계와 무거운 업무에서 완전히 벗어날 수 있다는 것입니다.",
+              "en": "The best part about it is that it lets me completely unplug from the digital world and my heavy workload.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "그 활동에 집중하고 있으면 마감일이나 업무 문제는 전혀 생각하지 않게 됩니다.",
+              "en": "While I am deeply engaged in this, I do not think about upcoming deadlines or any work-related issues at all.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그러면 머리가 맑아지고, 다시 새로운 시각으로 바라보게 됩니다.",
+              "en": "It really helps me clear my head and get a fresh perspective on things.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "끝나고 나면 완전히 재충전된 기분이 듭니다.",
+              "en": "By the time I am done, I feel totally rejuvenated.",
+              "status": "aligned"
+            },
+            {
+              "id": "s10",
+              "index": 10,
+              "ko": "그렇게 해야 다음 주의 바쁜 일도 다시 버틸 수 있습니다.",
+              "en": "It gives me the exact kind of energy boost I need to tackle another busy week ahead.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "Working in the tech field can be incredibly stressful.",
+            "My free time escape is [activity/hobby/place].",
+            "It helps me completely unplug from the digital world.",
+            "It really helps me clear my head.",
+            "It gives me the energy boost I need for another busy week."
+          ],
+          "keyWords": [
+            {
+              "term": "demanding",
+              "meaning": "힘든, 많은 요구가 있는"
+            },
+            {
+              "term": "drained",
+              "meaning": "지친"
+            },
+            {
+              "term": "go-to escape",
+              "meaning": "가장 확실한 도피처"
+            },
+            {
+              "term": "sanity",
+              "meaning": "정신 건강"
+            },
+            {
+              "term": "unplug",
+              "meaning": "완전히 벗어나다"
+            },
+            {
+              "term": "workload",
+              "meaning": "업무량"
+            },
+            {
+              "term": "clear my head",
+              "meaning": "머리를 비우다"
+            },
+            {
+              "term": "rejuvenated",
+              "meaning": "재충전된"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "요즘 IT 분야에서 일하는 것은 정말 힘들고 스트레스가 많습니다.",
+              "koAlternatives": [
+                "요즘 IT 분야에서 일하는 것은 정말 힘들고 스트레스가 많습니다."
+              ],
+              "variants": [
+                "Working in the tech field can be incredibly stressful.",
+                "My work in IT is often very demanding.",
+                "Tech work can be tiring both mentally and physically."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "여가 시간에는 [활동/취미/장소]가 가장 확실한 도피처입니다.",
+              "koAlternatives": [
+                "여가 시간에는 [활동/취미/장소]가 가장 확실한 도피처입니다."
+              ],
+              "variants": [
+                "My free time escape is [activity/hobby/place].",
+                "In my free time, I usually rely on [activity/hobby/place].",
+                "[Activity/place] is my favorite way to unwind."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "디지털 세계와 무거운 업무에서 완전히 벗어날 수 있습니다.",
+              "koAlternatives": [
+                "디지털 세계와 무거운 업무에서 완전히 벗어날 수 있습니다."
+              ],
+              "variants": [
+                "It helps me completely unplug from the digital world.",
+                "It lets me step away from my screen and workload.",
+                "It gives me a break from work and technology."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "머리를 비우고 새로운 시각을 갖게 됩니다.",
+              "koAlternatives": [
+                "머리를 비우고 새로운 시각을 갖게 됩니다."
+              ],
+              "variants": [
+                "It really helps me clear my head.",
+                "It gives me a fresh perspective.",
+                "It helps me look at things in a new way."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "다음 주를 버틸 에너지가 생깁니다.",
+              "koAlternatives": [
+                "다음 주를 버틸 에너지가 생깁니다."
+              ],
+              "variants": [
+                "It gives me the energy boost I need for another busy week.",
+                "I feel refreshed and ready for the next week.",
+                "It helps me get my energy back for work."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q18-past-present-comparison",
+          "topicId": "13-magic-script",
+          "slug": "q18-past-present-comparison",
+          "order": 18,
+          "title": "Past and Present Comparison",
+          "promptKo": "과거와 현재의 차이를 크게 대비시키는 스크립트를 연습해 주세요.",
+          "promptEn": "Practice a universal script for comparing the past and the present in a clear way.",
+          "flowPoints": [
+            "과거와 현재 대비 -> 예전의 불편함 묘사 -> 지금의 편리함 강조 -> 가끔 향수 -> 현재가 더 낫다 -> 정리",
+            "[주제]만 바꿔도 기술, 동네, 주거, 트렌드 비교에 바로 쓸 수 있다.",
+            "과거는 manual / time-consuming, 현재는 streamlined / accessible로 잡으면 된다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "돌이켜보면, [주제]에 관한 과거와 현재의 차이는 말 그대로 밤과 낮처럼 확연합니다.",
+              "en": "Looking back, the contrast between the past and the present regarding [topic] is literally like night and day.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "예전에 어땠는지 생각해 보면, 모든 것이 훨씬 더 수동적이고 제한적이었으며 시간도 꽤 오래 걸렸죠.",
+              "en": "If we think about how things were back in the day, everything used to be much more manual, restricted, and quite time-consuming.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "지금 우리가 완전히 당연하게 여기는 그런 첨단 인프라나 편리함은 확실히 없었습니다.",
+              "en": "We definitely did not have the kind of advanced infrastructure or convenience that we completely take for granted right now.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "단순한 일을 처리하는 데에도 사람들이 훨씬 더 많은 육체적 노력과 시간을 들여야 했던 기억이 납니다.",
+              "en": "I remember people had to put in a lot more physical effort and time just to get simple things done.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "하지만 오늘날로 오면서, 빠른 발전 덕분에 전체적인 환경이 완전히 변했습니다.",
+              "en": "But fast forward to today, and the whole landscape has completely transformed thanks to rapid development.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "이제는 클릭이나 터치 몇 번만으로 모든 것이 놀랍도록 간소화되고 효율적이며 쉽게 접근 가능해졌죠.",
+              "en": "Now, everything is incredibly streamlined, efficient, and accessible with just a few clicks or taps.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "이는 우리의 전반적인 삶의 질을 크게 높였고, 엄청난 시간을 절약해 주었습니다.",
+              "en": "It has drastically improved the overall quality of our lives and saved us a tremendous amount of time.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "물론 가끔은 더 느리고 단순했던 과거의 시절에 향수를 느낄 때도 있습니다.",
+              "en": "Of course, I do sometimes feel a bit nostalgic for the slower, simpler times of the past when things felt a bit more personal.",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "하지만 우리의 현대 라이프스타일이 얼마나 바쁜지 생각하면, 지금 상황이 훨씬 더 낫다고 인정해야겠네요.",
+              "en": "However, considering how busy our modern lifestyles are, I have to admit that the current situation is much better.",
+              "status": "aligned"
+            },
+            {
+              "id": "s10",
+              "index": 10,
+              "ko": "예전 방식으로 돌아가는 건 정말 상상조차 할 수 없습니다.",
+              "en": "I really cannot imagine going back to the way things used to be.",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "The contrast between the past and the present is like night and day.",
+            "Things used to be much more manual and time-consuming.",
+            "We did not have the convenience we take for granted now.",
+            "Rapid development transformed the whole landscape.",
+            "I cannot imagine going back to the way things used to be."
+          ],
+          "keyWords": [
+            {
+              "term": "contrast",
+              "meaning": "대비"
+            },
+            {
+              "term": "manual",
+              "meaning": "수동적인"
+            },
+            {
+              "term": "restricted",
+              "meaning": "제한된"
+            },
+            {
+              "term": "time-consuming",
+              "meaning": "시간이 많이 드는"
+            },
+            {
+              "term": "infrastructure",
+              "meaning": "인프라"
+            },
+            {
+              "term": "streamlined",
+              "meaning": "간소화된"
+            },
+            {
+              "term": "accessible",
+              "meaning": "쉽게 접근 가능한"
+            },
+            {
+              "term": "nostalgic",
+              "meaning": "향수를 느끼는"
+            },
+            {
+              "term": "lifestyle",
+              "meaning": "생활 방식"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "과거와 현재의 차이는 밤과 낮처럼 확연합니다.",
+              "koAlternatives": [
+                "과거와 현재의 차이는 밤과 낮처럼 확연합니다."
+              ],
+              "variants": [
+                "The contrast between the past and the present is like night and day.",
+                "The difference feels very clear.",
+                "Past and present feel completely different."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "예전에는 훨씬 더 수동적이고 제한적이었습니다.",
+              "koAlternatives": [
+                "예전에는 훨씬 더 수동적이고 제한적이었습니다."
+              ],
+              "variants": [
+                "Things used to be much more manual and restricted.",
+                "Life used to be more limited and less convenient.",
+                "Everything was more manual back then."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "지금은 정말 간소화되고 효율적입니다.",
+              "koAlternatives": [
+                "지금은 정말 간소화되고 효율적입니다."
+              ],
+              "variants": [
+                "Now everything is incredibly streamlined and efficient.",
+                "Things are much easier now.",
+                "The process is much smoother today."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "삶의 질이 크게 높아졌습니다.",
+              "koAlternatives": [
+                "삶의 질이 크게 높아졌습니다."
+              ],
+              "variants": [
+                "It has drastically improved the overall quality of our lives.",
+                "Life has become much better now.",
+                "It has made daily life a lot more comfortable."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "예전 방식으로 돌아가는 건 상상하기 어렵습니다.",
+              "koAlternatives": [
+                "예전 방식으로 돌아가는 건 상상하기 어렵습니다."
+              ],
+              "variants": [
+                "I really cannot imagine going back to the way things used to be.",
+                "Going back to the old way feels impossible.",
+                "I cannot picture returning to the past system."
+              ]
+            }
+          ],
+          "hooks": []
+        },
+        {
+          "id": "13-magic-script/q19-blank-and-skip",
+          "topicId": "13-magic-script",
+          "slug": "q19-blank-and-skip",
+          "order": 19,
+          "title": "Any Topic Skip When Blank",
+          "promptKo": "정말 할 말이 떠오르지 않을 때, 자연스럽게 답변을 넘기는 스크립트를 연습해 주세요.",
+          "promptEn": "Practice a script for gracefully skipping a question when your mind goes blank.",
+          "flowPoints": [
+            "머리가 하얘짐 인정 -> 긴장감 설명 -> 지어내지 않겠다고 말함 -> skip 요청 -> 다음 질문으로 넘어가기 -> 만회 의지",
+            "이건 마지막 카드라서, 정말 아무 말도 안 나올 때만 사용한다.",
+            "당황을 숨기지 말고, 대신 침착함과 정직함을 보여준다."
+          ],
+          "scriptPairs": [
+            {
+              "id": "s1",
+              "index": 1,
+              "ko": "오 이런, 에바, 정말 사과드려야겠어요. 머릿속이 완전히 하얘졌어요.",
+              "en": "Oh boy, Eva, I really have to apologize, but my mind just went completely blank.",
+              "status": "aligned"
+            },
+            {
+              "id": "s2",
+              "index": 2,
+              "ko": "[주제]에 대해 제대로 된 자세한 답변을 드려야 한다는 건 알지만, 지금 몸이 굳어버렸습니다.",
+              "en": "I know I should be giving you a proper, detailed answer about [topic], but I am freezing up.",
+              "status": "aligned"
+            },
+            {
+              "id": "s3",
+              "index": 3,
+              "ko": "아무래도 시험 긴장감이 제 예상보다 훨씬 더 큰 것 같습니다.",
+              "en": "I guess the test nerves are really getting the best of me right now, more than I expected.",
+              "status": "aligned"
+            },
+            {
+              "id": "s4",
+              "index": 4,
+              "ko": "답답한 건 말할 내용이 말 그대로 혀끝에 맴도는데, 생각을 제대로 표현할 수가 없다는 점입니다.",
+              "en": "The frustrating part is that the words are literally on the tip of my tongue, but I just cannot seem to say them clearly.",
+              "status": "aligned"
+            },
+            {
+              "id": "s5",
+              "index": 5,
+              "ko": "많은 것을 준비했지만, 이 질문은 제 페이스를 완전히 무너뜨렸네요.",
+              "en": "I was prepared for a lot of things, but this specific question just threw me off balance.",
+              "status": "aligned"
+            },
+            {
+              "id": "s6",
+              "index": 6,
+              "ko": "솔직히 이렇게 침묵 속에 앉아 있는 게 꽤 민망합니다.",
+              "en": "It is quite embarrassing to sit here in silence, to be completely honest with you.",
+              "status": "aligned"
+            },
+            {
+              "id": "s7",
+              "index": 7,
+              "ko": "무언가 지어낼 수도 있지만, 말도 안 되는 얘기를 길게 하고 싶지는 않습니다.",
+              "en": "I could try to make something up, but I really do not want to just ramble on and make no sense.",
+              "status": "aligned"
+            },
+            {
+              "id": "s8",
+              "index": 8,
+              "ko": "그래서 혼란스러운 답변으로 시간을 낭비하는 대신, 이번 질문은 그냥 건너뛰어도 괜찮을까요?",
+              "en": "So, instead of wasting both of our time with a confusing answer, would it be okay if we just skip this one?",
+              "status": "aligned"
+            },
+            {
+              "id": "s9",
+              "index": 9,
+              "ko": "다음 질문으로 넘어갈 수 있다면 정말 감사하겠습니다.",
+              "en": "I would really appreciate it if we could just move on to the next question.",
+              "status": "aligned"
+            },
+            {
+              "id": "s10",
+              "index": 10,
+              "ko": "다음 질문에서는 꼭 만회하겠습니다.",
+              "en": "I promise I will gather my thoughts and make up for this on the next one!",
+              "status": "aligned"
+            }
+          ],
+          "hasAlignmentIssue": false,
+          "keySentences": [
+            "My mind just went completely blank.",
+            "I am freezing up.",
+            "The test nerves are getting the best of me.",
+            "The words are on the tip of my tongue.",
+            "Could we just skip this one?"
+          ],
+          "keyWords": [
+            {
+              "term": "blank",
+              "meaning": "하얘진"
+            },
+            {
+              "term": "freezing up",
+              "meaning": "몸이 굳는"
+            },
+            {
+              "term": "nerves",
+              "meaning": "긴장감"
+            },
+            {
+              "term": "on the tip of my tongue",
+              "meaning": "혀끝에 맴도는"
+            },
+            {
+              "term": "threw me off balance",
+              "meaning": "제 페이스를 무너뜨린"
+            },
+            {
+              "term": "ramble on",
+              "meaning": "횡설수설하다"
+            },
+            {
+              "term": "skip",
+              "meaning": "건너뛰다"
+            },
+            {
+              "term": "gather my thoughts",
+              "meaning": "생각을 정리하다"
+            }
+          ],
+          "keySentenceGroups": [
+            {
+              "id": "k1",
+              "ko": "머릿속이 완전히 하얘졌어요.",
+              "koAlternatives": [
+                "머릿속이 완전히 하얘졌어요."
+              ],
+              "variants": [
+                "My mind just went completely blank.",
+                "I totally blanked out.",
+                "My head went blank."
+              ]
+            },
+            {
+              "id": "k2",
+              "ko": "지금 몸이 굳어버렸습니다.",
+              "koAlternatives": [
+                "지금 몸이 굳어버렸습니다."
+              ],
+              "variants": [
+                "I am freezing up.",
+                "I have frozen up a bit.",
+                "I am getting stuck right now."
+              ]
+            },
+            {
+              "id": "k3",
+              "ko": "말할 내용이 혀끝에 맴도는데 표현이 안 됩니다.",
+              "koAlternatives": [
+                "말할 내용이 혀끝에 맴도는데 표현이 안 됩니다."
+              ],
+              "variants": [
+                "The words are literally on the tip of my tongue.",
+                "I know what I want to say, but I cannot say it clearly.",
+                "I can almost say it, but not quite."
+              ]
+            },
+            {
+              "id": "k4",
+              "ko": "무언가 지어내고 싶지는 않습니다.",
+              "koAlternatives": [
+                "무언가 지어내고 싶지는 않습니다."
+              ],
+              "variants": [
+                "I do not want to just make something up.",
+                "I do not want to ramble on and make no sense.",
+                "I would rather be honest than invent an answer."
+              ]
+            },
+            {
+              "id": "k5",
+              "ko": "이번 질문은 그냥 건너뛰어도 괜찮을까요?",
+              "koAlternatives": [
+                "이번 질문은 그냥 건너뛰어도 괜찮을까요?"
+              ],
+              "variants": [
+                "Could we just skip this one?",
+                "Would it be okay if we moved on to the next question?",
+                "Could we go to the next question instead?"
+              ]
+            }
+          ],
+          "hooks": []
         }
       ]
     }
   ],
   "stats": {
     "topicCount": 13,
-    "questionCount": 87,
-    "totalScriptPairs": 767,
-    "alignedQuestionCount": 87,
+    "questionCount": 91,
+    "totalScriptPairs": 806,
+    "alignedQuestionCount": 91,
     "alignmentIssueCount": 0,
     "missingRequiredSections": []
   }

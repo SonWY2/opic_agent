@@ -21,7 +21,7 @@
 - 10-vacation/ : 제주 해변 여행, 휴가 준비, 여행 문제 해결
 - 11-roleplay/ : 예약, 문의, 문제 해결, 카페/아파트/업무데모/호텔 롤플레이
 - 12-surprise-topics/ : 재활용, 인터넷, 날씨, 기후 변화, 명절, 공공장소, 대중교통, 건강, 배송, 소음, 에너지 절약
-- 13-magic-script/ : 문제 유형을 고르기 어려울 때 쓰는 만능 뼈대와 최후의 마법 스크립트
+- 13-magic-script/ : 문제 유형을 고르기 어려울 때 쓰는 만능 뼈대와 추가 보강 스크립트
 
 ## 파일 목록
 
@@ -112,6 +112,10 @@
 - 13-magic-script/q13-any-topic-not-expert-bridge.md
 - 13-magic-script/q14-any-topic-hard-to-answer-directly.md
 - 13-magic-script/q15-any-topic-broad-topic-bridge.md
+- 13-magic-script/q16-any-topic-caught-off-guard.md
+- 13-magic-script/q17-stress-relief-hobby.md
+- 13-magic-script/q18-past-present-comparison.md
+- 13-magic-script/q19-blank-and-skip.md
 
 ## 공부 순서
 
@@ -121,16 +125,20 @@
 4. 13-magic-script/q14-any-topic-hard-to-answer-directly.md
 5. 13-magic-script/q15-any-topic-broad-topic-bridge.md
 6. 13-magic-script/q01-magic-script-for-any-surprise-topic.md
-7. 13-magic-script/q08-roleplay-ask-questions-magic.md
-8. 13-magic-script/q09-roleplay-change-alternatives-magic.md
-9. 13-magic-script/q10-roleplay-report-problem-magic.md
-10. 13-magic-script/q11-roleplay-similar-experience-magic.md
-11. 13-magic-script/q04-universal-problem-solving.md
-12. 13-magic-script/q03-universal-past-experience.md
-13. 13-magic-script/q05-universal-past-vs-present.md
-14. 13-magic-script/q06-universal-opinion-preference.md
-15. 13-magic-script/q02-universal-routine.md
-16. 01-self-intro
-17. 02-work-it-software / 03-home-apartment
-18. 05-cafe / 06-park-walking-jogging / 07-drive / 08-music
-19. 10-vacation / 11-roleplay / 12-surprise-topics / 13-magic-script
+7. 13-magic-script/q16-any-topic-caught-off-guard.md
+8. 13-magic-script/q17-stress-relief-hobby.md
+9. 13-magic-script/q18-past-present-comparison.md
+10. 13-magic-script/q19-blank-and-skip.md
+11. 13-magic-script/q08-roleplay-ask-questions-magic.md
+12. 13-magic-script/q09-roleplay-change-alternatives-magic.md
+13. 13-magic-script/q10-roleplay-report-problem-magic.md
+14. 13-magic-script/q11-roleplay-similar-experience-magic.md
+15. 13-magic-script/q04-universal-problem-solving.md
+16. 13-magic-script/q03-universal-past-experience.md
+17. 13-magic-script/q05-universal-past-vs-present.md
+18. 13-magic-script/q06-universal-opinion-preference.md
+19. 13-magic-script/q02-universal-routine.md
+20. 01-self-intro
+21. 02-work-it-software / 03-home-apartment
+22. 05-cafe / 06-park-walking-jogging / 07-drive / 08-music
+23. 10-vacation / 11-roleplay / 12-surprise-topics / 13-magic-script
